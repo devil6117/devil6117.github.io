@@ -391,8 +391,14 @@ data-flex-basis="421px"
 &lt;p>    Giscus 是一个由 Github Discussions 驱动的评论系统，无需自己单独配置。&lt;/p>
 &lt;h2 id="创建public仓库">创建Public仓库&lt;/h2>
 &lt;p>    这并不是一个必需的步骤，事实上你也可以直接使用博客本来的仓库。但我建议还是分离不同仓库，这样既方便后续调整不影响博客，如果迁移的话，你只能带走博客内容，却无法带走评论，如果单独一个仓库，只需要在迁移后的新博客重新指向该仓库即可。&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/img/001."
+&lt;p>&lt;img src="https://devil6117.github.io/p/hugo-giscus/img/001.png"
+width="1083"
+height="1072"
+srcset="https://devil6117.github.io/p/hugo-giscus/img/001_hube50e9b78d4915502f687e23c870382c_79633_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/hugo-giscus/img/001_hube50e9b78d4915502f687e23c870382c_79633_1024x0_resize_box_3.png 1024w"
 loading="lazy"
+class="gallery-image"
+data-flex-grow="101"
+data-flex-basis="242px"
 >&lt;/p>
 &lt;p>注：仓库必须是Public，否则无法评论。&lt;/p>
 &lt;h2 id="启用-discussions">启用 Discussions&lt;/h2>
@@ -540,7 +546,7 @@ data-flex-basis="727px"
 &lt;h3 id="运行环境">运行环境&lt;/h3>
 &lt;p>编译平台：Github Codespaces&lt;/p>
 &lt;p>发布平台：Github Pages&lt;/p>
-&lt;p>博客主题：Stack    &lt;a class="link" href="https://themes.gohugo.io/themes/hugo-theme-stack/" target="_blank" rel="noopener"
+&lt;p>博客主题：Stack &lt;a class="link" href="https://themes.gohugo.io/themes/hugo-theme-stack/" target="_blank" rel="noopener"
 >https://themes.gohugo.io/themes/hugo-theme-stack/&lt;/a>&lt;/p>
 &lt;h3 id="前置知识">前置知识&lt;/h3>
 &lt;ul>
@@ -886,4 +892,8 @@ class="gallery-image"
 data-flex-grow="127"
 data-flex-basis="305px"
 >&lt;/p>
-&lt;p>通过域名访问网站，能正常访问。&lt;/p></description></item></channel></rss>
+&lt;p>通过域名访问网站，能正常访问。&lt;/p>
+&lt;h2 id="参考链接">参考链接&lt;/h2>
+&lt;p>感谢Zenlian提供的Actions部署代码。&lt;/p>
+&lt;p>原文链接 ： &lt;a class="link" href="https://zenlian.github.io/github-actions-hugo/" target="_blank" rel="noopener"
+>https://zenlian.github.io/github-actions-hugo/&lt;/a>&lt;/p></description></item></channel></rss>
