@@ -386,7 +386,7 @@ loading="lazy"
 class="gallery-image"
 data-flex-grow="175"
 data-flex-basis="421px"
->&lt;/p></description></item><item><title>Hugo 接入 Giscus 评论系统</title><link>https://devil6117.github.io/p/hugo/</link><pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate><guid>https://devil6117.github.io/p/hugo/</guid><description>&lt;h2 id="前言">前言&lt;/h2>
+>&lt;/p></description></item><item><title>Hugo 接入 Giscus 评论系统</title><link>https://devil6117.github.io/p/hugo-giscus/</link><pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate><guid>https://devil6117.github.io/p/hugo-giscus/</guid><description>&lt;h2 id="前言">前言&lt;/h2>
 &lt;p>    折腾了这么些天的Hugo，看很多人的博客都有评论功能，也想整一个。考虑到我的博客是搭建在Github上，那么评论放在Github上也是情理之中的。&lt;/p>
 &lt;p>    Giscus 是一个由 Github Discussions 驱动的评论系统，无需自己单独配置。&lt;/p>
 &lt;h2 id="创建public仓库">创建Public仓库&lt;/h2>
