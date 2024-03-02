@@ -6,129 +6,57 @@
 &lt;p>    LuaTeX：TeX 语言的一个完整的有扩展的实现，支持 Unicode、系统字体和内嵌语言扩展，能直接输出 PDF 格式文件，也可以仍然输出 DVI 格式。&lt;/p>
 &lt;h2 id="安装tex">安装TeX&lt;/h2>
 &lt;h3 id="访问tuna镜像站并下载镜像文件">访问TUNA镜像站并下载镜像文件&lt;/h3>
-&lt;p>&lt;img src="https://devil6117.github.io/p/latex-with-vscode/img/001.png"
-width="1728"
-height="818"
-srcset="https://devil6117.github.io/p/latex-with-vscode/img/001_hu75ee51617988b99738006b0e81c34b75_145492_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/latex-with-vscode/img/001_hu75ee51617988b99738006b0e81c34b75_145492_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/001.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="211"
-data-flex-basis="506px"
 >&lt;/p>
 &lt;p>&lt;a class="link" href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/" target="_blank" rel="noopener"
 >https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/&lt;/a>&lt;/p>
 &lt;h3 id="解压latex镜像">解压latex镜像&lt;/h3>
-&lt;p>&lt;img src="https://devil6117.github.io/p/latex-with-vscode/img/002.png"
-width="940"
-height="419"
-srcset="https://devil6117.github.io/p/latex-with-vscode/img/002_hu6e2956daec6b0cd64f14e661c68f5873_56378_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/latex-with-vscode/img/002_hu6e2956daec6b0cd64f14e661c68f5873_56378_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/002.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="224"
-data-flex-basis="538px"
 >&lt;/p>
 &lt;h3 id="运行安装程序">运行安装程序&lt;/h3>
-&lt;p>&lt;img src="https://devil6117.github.io/p/latex-with-vscode/img/003.png"
-width="1262"
-height="444"
-srcset="https://devil6117.github.io/p/latex-with-vscode/img/003_hu91df3e56d018009bb2f9f43e83368ab1_73761_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/latex-with-vscode/img/003_hu91df3e56d018009bb2f9f43e83368ab1_73761_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/003.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="284"
-data-flex-basis="682px"
 >&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/latex-with-vscode/img/004.png"
-width="1468"
-height="766"
-srcset="https://devil6117.github.io/p/latex-with-vscode/img/004_hu6a072b7c67ceac567a38a2cd01127138_72698_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/latex-with-vscode/img/004_hu6a072b7c67ceac567a38a2cd01127138_72698_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/004.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="191"
-data-flex-basis="459px"
 >&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/latex-with-vscode/img/005.png"
-width="1155"
-height="509"
-srcset="https://devil6117.github.io/p/latex-with-vscode/img/005_hu3ef03a468090f995dd2ead8800f6c0b8_34964_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/latex-with-vscode/img/005_hu3ef03a468090f995dd2ead8800f6c0b8_34964_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/005.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="226"
-data-flex-basis="544px"
 >&lt;/p>
 &lt;p>修改安装路径到D盘。&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/latex-with-vscode/img/006.png"
-width="565"
-height="511"
-srcset="https://devil6117.github.io/p/latex-with-vscode/img/006_hud98accc469484d7c3428c2158a3cd811_19997_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/latex-with-vscode/img/006_hud98accc469484d7c3428c2158a3cd811_19997_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/006.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="110"
-data-flex-basis="265px"
 >&lt;/p>
 &lt;p>取消安装TeXworks前端勾选项。&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/latex-with-vscode/img/007.png"
-width="936"
-height="600"
-srcset="https://devil6117.github.io/p/latex-with-vscode/img/007_hu99e095b9e38582000a901d0d6bd56b4c_60233_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/latex-with-vscode/img/007_hu99e095b9e38582000a901d0d6bd56b4c_60233_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/007.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="156"
-data-flex-basis="374px"
 >&lt;/p>
 &lt;p>注：安装时间较长，请耐性等待。&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/latex-with-vscode/img/008.png"
-width="936"
-height="600"
-srcset="https://devil6117.github.io/p/latex-with-vscode/img/008_huaa953e1ade3cd9be020f1e9a31b73732_39693_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/latex-with-vscode/img/008_huaa953e1ade3cd9be020f1e9a31b73732_39693_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/008.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="156"
-data-flex-basis="374px"
 >&lt;/p>
 &lt;p>安装完成。&lt;/p>
 &lt;h3 id="检查latex安装是否正常">检查Latex安装是否正常。&lt;/h3>
 &lt;p>cmd输入命令xelatex -v。&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/latex-with-vscode/img/009.png"
-width="1468"
-height="766"
-srcset="https://devil6117.github.io/p/latex-with-vscode/img/009_huee03d9f3e38417ee908adbdb0a51174c_68001_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/latex-with-vscode/img/009_huee03d9f3e38417ee908adbdb0a51174c_68001_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/009.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="191"
-data-flex-basis="459px"
 >&lt;/p>
 &lt;h3 id="配置vscode">配置VSCode&lt;/h3>
 &lt;p>    在安装完VS Code之后还不能编写LaTeX代码，此时就需要安装必要的插件。&lt;/p>
 &lt;p>&lt;strong>LaTeX Workshop&lt;/strong>，具体执行步骤如下所示：&lt;/p>
 &lt;h3 id="安装latex-workshop">安装latex workshop；&lt;/h3>
-&lt;p>&lt;img src="https://devil6117.github.io/p/latex-with-vscode/img/010.png"
-width="1442"
-height="348"
-srcset="https://devil6117.github.io/p/latex-with-vscode/img/010_hu28bc4de8ea9081e6cfb931f7e1585b0d_66776_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/latex-with-vscode/img/010_hu28bc4de8ea9081e6cfb931f7e1585b0d_66776_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/010.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="414"
-data-flex-basis="994px"
 >&lt;/p>
 &lt;h3 id="打开latex-workshop设置环境">打开Latex Workshop设置环境&lt;/h3>
 &lt;p>打开设置窗口&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/latex-with-vscode/img/011.png"
-width="1539"
-height="1155"
-srcset="https://devil6117.github.io/p/latex-with-vscode/img/011_hu18134c04369e7eb22edd848b1ff68865_106748_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/latex-with-vscode/img/011_hu18134c04369e7eb22edd848b1ff68865_106748_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/011.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="133"
-data-flex-basis="319px"
 >&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/latex-with-vscode/img/012.png"
-width="1539"
-height="1155"
-srcset="https://devil6117.github.io/p/latex-with-vscode/img/012_hu328e48748cebaf629fb65b479ae655c5_70215_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/latex-with-vscode/img/012_hu328e48748cebaf629fb65b479ae655c5_70215_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/012.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="133"
-data-flex-basis="319px"
 >&lt;/p>
 &lt;p>向文本框写入以下内容。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -304,14 +232,8 @@ data-flex-basis="319px"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h2 id="测试效果">测试效果&lt;/h2>
-&lt;p>&lt;img src="https://devil6117.github.io/p/latex-with-vscode/img/013.png"
-width="2560"
-height="1540"
-srcset="https://devil6117.github.io/p/latex-with-vscode/img/013_hu017354f560e7f699573f1890c122a568_403586_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/latex-with-vscode/img/013_hu017354f560e7f699573f1890c122a568_403586_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/013.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="166"
-data-flex-basis="398px"
 >&lt;/p>
 &lt;h2 id="pdf">PDF&lt;/h2>
 &lt;p>(未完成)&lt;/p>
@@ -324,133 +246,97 @@ data-flex-basis="398px"
 &lt;p>&lt;a class="link" href="https://code.visualstudio.com/Download" target="_blank" rel="noopener"
 >https://code.visualstudio.com/Download&lt;/a>&lt;/p>
 &lt;p>2、下载system-x64版&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/vscode/img/001.png"
-width="1780"
-height="992"
-srcset="https://devil6117.github.io/p/vscode/img/001_hu9449b381f578442e217cdc0e3d974092_111094_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/vscode/img/001_hu9449b381f578442e217cdc0e3d974092_111094_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/001.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="179"
-data-flex-basis="430px"
 >&lt;/p>
 &lt;h2 id="安装vs-code">安装VS Code&lt;/h2>
 &lt;p>(安装过程略)&lt;/p>
 &lt;h2 id="配置中文语言可选项">配置中文语言(可选项)&lt;/h2>
 &lt;p>注：个人建议全英文环境使用，有利于培养学术思维。&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/vscode/img/002.png"
-width="1072"
-height="754"
-srcset="https://devil6117.github.io/p/vscode/img/002_hu0c9e08cbc2c664c4c0e870432fa55831_79048_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/vscode/img/002_hu0c9e08cbc2c664c4c0e870432fa55831_79048_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/002.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="142"
-data-flex-basis="341px"
 >&lt;/p>
 &lt;p>（1）主界面按下Ctrl+Shift+P&lt;/p>
 &lt;p>（2）输入Configure Display Language&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/vscode/img/003.png"
-width="941"
-height="111"
-srcset="https://devil6117.github.io/p/vscode/img/003_hu576debc94e739d7a1198622a688731f2_7898_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/vscode/img/003_hu576debc94e739d7a1198622a688731f2_7898_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/003.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="847"
-data-flex-basis="2034px"
 >&lt;/p>
 &lt;p>（3）选中“中文(简体)”&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/vscode/img/004.png"
-width="992"
-height="139"
-srcset="https://devil6117.github.io/p/vscode/img/004_hu8b7df0dd46abe1ff1042f9a4ec8fd271_14785_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/vscode/img/004_hu8b7df0dd46abe1ff1042f9a4ec8fd271_14785_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/004.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="713"
-data-flex-basis="1712px"
 >&lt;/p>
 &lt;p>（4）重启VS Code&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/vscode/img/005.png"
-width="812"
-height="218"
-srcset="https://devil6117.github.io/p/vscode/img/005_hua04aff008237b48c4ac6e7e6f3e20e9c_12589_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/vscode/img/005_hua04aff008237b48c4ac6e7e6f3e20e9c_12589_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/005.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="372"
-data-flex-basis="893px"
 >&lt;/p>
 &lt;h2 id="安装完成">安装完成&lt;/h2>
-&lt;p>&lt;img src="https://devil6117.github.io/p/vscode/img/006.png"
-width="1496"
-height="851"
-srcset="https://devil6117.github.io/p/vscode/img/006_hua0ca64e9302116f56c96c826eb396322_84670_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/vscode/img/006_hua0ca64e9302116f56c96c826eb396322_84670_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/006.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="175"
-data-flex-basis="421px"
 >&lt;/p></description></item><item><title>Hugo 接入 Giscus 评论系统</title><link>https://devil6117.github.io/p/hugo-giscus/</link><pubDate>Wed, 11 Jan 2023 00:00:00 +0000</pubDate><guid>https://devil6117.github.io/p/hugo-giscus/</guid><description>&lt;h2 id="前言">前言&lt;/h2>
 &lt;p>    折腾了这么些天的Hugo，看很多人的博客都有评论功能，也想整一个。考虑到我的博客是搭建在Github上，那么评论放在Github上也是情理之中的。&lt;/p>
 &lt;p>    Giscus 是一个由 Github Discussions 驱动的评论系统，无需自己单独配置。&lt;/p>
 &lt;h2 id="创建public仓库">创建Public仓库&lt;/h2>
 &lt;p>    这并不是一个必需的步骤，事实上你也可以直接使用博客本来的仓库。但我建议还是分离不同仓库，这样既方便后续调整不影响博客，如果迁移的话，你只能带走博客内容，却无法带走评论，如果单独一个仓库，只需要在迁移后的新博客重新指向该仓库即可。&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/[img/001.png]#pic_center"
+&lt;p>&lt;img src="https://devil6117.github.io/img/001.#pic_center"
 loading="lazy"
 >&lt;/p>
 &lt;p>注：仓库必须是Public，否则无法评论。&lt;/p>
 &lt;h2 id="启用-discussions">启用 Discussions&lt;/h2>
-&lt;p>&lt;img src="https://devil6117.github.io/[img/002.png]#pic_center"
+&lt;p>&lt;img src="https://devil6117.github.io/img/002.png#pic_center"
 loading="lazy"
 >&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/[img/003.png]#pic_center"
+&lt;p>&lt;img src="https://devil6117.github.io/img/003.png#pic_center"
 loading="lazy"
 >&lt;/p>
 &lt;p>勾选后会立即生效。&lt;/p>
 &lt;h2 id="安装-giscus-到仓库">安装 Giscus 到仓库&lt;/h2>
 &lt;p>访问 &lt;a class="link" href="https://github.com/apps/giscus" target="_blank" rel="noopener"
 >https://github.com/apps/giscus&lt;/a> 进入 Giscus 安装界面。&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/[img/004.png]#pic_center"
+&lt;p>&lt;img src="https://devil6117.github.io/img/004.png#pic_center"
 loading="lazy"
 >&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/[img/005.png]#pic_center"
+&lt;p>&lt;img src="https://devil6117.github.io/img/005.png#pic_center"
 loading="lazy"
 >&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/[img/006.png]#pic_center"
+&lt;p>&lt;img src="https://devil6117.github.io/img/006.png#pic_center"
 loading="lazy"
 >&lt;/p>
 &lt;h2 id="生成-giscus-配置">生成 Giscus 配置&lt;/h2>
 &lt;p>访问 &lt;a class="link" href="https://giscus.app/zh-CN" target="_blank" rel="noopener"
 >https://giscus.app/zh-CN&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/[img/007.png]#pic_center"
+&lt;p>&lt;img src="https://devil6117.github.io/img/007.png#pic_center"
 loading="lazy"
 >&lt;/p>
 &lt;p>填入评论的仓库地址。&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/[img/008.png]#pic_center"
+&lt;p>&lt;img src="https://devil6117.github.io/img/008.png#pic_center"
 loading="lazy"
 >&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/[img/009.png]#pic_center"
+&lt;p>&lt;img src="https://devil6117.github.io/img/009.png#pic_center"
 loading="lazy"
 >&lt;/p>
 &lt;p>    根据自己需求调整。&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/[img/010.png]#pic_center"
+&lt;p>&lt;img src="https://devil6117.github.io/img/010.png#pic_center"
 loading="lazy"
 >&lt;/p>
 &lt;p>    复制上面的配置文本。&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/[img/011.png]#pic_center"
+&lt;p>&lt;img src="https://devil6117.github.io/img/011.png#pic_center"
 loading="lazy"
 >&lt;/p>
 &lt;p>    配置文件所在路径。&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/[img/012.png]#pic_center"
+&lt;p>&lt;img src="https://devil6117.github.io/img/012.png#pic_center"
 loading="lazy"
 >&lt;/p>
 &lt;p>    修改 comments 功能为 enbale 状态，并修改 provider 为 giscus 。&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/[img/013.png]#pic_center"
+&lt;p>&lt;img src="https://devil6117.github.io/img/013.png#pic_center"
 loading="lazy"
 >&lt;/p>
 &lt;p>    对照配置文本填入信息，没有的自己加。&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/[img/014.png]#pic_center"
+&lt;p>&lt;img src="https://devil6117.github.io/img/014.png#pic_center"
 loading="lazy"
 >&lt;/p>
 &lt;p>    打开任意博文，下拉查看，已成功启用。&lt;/p>
 &lt;p>    如果浏览器已登录 Github，点击 “ 使用Github登录 ” 就直接登录成功并跳转回页面，效果如下图所示。&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/[img/015.png]#pic_center"
+&lt;p>&lt;img src="https://devil6117.github.io/img/015.png#pic_center"
 loading="lazy"
 >&lt;/p></description></item><item><title>Hugo 博客搭建笔记</title><link>https://devil6117.github.io/p/hugo/</link><pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate><guid>https://devil6117.github.io/p/hugo/</guid><description>&lt;h2 id="前言">前言&lt;/h2>
 &lt;h3 id="运行环境">运行环境&lt;/h3>
@@ -508,103 +394,49 @@ margin-right: auto;
 &lt;/tbody>
 &lt;/table>
 &lt;/div>
-&lt;p>&lt;img src="https://devil6117.github.io/p/hugo/img/001.png"
-width="1397"
-height="410"
-srcset="https://devil6117.github.io/p/hugo/img/001_hu373b8d571d0df6775eac5c62e13ca09c_26487_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/hugo/img/001_hu373b8d571d0df6775eac5c62e13ca09c_26487_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/001.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="340"
-data-flex-basis="817px"
 >&lt;/p>
 &lt;h2 id="获取主题">获取主题&lt;/h2>
 &lt;p>(1) 访问 &lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack-starter" target="_blank" rel="noopener"
 >https://github.com/CaiJimmy/hugo-theme-stack-starter&lt;/a>&lt;/p>
 &lt;p>(2) 下载主题&lt;/p>
 &lt;p>注：直接导入到codespaces会使你的仓库变成主题的fork，强迫症的我不能接受，所以选择手动导入。&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/hugo/img/002.png"
-width="1373"
-height="660"
-srcset="https://devil6117.github.io/p/hugo/img/002_hue12999f20da199b4e0f31bb10528d898_92495_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/hugo/img/002_hue12999f20da199b4e0f31bb10528d898_92495_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/002.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="208"
-data-flex-basis="499px"
 >&lt;/p>
 &lt;p>(3) 解压主题&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/hugo/img/003.png"
-width="850"
-height="377"
-srcset="https://devil6117.github.io/p/hugo/img/003_hu78e0975d9db299814a199de68d274bf9_27349_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/hugo/img/003_hu78e0975d9db299814a199de68d274bf9_27349_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/003.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="225"
-data-flex-basis="541px"
 >&lt;/p>
 &lt;p>Lincese和Readme不需要解压，用不到的冗余文件不要留，影响编译速度。&lt;/p>
 &lt;p>(4) 上传到blog仓库&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/hugo/img/004.png"
-width="1461"
-height="1005"
-srcset="https://devil6117.github.io/p/hugo/img/004_hu39c477453dab02a97bc2004cedc33a78_124463_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/hugo/img/004_hu39c477453dab02a97bc2004cedc33a78_124463_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/004.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="145"
-data-flex-basis="348px"
 >&lt;/p>
 &lt;h2 id="部署环境">部署环境&lt;/h2>
 &lt;p>(1) 访问 &lt;a class="link" href="https://github.com/codespaces/new" target="_blank" rel="noopener"
 >https://github.com/codespaces/new&lt;/a>&lt;/p>
 &lt;p>(2) 创建codespace实例&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/hugo/img/005.png"
-width="1257"
-height="668"
-srcset="https://devil6117.github.io/p/hugo/img/005_hu18d3e762822face5266a99f4c7bebc55_56401_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/hugo/img/005_hu18d3e762822face5266a99f4c7bebc55_56401_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/005.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="188"
-data-flex-basis="451px"
 >&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/hugo/img/006.png"
-width="1226"
-height="849"
-srcset="https://devil6117.github.io/p/hugo/img/006_hue6757b59305f79cb4ed336713f8935f7_54161_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/hugo/img/006_hue6757b59305f79cb4ed336713f8935f7_54161_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/006.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="144"
-data-flex-basis="346px"
 >&lt;/p>
 &lt;p>机器类型可选2/4，hugo配置要求低，2-core足够，践行低碳环保。&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/hugo/img/007.png"
-width="1046"
-height="683"
-srcset="https://devil6117.github.io/p/hugo/img/007_hu8c576d7462c3a4aed1560b62e7bb8279_54057_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/hugo/img/007_hu8c576d7462c3a4aed1560b62e7bb8279_54057_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/007.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="153"
-data-flex-basis="367px"
 >&lt;/p>
 &lt;p>等待codespace环境搭建。&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/hugo/img/008.png"
-width="2336"
-height="1088"
-srcset="https://devil6117.github.io/p/hugo/img/008_huc7b12a991249a26618ea1bb5cd7bf285_143929_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/hugo/img/008_huc7b12a991249a26618ea1bb5cd7bf285_143929_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/008.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="214"
-data-flex-basis="515px"
 >&lt;/p>
 &lt;p>(3) 测试codespace&lt;/p>
 &lt;p>注：建议Open in Visual Studio Code。&lt;/p>
 &lt;p>在codespace的终端运行&amp;quot;hugo server&amp;quot;&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/hugo/img/009.png"
-width="1859"
-height="1332"
-srcset="https://devil6117.github.io/p/hugo/img/009_hub8ee6df1436105055ff76f9e825772d7_305377_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/hugo/img/009_hub8ee6df1436105055ff76f9e825772d7_305377_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/009.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="139"
-data-flex-basis="334px"
 >&lt;/p>
 &lt;p>测试成功。&lt;/p>
 &lt;h2 id="编写内容">编写内容&lt;/h2>
@@ -716,24 +548,12 @@ data-flex-basis="334px"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>公钥填入网站仓库的 Deploy Key 处，如图所示。&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/hugo/img/010.png"
-width="2008"
-height="948"
-srcset="https://devil6117.github.io/p/hugo/img/010_huf1379aef21f17b8c74373789c7b3cea6_100486_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/hugo/img/010_huf1379aef21f17b8c74373789c7b3cea6_100486_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/010.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="211"
-data-flex-basis="508px"
 >&lt;/p>
 &lt;p>记得勾选写入权限，如图所示。&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/hugo/img/011.png"
-width="761"
-height="163"
-srcset="https://devil6117.github.io/p/hugo/img/011_hud8ba82753c809dce562c8c8a9da88552_9180_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/hugo/img/011_hud8ba82753c809dce562c8c8a9da88552_9180_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/011.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="466"
-data-flex-basis="1120px"
 >&lt;/p>
 &lt;p>静态文件是要上传到这个仓库的。&lt;/p>
 &lt;p>私钥填入workflow。&lt;/p>
@@ -745,14 +565,8 @@ data-flex-basis="1120px"
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">clip &amp;lt; ~/.ssh/id_ed25519
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>&lt;img src="https://devil6117.github.io/p/hugo/img/012.png"
-width="2000"
-height="1056"
-srcset="https://devil6117.github.io/p/hugo/img/012_hu876a40dd0a6880c67eb173780144782b_133094_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/hugo/img/012_hu876a40dd0a6880c67eb173780144782b_133094_1024x0_resize_box_3.png 1024w"
+&lt;/div>&lt;p>&lt;img src="https://devil6117.github.io/img/012.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="189"
-data-flex-basis="454px"
 >&lt;/p>
 &lt;p>如下图所示，名称填下框文本，Secret框内填私钥。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -763,44 +577,20 @@ data-flex-basis="454px"
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">ACTIONS_DEPLOY_KEY
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>&lt;img src="https://devil6117.github.io/p/hugo/img/013.png"
-width="1186"
-height="610"
-srcset="https://devil6117.github.io/p/hugo/img/013_hu71ec0ed34cd3f512b1371aab3b08ddda_18907_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/hugo/img/013_hu71ec0ed34cd3f512b1371aab3b08ddda_18907_1024x0_resize_box_3.png 1024w"
+&lt;/div>&lt;p>&lt;img src="https://devil6117.github.io/img/013.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="194"
-data-flex-basis="466px"
 >&lt;/p>
 &lt;h2 id="效果预览">效果预览&lt;/h2>
-&lt;p>&lt;img src="https://devil6117.github.io/p/hugo/img/014.png"
-width="1274"
-height="611"
-srcset="https://devil6117.github.io/p/hugo/img/014_hu53dd8986b744907b46577b7d53a9f220_63289_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/hugo/img/014_hu53dd8986b744907b46577b7d53a9f220_63289_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/014.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="208"
-data-flex-basis="500px"
 >&lt;/p>
 &lt;p>workflow 成功运行。&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/hugo/img/015.png"
-width="694"
-height="262"
-srcset="https://devil6117.github.io/p/hugo/img/015_hueca06f0a7388bedddb0845a14cd7deb7_24054_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/hugo/img/015_hueca06f0a7388bedddb0845a14cd7deb7_24054_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/015.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="264"
-data-flex-basis="635px"
 >&lt;/p>
 &lt;p>网站仓库成功被 push。&lt;/p>
-&lt;p>&lt;img src="https://devil6117.github.io/p/hugo/img/016.png"
-width="1370"
-height="1078"
-srcset="https://devil6117.github.io/p/hugo/img/016_hua15c97d63ece7f908eed3f035848b73f_173276_480x0_resize_box_3.png 480w, https://devil6117.github.io/p/hugo/img/016_hua15c97d63ece7f908eed3f035848b73f_173276_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;img src="https://devil6117.github.io/img/016.png#pic_center"
 loading="lazy"
-class="gallery-image"
-data-flex-grow="127"
-data-flex-basis="305px"
 >&lt;/p>
 &lt;p>通过域名访问网站，能正常访问。&lt;/p></description></item><item><title>归档</title><link>https://devil6117.github.io/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://devil6117.github.io/archives/</guid><description/></item><item><title>链接</title><link>https://devil6117.github.io/%E9%93%BE%E6%8E%A5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://devil6117.github.io/%E9%93%BE%E6%8E%A5/</guid><description>&lt;p>To use this feature, add &lt;code>links&lt;/code> section to frontmatter.&lt;/p>
 &lt;p>This page&amp;rsquo;s frontmatter:&lt;/p>
