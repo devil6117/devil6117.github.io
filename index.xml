@@ -896,7 +896,7 @@ data-flex-basis="305px"
 &lt;h2 id="参考链接">参考链接&lt;/h2>
 &lt;p>感谢Zenlian提供的Actions部署代码。&lt;/p>
 &lt;p>原文链接 ： &lt;a class="link" href="https://zenlian.github.io/github-actions-hugo/" target="_blank" rel="noopener"
->https://zenlian.github.io/github-actions-hugo/&lt;/a>&lt;/p></description></item><item><title>归档</title><link>https://080812.xyz/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://080812.xyz/archives/</guid><description/></item><item><title>链接</title><link>https://080812.xyz/%E9%93%BE%E6%8E%A5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/%E9%93%BE%E6%8E%A5/</guid><description>&lt;p>To use this feature, add &lt;code>links&lt;/code> section to frontmatter.&lt;/p>
+>https://zenlian.github.io/github-actions-hugo/&lt;/a>&lt;/p></description></item><item><title>关于</title><link>https://080812.xyz/about/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://080812.xyz/about/</guid><description>&lt;p>This is a test page for i18n support.&lt;/p></description></item><item><title>归档</title><link>https://080812.xyz/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://080812.xyz/archives/</guid><description/></item><item><title>链接</title><link>https://080812.xyz/%E9%93%BE%E6%8E%A5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/%E9%93%BE%E6%8E%A5/</guid><description>&lt;p>To use this feature, add &lt;code>links&lt;/code> section to frontmatter.&lt;/p>
 &lt;p>This page&amp;rsquo;s frontmatter:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
