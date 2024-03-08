@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VS Code on Kevin Lee's Blog</title><link>https://080812.xyz/categories/vs_code/</link><description>Recent content in VS Code on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Thu, 29 Feb 2024 19:19:33 +0800</lastBuildDate><atom:link href="https://080812.xyz/categories/vs_code/index.xml" rel="self" type="application/rss+xml"/><item><title>基于VS Code搭建LaTeX写作环境</title><link>https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/</link><pubDate>Thu, 29 Feb 2024 19:19:33 +0800</pubDate><guid>https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/</guid><description>&lt;h2 id="前言">前言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VS Code on Kevin Lee's Blog</title><link>https://080812.xyz/categories/vs_code/</link><description>Recent content in VS Code on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Thu, 29 Feb 2024 19:19:33 +0800</lastBuildDate><atom:link href="https://080812.xyz/categories/vs_code/index.xml" rel="self" type="application/rss+xml"/><item><title>基于VS Code搭建LaTeX写作环境</title><link>https://080812.xyz/p/4/</link><pubDate>Thu, 29 Feb 2024 19:19:33 +0800</pubDate><guid>https://080812.xyz/p/4/</guid><description>&lt;h2 id="前言">前言&lt;/h2>
 &lt;p>    LaTeX 是一套强大的排版系统，在学术论文排版方面应用广泛，很多高校和期刊都会提供自己 LaTeX 模板方便论文提交。&lt;/p>
 &lt;p>    引擎是 TeX 语法的解释器。最原始的 TeX 引擎在 1978 年由 Donald Erwin Knuth（高德纳）开发，其生成 dvi 文件，然后经由其他程序转换为 PDF 文件。改进引擎包括：&lt;/p>
 &lt;p>    pdfTeX：将 TeX 代码直接编译成 PDF 文件。&lt;/p>
@@ -6,10 +6,10 @@
 &lt;p>    LuaTeX：TeX 语言的一个完整的有扩展的实现，支持 Unicode、系统字体和内嵌语言扩展，能直接输出 PDF 格式文件，也可以仍然输出 DVI 格式。&lt;/p>
 &lt;h2 id="安装tex">安装TeX&lt;/h2>
 &lt;h3 id="访问tuna镜像站并下载镜像文件">访问TUNA镜像站并下载镜像文件&lt;/h3>
-&lt;p>&lt;img src="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/001.png"
+&lt;p>&lt;img src="https://080812.xyz/p/4/img/001.png"
 width="1728"
 height="818"
-srcset="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/001_hu75ee51617988b99738006b0e81c34b75_145492_480x0_resize_box_3.png 480w, https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/001_hu75ee51617988b99738006b0e81c34b75_145492_1024x0_resize_box_3.png 1024w"
+srcset="https://080812.xyz/p/4/img/001_hu75ee51617988b99738006b0e81c34b75_145492_480x0_resize_box_3.png 480w, https://080812.xyz/p/4/img/001_hu75ee51617988b99738006b0e81c34b75_145492_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="211"
@@ -18,68 +18,68 @@ data-flex-basis="506px"
 &lt;p>&lt;a class="link" href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/" target="_blank" rel="noopener"
 >https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/&lt;/a>&lt;/p>
 &lt;h3 id="解压latex镜像">解压latex镜像&lt;/h3>
-&lt;p>&lt;img src="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/002.png"
+&lt;p>&lt;img src="https://080812.xyz/p/4/img/002.png"
 width="940"
 height="419"
-srcset="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/002_hu6e2956daec6b0cd64f14e661c68f5873_56378_480x0_resize_box_3.png 480w, https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/002_hu6e2956daec6b0cd64f14e661c68f5873_56378_1024x0_resize_box_3.png 1024w"
+srcset="https://080812.xyz/p/4/img/002_hu6e2956daec6b0cd64f14e661c68f5873_56378_480x0_resize_box_3.png 480w, https://080812.xyz/p/4/img/002_hu6e2956daec6b0cd64f14e661c68f5873_56378_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="224"
 data-flex-basis="538px"
 >&lt;/p>
 &lt;h3 id="运行安装程序">运行安装程序&lt;/h3>
-&lt;p>&lt;img src="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/003.png"
+&lt;p>&lt;img src="https://080812.xyz/p/4/img/003.png"
 width="1262"
 height="444"
-srcset="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/003_hu91df3e56d018009bb2f9f43e83368ab1_73761_480x0_resize_box_3.png 480w, https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/003_hu91df3e56d018009bb2f9f43e83368ab1_73761_1024x0_resize_box_3.png 1024w"
+srcset="https://080812.xyz/p/4/img/003_hu91df3e56d018009bb2f9f43e83368ab1_73761_480x0_resize_box_3.png 480w, https://080812.xyz/p/4/img/003_hu91df3e56d018009bb2f9f43e83368ab1_73761_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="284"
 data-flex-basis="682px"
 >&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/004.png"
+&lt;p>&lt;img src="https://080812.xyz/p/4/img/004.png"
 width="1468"
 height="766"
-srcset="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/004_hu6a072b7c67ceac567a38a2cd01127138_72698_480x0_resize_box_3.png 480w, https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/004_hu6a072b7c67ceac567a38a2cd01127138_72698_1024x0_resize_box_3.png 1024w"
+srcset="https://080812.xyz/p/4/img/004_hu6a072b7c67ceac567a38a2cd01127138_72698_480x0_resize_box_3.png 480w, https://080812.xyz/p/4/img/004_hu6a072b7c67ceac567a38a2cd01127138_72698_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="191"
 data-flex-basis="459px"
 >&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/005.png"
+&lt;p>&lt;img src="https://080812.xyz/p/4/img/005.png"
 width="1155"
 height="509"
-srcset="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/005_hu3ef03a468090f995dd2ead8800f6c0b8_34964_480x0_resize_box_3.png 480w, https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/005_hu3ef03a468090f995dd2ead8800f6c0b8_34964_1024x0_resize_box_3.png 1024w"
+srcset="https://080812.xyz/p/4/img/005_hu3ef03a468090f995dd2ead8800f6c0b8_34964_480x0_resize_box_3.png 480w, https://080812.xyz/p/4/img/005_hu3ef03a468090f995dd2ead8800f6c0b8_34964_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="226"
 data-flex-basis="544px"
 >&lt;/p>
 &lt;p>修改安装路径到D盘。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/006.png"
+&lt;p>&lt;img src="https://080812.xyz/p/4/img/006.png"
 width="565"
 height="511"
-srcset="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/006_hud98accc469484d7c3428c2158a3cd811_19997_480x0_resize_box_3.png 480w, https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/006_hud98accc469484d7c3428c2158a3cd811_19997_1024x0_resize_box_3.png 1024w"
+srcset="https://080812.xyz/p/4/img/006_hud98accc469484d7c3428c2158a3cd811_19997_480x0_resize_box_3.png 480w, https://080812.xyz/p/4/img/006_hud98accc469484d7c3428c2158a3cd811_19997_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="110"
 data-flex-basis="265px"
 >&lt;/p>
 &lt;p>取消安装TeXworks前端勾选项。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/007.png"
+&lt;p>&lt;img src="https://080812.xyz/p/4/img/007.png"
 width="936"
 height="600"
-srcset="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/007_hu99e095b9e38582000a901d0d6bd56b4c_60233_480x0_resize_box_3.png 480w, https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/007_hu99e095b9e38582000a901d0d6bd56b4c_60233_1024x0_resize_box_3.png 1024w"
+srcset="https://080812.xyz/p/4/img/007_hu99e095b9e38582000a901d0d6bd56b4c_60233_480x0_resize_box_3.png 480w, https://080812.xyz/p/4/img/007_hu99e095b9e38582000a901d0d6bd56b4c_60233_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="156"
 data-flex-basis="374px"
 >&lt;/p>
 &lt;p>注：安装时间较长，请耐心等待。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/008.png"
+&lt;p>&lt;img src="https://080812.xyz/p/4/img/008.png"
 width="936"
 height="600"
-srcset="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/008_huaa953e1ade3cd9be020f1e9a31b73732_39693_480x0_resize_box_3.png 480w, https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/008_huaa953e1ade3cd9be020f1e9a31b73732_39693_1024x0_resize_box_3.png 1024w"
+srcset="https://080812.xyz/p/4/img/008_huaa953e1ade3cd9be020f1e9a31b73732_39693_480x0_resize_box_3.png 480w, https://080812.xyz/p/4/img/008_huaa953e1ade3cd9be020f1e9a31b73732_39693_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="156"
@@ -88,10 +88,10 @@ data-flex-basis="374px"
 &lt;p>安装完成。&lt;/p>
 &lt;h3 id="检查latex安装是否正常">检查Latex安装是否正常。&lt;/h3>
 &lt;p>cmd输入命令xelatex -v。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/009.png"
+&lt;p>&lt;img src="https://080812.xyz/p/4/img/009.png"
 width="1468"
 height="766"
-srcset="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/009_huee03d9f3e38417ee908adbdb0a51174c_68001_480x0_resize_box_3.png 480w, https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/009_huee03d9f3e38417ee908adbdb0a51174c_68001_1024x0_resize_box_3.png 1024w"
+srcset="https://080812.xyz/p/4/img/009_huee03d9f3e38417ee908adbdb0a51174c_68001_480x0_resize_box_3.png 480w, https://080812.xyz/p/4/img/009_huee03d9f3e38417ee908adbdb0a51174c_68001_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="191"
@@ -101,10 +101,10 @@ data-flex-basis="459px"
 &lt;p>    在安装完VS Code之后还不能编写LaTeX代码，此时就需要安装必要的插件。&lt;/p>
 &lt;p>&lt;strong>LaTeX Workshop&lt;/strong>，具体执行步骤如下所示：&lt;/p>
 &lt;h3 id="安装latex-workshop">安装latex workshop；&lt;/h3>
-&lt;p>&lt;img src="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/010.png"
+&lt;p>&lt;img src="https://080812.xyz/p/4/img/010.png"
 width="1442"
 height="348"
-srcset="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/010_hu28bc4de8ea9081e6cfb931f7e1585b0d_66776_480x0_resize_box_3.png 480w, https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/010_hu28bc4de8ea9081e6cfb931f7e1585b0d_66776_1024x0_resize_box_3.png 1024w"
+srcset="https://080812.xyz/p/4/img/010_hu28bc4de8ea9081e6cfb931f7e1585b0d_66776_480x0_resize_box_3.png 480w, https://080812.xyz/p/4/img/010_hu28bc4de8ea9081e6cfb931f7e1585b0d_66776_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="414"
@@ -112,19 +112,19 @@ data-flex-basis="994px"
 >&lt;/p>
 &lt;h3 id="打开latex-workshop设置环境">打开Latex Workshop设置环境&lt;/h3>
 &lt;p>打开设置窗口&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/011.png"
+&lt;p>&lt;img src="https://080812.xyz/p/4/img/011.png"
 width="1539"
 height="1155"
-srcset="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/011_hu18134c04369e7eb22edd848b1ff68865_106748_480x0_resize_box_3.png 480w, https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/011_hu18134c04369e7eb22edd848b1ff68865_106748_1024x0_resize_box_3.png 1024w"
+srcset="https://080812.xyz/p/4/img/011_hu18134c04369e7eb22edd848b1ff68865_106748_480x0_resize_box_3.png 480w, https://080812.xyz/p/4/img/011_hu18134c04369e7eb22edd848b1ff68865_106748_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="133"
 data-flex-basis="319px"
 >&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/012.png"
+&lt;p>&lt;img src="https://080812.xyz/p/4/img/012.png"
 width="1539"
 height="1155"
-srcset="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/012_hu328e48748cebaf629fb65b479ae655c5_70215_480x0_resize_box_3.png 480w, https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/012_hu328e48748cebaf629fb65b479ae655c5_70215_1024x0_resize_box_3.png 1024w"
+srcset="https://080812.xyz/p/4/img/012_hu328e48748cebaf629fb65b479ae655c5_70215_480x0_resize_box_3.png 480w, https://080812.xyz/p/4/img/012_hu328e48748cebaf629fb65b479ae655c5_70215_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="133"
@@ -304,10 +304,10 @@ data-flex-basis="319px"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h2 id="测试效果">测试效果&lt;/h2>
-&lt;p>&lt;img src="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/013.png"
+&lt;p>&lt;img src="https://080812.xyz/p/4/img/013.png"
 width="2560"
 height="1540"
-srcset="https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/013_hu017354f560e7f699573f1890c122a568_403586_480x0_resize_box_3.png 480w, https://080812.xyz/p/%E5%9F%BA%E4%BA%8Evs-code%E6%90%AD%E5%BB%BAlatex%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83/img/013_hu017354f560e7f699573f1890c122a568_403586_1024x0_resize_box_3.png 1024w"
+srcset="https://080812.xyz/p/4/img/013_hu017354f560e7f699573f1890c122a568_403586_480x0_resize_box_3.png 480w, https://080812.xyz/p/4/img/013_hu017354f560e7f699573f1890c122a568_403586_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="166"
@@ -317,17 +317,17 @@ data-flex-basis="398px"
 &lt;p>(未完成)&lt;/p>
 &lt;h2 id="模板">模板&lt;/h2>
 &lt;p>清华大学学位论文 &lt;a class="link" href="https://mirrors.tuna.tsinghua.edu.cn/github-release/tuna/thuthesis/" target="_blank" rel="noopener"
->https://mirrors.tuna.tsinghua.edu.cn/github-release/tuna/thuthesis/&lt;/a>&lt;/p></description></item><item><title>VS Code 安装</title><link>https://080812.xyz/p/vs-code-%E5%AE%89%E8%A3%85/</link><pubDate>Mon, 19 Feb 2024 19:19:33 +0800</pubDate><guid>https://080812.xyz/p/vs-code-%E5%AE%89%E8%A3%85/</guid><description>&lt;h2 id="系统环境">系统环境&lt;/h2>
+>https://mirrors.tuna.tsinghua.edu.cn/github-release/tuna/thuthesis/&lt;/a>&lt;/p></description></item><item><title>VS Code 安装</title><link>https://080812.xyz/p/3/</link><pubDate>Mon, 19 Feb 2024 19:19:33 +0800</pubDate><guid>https://080812.xyz/p/3/</guid><description>&lt;h2 id="系统环境">系统环境&lt;/h2>
 &lt;p>Windows 10x64&lt;/p>
 &lt;h2 id="获取安装包">获取安装包&lt;/h2>
 &lt;p>1、打开官网下载页面&lt;/p>
 &lt;p>&lt;a class="link" href="https://code.visualstudio.com/Download" target="_blank" rel="noopener"
 >https://code.visualstudio.com/Download&lt;/a>&lt;/p>
 &lt;p>2、下载system-x64版&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/p/vs-code-%E5%AE%89%E8%A3%85/img/001.png"
+&lt;p>&lt;img src="https://080812.xyz/p/3/img/001.png"
 width="1780"
 height="992"
-srcset="https://080812.xyz/p/vs-code-%E5%AE%89%E8%A3%85/img/001_hu9449b381f578442e217cdc0e3d974092_111094_480x0_resize_box_3.png 480w, https://080812.xyz/p/vs-code-%E5%AE%89%E8%A3%85/img/001_hu9449b381f578442e217cdc0e3d974092_111094_1024x0_resize_box_3.png 1024w"
+srcset="https://080812.xyz/p/3/img/001_hu9449b381f578442e217cdc0e3d974092_111094_480x0_resize_box_3.png 480w, https://080812.xyz/p/3/img/001_hu9449b381f578442e217cdc0e3d974092_111094_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="179"
@@ -337,10 +337,10 @@ data-flex-basis="430px"
 &lt;p>(安装过程略)&lt;/p>
 &lt;h2 id="配置中文语言可选项">配置中文语言(可选项)&lt;/h2>
 &lt;p>注：个人建议全英文环境使用，有利于培养学术思维。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/p/vs-code-%E5%AE%89%E8%A3%85/img/002.png"
+&lt;p>&lt;img src="https://080812.xyz/p/3/img/002.png"
 width="1072"
 height="754"
-srcset="https://080812.xyz/p/vs-code-%E5%AE%89%E8%A3%85/img/002_hu0c9e08cbc2c664c4c0e870432fa55831_79048_480x0_resize_box_3.png 480w, https://080812.xyz/p/vs-code-%E5%AE%89%E8%A3%85/img/002_hu0c9e08cbc2c664c4c0e870432fa55831_79048_1024x0_resize_box_3.png 1024w"
+srcset="https://080812.xyz/p/3/img/002_hu0c9e08cbc2c664c4c0e870432fa55831_79048_480x0_resize_box_3.png 480w, https://080812.xyz/p/3/img/002_hu0c9e08cbc2c664c4c0e870432fa55831_79048_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="142"
@@ -348,40 +348,40 @@ data-flex-basis="341px"
 >&lt;/p>
 &lt;p>（1）主界面按下Ctrl+Shift+P&lt;/p>
 &lt;p>（2）输入Configure Display Language&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/p/vs-code-%E5%AE%89%E8%A3%85/img/003.png"
+&lt;p>&lt;img src="https://080812.xyz/p/3/img/003.png"
 width="941"
 height="111"
-srcset="https://080812.xyz/p/vs-code-%E5%AE%89%E8%A3%85/img/003_hu576debc94e739d7a1198622a688731f2_7898_480x0_resize_box_3.png 480w, https://080812.xyz/p/vs-code-%E5%AE%89%E8%A3%85/img/003_hu576debc94e739d7a1198622a688731f2_7898_1024x0_resize_box_3.png 1024w"
+srcset="https://080812.xyz/p/3/img/003_hu576debc94e739d7a1198622a688731f2_7898_480x0_resize_box_3.png 480w, https://080812.xyz/p/3/img/003_hu576debc94e739d7a1198622a688731f2_7898_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="847"
 data-flex-basis="2034px"
 >&lt;/p>
 &lt;p>（3）选中“中文(简体)”&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/p/vs-code-%E5%AE%89%E8%A3%85/img/004.png"
+&lt;p>&lt;img src="https://080812.xyz/p/3/img/004.png"
 width="992"
 height="139"
-srcset="https://080812.xyz/p/vs-code-%E5%AE%89%E8%A3%85/img/004_hu8b7df0dd46abe1ff1042f9a4ec8fd271_14785_480x0_resize_box_3.png 480w, https://080812.xyz/p/vs-code-%E5%AE%89%E8%A3%85/img/004_hu8b7df0dd46abe1ff1042f9a4ec8fd271_14785_1024x0_resize_box_3.png 1024w"
+srcset="https://080812.xyz/p/3/img/004_hu8b7df0dd46abe1ff1042f9a4ec8fd271_14785_480x0_resize_box_3.png 480w, https://080812.xyz/p/3/img/004_hu8b7df0dd46abe1ff1042f9a4ec8fd271_14785_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="713"
 data-flex-basis="1712px"
 >&lt;/p>
 &lt;p>（4）重启VS Code&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/p/vs-code-%E5%AE%89%E8%A3%85/img/005.png"
+&lt;p>&lt;img src="https://080812.xyz/p/3/img/005.png"
 width="812"
 height="218"
-srcset="https://080812.xyz/p/vs-code-%E5%AE%89%E8%A3%85/img/005_hua04aff008237b48c4ac6e7e6f3e20e9c_12589_480x0_resize_box_3.png 480w, https://080812.xyz/p/vs-code-%E5%AE%89%E8%A3%85/img/005_hua04aff008237b48c4ac6e7e6f3e20e9c_12589_1024x0_resize_box_3.png 1024w"
+srcset="https://080812.xyz/p/3/img/005_hua04aff008237b48c4ac6e7e6f3e20e9c_12589_480x0_resize_box_3.png 480w, https://080812.xyz/p/3/img/005_hua04aff008237b48c4ac6e7e6f3e20e9c_12589_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="372"
 data-flex-basis="893px"
 >&lt;/p>
 &lt;h2 id="安装完成">安装完成&lt;/h2>
-&lt;p>&lt;img src="https://080812.xyz/p/vs-code-%E5%AE%89%E8%A3%85/img/006.png"
+&lt;p>&lt;img src="https://080812.xyz/p/3/img/006.png"
 width="1496"
 height="851"
-srcset="https://080812.xyz/p/vs-code-%E5%AE%89%E8%A3%85/img/006_hua0ca64e9302116f56c96c826eb396322_84670_480x0_resize_box_3.png 480w, https://080812.xyz/p/vs-code-%E5%AE%89%E8%A3%85/img/006_hua0ca64e9302116f56c96c826eb396322_84670_1024x0_resize_box_3.png 1024w"
+srcset="https://080812.xyz/p/3/img/006_hua0ca64e9302116f56c96c826eb396322_84670_480x0_resize_box_3.png 480w, https://080812.xyz/p/3/img/006_hua0ca64e9302116f56c96c826eb396322_84670_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="175"
