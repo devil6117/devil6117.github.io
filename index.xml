@@ -6,56 +6,56 @@
 &lt;p>    LuaTeX：TeX 语言的一个完整的有扩展的实现，支持 Unicode、系统字体和内嵌语言扩展，能直接输出 PDF 格式文件，也可以仍然输出 DVI 格式。&lt;/p>
 &lt;h2 id="安装tex">安装TeX&lt;/h2>
 &lt;h3 id="访问tuna镜像站并下载镜像文件">访问TUNA镜像站并下载镜像文件&lt;/h3>
-&lt;p>&lt;img src="https://080812.xyz/img/vscode-latex/001.png"
+&lt;p>&lt;img src="https://080812.xyz/img/001.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>&lt;a class="link" href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/" target="_blank" rel="noopener"
 >https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/&lt;/a>&lt;/p>
 &lt;h3 id="解压latex镜像">解压latex镜像&lt;/h3>
-&lt;p>&lt;img src="https://080812.xyz/img/vscode-latex/002.png"
+&lt;p>&lt;img src="https://080812.xyz/img/002.png"
 loading="lazy"
 >&lt;/p>
 &lt;h3 id="运行安装程序">运行安装程序&lt;/h3>
-&lt;p>&lt;img src="https://080812.xyz/img/vscode-latex/003.png"
+&lt;p>&lt;img src="https://080812.xyz/img/003.png"
 loading="lazy"
 >&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/vscode-latex/004.png"
+&lt;p>&lt;img src="https://080812.xyz/img/004.png"
 loading="lazy"
 >&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/vscode-latex/005.png"
+&lt;p>&lt;img src="https://080812.xyz/img/005.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>修改安装路径到D盘。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/vscode-latex/006.png"
+&lt;p>&lt;img src="https://080812.xyz/img/006.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>取消安装TeXworks前端勾选项。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/vscode-latex/007.png"
+&lt;p>&lt;img src="https://080812.xyz/img/007.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>注：安装时间较长，请耐心等待。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/vscode-latex/008.png"
+&lt;p>&lt;img src="https://080812.xyz/img/008.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>安装完成。&lt;/p>
 &lt;h3 id="检查latex安装是否正常">检查Latex安装是否正常。&lt;/h3>
 &lt;p>cmd输入命令xelatex -v。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/vscode-latex/009.png"
+&lt;p>&lt;img src="https://080812.xyz/img/009.png"
 loading="lazy"
 >&lt;/p>
 &lt;h3 id="配置vscode">配置VSCode&lt;/h3>
 &lt;p>    在安装完VS Code之后还不能编写LaTeX代码，此时就需要安装必要的插件。&lt;/p>
 &lt;p>&lt;strong>LaTeX Workshop&lt;/strong>，具体执行步骤如下所示：&lt;/p>
 &lt;h3 id="安装latex-workshop">安装latex workshop；&lt;/h3>
-&lt;p>&lt;img src="https://080812.xyz/img/vscode-latex/010.png"
+&lt;p>&lt;img src="https://080812.xyz/img/010.png"
 loading="lazy"
 >&lt;/p>
 &lt;h3 id="打开latex-workshop设置环境">打开Latex Workshop设置环境&lt;/h3>
 &lt;p>打开设置窗口&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/vscode-latex/011.png"
+&lt;p>&lt;img src="https://080812.xyz/img/011.png"
 loading="lazy"
 >&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/vscode-latex/012.png"
+&lt;p>&lt;img src="https://080812.xyz/img/012.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>向文本框写入以下内容。&lt;/p>
@@ -232,7 +232,7 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h2 id="测试效果">测试效果&lt;/h2>
-&lt;p>&lt;img src="https://080812.xyz/img/vscode-latex/013.png"
+&lt;p>&lt;img src="https://080812.xyz/img/013.png"
 loading="lazy"
 >&lt;/p>
 &lt;h2 id="pdf">PDF&lt;/h2>
@@ -246,97 +246,97 @@ loading="lazy"
 &lt;p>&lt;a class="link" href="https://code.visualstudio.com/Download" target="_blank" rel="noopener"
 >https://code.visualstudio.com/Download&lt;/a>&lt;/p>
 &lt;p>2、下载system-x64版&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/vscode/001.png"
+&lt;p>&lt;img src="https://080812.xyz/img/001.png"
 loading="lazy"
 >&lt;/p>
 &lt;h2 id="安装vs-code">安装VS Code&lt;/h2>
 &lt;p>(安装过程略)&lt;/p>
 &lt;h2 id="配置中文语言可选项">配置中文语言(可选项)&lt;/h2>
 &lt;p>注：个人建议全英文环境使用，有利于培养学术思维。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/vscode/002.png"
+&lt;p>&lt;img src="https://080812.xyz/img/002.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>（1）主界面按下Ctrl+Shift+P&lt;/p>
 &lt;p>（2）输入Configure Display Language&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/vscode/003.png"
+&lt;p>&lt;img src="https://080812.xyz/img/003.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>（3）选中“中文(简体)”&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/vscode/004.png"
+&lt;p>&lt;img src="https://080812.xyz/img/004.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>（4）重启VS Code&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/vscode/005.png"
+&lt;p>&lt;img src="https://080812.xyz/img/005.png"
 loading="lazy"
 >&lt;/p>
 &lt;h2 id="安装完成">安装完成&lt;/h2>
-&lt;p>&lt;img src="https://080812.xyz/img/vscode/006.png"
+&lt;p>&lt;img src="https://080812.xyz/img/006.png"
 loading="lazy"
 >&lt;/p></description></item><item><title>Hugo 接入 Giscus 评论系统</title><link>https://080812.xyz/p/2/</link><pubDate>Thu, 11 Jan 2024 19:19:33 +0800</pubDate><guid>https://080812.xyz/p/2/</guid><description>&lt;h2 id="前言">前言&lt;/h2>
 &lt;p>    折腾了这么些天的Hugo，看很多人的博客都有评论功能，也想整一个。考虑到我的博客是搭建在Github上，那么评论放在Github上也是情理之中的。&lt;/p>
 &lt;p>    Giscus 是一个由 Github Discussions 驱动的评论系统，无需自己单独配置。&lt;/p>
 &lt;h2 id="创建public仓库">创建Public仓库&lt;/h2>
 &lt;p>    这并不是一个必需的步骤，事实上你也可以直接使用博客本来的仓库。但我建议还是分离不同仓库，这样既方便后续调整不影响博客，如果迁移的话，你只能带走博客内容，却无法带走评论，如果单独一个仓库，只需要在迁移后的新博客重新指向该仓库即可。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo-giscus/001.png"
+&lt;p>&lt;img src="https://080812.xyz/img/001.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>注：仓库必须是Public，否则无法评论。&lt;/p>
 &lt;h2 id="启用-discussions">启用 Discussions&lt;/h2>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo-giscus/002.png"
+&lt;p>&lt;img src="https://080812.xyz/img/002.png"
 loading="lazy"
 >&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo-giscus/003.png"
+&lt;p>&lt;img src="https://080812.xyz/img/003.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>勾选后会立即生效。&lt;/p>
 &lt;h2 id="安装-giscus-到仓库">安装 Giscus 到仓库&lt;/h2>
 &lt;p>访问 &lt;a class="link" href="https://github.com/apps/giscus" target="_blank" rel="noopener"
 >https://github.com/apps/giscus&lt;/a> 进入 Giscus 安装界面。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo-giscus/004.png"
+&lt;p>&lt;img src="https://080812.xyz/img/004.png"
 loading="lazy"
 >&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo-giscus/005.png"
+&lt;p>&lt;img src="https://080812.xyz/img/005.png"
 loading="lazy"
 >&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo-giscus/006.png"
+&lt;p>&lt;img src="https://080812.xyz/img/006.png"
 loading="lazy"
 >&lt;/p>
 &lt;h2 id="生成-giscus-配置">生成 Giscus 配置&lt;/h2>
 &lt;p>访问 &lt;a class="link" href="https://giscus.app/zh-CN" target="_blank" rel="noopener"
 >https://giscus.app/zh-CN&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo-giscus/007.png"
+&lt;p>&lt;img src="https://080812.xyz/img/007.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>填入评论的仓库地址。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo-giscus/008.png"
+&lt;p>&lt;img src="https://080812.xyz/img/008.png"
 loading="lazy"
 >&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo-giscus/009.png"
+&lt;p>&lt;img src="https://080812.xyz/img/009.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>    根据自己需求调整。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo-giscus/010.png"
+&lt;p>&lt;img src="https://080812.xyz/img/010.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>    复制上面的配置文本。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo-giscus/011.png"
+&lt;p>&lt;img src="https://080812.xyz/img/011.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>    配置文件所在路径。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo-giscus/012.png"
+&lt;p>&lt;img src="https://080812.xyz/img/012.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>    修改 comments 功能为 enbale 状态，并修改 provider 为 giscus 。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo-giscus/013.png"
+&lt;p>&lt;img src="https://080812.xyz/img/013.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>    对照配置文本填入信息，没有的自己加。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo-giscus/014.png"
+&lt;p>&lt;img src="https://080812.xyz/img/014.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>    打开任意博文，下拉查看，已成功启用。&lt;/p>
 &lt;p>    如果浏览器已登录 Github，点击 “ 使用Github登录 ” 就直接登录成功并跳转回页面，效果如下图所示。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo-giscus/015.png"
+&lt;p>&lt;img src="https://080812.xyz/img/015.png"
 loading="lazy"
 >&lt;/p></description></item><item><title>Hugo 博客搭建笔记</title><link>https://080812.xyz/p/1/</link><pubDate>Tue, 09 Jan 2024 19:18:52 +0800</pubDate><guid>https://080812.xyz/p/1/</guid><description>&lt;h2 id="前言">前言&lt;/h2>
 &lt;h3 id="运行环境">运行环境&lt;/h3>
@@ -394,7 +394,7 @@ margin-right: auto;
 &lt;/tbody>
 &lt;/table>
 &lt;/div>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo/001.png"
+&lt;p>&lt;img src="https://080812.xyz/img/001.png"
 loading="lazy"
 >&lt;/p>
 &lt;h2 id="获取主题">获取主题&lt;/h2>
@@ -402,40 +402,40 @@ loading="lazy"
 >https://github.com/CaiJimmy/hugo-theme-stack-starter&lt;/a>&lt;/p>
 &lt;p>(2) 下载主题&lt;/p>
 &lt;p>注：直接导入到codespaces会使你的仓库变成主题的fork，强迫症的我不能接受，所以选择手动导入。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo/002.png"
+&lt;p>&lt;img src="https://080812.xyz/img/002.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>(3) 解压主题&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo/003.png"
+&lt;p>&lt;img src="https://080812.xyz/img/003.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>Lincese和Readme不需要解压，用不到的冗余文件不要留，影响编译速度。&lt;/p>
 &lt;p>(4) 上传到blog仓库&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo/004.png"
+&lt;p>&lt;img src="https://080812.xyz/img/004.png"
 loading="lazy"
 >&lt;/p>
 &lt;h2 id="部署环境">部署环境&lt;/h2>
 &lt;p>(1) 访问 &lt;a class="link" href="https://github.com/codespaces/new" target="_blank" rel="noopener"
 >https://github.com/codespaces/new&lt;/a>&lt;/p>
 &lt;p>(2) 创建codespace实例&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo/005.png"
+&lt;p>&lt;img src="https://080812.xyz/img/005.png"
 loading="lazy"
 >&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo/006.png"
+&lt;p>&lt;img src="https://080812.xyz/img/006.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>机器类型可选2/4，hugo配置要求低，2-core足够，践行低碳环保。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo/007.png"
+&lt;p>&lt;img src="https://080812.xyz/img/007.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>等待codespace环境搭建。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo/008.png"
+&lt;p>&lt;img src="https://080812.xyz/img/008.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>(3) 测试codespace&lt;/p>
 &lt;p>注：建议Open in Visual Studio Code。&lt;/p>
 &lt;p>在codespace的终端运行&amp;quot;hugo server&amp;quot;&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo/009.png"
+&lt;p>&lt;img src="https://080812.xyz/img/009.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>测试成功。&lt;/p>
@@ -548,11 +548,11 @@ loading="lazy"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>公钥填入网站仓库的 Deploy Key 处，如图所示。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo/010.png"
+&lt;p>&lt;img src="https://080812.xyz/img/010.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>记得勾选写入权限，如图所示。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo/011.png"
+&lt;p>&lt;img src="https://080812.xyz/img/011.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>静态文件是要上传到这个仓库的。&lt;/p>
@@ -565,7 +565,7 @@ loading="lazy"
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">clip &amp;lt; ~/.ssh/id_ed25519
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>&lt;img src="https://080812.xyz/img/hugo/012.png"
+&lt;/div>&lt;p>&lt;img src="https://080812.xyz/img/012.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>如下图所示，名称填下框文本，Secret框内填私钥。&lt;/p>
@@ -577,19 +577,19 @@ loading="lazy"
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">ACTIONS_DEPLOY_KEY
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>&lt;img src="https://080812.xyz/img/hugo/013.png"
+&lt;/div>&lt;p>&lt;img src="https://080812.xyz/img/013.png"
 loading="lazy"
 >&lt;/p>
 &lt;h2 id="效果预览">效果预览&lt;/h2>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo/014.png"
+&lt;p>&lt;img src="https://080812.xyz/img/014.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>workflow 成功运行。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo/015.png"
+&lt;p>&lt;img src="https://080812.xyz/img/015.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>网站仓库成功被 push。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/img/hugo/016.png"
+&lt;p>&lt;img src="https://080812.xyz/img/016.png"
 loading="lazy"
 >&lt;/p>
 &lt;p>通过域名访问网站，能正常访问。&lt;/p>
