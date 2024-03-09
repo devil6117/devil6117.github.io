@@ -1,77 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>考研 on Kevin Lee's Blog</title><link>https://080812.xyz/tags/%E8%80%83%E7%A0%94/</link><description>Recent content in 考研 on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Sat, 09 Mar 2024 21:18:52 +0800</lastBuildDate><atom:link href="https://080812.xyz/tags/%E8%80%83%E7%A0%94/index.xml" rel="self" type="application/rss+xml"/><item><title>数据结构</title><link>https://080812.xyz/p/thu-cst-ds/</link><pubDate>Sat, 09 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/p/thu-cst-ds/</guid><description>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/ds.png" alt="Featured image of post 数据结构" />&lt;h2 id="绪论">绪论&lt;/h2>
 &lt;h3 id="作业题">作业题&lt;/h3>
 &lt;p>&lt;code>《算法导论》思考题 3-4&lt;/code>&lt;/p>
-&lt;p>$$&lt;/p>
-&lt;p>\begin{array}{|c|c|c|c|c|}&lt;/p>
-&lt;p>\hline&lt;/p>
-&lt;p>{排序算法} &amp;amp; {平均时间复杂度} &amp;amp; {最坏时间复杂度} &amp;amp; {空间复杂度} &amp;amp; {是否稳定} \&lt;/p>
-&lt;p>\hline&lt;/p>
-&lt;p>{冒泡排序} &amp;amp; {O(n^2)} &amp;amp; {O(n^2)} &amp;amp; {O(1)} &amp;amp; {是} \&lt;/p>
-&lt;p>\hline&lt;/p>
-&lt;p>{选择排序} &amp;amp; {O(n^2)} &amp;amp; {O(n^2)} &amp;amp; {O(1)} &amp;amp; {不是} \&lt;/p>
-&lt;p>\hline&lt;/p>
-&lt;p>{直接插入排序} &amp;amp; {O(n^2)} &amp;amp; {O(n^2)} &amp;amp; {O(1)} &amp;amp; {是} \&lt;/p>
-&lt;p>\hline&lt;/p>
-&lt;p>{归并排序} &amp;amp; {O(nlogn)} &amp;amp; {O(nlogn)} &amp;amp; {O(n)} &amp;amp; {是} \&lt;/p>
-&lt;p>\hline&lt;/p>
-&lt;p>{快速排序} &amp;amp; {O(nlogn)} &amp;amp; {O(n^2)} &amp;amp; {O(logn)} &amp;amp; {不是} \&lt;/p>
-&lt;p>\hline&lt;/p>
-&lt;p>{堆排序} &amp;amp; {O(nlogn)} &amp;amp; {O(nlogn)} &amp;amp; {O(1)} &amp;amp; {不是} \&lt;/p>
-&lt;p>\hline&lt;/p>
-&lt;p>{希尔排序} &amp;amp; {O(nlogn)} &amp;amp; {O(n^3)} &amp;amp; {O(1)} &amp;amp; {不是} \&lt;/p>
-&lt;p>\hline&lt;/p>
-&lt;p>{计数排序} &amp;amp; {O(n+k)} &amp;amp; {O(n+k)} &amp;amp; {O(n+k)} &amp;amp; {是} \&lt;/p>
-&lt;p>\hline&lt;/p>
-&lt;p>{基数排序} &amp;amp; {O(N&lt;em>M)} &amp;amp; {O(N&lt;/em>M)} &amp;amp; {O(M)} &amp;amp; {是} \&lt;/p>
-&lt;p>\hline&lt;/p>
-&lt;p>\end{array}&lt;/p>
-&lt;p>$$&lt;/p>
-&lt;p>$$
-f(x)
-$$&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:left">&lt;center>问题&lt;/center>&lt;/th>
-&lt;th style="text-align:left">&lt;center>解析&lt;/center>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:left">(渐近记号的性质)\ 假设\ $f(n)$\ 和\ $g(n)$\ 为渐近正函数。 $证明或反驳下面的每个猜测。$&lt;/td>
-&lt;td style="text-align:left">&lt;code>注：蕴涵，即可推出。例：A蕴涵B，即可由A推出B。&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">$a.\ f(n)=O(g(n))\ 蕴涵\ g(n)=O(f(n))。$&lt;/td>
-&lt;td style="text-align:left">$❌\ 反例 g(n)=n^2，f(n)=n。但是\ n^2\ 不等于\ O(n)。$&lt;br>$大O记号表达的是一个渐近函数，而非具象函数。$&lt;/br>$多个具象函数可以对应同一个渐近函数，但特定某个渐近函数是无法反推出原具象函数。$&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">$b.\ f(n)+g(n)=Θ(min(f(n)，g(n)))$&lt;/td>
-&lt;td style="text-align:left">$❌\ n^2+n\neq Θ(min(n^2,n))=Θ(n)，$&lt;br>$Θ必须取最高阶中的下界，即Θ需严格同阶。$&lt;/br>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">$c.\ f(n)=O(g(n))\ 蕴涵\ lg(f(n))=O(lg(g(n)))，$ &lt;br> $\ \ \ \ 其中对所有足够的n，有 lg(g(n))\geq 1且f(n)&amp;gt;1。$&lt;/br>&lt;/td>
-&lt;td style="text-align:left">$✅\ 正数取对数不改变大小关系。$&lt;br>$证明:\exist c,n_0&amp;gt;0,\ \forall n\geq n_0$&lt;/br>$\ \ \ \ \ \ \ \ \ \ \ \ f(n)\leq c\cdot g(n),lg(f(n))\leq d\cdot lg(g(n))$&lt;br>$\ \ \ \ \ \ \ \ \ \ \ \ d=\frac {lg\ c+lg\ g(n)}{lg\ (n)}=\frac {lg\ c}{lg\ g(n)}+1\leq lg\ c+1$&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">$d.\ f(n)=0(g(n))\ 蕴涵\ 2^{f(n)} =O(2^{g(n)})。$&lt;/td>
-&lt;td style="text-align:left">$❌\ 可以取对数，但不能取指数。反例：f(n)=2n,g(n)=n。$&lt;br>$O(f(n))=O(g(n)),但是2^{f(n)}=(2^2)^n=4^n,与\ 2^{g(n)}=O(2^n)\ 不相等。$&lt;/br>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">$e.\ f(n)=O((f(n))^2)。$&lt;/td>
-&lt;td style="text-align:left">$❌\ 反例f(n)=\frac {1}{n}，这个等式在\ n\geq 1\ 情况下恒成立。$&lt;br>$但需要注意的是：大O记号并不仅仅用于描述时间复杂度。$&lt;/br>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">$f.\ f(n)=O(g(n))\ 蕴涵\ g(n)=2(f(n))。$&lt;/td>
-&lt;td style="text-align:left">$✅\ 证明：\exist c,n_0&amp;gt;0,\ \forall n\geq n_0$&lt;/br>$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ f(n)\leq c\cdot g(n),lg(f(n))\leq d\cdot lg(g(n))$&lt;br>$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ d=\frac {1}{c},当n\geq n_0,g(n)\geq d\cdot f(n)，g(n)=\Omega (n)$&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">$g.\ f(n)=Θ(f(n/2))$&lt;/td>
-&lt;td style="text-align:left">$❌\ 反例：f(n)=2^{2n}\neq Θ(2^n)，而f(\frac {n}{2})=2^n$&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">$h.\ f(n)+o(f(n))=Θ(f(n))$&lt;/td>
-&lt;td style="text-align:left">$✅证明：\exist c,n_0\geq 0,\forall n\geq n_0,0\leq g(n)\leq c\cdot f(n)$&lt;br>$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \exist c_1,c_2,n_0,\forall n\geq n_0,0\leq c_1\cdot f(n)+g(n)\leq c_2\cdot f(n)$&lt;/br>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table></description></item></channel></rss>
+&lt;p>(渐近记号的性质) 假设 $f(n)$ 和 $g(n)$ 为渐近正函数。&lt;/p>
+&lt;p>证明或反驳下面的每个猜测。&lt;/p>
+&lt;p>&lt;code>注：蕴涵，即可推出。例：A蕴涵B，即可由A推出B。&lt;/code>&lt;/p>
+&lt;p>$a. f(n)=O(g(n)) \ 蕴涵\ g(n)=O(f(n))。$&lt;/p>
+&lt;p>❌ 反例 $g(n)=n^2，f(n)=n。$但是 $n^2\neq O(n)$。&lt;/p>
+&lt;p>大O记号表达的是一个渐近函数，而非具象函数。$&lt;/br>$多个具象函数可以对应同一个渐近函数，但特定某个渐近函数是无法反推出原具象函数。
+b. f(n)+g(n)=Θ(min(f(n)，g(n)))$ ❌ n^2+n\neq Θ(min(n^2,n))=Θ(n)，$&lt;br>$Θ必须取最高阶中的下界，即Θ需严格同阶。$&lt;/br>
+c. f(n)=O(g(n)) 蕴涵 lg(f(n))=O(lg(g(n)))，$ &lt;br> $ 其中对所有足够的n，有 lg(g(n))\geq 1且f(n)&amp;gt;1。$&lt;/br> ✅ 正数取对数不改变大小关系。$&lt;br>$证明:\exist c,n_0&amp;gt;0, \forall n\geq n_0$&lt;/br>$ f(n)\leq c\cdot g(n),lg(f(n))\leq d\cdot lg(g(n))$&lt;br>$ d=\frac {lg c+lg g(n)}{lg (n)}=\frac {lg c}{lg g(n)}+1\leq lg c+1$
+d. f(n)=0(g(n)) 蕴涵 2^{f(n)} =O(2^{g(n)})。$ ❌ 可以取对数，但不能取指数。反例：f(n)=2n,g(n)=n。$&lt;br>$O(f(n))=O(g(n)),但是2^{f(n)}=(2^2)^n=4^n,与 2^{g(n)}=O(2^n) 不相等。$&lt;/br>
+e. f(n)=O((f(n))^2)。$ ❌ 反例f(n)=\frac {1}{n}，这个等式在 n\geq 1 情况下恒成立。$&lt;br>$但需要注意的是：大O记号并不仅仅用于描述时间复杂度。$&lt;/br>
+f. f(n)=O(g(n)) 蕴涵 g(n)=2(f(n))。$ ✅ 证明：\exist c,n_0&amp;gt;0, \forall n\geq n_0$&lt;/br>$ f(n)\leq c\cdot g(n),lg(f(n))\leq d\cdot lg(g(n))$&lt;br>$ d=\frac {1}{c},当n\geq n_0,g(n)\geq d\cdot f(n)，g(n)=\Omega (n)$
+g. f(n)=Θ(f(n/2))$ ❌ 反例：f(n)=2^{2n}\neq Θ(2^n)，而f(\frac {n}{2})=2^n$
+h. f(n)+o(f(n))=Θ(f(n))$ ✅证明：\exist c,n_0\geq 0,\forall n\geq n_0,0\leq g(n)\leq c\cdot f(n)$&lt;br>$ \exist c_1,c_2,n_0,\forall n\geq n_0,0\leq c_1\cdot f(n)+g(n)\leq c_2\cdot f(n)$&lt;/br>&lt;/p></description></item></channel></rss>
