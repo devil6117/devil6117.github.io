@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>计算机科学 on Kevin Lee's Blog</title><link>https://080812.xyz/categories/computer_science/</link><description>Recent content in 计算机科学 on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Sat, 09 Mar 2024 21:18:52 +0800</lastBuildDate><atom:link href="https://080812.xyz/categories/computer_science/index.xml" rel="self" type="application/rss+xml"/><item><title>数据结构</title><link>https://080812.xyz/p/thu-cst-ds/</link><pubDate>Sat, 09 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/p/thu-cst-ds/</guid><description>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/ds.png" alt="Featured image of post 数据结构" />&lt;h2 id="绪论">绪论&lt;/h2>
 &lt;h3 id="作业题">作业题&lt;/h3>
 &lt;p>&lt;code>《算法导论》思考题 3-4&lt;/code>&lt;/p>
-&lt;p>$$&lt;/p>
-&lt;p>\begin{tabular}{|c|c|c|}
+&lt;p>$$
+\begin{array}{|c|c|c|c|c|}
 \hline
-$\displaystyle\int_{-\pi}^\pi \sin x \mathrm{d}x = 0$ &amp;amp; $\mathrm{e}^{i\pi} + 1 = 0$ &amp;amp; $a^2 + b^2 = c^2$ \
+{排序算法} &amp;amp; {平均时间复杂度} &amp;amp; {最坏时间复杂度} &amp;amp; {空间复杂度} &amp;amp; {是否稳定} \
 \hline
-\end{tabular}&lt;/p>
-&lt;p>$$&lt;/p>
+{冒泡排序} &amp;amp; {O(n^2)} &amp;amp; {O(n^2)} &amp;amp; {O(1)} &amp;amp; {是} \
+\hline
+{选择排序} &amp;amp; {O(n^2)} &amp;amp; {O(n^2)} &amp;amp; {O(1)} &amp;amp; {不是} \
+\hline
+{直接插入排序} &amp;amp; {O(n^2)} &amp;amp; {O(n^2)} &amp;amp; {O(1)} &amp;amp; {是} \
+\hline
+{归并排序} &amp;amp; {O(nlogn)} &amp;amp; {O(nlogn)} &amp;amp; {O(n)} &amp;amp; {是} \
+\hline
+{快速排序} &amp;amp; {O(nlogn)} &amp;amp; {O(n^2)} &amp;amp; {O(logn)} &amp;amp; {不是} \
+\hline
+{堆排序} &amp;amp; {O(nlogn)} &amp;amp; {O(nlogn)} &amp;amp; {O(1)} &amp;amp; {不是} \
+\hline
+{希尔排序} &amp;amp; {O(nlogn)} &amp;amp; {O(n^3)} &amp;amp; {O(1)} &amp;amp; {不是} \
+\hline
+{计数排序} &amp;amp; {O(n+k)} &amp;amp; {O(n+k)} &amp;amp; {O(n+k)} &amp;amp; {是} \
+\hline
+{基数排序} &amp;amp; {O(N&lt;em>M)} &amp;amp; {O(N&lt;/em>M)} &amp;amp; {O(M)} &amp;amp; {是} \
+\hline
+\end{array}
+$$&lt;/p>
 &lt;p>$$
 f(x)
 $$&lt;/p>
