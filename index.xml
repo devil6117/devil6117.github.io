@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog</title><link>https://080812.xyz/</link><description>Recent content on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Fri, 08 Mar 2024 21:18:52 +0800</lastBuildDate><atom:link href="https://080812.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>数据结构</title><link>https://080812.xyz/p/thu-cst-ds/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/p/thu-cst-ds/</guid><description>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/ds.png" alt="Featured image of post 数据结构" />&lt;h2 id="绪论">绪论&lt;/h2>
 &lt;h3 id="作业题">作业题&lt;/h3>
 &lt;p>&lt;code>《算法导论》思考题 3-4&lt;/code>&lt;/p>
-&lt;p>$ f(x) $&lt;/p>
+&lt;div>$ f(x) $&lt;/div>
 &lt;p>Inline math: &lt;div>$\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$&lt;/div>&lt;/p>
 &lt;p>Block math:
 $$
