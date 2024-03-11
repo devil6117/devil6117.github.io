@@ -18,23 +18,19 @@
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:left">&lt;div>$$a.\ f(n)=O(g(n))\ 蕴涵\ g(n)=O(f(n))。$$&lt;/div>&lt;/td>
-&lt;td style="text-align:left">&lt;div>$$❌\ 反例 g(n)=n^2，f(n)=n。但是\ n^2\ 不等于\ O(n)。$$&lt;br>$$大O记号表达的是一个渐近函数，而非具象函数。$$&lt;/br>$$多个具象函数可以对应同一个渐近函数，但特定某个渐近函数是无法反推出原具象函数。$$&lt;/div>&lt;/td>
+&lt;td style="text-align:left">&lt;div>$$❌\ 反例 g(n)=n^2，f(n)=n。但是\ n^2\ 不等于\ O(n)。$$&lt;br>$$大O记号表达的是一个渐近函数，而非具象函数。$$&lt;/div>&lt;div>$$多个具象函数可以对应同一个渐近函数，但特定某个渐近函数是无法反推出原具象函数。$$&lt;/div>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:left">&lt;div>$$b.\ f(n)+g(n)=Θ(min(f(n)，g(n)))$$&lt;/div>&lt;/td>
-&lt;td style="text-align:left">&lt;div>$$❌\ n^2+n\neq Θ(min(n^2,n))=Θ(n)，\Θ必须取最高阶中的下界，即Θ需严格同阶。$$&lt;/div>&lt;/td>
+&lt;td style="text-align:left">&lt;div>$$❌\ n^2+n\neq Θ(min(n^2,n))=Θ(n)，$$&lt;/div>&lt;div>$$Θ必须取最高阶中的下界，即Θ需严格同阶。$$&lt;/div>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">&lt;div>$$c.\ f(n)=O(g(n))\ 蕴涵\ lg(f(n))=O(lg(g(n)))，\其中对所有足够的n，有 lg(g(n))\geq 1且f(n)&amp;gt;1。$$&lt;/div>&lt;/td>
-&lt;td style="text-align:left">&lt;div>$$✅\ 正数取对数不改变大小关系。\证明:\exist c,n_0&amp;gt;0,\ \forall n\geq n_0\\ \ \ \ \ \ \ \ \ \ \ \ f(n)\leq c\cdot g(n),lg(f(n))\leq d\cdot lg(g(n))\\ \ \ \ \ \ \ \ \ \ \ \ d=\frac {lg\ c+lg\ g(n)}{lg\ (n)}=\frac {lg\ c}{lg\ g(n)}+1\leq lg\ c+1$$&lt;/div>&lt;/td>
+&lt;td style="text-align:left">&lt;div>$$c.\ f(n)=O(g(n))\ 蕴涵\ lg(f(n))=O(lg(g(n)))，$$&lt;/div>&lt;div>$$其中对所有足够的n，有 lg(g(n))\geq 1且f(n)&amp;gt;1。$$&lt;/div>&lt;/td>
+&lt;td style="text-align:left">&lt;div>$$✅\ 正数取对数不改变大小关系。&lt;/div>&lt;div>证明:\exist c,n_0&amp;gt;0,\ \forall n\geq n_0\\ \ \ \ \ \ \ \ \ \ \ \ f(n)\leq c\cdot g(n),lg(f(n))\leq d\cdot lg(g(n))\\ \ \ \ \ \ \ \ \ \ \ \ d=\frac {lg\ c+lg\ g(n)}{lg\ (n)}=\frac {lg\ c}{lg\ g(n)}+1\leq lg\ c+1$$&lt;/div>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">$$d.\ f(n)=0(g(n))\ 蕴涵\ 2^{f(n)} =O(2^{g(n)})。$$&lt;/td>
-&lt;td style="text-align:left">$$❌\ 可以取对数，但不能取指数。反例：f(n)=2n,g(n)=n。$$&lt;br>$$O(f(n))=O(g(n)),但是2^{f(n)}=(2^2)^n=4^n,与\ 2^{g(n)}=O(2^n)\ 不相等。$$&lt;/br>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">$$e.\ f(n)=O((f(n))^2)。$$&lt;/td>
-&lt;td style="text-align:left">$$❌\ 反例f(n)=\frac {1}{n}，这个等式在\ n\geq 1\ 情况下恒成立。$$&lt;br>$$但需要注意的是：大O记号并不仅仅用于描述时间复杂度。$$&lt;/br>&lt;/td>
+&lt;td style="text-align:left">&lt;div>$$d.\ f(n)=0(g(n))\ 蕴涵\ 2^{f(n)} =O(2^{g(n)})。$$&lt;/div>&lt;/td>
+&lt;td style="text-align:left">&lt;div>$$❌\ 可以取对数，但不能取指数。反例：f(n)=2n,g(n)=n。\O(f(n))=O(g(n)),但是2^{f(n)}=(2^2)^n=4^n,与\ 2^{g(n)}=O(2^n)\ 不相等。\e.\ f(n)=O((f(n))^2)。$$&lt;/div>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:left">$$f.\ f(n)=O(g(n))\ 蕴涵\ g(n)=2(f(n))。$$&lt;/td>
