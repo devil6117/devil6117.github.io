@@ -13,12 +13,12 @@
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:left">$$(渐近记号的性质)\ 假设\ f(n)\ 和\ g(n)\ 为渐近正函数。证明或反驳下面的每个猜测。$$&lt;/td>
-&lt;td style="text-align:left">&lt;code>注：蕴涵，即可推出。例：A蕴涵B，即可由A推出B。&lt;/code>&lt;/td>
+&lt;td style="text-align:left">$$$$&lt;/td>
+&lt;td>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">$$a.\ f(n)=O(g(n))\ 蕴涵\ g(n)=O(f(n))。$$&lt;/td>
-&lt;td style="text-align:left">$$❌\ 反例 g(n)=n^2，f(n)=n。但是\ n^2\ 不等于\ O(n)。大O记号表达的是一个渐近函数，而非具象函数。多个具象函数可以对应同一个渐近函数，但特定某个渐近函数是无法反推出原具象函数。$$&lt;/td>
+&lt;td style="text-align:left">$$$$&lt;/td>
+&lt;td style="text-align:left">$$$$&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:left">$$b.\ f(n)+g(n)=Θ(min(f(n)，g(n)))$$&lt;/td>
@@ -45,7 +45,32 @@
 &lt;td style="text-align:left">$$✅证明：\exist c,n_0\geq 0,\forall n\geq n_0,0\leq g(n)\leq c\cdot f(n)\exist c_1,c_2,n_0,\forall n\geq n_0,0\leq c_1\cdot f(n)+g(n)\leq c_2\cdot f(n)$$&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>基于VS Code搭建LaTeX写作环境</title><link>https://080812.xyz/p/write3/</link><pubDate>Thu, 29 Feb 2024 19:19:33 +0800</pubDate><guid>https://080812.xyz/p/write3/</guid><description>&lt;h2 id="前言">前言&lt;/h2>
+&lt;/table>
+&lt;p>$$
+\begin{array}{|c|c|}
+\hline
+{问题} &amp;amp; {解析}\
+\hline
+{(渐近记号的性质)\ 假设\ f(n)\ 和\ g(n)\ 为渐近正函数。证明或反驳下面的每个猜测。} &amp;amp; {注：蕴涵，即可推出。例：A蕴涵B，即可由A推出B。} \
+\hline
+{a.\ f(n)=O(g(n))\ 蕴涵\ g(n)=O(f(n))。} &amp;amp; {❌\ 反例 g(n)=n^2，f(n)=n。但是\ n^2\ 不等于\ O(n)。大O记号表达的是一个渐近函数，而非具象函数。多个具象函数可以对应同一个渐近函数，但特定某个渐近函数是无法反推出原具象函数。} \
+\hline
+{直接插入排序} &amp;amp; {O(n^2)} \
+\hline
+{归并排序} &amp;amp; {O(nlogn)} \
+\hline
+{快速排序} &amp;amp; {O(nlogn)} \
+\hline
+{堆排序} &amp;amp; {O(nlogn)} \
+\hline
+{希尔排序} &amp;amp; {O(nlogn)} \
+\hline
+{计数排序} &amp;amp; {O(n+k)} \
+\hline
+{基数排序} &amp;amp; {O(N*M)} \
+\hline
+\end{array}
+$$&lt;/p></description></item><item><title>基于VS Code搭建LaTeX写作环境</title><link>https://080812.xyz/p/write3/</link><pubDate>Thu, 29 Feb 2024 19:19:33 +0800</pubDate><guid>https://080812.xyz/p/write3/</guid><description>&lt;h2 id="前言">前言&lt;/h2>
 &lt;p>    LaTeX 是一套强大的排版系统，在学术论文排版方面应用广泛，很多高校和期刊都会提供自己 LaTeX 模板方便论文提交。&lt;/p>
 &lt;p>    引擎是 TeX 语法的解释器。最原始的 TeX 引擎在 1978 年由 Donald Erwin Knuth（高德纳）开发，其生成 dvi 文件，然后经由其他程序转换为 PDF 文件。改进引擎包括：&lt;/p>
 &lt;p>    pdfTeX：将 TeX 代码直接编译成 PDF 文件。&lt;/p>
