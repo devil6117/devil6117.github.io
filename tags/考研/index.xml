@@ -13,7 +13,7 @@
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:left">$$(渐近记号的性质)\ 假设\ f(n)\ 和\ g(n)\ 为渐近正函数。\证明或反驳下面的每个猜测。$$&lt;/div>&lt;div>&lt;/td>
+&lt;td style="text-align:left">$$(渐近记号的性质)\ 假设\ f(n)\ 和\ g(n)\ 为渐近正函数。\证明或反驳下面的每个猜测。$$&lt;div>&lt;/td>
 &lt;td style="text-align:left">&lt;code>注：蕴涵，即可推出。例：A蕴涵B，即可由A推出B。&lt;/code>&lt;/div>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -34,7 +34,7 @@
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:left">$$f.\ f(n)=O(g(n))\ 蕴涵\ g(n)=2(f(n))。$$&lt;/td>
-&lt;td style="text-align:left">$$✅\ 证明：\exist c,n_0&amp;gt;0,\ \forall n\geq n_0$$&lt;/br>$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ f(n)\leq c\cdot g(n),lg(f(n))\leq d\cdot lg(g(n))$$&lt;br>$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ d=\frac {1}{c},当n\geq n_0,g(n)\geq d\cdot f(n)，g(n)=\Omega (n)$$&lt;/td>
+&lt;td style="text-align:left">$$✅\ 证明：\exist c,n_0&amp;gt;0,\ \forall n\geq n_0$$&lt;/br>$$f(n)\leq c\cdot g(n),lg(f(n))\leq d\cdot lg(g(n))$$&lt;br>$$d=\frac {1}{c},当n\geq n_0,g(n)\geq d\cdot f(n)，g(n)=\Omega (n)$$&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:left">$$g.\ f(n)=Θ(f(n/2))$$&lt;/td>
