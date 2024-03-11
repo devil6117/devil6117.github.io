@@ -18,7 +18,7 @@
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:left">$$a.\ f(n)=O(g(n))\ 蕴涵\ g(n)=O(f(n))。$$&lt;/td>
-&lt;td style="text-align:left">$$❌\ 反例 g(n)=n^2，f(n)=n。但是\ n^2\ 不等于\ O(n)。大O记号表达的是一个渐近函数，而非具象函数。多个具象函数可以对应同一个渐近函数，但特定某个渐近函数是无法反推出原具象函数。$$&lt;/td>
+&lt;td style="text-align:left">$$❌\ 反例 g(n)=n^2，f(n)=n。但是\ n^2\ 不等于\ O(n)。\\大O记号表达的是一个渐近函数，而非具象函数。\\\多个具象函数可以对应同一个渐近函数，但特定某个渐近函数是无法反推出原具象函数。$$&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:left">$$b.\ f(n)+g(n)=Θ(min(f(n)，g(n)))$$&lt;/td>
@@ -26,7 +26,7 @@
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:left">$$c.\ f(n)=O(g(n))\ 蕴涵\ lg(f(n))=O(lg(g(n)))，\\其中对所有足够的n，有 lg(g(n))\geq 1且f(n)&amp;gt;1。$$&lt;/td>
-&lt;td style="text-align:left">$$✅\ 正数取对数不改变大小关系。证明:\exist c,n_0&amp;gt;0,\ \forall n\geq n_0\\ f(n)\leq c\cdot g(n),lg(f(n))\leq d\cdot lg(g(n))\\d=\frac {lg\ c+lg\ g(n)}{lg\ (n)}=\frac {lg\ c}{lg\ g(n)}+1\leq lg\ c+1$$&lt;/td>
+&lt;td style="text-align:left">$$✅\ 正数取对数不改变大小关系。\\证明:\exist c,n_0&amp;gt;0,\ \forall n\geq n_0\\f(n)\leq c\cdot g(n),lg(f(n))\leq d\cdot lg(g(n))\\d=\frac {lg\ c+lg\ g(n)}{lg\ (n)}=\frac {lg\ c}{lg\ g(n)}+1\leq lg\ c+1$$&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:left">$$d.\ f(n)=0(g(n))\ 蕴涵\ 2^{f(n)} =O(2^{g(n)})。$$&lt;/td>
