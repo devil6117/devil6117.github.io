@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数据结构 on Kevin Lee's Blog</title><link>https://080812.xyz/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link><description>Recent content in 数据结构 on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Fri, 08 Mar 2024 21:18:52 +0800</lastBuildDate><atom:link href="https://080812.xyz/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml"/><item><title>数据结构</title><link>https://080812.xyz/p/thu-cst-ds/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/p/thu-cst-ds/</guid><description>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/ds.png" alt="Featured image of post 数据结构" />&lt;h2 id="绪论">绪论&lt;/h2>
 &lt;h3 id="作业题">作业题&lt;/h3>
 &lt;p>&lt;code>《算法导论》思考题 3-4&lt;/code>&lt;/p>
+&lt;p>$(渐近记号的性质)\ 假设\ f(n)\ 和\ g(n)\ 为渐近正函数。$&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -10,7 +11,7 @@
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:left">&lt;div>$(渐近记号的性质)\ 假设\ f(n)\ 和\ g(n)\ 为渐近正函数。$&lt;/div>&lt;div>$证明或反驳下面的每个猜测。$&lt;/div>&lt;/td>
+&lt;td style="text-align:left">&lt;div>$$(渐近记号的性质)\ 假设\ f(n)\ 和\ g(n)\ 为渐近正函数。$$&lt;/div>&lt;div>$证明或反驳下面的每个猜测。$&lt;/div>&lt;/td>
 &lt;td style="text-align:left">&lt;code>注：蕴涵，即可推出。例：A蕴涵B，即可由A推出B。&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;tr>
