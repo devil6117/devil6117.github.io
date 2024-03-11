@@ -13,7 +13,7 @@
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:left">&lt;div>$$(渐近记号的性质)\ 假设\ f(n)\ 和\ g(n)\ 为渐近正函数。$$&lt;/div>&lt;div>$$证明或反驳下面的每个猜测。$$&lt;/div>&lt;div>&lt;/td>
+&lt;td style="text-align:left">$$(渐近记号的性质)\ 假设\ f(n)\ 和\ g(n)\ 为渐近正函数。\证明或反驳下面的每个猜测。$$&lt;/div>&lt;div>&lt;/td>
 &lt;td style="text-align:left">&lt;code>注：蕴涵，即可推出。例：A蕴涵B，即可由A推出B。&lt;/code>&lt;/div>&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -30,7 +30,7 @@
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:left">&lt;div>$$d.\ f(n)=0(g(n))\ 蕴涵\ 2^{f(n)} =O(2^{g(n)})。$$&lt;/div>&lt;/td>
-&lt;td style="text-align:left">&lt;div>$$❌\ 可以取对数，但不能取指数。反例：f(n)=2n,g(n)=n。\O(f(n))=O(g(n)),但是2^{f(n)}=(2^2)^n=4^n,与\ 2^{g(n)}=O(2^n)\ 不相等。\e.\ f(n)=O((f(n))^2)。$$&lt;/div>&lt;/td>
+&lt;td style="text-align:left">&lt;div>$$❌\ 可以取对数，但不能取指数。反例：f(n)=2n,g(n)=n。$$&lt;/div>&lt;div>$$O(f(n))=O(g(n)),但是2^{f(n)}=(2^2)^n=4^n,与\ 2^{g(n)}=O(2^n)\ 不相等。$$&lt;/div>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:left">$$f.\ f(n)=O(g(n))\ 蕴涵\ g(n)=2(f(n))。$$&lt;/td>
@@ -42,7 +42,7 @@
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:left">$$h.\ f(n)+o(f(n))=Θ(f(n))$$&lt;/td>
-&lt;td style="text-align:left">$$✅证明：\exist c,n_0\geq 0,\forall n\geq n_0,0\leq g(n)\leq c\cdot f(n)$$&lt;br>$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \exist c_1,c_2,n_0,\forall n\geq n_0,0\leq c_1\cdot f(n)+g(n)\leq c_2\cdot f(n)$$&lt;/br>&lt;/td>
+&lt;td style="text-align:left">$$✅证明：\exist c,n_0\geq 0,\forall n\geq n_0,0\leq g(n)\leq c\cdot f(n)$$&lt;br>$$exist c_1,c_2,n_0,\forall n\geq n_0,0\leq c_1\cdot f(n)+g(n)\leq c_2\cdot f(n)$$&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>基于VS Code搭建LaTeX写作环境</title><link>https://080812.xyz/p/write3/</link><pubDate>Thu, 29 Feb 2024 19:19:33 +0800</pubDate><guid>https://080812.xyz/p/write3/</guid><description>&lt;h2 id="前言">前言&lt;/h2>
