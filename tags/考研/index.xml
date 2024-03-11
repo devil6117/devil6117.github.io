@@ -47,4 +47,29 @@
 &lt;td style="text-align:left">$✅证明：\exist c,n_0\geq 0,\forall n\geq n_0,0\leq g(n)\leq c\cdot f(n)$&lt;br>$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \exist c_1,c_2,n_0,\forall n\geq n_0,0\leq c_1\cdot f(n)+g(n)\leq c_2\cdot f(n)$&lt;/br>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item></channel></rss>
+&lt;/table>
+&lt;p>$$
+\begin{array}{|c|c|c|c|c|}
+\hline
+{排序算法} &amp;amp; {平均时间复杂度} &amp;amp; {最坏时间复杂度} &amp;amp; {空间复杂度} &amp;amp; {是否稳定} \
+\hline
+{冒泡排序} &amp;amp; {O(n^2)} &amp;amp; {O(n^2)} &amp;amp; {O(1)} &amp;amp; {是} \
+\hline
+{选择排序} &amp;amp; {O(n^2)} &amp;amp; {O(n^2)} &amp;amp; {O(1)} &amp;amp; {不是} \
+\hline
+{直接插入排序} &amp;amp; {O(n^2)} &amp;amp; {O(n^2)} &amp;amp; {O(1)} &amp;amp; {是} \
+\hline
+{归并排序} &amp;amp; {O(nlogn)} &amp;amp; {O(nlogn)} &amp;amp; {O(n)} &amp;amp; {是} \
+\hline
+{快速排序} &amp;amp; {O(nlogn)} &amp;amp; {O(n^2)} &amp;amp; {O(logn)} &amp;amp; {不是} \
+\hline
+{堆排序} &amp;amp; {O(nlogn)} &amp;amp; {O(nlogn)} &amp;amp; {O(1)} &amp;amp; {不是} \
+\hline
+{希尔排序} &amp;amp; {O(nlogn)} &amp;amp; {O(n^3)} &amp;amp; {O(1)} &amp;amp; {不是} \
+\hline
+{计数排序} &amp;amp; {O(n+k)} &amp;amp; {O(n+k)} &amp;amp; {O(n+k)} &amp;amp; {是} \
+\hline
+{基数排序} &amp;amp; {O(N&lt;em>M)} &amp;amp; {O(N&lt;/em>M)} &amp;amp; {O(M)} &amp;amp; {是} \
+\hline
+\end{array}
+$$&lt;/p></description></item></channel></rss>
