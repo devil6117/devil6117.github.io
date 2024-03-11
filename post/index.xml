@@ -2,7 +2,8 @@
 &lt;h3 id="作业题">作业题&lt;/h3>
 &lt;p>&lt;code>《算法导论》思考题 3-4&lt;/code>&lt;/p>
 &lt;div>$ f(x) $&lt;/div>
-&lt;p>Inline math: $&lt;code>\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…&lt;/code>$&lt;/p>
+&lt;p>Inline math: $\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$&lt;/p>
+&lt;p>Inline math: $(\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…)$&lt;/p>
 &lt;p>Block math:
 $$
 \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
