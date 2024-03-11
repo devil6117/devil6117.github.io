@@ -46,28 +46,30 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>$$
+&lt;div>
+$$
 \begin{array}{|c|c|}
 \hline
-{问题} &amp;amp; {解析}\
+{问题} &amp; {解析}\\
 \hline
-{(渐近记号的性质)\ 假设\ f(n)\ 和\ g(n)\ 为渐近正函数。证明或反驳下面的每个猜测。} &amp;amp; {注：蕴涵，即可推出。例：A蕴涵B，即可由A推出B。} \
+{(渐近记号的性质)\ 假设\ f(n)\ 和\ g(n)\ 为渐近正函数。证明或反驳下面的每个猜测。} &amp; {注：蕴涵，即可推出。例：A蕴涵B，即可由A推出B。} \\
 \hline
-{a.\ f(n)=O(g(n))\ 蕴涵\ g(n)=O(f(n))。} &amp;amp; {❌\ 反例 g(n)=n^2，f(n)=n。但是\ n^2\ 不等于\ O(n)。大O记号表达的是一个渐近函数，而非具象函数。多个具象函数可以对应同一个渐近函数，但特定某个渐近函数是无法反推出原具象函数。} \
+{a.\ f(n)=O(g(n))\ 蕴涵\ g(n)=O(f(n))。} &amp; {❌\ 反例 g(n)=n^2，f(n)=n。但是\ n^2\ 不等于\ O(n)。大O记号表达的是一个渐近函数，而非具象函数。多个具象函数可以对应同一个渐近函数，但特定某个渐近函数是无法反推出原具象函数。} \\
 \hline
-{直接插入排序} &amp;amp; {O(n^2)} \
+{直接插入排序} &amp; {O(n^2)} \\
 \hline
-{归并排序} &amp;amp; {O(nlogn)} \
+{归并排序} &amp; {O(nlogn)} \\
 \hline
-{快速排序} &amp;amp; {O(nlogn)} \
+{快速排序} &amp; {O(nlogn)} \\
 \hline
-{堆排序} &amp;amp; {O(nlogn)} \
+{堆排序} &amp; {O(nlogn)} \\
 \hline
-{希尔排序} &amp;amp; {O(nlogn)} \
+{希尔排序} &amp; {O(nlogn)} \\
 \hline
-{计数排序} &amp;amp; {O(n+k)} \
+{计数排序} &amp; {O(n+k)} \\
 \hline
-{基数排序} &amp;amp; {O(N*M)} \
+{基数排序} &amp; {O(N*M)} \\
 \hline
 \end{array}
-$$&lt;/p></description></item></channel></rss>
+$$
+&lt;/div></description></item></channel></rss>
