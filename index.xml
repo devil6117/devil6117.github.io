@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog</title><link>https://080812.xyz/</link><description>Recent content on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Fri, 08 Mar 2024 21:18:52 +0800</lastBuildDate><atom:link href="https://080812.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>数据结构</title><link>https://080812.xyz/p/thu-cst-ds/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/p/thu-cst-ds/</guid><description>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/ds.png" alt="Featured image of post 数据结构" />&lt;h2 id="绪论">绪论&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog</title><link>https://080812.xyz/</link><description>Recent content on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Sun, 10 Mar 2024 11:18:52 +0800</lastBuildDate><atom:link href="https://080812.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>新概念英语</title><link>https://080812.xyz/p/english-nce/</link><pubDate>Sun, 10 Mar 2024 11:18:52 +0800</pubDate><guid>https://080812.xyz/p/english-nce/</guid><description>&lt;img src="https://080812.xyz/p/english-nce/nce.png" alt="Featured image of post 新概念英语" />&lt;h2 id="简介">简介&lt;/h2>
+&lt;p>    本文档是我学习《新概念英语》的电子版学习笔记，我通常在第一次学习时直接在教材上做笔记，复习阶段再整理位电子版，复习的同时也是对知识体系进行一次整理的过程，尽管这件事很耗费时间，但也很有必要。&lt;/p>
+&lt;p>    我英语学习比较晚，因为出身县城，我初中才开始学习英语，按照现在的标准看待，当时接受教育的条件是较为落后的，手中的学习材料仅仅只有教材一本、磁带一套，没有现在丰富的app去听听力、刷单词，只能依靠教师的单向输出获取知识，缺少系统且有效的听说读写训练，这顶多是陈述客观事实，而不应该成为自己的主观意志，更不能因此懈怠。&lt;/p>
+&lt;p>    &lt;strong>出身寒微，不是耻辱，能屈能伸，方为丈夫。——《三国演义》&lt;/strong>&lt;/p>
+&lt;p>    更何况我的出身并不寒微，对比同时期同地域的同龄人，我的家庭条件已经好太多太多。虽然我已经大学毕业，但我自认为自己的英语水平也只能相当于现在初中生，我的英语水平已经远远不能满足我的现实需求，必须稳打稳扎全面突破。&lt;/p>
+&lt;h2 id="学习建议">学习建议&lt;/h2>
+&lt;p>    《新概念英语》这套教材怎么样？允我愚见，这套教材好，但也不好，如好。&lt;/p>
+&lt;p>{{ &lt;bilibili>BV1yb4y1276z&lt;/bilibili> }}&lt;/p>
+&lt;h2 id="概况">概况&lt;/h2>
+&lt;p>&lt;code>以下内容摘自百度百科。&lt;/code>&lt;/p>
+&lt;h3 id="教材">教材&lt;/h3>
+&lt;p>    《新概念英语》（New Concept English）作为享誉全球的最为经典地道的英语教材，以其严密的体系性、严谨的科学性、精湛的实用性、浓郁的趣味性深受英语学习者的青睐，《新概念英语》在中国有30多年的历史，每年有数百万学习者，早已成为英语学习者的必选读物。本教材由何其莘博士，亚历山大（L.G.Alexander）合作编著。&lt;/p>
+&lt;h3 id="作者简介">作者简介&lt;/h3>
+&lt;p>    亚历山大L.G. Alexander，世界著名的英语教学权威，曾任欧洲现代语言教学委员会理事。他的著作为交际教学法奠定了基础，其中一些如NCE（《新概念英语》）和FollowMe（《跟我学》）已成为经典教材。
+何其莘，博士，现任北京外国语大学副校长、英美文学教授、博士生导师。著有《英国文艺复兴时期文学史》、《英国戏剧选读》和Listen to This等。&lt;/p></description></item><item><title>数据结构</title><link>https://080812.xyz/p/thu-cst-ds/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/p/thu-cst-ds/</guid><description>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/ds.png" alt="Featured image of post 数据结构" />&lt;h2 id="绪论">绪论&lt;/h2>
 &lt;h3 id="作业题">作业题&lt;/h3>
 &lt;p>&lt;code>《算法导论》思考题 3-4&lt;/code>&lt;/p>
 &lt;table>
