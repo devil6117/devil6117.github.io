@@ -10,7 +10,7 @@
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:left">(渐近记号的性质) 假设 \(f(n)\) 和 \(g(n)\) 为渐近正函数。&lt;br>证明或反驳下面的每个猜测。&lt;/br>&lt;/td>
+&lt;td style="text-align:left">(渐近记号的性质)假设\(f(n)\)和\(g(n)\)为渐近正函数。&lt;br>证明或反驳下面的每个猜测。&lt;/br>&lt;/td>
 &lt;td style="text-align:left">&lt;code>注：蕴涵，即可推出。例：A蕴涵B，即可由A推出B。&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;tr>
