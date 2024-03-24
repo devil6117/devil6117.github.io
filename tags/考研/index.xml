@@ -43,7 +43,7 @@
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:left">\(h.\ f(n)+o(f(n))=Θ(f(n))\)&lt;/td>
-&lt;td style="text-align:left">✅证明：\(\exist c,n_0\geq 0,\forall n\geq n_0,0\leq g(n)\leq c\cdot f(n)\)&lt;br>\(\exist c_1,c_2,n_0,\forall n\geq n_0,0\leq c_1\cdot f(n)+g(n)\leq c_2\cdot f(n)\)&lt;/br>&lt;/td>
+&lt;td style="text-align:left">✅证明：\(\exist c,n_0\geq 0,\forall n\geq n_0,0\leq g(n)\leq c\cdot f(n)\)&lt;br>\(\exist c_1,c_2,n_0,\forall n\geq n_0,0\leq c_1\cdot f(n)+g(n)\leq c_2\cdot f(n)\)&lt;/br>&lt;code>非重点&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item></channel></rss>
