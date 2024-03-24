@@ -374,35 +374,35 @@ margin-right: auto;
 &lt;td style="text-align:left">&lt;code>注：蕴涵，即可推出。例：A蕴涵B，即可由A推出B。&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">\(a.\ f(n)=O(g(n))\ \)蕴涵\(\ g(n)=O(f(n))。\)&lt;/td>
+&lt;td style="text-align:left">\(a.f(n)=O(g(n))\ \)蕴涵\(\ g(n)=O(f(n))。\)&lt;/td>
 &lt;td style="text-align:left">❌ 反例 \(g(n)=n^2，f(n)=n\)。但是 \(n^2\neq O(n)。\)&lt;br>大 \(O\) 记号表达的是一个渐近函数，而非具象函数。&lt;/br>多个具象函数可以对应同一个渐近函数，&lt;br>但特定某个渐近函数是无法反推出原具象函数。&lt;/br>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">\(b.\ f(n)+g(n)=Θ(min(f(n)，g(n)))\)&lt;/td>
+&lt;td style="text-align:left">\(b.f(n)+g(n)=Θ(min(f(n)，g(n)))\)&lt;/td>
 &lt;td style="text-align:left">❌ \(n^2+n\neq Θ(min(n^2,n))=Θ(n)\)，&lt;br>\(Θ\) 必须取最高阶中的下界，即 \(Θ\) 需严格同阶。&lt;/br>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">\(c.\ f(n)=O(g(n))\) 蕴涵 \(lg(f(n))=O(lg(g(n)))\)，&lt;br>其中对所有足够的n，有 \(lg(g(n))\geq 1\) 且 \((n)&amp;gt;1\)。&lt;/br>&lt;/td>
+&lt;td style="text-align:left">\(c.f(n)=O(g(n))\)蕴涵\(lg(f(n))=O(lg(g(n)))\)，&lt;br>其中对所有足够的n，有\(lg(g(n))\geq 1\)且 \((n)&amp;gt;1\)。&lt;/br>&lt;/td>
 &lt;td style="text-align:left">✅ 正数取对数不改变大小关系。&lt;br>证明:\(\exist c,n_0&amp;gt;0,\forall n\geq n_0\)&lt;/br>\(f(n)\leq c\cdot g(n),lg(f(n))\leq d\cdot lg(g(n))\)&lt;/br>\(d=\frac {lg\ c+lg\ g(n)}{lg\ (n)}=\frac {lg\ c}{lg\ g(n)}+1\leq lg\ c+1\)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">\(d.\ f(n)=0(g(n))\ 蕴涵\ 2^{f(n)} =O(2^{g(n)})。\)&lt;/td>
+&lt;td style="text-align:left">\(d.f(n)=0(g(n))\ 蕴涵\ 2^{f(n)} =O(2^{g(n)})。\)&lt;/td>
 &lt;td style="text-align:left">❌ 可以取对数，但不能取指数。&lt;br>反例：\(f(n)=2n,g(n)=n。O(f(n))=O(g(n))\),&lt;br>但是\(2^{f(n)}=(2^2)^n=4^n\),与 \(2^{g(n)}=O(2^n)\)不相等。&lt;/br>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">\(e.\ f(n)=O((f(n))^2)。\)&lt;/td>
+&lt;td style="text-align:left">\(e.f(n)=O((f(n))^2)。\)&lt;/td>
 &lt;td style="text-align:left">❌ 反例\(f(n)=\frac {1}{n}\)，这个等式在 \(n\geq 1\) 情况下恒成立。&lt;br>但需要注意的是：大 \(O\) 记号并不仅仅用于描述时间复杂度。&lt;/br>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">\(f.\ f(n)=O(g(n))\ 蕴涵\ g(n)=2(f(n))。\)&lt;/td>
+&lt;td style="text-align:left">\(f.f(n)=O(g(n))\ 蕴涵\ g(n)=2(f(n))。\)&lt;/td>
 &lt;td style="text-align:left">✅ 证明：\(\exist c,n_0&amp;gt;0,\forall n\geq n_0\)&lt;br>\(f(n)\leq c\cdot g(n),lg(f(n))\leq d\cdot lg(g(n))\\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ d=\frac {1}{c}\),当\(n\geq n_0,g(n)\geq d\cdot f(n)，g(n)=\Omega (n)\)&lt;/br>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">\(g.\ f(n)=Θ(f(n/2))\)&lt;/td>
+&lt;td style="text-align:left">\(g.f(n)=Θ(f(n/2))\)&lt;/td>
 &lt;td style="text-align:left">❌ 反例：\(f(n)=2^{2n}\neq Θ(2^n)\)，而\(f(\frac {n}{2})=2^n\)。&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">\(h.\ f(n)+o(f(n))=Θ(f(n))\)&lt;/td>
+&lt;td style="text-align:left">\(h.f(n)+o(f(n))=Θ(f(n))\)&lt;/td>
 &lt;td style="text-align:left">✅证明：\(\exist c,n_0\geq 0,\forall n\geq n_0,0\leq g(n)\leq c\cdot f(n)\)&lt;br>\(\exist c_1,c_2,n_0,\forall n\geq n_0,0\leq c_1\cdot f(n)+g(n)\leq c_2\cdot f(n)\)&lt;/br>&lt;code>非重点&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
