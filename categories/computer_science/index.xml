@@ -15,14 +15,14 @@
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:left">\(a.f(n)=O(g(n))\ \)蕴涵\(\ g(n)=O(f(n))。\)&lt;/td>
-&lt;td style="text-align:left">❌ 反例 \(g(n)=n^2，f(n)=n\)。但是 \(n^2\neq O(n)。\)&lt;br>大 \(O\) 记号表达的是一个渐近函数，而非具象函数。&lt;/br>多个具象函数可以对应同一个渐近函数，&lt;br>但特定某个渐近函数是无法反推出原具象函数。&lt;/br>&lt;/td>
+&lt;td style="text-align:left">❌ 反例 \(g(n)=n^2，f(n)=n\)。但是\(n^2\neq O(n)。\)&lt;br>大 \(O\) 记号表达的是一个渐近函数，而非具象函数。&lt;/br>多个具象函数可以对应同一个渐近函数，&lt;br>但特定某个渐近函数是无法反推出原具象函数。&lt;/br>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td style="text-align:left">\(b.f(n)+g(n)=Θ(min(f(n)，g(n)))\)&lt;/td>
 &lt;td style="text-align:left">❌ \(n^2+n\neq Θ(min(n^2,n))=Θ(n)\)，&lt;br>\(Θ\) 必须取最高阶中的下界，即 \(Θ\) 需严格同阶。&lt;/br>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:left">\(c.f(n)=O(g(n))\)蕴涵\(lg(f(n))=O(lg(g(n)))\)，&lt;br>其中对所有足够的(n)，有\(lg(g(n))\geq 1\)且 \((n)&amp;gt;1\)。&lt;/br>&lt;/td>
+&lt;td style="text-align:left">\(c.f(n)=O(g(n))\)蕴涵\(lg(f(n))=O(lg(g(n)))\)，&lt;br>其中对所有足够的\(n\)，有\(lg(g(n))\geq 1\)且 \((n)&amp;gt;1\)。&lt;/br>&lt;/td>
 &lt;td style="text-align:left">✅ 正数取对数不改变大小关系。&lt;br>证明:\(\exist c,n_0&amp;gt;0,\forall n\geq n_0\)&lt;/br>\(f(n)\leq c\cdot g(n),lg(f(n))\leq d\cdot lg(g(n))\)&lt;/br>\(d=\frac {lg\ c+lg\ g(n)}{lg\ (n)}=\frac {lg\ c}{lg\ g(n)}+1\leq lg\ c+1\)&lt;/td>
 &lt;/tr>
 &lt;tr>
