@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog</title><link>https://080812.xyz/</link><description>Recent content on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Sun, 10 Mar 2024 11:18:52 +0800</lastBuildDate><atom:link href="https://080812.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>新概念英语 第一册 01-24</title><link>https://080812.xyz/p/nce1-01/</link><pubDate>Sun, 10 Mar 2024 11:18:52 +0800</pubDate><guid>https://080812.xyz/p/nce1-01/</guid><description>&lt;h2 id="lesson-1">Lesson 1&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog</title><link>https://080812.xyz/</link><description>Recent content on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Sun, 10 Mar 2024 11:18:52 +0800</lastBuildDate><atom:link href="https://080812.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>新概念英语 第一册 01-24</title><link>https://080812.xyz/p/nce1-01/</link><pubDate>Sun, 10 Mar 2024 11:18:52 +0800</pubDate><guid>https://080812.xyz/p/nce1-01/</guid><description>&lt;h2 id="lesson-1-excuse-me">Lesson 1 Excuse me&lt;/h2>
 &lt;h3 id="text">Text&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -20,17 +20,277 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Thank you very much.
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
+&lt;/div>&lt;h3 id="notes">Notes&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">1.Excuse me! 动词，使对方注意自己
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">在汉语中的意思是原谅我！
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2.陈述句和一般疑问句
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">陈述句中Be动词提前变疑问句
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">This is ...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Is this ...?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">3．Pardon？感叹词，意为：对不起，请再说一遍。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">当我们没听清或没理解对方的话并希望对方能重复一遍时，就可以使用这一表达方式。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">在汉语中的意思相当于&amp;#34;对不起，请再说一遍&amp;#34;或者&amp;#34;对不起，请再说一遍好吗？&amp;#34;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
 &lt;/div>&lt;h3 id="grammar">Grammar&lt;/h3>
-&lt;p>1.Excuse me!这是常用于表示道歉的客套话，相当于汉语中的&amp;quot;劳驾&amp;quot;、&amp;ldquo;对不起&amp;rdquo;。当我们要引起别人的注意、要打搅别人或打断别人的话时，通常都可使用这一表达方式。在课文中，男士为了吸引女士的注意而使用了这句客套话。它也可用在下列场合：向陌生人问路，借用他人的电话，从别人身边挤过，在宴席或会议中途要离开一会儿等等。&lt;/p>
-&lt;h3 id="words">Words&lt;/h3>
-&lt;h2 id="lesson-2">Lesson 2&lt;/h2>
-&lt;h3 id="text-1">Text&lt;/h3>
-&lt;h3 id="grammar-1">Grammar&lt;/h3>
-&lt;h3 id="words-1">Words&lt;/h3>
+&lt;p>一、主谓宾&lt;/p>
+&lt;p>&lt;code>名词在主词位置用主格,宾语位置用宾格.&lt;/code>&lt;/p>
+&lt;style>
+.center
+{
+width: auto;
+display: table;
+margin-left: auto;
+margin-right: auto;
+}
+&lt;/style>
+&lt;div class="center">
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">主格&lt;/th>
+&lt;th style="text-align:center">宾格&lt;/th>
+&lt;th style="text-align:center">形容词性物主代词&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">I&lt;/td>
+&lt;td style="text-align:center">me&lt;/td>
+&lt;td style="text-align:center">my&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">you&lt;/td>
+&lt;td style="text-align:center">you&lt;/td>
+&lt;td style="text-align:center">your&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">he&lt;/td>
+&lt;td style="text-align:center">him&lt;/td>
+&lt;td style="text-align:center">his&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">she&lt;/td>
+&lt;td style="text-align:center">her&lt;/td>
+&lt;td style="text-align:center">her&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">it&lt;/td>
+&lt;td style="text-align:center">it&lt;/td>
+&lt;td style="text-align:center">its&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;p>&lt;code>形容词性物主代词:表示所属关系，对应汉语中的 “我的” “你的” “TA的”。&lt;/code>&lt;/p>
+&lt;p>二、陈述句-&amp;gt;疑问句&lt;/p>
+&lt;p>This &lt;u>is&lt;/u> a car. -&amp;gt; &lt;u>Is&lt;/u> this your car?&lt;/p>
+&lt;p>① Be动词放句子最开头.&lt;/p>
+&lt;p>② 陈述句降调变疑问句的升词。&lt;/p>
+&lt;p>三、回答 Is this &amp;hellip;? 的提问&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>肯定：Yes,it is.   &lt;code>it is 连读&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>否定：No,it isn&amp;rsquo;t.   &lt;code>isn't = is not &lt;/code>&lt;/p>
+&lt;/li>
+&lt;/ul>
 &lt;h2 id="lesson-3">Lesson 3&lt;/h2>
+&lt;h3 id="text-1">Text&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">My coat and my umbrella please.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Here is my ticket.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Thank you, sir.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Number five.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Here&amp;#39;s your umbrella and your coat.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">This is not my umbrella.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Sorry sir.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Is this your umbrella?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">No, it isn&amp;#39;t.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Is this it?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Yes, it is.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Thank you very much.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="notes-1">Notes&lt;/h3>
+&lt;ol>
+&lt;li>
+Here is my ticket.
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">Here is &amp;hellip; 这是&lt;/th>
+&lt;th style="text-align:center">=&lt;/th>
+&lt;th style="text-align:center">This is &amp;hellip;&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">强调位置&lt;/td>
+&lt;td style="text-align:center">&lt;/td>
+&lt;td style="text-align:center">强调物&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/li>
+&lt;li> sir 年长的男人 (尊称)
+&lt;p>madam n.夫人(已婚女性)，来源于法语.&lt;/p>
+&lt;p>lady n.未婚女性&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="grammar-1">Grammar&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">重点句型：
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Here is ...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">This is not ...
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="lesson-5-nice-to-meet-you">Lesson 5 Nice to meet you.&lt;/h2>
 &lt;h3 id="text-2">Text&lt;/h3>
-&lt;h3 id="grammar-2">Grammar&lt;/h3>
-&lt;h3 id="words-2">Words&lt;/h3></description></item><item><title>新概念英语</title><link>https://080812.xyz/p/english-nce/</link><pubDate>Sat, 09 Mar 2024 11:18:52 +0800</pubDate><guid>https://080812.xyz/p/english-nce/</guid><description>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;span class="lnt">26
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">MR. BLAKE: Good morning.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">STUDENTS: Good morning, Mr. Blake.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MR. BLAKE: This is Miss Sophie Dupont.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Sophie is a new student.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> She is French.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MR. BLAKE: Sophie, this is Hans.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> He is German.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">HANS: Nice to meet you.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MR. BLAKE: And this is Naoko.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> She&amp;#39;s Japanese.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">NAOKO: Nice to meet you.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MR. BLAKE: And this is Chang-woo.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> He&amp;#39;s Korean.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">CHANG-WOO: Nice to meet you.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MR. BLAKE: And this is Luming.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> He is Chinese.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">LUMNG: Nice to meet you.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MR. BLAKE: And this is Xiaohui.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> She&amp;#39;s Chinese, too.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">XIAOHUI: Nice to meet you.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="notes-2">Notes&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">非正式场合： Nice to meet you.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">正式场合： How do you do?（回答也是：How do you do?）
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Mr. 先生（用于认识的人）
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Sir. 通常用于不认识的人，认识的人也能用（表示尊称）
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">下午 afternoon
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">傍晚 evening
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">深夜 night
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">晚安 good night (睡前)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="grammar-2">Grammar&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">主谓补
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">补语：主语的身份、性质、状态等。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>新概念英语</title><link>https://080812.xyz/p/english-nce/</link><pubDate>Sat, 09 Mar 2024 11:18:52 +0800</pubDate><guid>https://080812.xyz/p/english-nce/</guid><description>
 &lt;div class="video-wrapper">
 &lt;iframe src="https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1fK421b7kD&amp;autoplay=0"
 scrolling="no"
