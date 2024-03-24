@@ -5,9 +5,9 @@
 &lt;script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js">&lt;/script>
 &lt;script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js">&lt;/script>
 &lt;meting-js
-id="769332917"
-server="netease"
-type="playlist"
+id=""
+server=""
+type=""
 fixed="false"
 mini="false"
 autoplay="false"
