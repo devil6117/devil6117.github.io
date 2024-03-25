@@ -1,4 +1,117 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数据结构 on Kevin Lee's Blog</title><link>https://080812.xyz/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link><description>Recent content in 数据结构 on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Fri, 08 Mar 2024 21:18:52 +0800</lastBuildDate><atom:link href="https://080812.xyz/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml"/><item><title>数据结构 学习笔记</title><link>https://080812.xyz/p/thu-cst-ds/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/p/thu-cst-ds/</guid><description>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/ds.png" alt="Featured image of post 数据结构 学习笔记" />&lt;p>&lt;strong>注：标题有*的为课程考试重点。&lt;/strong>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数据结构 on Kevin Lee's Blog</title><link>https://080812.xyz/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link><description>Recent content in 数据结构 on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Fri, 08 Mar 2024 21:27:11 +0800</lastBuildDate><atom:link href="https://080812.xyz/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml"/><item><title>数据结构习题</title><link>https://080812.xyz/p/thu-cst-ds-ex/</link><pubDate>Fri, 08 Mar 2024 21:27:11 +0800</pubDate><guid>https://080812.xyz/p/thu-cst-ds-ex/</guid><description>&lt;img src="https://080812.xyz/image/ds_ex.png" alt="Featured image of post 数据结构习题" />&lt;h2 id="绪论">绪论&lt;/h2>
+&lt;h3 id="算法导论思考题-3-4">《算法导论》思考题 3-4&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">&lt;center>问题&lt;/center>&lt;/th>
+&lt;th style="text-align:left">&lt;center>解析&lt;/center>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">(渐近记号的性质)假设\(f(n)\)和\(g(n)\)为渐近正函数。&lt;br>证明或反驳下面的每个猜测。&lt;/br>&lt;/td>
+&lt;td style="text-align:left">&lt;code>注：蕴涵，即可推出。例：A蕴涵B，即可由A推出B。&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">\(a.f(n)=O(g(n))\ \)蕴涵\(\ g(n)=O(f(n))。\)&lt;/td>
+&lt;td style="text-align:left">❌ 反例 \(g(n)=n^2,f(n)=n\)。但是\(n^2\neq O(n)。\)&lt;br>大 \(O\) 记号表达的是一个渐近函数，而非具象函数。&lt;/br>多个具象函数可以对应同一个渐近函数，&lt;br>但特定某个渐近函数是无法反推出原具象函数。&lt;/br>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">\(b.f(n)+g(n)=Θ(min(f(n),g(n)))\)&lt;/td>
+&lt;td style="text-align:left">❌ \(n^2+n\neq Θ(min(n^2,n))=Θ(n)\),&lt;br>\(Θ\) 必须取最高阶中的下界，即 \(Θ\) 需严格同阶。&lt;/br>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">\(c.f(n)=O(g(n))\)蕴涵\(lg(f(n))=O(lg(g(n)))\),&lt;br>其中对所有足够的\(n\)，有\(lg(g(n))\geq 1\)且 \(n&amp;gt;1\)。&lt;/br>&lt;/td>
+&lt;td style="text-align:left">✅ 正数取对数不改变大小关系。&lt;br>证明:\(\exist c,n_0&amp;gt;0,\forall n\geq n_0\)&lt;/br>\(f(n)\leq c\cdot g(n),lg(f(n))\leq d\cdot lg(g(n))\)&lt;/br>\(d=\frac {lg\ c+lg\ g(n)}{lg\ (n)}=\frac {lg\ c}{lg\ g(n)}+1\leq lg\ c+1\)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">\(d.f(n)=0(g(n))\ 蕴涵\ 2^{f(n)} =O(2^{g(n)})。\)&lt;/td>
+&lt;td style="text-align:left">❌ 可以取对数，但不能取指数。&lt;br>反例：\(f(n)=2n,g(n)=n。O(f(n))=O(g(n))\),&lt;br>但是\(2^{f(n)}=(2^2)^n=4^n\),与 \(2^{g(n)}=O(2^n)\)不相等。&lt;/br>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">\(e.f(n)=O((f(n))^2)。\)&lt;/td>
+&lt;td style="text-align:left">❌ 反例\(f(n)=\frac {1}{n}\)，这个等式在 \(n\geq 1\) 情况下恒成立。&lt;br>但需要注意的是：大 \(O\) 记号并不仅仅用于描述时间复杂度。&lt;/br>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">\(f.f(n)=O(g(n))\ 蕴涵\ g(n)=2(f(n))。\)&lt;/td>
+&lt;td style="text-align:left">✅ 证明：\(\exist c,n_0&amp;gt;0,\forall n\geq n_0\)&lt;br>\(f(n)\leq c\cdot g(n),lg(f(n))\leq d\cdot lg(g(n))\\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ d=\frac {1}{c}\),当\(n\geq n_0,g(n)\geq d\cdot f(n),g(n)=\Omega (n)\)&lt;/br>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">\(g.f(n)=Θ(f(n/2))\)&lt;/td>
+&lt;td style="text-align:left">❌ 反例：\(f(n)=2^{2n}\neq Θ(2^n)\)，而\(f(\frac {n}{2})=2^n\)。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">\(h.f(n)+o(f(n))=Θ(f(n))\)&lt;/td>
+&lt;td style="text-align:left">✅证明：\(\exist c,n_0\geq 0,\forall n\geq n_0,0\leq g(n)\leq c\cdot f(n)\)&lt;br>\(\exist c_1,c_2,n_0,\forall n\geq n_0,0\leq c_1\cdot f(n)+g(n)\leq c_2\cdot f(n)\)&lt;/br>&lt;code>非重点&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="习题解析1-32-8-">《习题解析》[1-32]-8 *&lt;/h3>
+&lt;p>若假定机器字长无限，移位位操作只需单位时间，递归不会溢出，且rand()为理想的随机数发生器。试分析以下函数 F(n)，并以大 O 记号的形式确定其渐近复杂度的紧上界。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-c++" data-lang="c++">&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">F&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">++&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">+=&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>分析：&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">\(i\)&lt;/th>
+&lt;th style="text-align:center">\(times\)&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">\(i=1\)&lt;/td>
+&lt;td style="text-align:center">\(n\)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">\(i=2\)&lt;/td>
+&lt;td style="text-align:center">\(\frac{n}{2}\)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">\(i=3\)&lt;/td>
+&lt;td style="text-align:center">\(\frac{n}{3}\)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">\(\vdots\)&lt;/td>
+&lt;td style="text-align:center">\(\vdots\)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">\(i=n-1\)&lt;/td>
+&lt;td style="text-align:center">\(\frac{n}{n-1}\)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="sum_kfrac-ji0frac-ni-11">解答：
+此处内循环的控制变量i尽管是在[0，n)内按算术级数递增，但步长并不固定。具体地，第i轮内循环采用的步长即为i，故需做n/i次迭代。于是，所有循环的累计迭代次数为：
+$$
+\sum_{i=0}^{n-1}
+\sum_{(k=\frac {j}{i})=0}^{\frac {n}{i}-1}1&lt;/h1>
+&lt;h1 id="sum_i1n-1-fracni">\sum_{i=1}^{n-1} \frac{n}{i}&lt;/h1>
+&lt;p>\sum_{i=1}^{n-1} \frac{1}{i}
+=O(n\ log\ n)
+$$
+这里需要借助关于调和级数的以下性质：
+$$
+\sum_{i=1}^{n}\frac{1}{i}=1+
+\frac{1}{2}+
+\frac{1}{3}+
+\cdots
+\frac{1}{n}
+=\ln\ n+\gamma+\Theta(\frac{1}{2n})
+$$
+其中，\(\gamma\approx 0.577216\)为欧拉常数。&lt;/p></description></item><item><title>数据结构 学习笔记</title><link>https://080812.xyz/p/thu-cst-ds/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/p/thu-cst-ds/</guid><description>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/ds.png" alt="Featured image of post 数据结构 学习笔记" />&lt;p>&lt;strong>注：标题有*的为课程考试重点。&lt;/strong>&lt;/p>
 &lt;h2 id="绪论">绪论&lt;/h2>
 &lt;h3 id="计算">计算&lt;/h3>
 &lt;h4 id="工具">工具&lt;/h4>
@@ -256,117 +369,4 @@ $$&lt;/p>
 >https://cloud.tsinghua.edu.cn/d/76cbab99574046698804/&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>数据结构习题</title><link>https://080812.xyz/p/thu-cst-ds-ex/</link><pubDate>Fri, 08 Mar 2024 21:17:11 +0800</pubDate><guid>https://080812.xyz/p/thu-cst-ds-ex/</guid><description>&lt;img src="https://080812.xyz/image/ds.png" alt="Featured image of post 数据结构习题" />&lt;h2 id="绪论">绪论&lt;/h2>
-&lt;h3 id="算法导论思考题-3-4">《算法导论》思考题 3-4&lt;/h3>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:left">&lt;center>问题&lt;/center>&lt;/th>
-&lt;th style="text-align:left">&lt;center>解析&lt;/center>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:left">(渐近记号的性质)假设\(f(n)\)和\(g(n)\)为渐近正函数。&lt;br>证明或反驳下面的每个猜测。&lt;/br>&lt;/td>
-&lt;td style="text-align:left">&lt;code>注：蕴涵，即可推出。例：A蕴涵B，即可由A推出B。&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">\(a.f(n)=O(g(n))\ \)蕴涵\(\ g(n)=O(f(n))。\)&lt;/td>
-&lt;td style="text-align:left">❌ 反例 \(g(n)=n^2,f(n)=n\)。但是\(n^2\neq O(n)。\)&lt;br>大 \(O\) 记号表达的是一个渐近函数，而非具象函数。&lt;/br>多个具象函数可以对应同一个渐近函数，&lt;br>但特定某个渐近函数是无法反推出原具象函数。&lt;/br>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">\(b.f(n)+g(n)=Θ(min(f(n),g(n)))\)&lt;/td>
-&lt;td style="text-align:left">❌ \(n^2+n\neq Θ(min(n^2,n))=Θ(n)\),&lt;br>\(Θ\) 必须取最高阶中的下界，即 \(Θ\) 需严格同阶。&lt;/br>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">\(c.f(n)=O(g(n))\)蕴涵\(lg(f(n))=O(lg(g(n)))\),&lt;br>其中对所有足够的\(n\)，有\(lg(g(n))\geq 1\)且 \(n&amp;gt;1\)。&lt;/br>&lt;/td>
-&lt;td style="text-align:left">✅ 正数取对数不改变大小关系。&lt;br>证明:\(\exist c,n_0&amp;gt;0,\forall n\geq n_0\)&lt;/br>\(f(n)\leq c\cdot g(n),lg(f(n))\leq d\cdot lg(g(n))\)&lt;/br>\(d=\frac {lg\ c+lg\ g(n)}{lg\ (n)}=\frac {lg\ c}{lg\ g(n)}+1\leq lg\ c+1\)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">\(d.f(n)=0(g(n))\ 蕴涵\ 2^{f(n)} =O(2^{g(n)})。\)&lt;/td>
-&lt;td style="text-align:left">❌ 可以取对数，但不能取指数。&lt;br>反例：\(f(n)=2n,g(n)=n。O(f(n))=O(g(n))\),&lt;br>但是\(2^{f(n)}=(2^2)^n=4^n\),与 \(2^{g(n)}=O(2^n)\)不相等。&lt;/br>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">\(e.f(n)=O((f(n))^2)。\)&lt;/td>
-&lt;td style="text-align:left">❌ 反例\(f(n)=\frac {1}{n}\)，这个等式在 \(n\geq 1\) 情况下恒成立。&lt;br>但需要注意的是：大 \(O\) 记号并不仅仅用于描述时间复杂度。&lt;/br>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">\(f.f(n)=O(g(n))\ 蕴涵\ g(n)=2(f(n))。\)&lt;/td>
-&lt;td style="text-align:left">✅ 证明：\(\exist c,n_0&amp;gt;0,\forall n\geq n_0\)&lt;br>\(f(n)\leq c\cdot g(n),lg(f(n))\leq d\cdot lg(g(n))\\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ d=\frac {1}{c}\),当\(n\geq n_0,g(n)\geq d\cdot f(n),g(n)=\Omega (n)\)&lt;/br>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">\(g.f(n)=Θ(f(n/2))\)&lt;/td>
-&lt;td style="text-align:left">❌ 反例：\(f(n)=2^{2n}\neq Θ(2^n)\)，而\(f(\frac {n}{2})=2^n\)。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">\(h.f(n)+o(f(n))=Θ(f(n))\)&lt;/td>
-&lt;td style="text-align:left">✅证明：\(\exist c,n_0\geq 0,\forall n\geq n_0,0\leq g(n)\leq c\cdot f(n)\)&lt;br>\(\exist c_1,c_2,n_0,\forall n\geq n_0,0\leq c_1\cdot f(n)+g(n)\leq c_2\cdot f(n)\)&lt;/br>&lt;code>非重点&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3 id="习题解析1-32-8-">《习题解析》[1-32]-8 *&lt;/h3>
-&lt;p>若假定机器字长无限，移位位操作只需单位时间，递归不会溢出，且rand()为理想的随机数发生器。试分析以下函数 F(n)，并以大 O 记号的形式确定其渐近复杂度的紧上界。&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-c++" data-lang="c++">&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">F&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">++&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">+=&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>分析：&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">\(i\)&lt;/th>
-&lt;th style="text-align:center">\(times\)&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">\(i=1\)&lt;/td>
-&lt;td style="text-align:center">\(n\)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">\(i=2\)&lt;/td>
-&lt;td style="text-align:center">\(\frac{n}{2}\)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">\(i=3\)&lt;/td>
-&lt;td style="text-align:center">\(\frac{n}{3}\)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">\(\vdots\)&lt;/td>
-&lt;td style="text-align:center">\(\vdots\)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">\(i=n-1\)&lt;/td>
-&lt;td style="text-align:center">\(\frac{n}{n-1}\)&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="sum_kfrac-ji0frac-ni-11">解答：
-此处内循环的控制变量i尽管是在[0，n)内按算术级数递增，但步长并不固定。具体地，第i轮内循环采用的步长即为i，故需做n/i次迭代。于是，所有循环的累计迭代次数为：
-$$
-\sum_{i=0}^{n-1}
-\sum_{(k=\frac {j}{i})=0}^{\frac {n}{i}-1}1&lt;/h1>
-&lt;h1 id="sum_i1n-1-fracni">\sum_{i=1}^{n-1} \frac{n}{i}&lt;/h1>
-&lt;p>\sum_{i=1}^{n-1} \frac{1}{i}
-=O(n\ log\ n)
-$$
-这里需要借助关于调和级数的以下性质：
-$$
-\sum_{i=1}^{n}\frac{1}{i}=1+
-\frac{1}{2}+
-\frac{1}{3}+
-\cdots
-\frac{1}{n}
-=\ln\ n+\gamma+\Theta(\frac{1}{2n})
-$$
-其中，\(\gamma\approx 0.577216\)为欧拉常数。&lt;/p></description></item></channel></rss>
+&lt;/table></description></item></channel></rss>
