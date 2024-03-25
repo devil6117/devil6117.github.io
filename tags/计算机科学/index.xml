@@ -70,6 +70,8 @@ sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 >
 &lt;/iframe>
 &lt;/div>
+&lt;p>视频链接：&lt;a class="link" href="https://www.bilibili.com/video/BV16u4m1c7cU" target="_blank" rel="noopener"
+>BV16u4m1c7cU&lt;/a>&lt;/p>
 &lt;h3 id="渐近复杂度-">渐近复杂度 *&lt;/h3>
 &lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/05.Introduction_page-0023.jpg"
 width="4000"
