@@ -63,7 +63,7 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>分析：&lt;/p>
+&lt;/div>&lt;p>    分析：&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -94,25 +94,16 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>解答：
-此处内循环的控制变量i尽管是在[0，n)内按算术级数递增，但步长并不固定。具体地，第i轮内循环采用的步长即为i，故需做n/i次迭代。于是，所有循环的累计迭代次数为：&lt;/p>
-&lt;h1 id="sum_kfrac-ji0frac-ni-11">$$
-\sum_{i=0}^{n-1}
-\sum_{(k=\frac {j}{i})=0}^{\frac {n}{i}-1}1&lt;/h1>
-&lt;h1 id="sum_i1n-1-fracni">\sum_{i=1}^{n-1} \frac{n}{i}&lt;/h1>
-&lt;p>\sum_{i=1}^{n-1} \frac{1}{i}
-=O(n\ log\ n)
-$$&lt;/p>
-&lt;p>这里需要借助关于调和级数的以下性质：&lt;/p>
+&lt;p>    解答：
+    此处内循环的控制变量\(i\)尽管是在\([0，n)\)内按算术级数递增，但步长并不固定。具体地，第i轮内循环采用的步长即为\(i\)，故需做\(n/i\)次迭代。于是，所有循环的累计迭代次数为：&lt;/p>
 &lt;p>$$
-\sum_{i=1}^{n}\frac{1}{i}=1+
-\frac{1}{2}+
-\frac{1}{3}+
-\cdots
-\frac{1}{n}
-=\ln\ n+\gamma+\Theta(\frac{1}{2n})
+\sum_{i=0}^{n-1} \sum_{(k=\frac {j}{i})=0}^{\frac {n}{i}-1}1=\sum{i=1}^{n-1} \frac{n}{i}=\sum_{i=1}^{n-1} \frac{1}{i}=O(n\ log\ n)
 $$&lt;/p>
-&lt;p>其中，\(\gamma\approx 0.577216\)为欧拉常数。&lt;/p>
+&lt;p>    这里需要借助关于调和级数的以下性质：&lt;/p>
+&lt;p>$$
+\sum_{i=1}^{n}\frac{1}{i}=1+\frac{1}{2}+\frac{1}{3}+\cdots\frac{1}{n}=\ln\ n+\gamma+\Theta(\frac{1}{2n})
+$$&lt;/p>
+&lt;p>    其中，\(\gamma\approx 0.577216\)为欧拉常数。&lt;/p>
 &lt;h4 id="ex9">ex.9&lt;/h4>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -170,7 +161,7 @@ $$&lt;/p>
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-c++" data-lang="c++">&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">F&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="k">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">+=&lt;/span> &lt;span class="n">j&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">++&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>    这里的变量\(i\)和\(r\)均从\(1\)开始不断递增，每经过一步迭代，\(i\)递增为\(i∙2^r\)，\(r\)递增为\(2\cdotr r\)。&lt;/p>
+&lt;/div>&lt;p>    这里的变量\(i\)和\(r\)均从\(1\)开始不断递增，每经过一步迭代，\(i\)递增为\(i\cdot 2^r\)，\(r\)递增为\(2\cdot r\)。&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -186,9 +177,9 @@ $$&lt;/p>
 &lt;tr>
 &lt;td style="text-align:center">变量\(t\)&lt;/td>
 &lt;td style="text-align:center">\(2^0\)&lt;/td>
-&lt;td style="text-align:center">\(2^(0+1)\)&lt;/td>
-&lt;td style="text-align:center">\(2^(0+1+2)\)&lt;/td>
-&lt;td style="text-align:center">\(2^(0+1+2+3)\)&lt;/td>
+&lt;td style="text-align:center">\(2^{(0+1)}\)&lt;/td>
+&lt;td style="text-align:center">\(2^{(0+1+2)}\)&lt;/td>
+&lt;td style="text-align:center">\(2^{(0+1+2+3)}\)&lt;/td>
 &lt;td style="text-align:center">\(\cdots\)&lt;/td>
 &lt;/tr>
 &lt;tr>
@@ -267,9 +258,9 @@ class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
 >&lt;/p>
-&lt;p>计算机科学与计算科学的关系：&lt;/p>
-&lt;p>computer science - 对象&lt;/p>
-&lt;p>computing science - 目标&lt;/p>
+&lt;p>    计算机科学与计算科学的关系：&lt;/p>
+&lt;p>    computer science - 对象&lt;/p>
+&lt;p>    computing science - 目标&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/03.Introduction_page-0008.jpg"
 width="4000"
 height="2250"
@@ -280,7 +271,7 @@ class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
 >&lt;/p>
-&lt;p>&lt;code>退化是指在一个限制的情况下，一个集合中的对象改变其性质并且属于另一个集合，通常是变成比较简单的集合。&lt;/code>&lt;/p>
+&lt;p>    &lt;code>退化是指在一个限制的情况下，一个集合中的对象改变其性质并且属于另一个集合，通常是变成比较简单的集合。&lt;/code>&lt;/p>
 &lt;h3 id="计算模型">计算模型&lt;/h3>
 &lt;h4 id="统一尺度">统一尺度&lt;/h4>
 &lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/04.Introduction_page-0010.jpg"
@@ -293,7 +284,7 @@ class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
 >&lt;/p>
-&lt;p>&lt;code>成本：时间成本和空间成本&lt;/code>&lt;/p>
+&lt;p>    &lt;code>成本：时间成本和空间成本&lt;/code>&lt;/p>
 &lt;p>    同一问题通常由多种算法，而各个算法对不同问题集，其表现各不同，因此算法的优劣并不适合采用运行统计的方法来对比，它受硬件性能、编程语言甚至是问题集合等非算法自身因素限制。&lt;/p>
 &lt;p>    &lt;strong>思考：复杂度低的算法一定是最好算法吗？&lt;/strong>&lt;/p>
 &lt;p>    不一定，假设某大学开发一个学生信息管理系统，存在A、B两种算法，以10万在校学生(n)为临界条件，在学生少于10万时，A优于B，在学生多于十万时，B优于A。一般情况下，我们会认为在问题规模\(n\rightarrow \infty \)时，B为最优算法，即全局最优，而A通常认为是问题规模在n小于10万条件下的局部最优算法。现实是：目前并不存在在校学生10万的学校，也一定不存在人数趋于无穷的学校。故A在该问题场景下是最好算法，而非B。因此我们在选用解决问题的算法时，需要根据具体问题选用更适合的算法。&lt;/p>
@@ -334,7 +325,7 @@ class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
 >&lt;/p>
-&lt;p>常系数可忽略，低次项可忽略，参考“抓大头”思想。&lt;/p>
+&lt;p>    常系数可忽略，低次项可忽略，参考“抓大头”思想。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/07.Introduction_page-0025.jpg"
 width="4000"
 height="2250"
@@ -345,9 +336,9 @@ class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
 >&lt;/p>
-&lt;p>\(O\) 表示上界，即最坏情况。&lt;/p>
-&lt;p>\(\Theta\) 表示确界，即最接近大多数情况。&lt;/p>
-&lt;p>\(\Omega\) 表示下界，即最好情况。&lt;/p>
+&lt;p>    \(O\) 表示上界，即最坏情况。&lt;/p>
+&lt;p>    \(\Theta\) 表示确界，即最接近大多数情况。&lt;/p>
+&lt;p>    \(\Omega\) 表示下界，即最好情况。&lt;/p>
 &lt;h4 id="多项式-">多项式 *&lt;/h4>
 &lt;p>    从渐近的角度来看，再大的常数，也小于递增的变数。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/08.Introduction_page-0029.jpg"
@@ -388,7 +379,7 @@ class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
 >&lt;/p>
-&lt;p>先胖不算胖：初始条件较低时的复杂度高，并不是全局复杂度高。&lt;/p>
+&lt;p>    先胖不算胖：初始条件较低时的复杂度高，并不是全局复杂度高。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/11.Introduction_page-0038.jpg"
 width="4000"
 height="2250"
@@ -399,7 +390,7 @@ class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
 >&lt;/p>
-&lt;p>路遥知马力：算法复杂度通常需要问题规模增长到一定规模才能表现出现来。&lt;/p>
+&lt;p>    路遥知马力：算法复杂度通常需要问题规模增长到一定规模才能表现出现来。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/12.Introduction_page-0039.jpg"
 width="4000"
 height="2250"
@@ -410,7 +401,7 @@ class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
 >&lt;/p>
-&lt;p>记忆口诀：常对幂指阶。&lt;/p>
+&lt;p>    记忆口诀：常对幂指阶。&lt;/p>
 &lt;h3 id="复杂度分析">复杂度分析&lt;/h3>
 &lt;p>主要方法：迭代（级数求和）、递归（递归跟踪+递归方程）、实用（猜测+验证）。&lt;/p>
 &lt;h4 id="级数">级数&lt;/h4>
@@ -419,7 +410,7 @@ data-flex-basis="426px"
 &lt;li>幂方：比幂次高出一阶。&lt;/li>
 &lt;li>几何：与末项同阶。&lt;/li>
 &lt;/ul>
-&lt;p>参考：Concrete Mathematics&lt;/p>
+&lt;p>    参考：Concrete Mathematics&lt;/p>
 &lt;h4 id="迭代">迭代&lt;/h4>
 &lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/13.Introduction_page-0046.jpg"
 width="4000"
@@ -431,9 +422,9 @@ class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
 >&lt;/p>
-&lt;p>迭代：每次运算的输出结果，都会作为下一次运算的输入参数，直到边界条件停止后算法退出，这种方法称为迭代。&lt;/p>
-&lt;p>步骤：单个外层循环中的内部循环全部执行完以后，外层循环开始下一次。&lt;/p>
-&lt;p>上图中的图形面积为时间复杂度，&lt;/p>
+&lt;p>    上图中的图形面积为时间复杂度。&lt;/p>
+&lt;p>    迭代：每次运算的输出结果，都会作为下一次运算的输入参数，直到边界条件停止后算法退出，这种方法称为迭代。&lt;/p>
+&lt;p>    步骤：单个外层循环中的内部循环全部执行完以后，外层循环开始下一次。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/14.Introduction_page-0048.jpg"
 width="4000"
 height="2250"
@@ -466,7 +457,7 @@ a_{12}&amp;amp;a_{22}&amp;amp;\cdots&amp;amp;0\
 a_{n1}&amp;amp;\cdots&amp;amp;\cdots&amp;amp;a_{nn}
 \end{pmatrix}
 $$&lt;/p>
-&lt;p>对角线位置相当于$k=i$。等号左边相当于先求矩阵的行和，再行和相加；等号右边相当于先求矩阵的列和，再进行列和相加。&lt;/p>
+&lt;p>    对角线位置相当于\(k=i\)。等号左边相当于先求矩阵的行和，再行和相加；等号右边相当于先求矩阵的列和，再进行列和相加。&lt;/p>
 &lt;h4 id="封底估算">封底估算&lt;/h4>
 &lt;h3 id="迭代与递归">迭代与递归&lt;/h3>
 &lt;h4 id="减而治之">减而治之&lt;/h4>
