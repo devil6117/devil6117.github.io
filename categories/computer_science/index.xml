@@ -46,8 +46,9 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h3 id="习题解析1-32-8-">《习题解析》[1-32]-8 *&lt;/h3>
-&lt;p>若假定机器字长无限，移位位操作只需单位时间，递归不会溢出，且rand()为理想的随机数发生器。试分析以下函数 F(n)，并以大 O 记号的形式确定其渐近复杂度的紧上界。&lt;/p>
+&lt;h3 id="习题解析1-32">《习题解析》[1-32]&lt;/h3>
+&lt;p>    若假定机器字长无限，移位位操作只需单位时间，递归不会溢出，且rand()为理想的随机数发生器。试分析以下函数 F(n)，并以大 O 记号的形式确定其渐近复杂度的紧上界。&lt;/p>
+&lt;h4 id="ex8">ex.8&lt;/h4>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -93,25 +94,150 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h1 id="sum_kfrac-ji0frac-ni-11">解答：
-此处内循环的控制变量i尽管是在[0，n)内按算术级数递增，但步长并不固定。具体地，第i轮内循环采用的步长即为i，故需做n/i次迭代。于是，所有循环的累计迭代次数为：
-$$
+&lt;p>解答：
+此处内循环的控制变量i尽管是在[0，n)内按算术级数递增，但步长并不固定。具体地，第i轮内循环采用的步长即为i，故需做n/i次迭代。于是，所有循环的累计迭代次数为：&lt;/p>
+&lt;h1 id="sum_kfrac-ji0frac-ni-11">$$
 \sum_{i=0}^{n-1}
 \sum_{(k=\frac {j}{i})=0}^{\frac {n}{i}-1}1&lt;/h1>
 &lt;h1 id="sum_i1n-1-fracni">\sum_{i=1}^{n-1} \frac{n}{i}&lt;/h1>
 &lt;p>\sum_{i=1}^{n-1} \frac{1}{i}
 =O(n\ log\ n)
-$$
-这里需要借助关于调和级数的以下性质：
-$$
+$$&lt;/p>
+&lt;p>这里需要借助关于调和级数的以下性质：&lt;/p>
+&lt;p>$$
 \sum_{i=1}^{n}\frac{1}{i}=1+
 \frac{1}{2}+
 \frac{1}{3}+
 \cdots
 \frac{1}{n}
 =\ln\ n+\gamma+\Theta(\frac{1}{2n})
-$$
-其中，\(\gamma\approx 0.577216\)为欧拉常数。&lt;/p></description></item><item><title>数据结构 学习笔记</title><link>https://080812.xyz/p/thu-cst-ds/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/p/thu-cst-ds/</guid><description>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/ds.png" alt="Featured image of post 数据结构 学习笔记" />&lt;p>&lt;strong>注：标题有*的为课程考试重点。&lt;/strong>&lt;/p>
+$$&lt;/p>
+&lt;p>其中，\(\gamma\approx 0.577216\)为欧拉常数。&lt;/p>
+&lt;h4 id="ex9">ex.9&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-c++" data-lang="c++">&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">F&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="k">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">+=&lt;/span> &lt;span class="n">j&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">++&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>分析：&lt;/p>
+&lt;p>    这里的变量\(i\)和\(j\)均从\(0\)开始不断递增，每经过一步迭代，\(i\)递增\(j\)，\(j\)递增\(1\)。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">迭代次序\(t\)&lt;/th>
+&lt;th style="text-align:center">\(0\)&lt;/th>
+&lt;th style="text-align:center">\(1\)&lt;/th>
+&lt;th style="text-align:center">\(2\)&lt;/th>
+&lt;th style="text-align:center">\(3\)&lt;/th>
+&lt;th style="text-align:center">\(\cdots\)&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">变量\(t\)&lt;/td>
+&lt;td style="text-align:center">\(0+0\)&lt;/td>
+&lt;td style="text-align:center">\(0+0+1\)&lt;/td>
+&lt;td style="text-align:center">\(0+0+1+2\)&lt;/td>
+&lt;td style="text-align:center">\(0+0+1+2+3\)&lt;/td>
+&lt;td style="text-align:center">\(\cdots\)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">变量\(j\)&lt;/td>
+&lt;td style="text-align:center">\(1\)&lt;/td>
+&lt;td style="text-align:center">\(2\)&lt;/td>
+&lt;td style="text-align:center">\(3\)&lt;/td>
+&lt;td style="text-align:center">\(4\)&lt;/td>
+&lt;td style="text-align:center">\(\cdots\)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>    具体地，这一过程可以归纳如上表所示。经过\(k\)次迭代，必有：&lt;/p>
+&lt;p>$$
+i=\sum_{t=0}^{k-1} t=k(k-1)/2
+$$&lt;/p>
+&lt;p>在循环退出之前，必有：&lt;/p>
+&lt;p>\(i=k(k-1)/2&amp;lt;n\)或等价地，\(k&amp;lt;\frac{1+\sqrt{1+8n}}{2}\)&lt;/p>
+&lt;p>故该函数的时间复杂度为\(O(\sqrt{n})\)。&lt;/p>
+&lt;h4 id="ex10-">ex.10 *&lt;/h4>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-c++" data-lang="c++">&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">F&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="k">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">+=&lt;/span> &lt;span class="n">j&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">++&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>    这里的变量\(i\)和\(r\)均从\(1\)开始不断递增，每经过一步迭代，\(i\)递增为\(i∙2^r\)，\(r\)递增为\(2\cdotr r\)。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">迭代次序\(t\)&lt;/th>
+&lt;th style="text-align:center">\(0\)&lt;/th>
+&lt;th style="text-align:center">\(1\)&lt;/th>
+&lt;th style="text-align:center">\(2\)&lt;/th>
+&lt;th style="text-align:center">\(3\)&lt;/th>
+&lt;th style="text-align:center">\(\cdots\)&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">变量\(t\)&lt;/td>
+&lt;td style="text-align:center">\(2^0\)&lt;/td>
+&lt;td style="text-align:center">\(2^(0+1)\)&lt;/td>
+&lt;td style="text-align:center">\(2^(0+1+2)\)&lt;/td>
+&lt;td style="text-align:center">\(2^(0+1+2+3)\)&lt;/td>
+&lt;td style="text-align:center">\(\cdots\)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">变量\(2^0=1\)&lt;/td>
+&lt;td style="text-align:center">\(2^1=2\)&lt;/td>
+&lt;td style="text-align:center">\(2^2=4\)&lt;/td>
+&lt;td style="text-align:center">\(2^3=8\)&lt;/td>
+&lt;td style="text-align:center">\(4\)&lt;/td>
+&lt;td style="text-align:center">\(\cdots\)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>    具体地，这一过程可以归纳为如上表所示。故经过\(k\)次迭代后，必有&lt;/p>
+&lt;p>$$
+i=\prod_{t=0}^{k-1} 2^{(2t)}=2^{\sum_{t=0}^{k-1}2t}={(2^k -1)}
+$$&lt;/p>
+&lt;p>    在循环退出之前，必有&lt;/p>
+&lt;p>$$
+i=2^{(2^{k}-1)}&amp;lt;n
+$$&lt;/p>
+&lt;p>    亦即&lt;/p>
+&lt;p>$$
+2^k-1&amp;lt;log\ n
+\
+2^k\leq log\ n
+\
+k\leq log\ log\ n
+$$&lt;/p>
+&lt;p>    故该函数的时间复杂度为\(O(log\ log\ n)\)。&lt;/p>
+&lt;p>    同样地，这里通过左移操作实现了变量递增地方式，也为我们快捷估算时间复杂度提供了新的视角和线索。从二进制展开的角度来看，变量\(r\)的展开度每次增加一位，而变量\(i\)则每次增加\(r\)位。也就是说，变量\(i\)的宽度将以（大致）加倍的指数速度膨胀，直至刚好超过\(log\ n\)。因此，总体的迭代次数应不超过\(log\ n\)的对数，亦即O(log\ log\ n)。&lt;/p>
+&lt;h4 id="ex10-exam2024-">ex.10 (exam.2024) *&lt;/h4>
+&lt;p>以下函数的时间复杂度为 (    )&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-c++" data-lang="c++">&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">F&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>&lt;span class="c1">//假定字宽足够，运算不会溢出，且每次只需常数时间
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="k">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;=&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">i&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;=&lt;/span> &lt;span class="n">j&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>解法同 ex.10。&lt;/p>
+&lt;h4 id="ex11">ex.11&lt;/h4>
+&lt;p>见书。&lt;/p></description></item><item><title>数据结构 学习笔记</title><link>https://080812.xyz/p/thu-cst-ds/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/p/thu-cst-ds/</guid><description>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/ds.png" alt="Featured image of post 数据结构 学习笔记" />&lt;p>&lt;strong>注：标题有*的为课程考试重点。&lt;/strong>&lt;/p>
 &lt;h2 id="绪论">绪论&lt;/h2>
 &lt;h3 id="计算">计算&lt;/h3>
 &lt;h4 id="工具">工具&lt;/h4>
