@@ -543,6 +543,17 @@ data-flex-basis="426px"
 &lt;/ul>
 &lt;p>参考：Concrete Mathematics&lt;/p>
 &lt;h4 id="迭代">迭代&lt;/h4>
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/13.Introduction_page-0047.jpg"
+width="4000"
+height="2250"
+srcset="https://080812.xyz/p/thu-cst-ds/image/13.Introduction_page-0047_hu04becbf5e8f3877f737f7c1ac6ba1cc0_842822_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/13.Introduction_page-0047_hu04becbf5e8f3877f737f7c1ac6ba1cc0_842822_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="迭代"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;p>迭代：每次运算的输出结果，都会作为下一次运算的输入参数，直到边界条件停止后算法退出，这种方法称为迭代。&lt;/p>
 &lt;h4 id="封底估算">封底估算&lt;/h4>
 &lt;h3 id="迭代与递归">迭代与递归&lt;/h3>
 &lt;h4 id="减而治之">减而治之&lt;/h4>
