@@ -70,8 +70,107 @@ sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 >
 &lt;/iframe>
 &lt;/div>
-&lt;h3 id="渐近复杂度">渐近复杂度&lt;/h3>
-&lt;h4 id="大o记号">大\(O\)记号&lt;/h4>
+&lt;h3 id="渐近复杂度-">渐近复杂度 *&lt;/h3>
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/05.Introduction_page-0023.jpg"
+width="4000"
+height="2250"
+srcset="https://080812.xyz/p/thu-cst-ds/image/05.Introduction_page-0023_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1093741_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/05.Introduction_page-0023_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1093741_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="渐近分析"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;p>    我们看重的是长远增长趋势，即问题规模\(n\rightarrow \infty \)时，\(O(n)\)的增长趋势。&lt;/p>
+&lt;h4 id="大o记号-">大\(O\)记号 *&lt;/h4>
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/06.Introduction_page-0024.jpg"
+width="4000"
+height="2250"
+srcset="https://080812.xyz/p/thu-cst-ds/image/06.Introduction_page-0024_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1120721_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/06.Introduction_page-0024_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1120721_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Big-O"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;p>常系数可忽略，低次项可忽略，参考“抓大头”思想。&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/07.Introduction_page-0025.jpg"
+width="4000"
+height="2250"
+srcset="https://080812.xyz/p/thu-cst-ds/image/07.Introduction_page-0025_hu04becbf5e8f3877f737f7c1ac6ba1cc0_893103_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/07.Introduction_page-0025_hu04becbf5e8f3877f737f7c1ac6ba1cc0_893103_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="Other-Notation"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;p>\(\O\) 表示上界，即最坏情况。&lt;/p>
+&lt;p>\(\Theta\) 表示确界，即最接近大多数情况。&lt;/p>
+&lt;p>\(\Omega\) 表示下界，即最好情况。&lt;/p>
+&lt;h4 id="多项式-">多项式 *&lt;/h4>
+&lt;p>    从渐近的角度来看，再大的常数，也小于递增的变数。&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/08.Introduction_page-0029.jpg"
+width="4000"
+height="2250"
+srcset="https://080812.xyz/p/thu-cst-ds/image/08.Introduction_page-0029_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1036629_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/08.Introduction_page-0029_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1036629_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="多项式"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;ul>
+&lt;li>常系数可忽略。&lt;/li>
+&lt;li>常底数可忽略的基础：用对数换底公式换底后，其系数为常系数。&lt;/li>
+&lt;li>常次幂同理。&lt;/li>
+&lt;li>所有的低次项都是可忽略的，常系数项也是可以去掉的。&lt;/li>
+&lt;/ul>
+&lt;h4 id="指数">指数&lt;/h4>
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/09.Introduction_page-0032.jpg"
+width="4000"
+height="2250"
+srcset="https://080812.xyz/p/thu-cst-ds/image/09.Introduction_page-0032_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1498104_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/09.Introduction_page-0032_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1498104_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;p>指数型复杂度通常表示该问题已经不可解（难以在有穷条件内可解）。&lt;/p>
+&lt;h4 id="复杂度层次-">复杂度层次 *&lt;/h4>
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/10.Introduction_page-0037.jpg"
+width="4000"
+height="2250"
+srcset="https://080812.xyz/p/thu-cst-ds/image/10.Introduction_page-0037_hu04becbf5e8f3877f737f7c1ac6ba1cc0_868007_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/10.Introduction_page-0037_hu04becbf5e8f3877f737f7c1ac6ba1cc0_868007_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="先胖不算胖"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;p>先胖不算胖：初始条件较低时的复杂度高，并不是全局复杂度高。&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/11.Introduction_page-0038.jpg"
+width="4000"
+height="2250"
+srcset="https://080812.xyz/p/thu-cst-ds/image/11.Introduction_page-0038_hu04becbf5e8f3877f737f7c1ac6ba1cc0_757293_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/11.Introduction_page-0038_hu04becbf5e8f3877f737f7c1ac6ba1cc0_757293_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="路遥知马力"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;p>路遥知马力：算法复杂度通常需要问题规模增长到一定规模才能表现出现来。&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/12.Introduction_page-0039.jpg"
+width="4000"
+height="2250"
+srcset="https://080812.xyz/p/thu-cst-ds/image/12.Introduction_page-0039_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1552646_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/12.Introduction_page-0039_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1552646_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="复杂度层次"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;p>记忆口诀：常对幂指阶。&lt;/p>
+&lt;h3 id="复杂度分析">复杂度分析&lt;/h3>
 &lt;h3 id="作业题">作业题&lt;/h3>
 &lt;p>&lt;code>《算法导论》思考题 3-4&lt;/code>&lt;/p>
 &lt;table>
