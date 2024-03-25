@@ -375,9 +375,9 @@ data-flex-grow="177"
 data-flex-basis="426px"
 >&lt;/p>
 &lt;p>    我们可以将上图的尺规理解成一种计算机，它能解决线段的等分问题，上述步骤可以认为是这个计算机所运行的“程序”或“算法”。其中“过直线外一点，做平行线”是一个被多次重复的操作，可以将这个重复操作封装成子程序，使其能被复用。&lt;/p>
-&lt;p>因此对数据结构与算法的研究，可以从以下两个角度去理解：&lt;/p>
-&lt;p>对象：规律、技巧
-目标：高效、低耗&lt;/p>
+&lt;p>    因此对数据结构与算法的研究，可以从以下两个角度去理解：&lt;/p>
+&lt;p>    对象：规律、技巧&lt;/p>
+&lt;p>    目标：高效、低耗&lt;/p>
 &lt;h4 id="算法-">算法 *&lt;/h4>
 &lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/02.Introduction_page-0004.jpg"
 width="4000"
@@ -534,6 +534,23 @@ data-flex-basis="426px"
 >&lt;/p>
 &lt;p>记忆口诀：常对幂指阶。&lt;/p>
 &lt;h3 id="复杂度分析">复杂度分析&lt;/h3>
+&lt;p>主要方法：迭代（级数求和）、递归（递归跟踪+递归方程）、实用（猜测+验证）。&lt;/p>
+&lt;h4 id="级数">级数&lt;/h4>
+&lt;ul>
+&lt;li>算数：与末项平方同阶。&lt;/li>
+&lt;li>幂方：比幂次高出一阶。&lt;/li>
+&lt;li>几何：与末项同阶。&lt;/li>
+&lt;/ul>
+&lt;p>参考：Concrete Mathematics&lt;/p>
+&lt;h4 id="迭代">迭代&lt;/h4>
+&lt;h4 id="封底估算">封底估算&lt;/h4>
+&lt;h3 id="迭代与递归">迭代与递归&lt;/h3>
+&lt;h4 id="减而治之">减而治之&lt;/h4>
+&lt;h4 id="分而治之">分而治之&lt;/h4>
+&lt;h4 id="总和最大区段">总和最大区段&lt;/h4>
+&lt;h3 id="动态规划">动态规划&lt;/h3>
+&lt;h4 id="记忆化">记忆化&lt;/h4>
+&lt;h4 id="最长公共子序列">最长公共子序列&lt;/h4>
 &lt;h3 id="作业题">作业题&lt;/h3>
 &lt;p>&lt;code>《算法导论》思考题 3-4&lt;/code>&lt;/p>
 &lt;table>
@@ -1381,4 +1398,4 @@ data-flex-basis="305px"
 &lt;h2 id="参考链接">参考链接&lt;/h2>
 &lt;p>感谢Zenlian提供的Actions部署代码。&lt;/p>
 &lt;p>原文链接 ： &lt;a class="link" href="https://zenlian.github.io/github-actions-hugo/" target="_blank" rel="noopener"
->https://zenlian.github.io/github-actions-hugo/&lt;/a>&lt;/p></description></item><item><title>关于</title><link>https://080812.xyz/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/about/</guid><description/></item><item><title>归档</title><link>https://080812.xyz/archives/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/archives/</guid><description/></item><item><title>链接</title><link>https://080812.xyz/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/links/</guid><description/></item><item><title>搜索</title><link>https://080812.xyz/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/search/</guid><description/></item></channel></rss>
+>https://zenlian.github.io/github-actions-hugo/&lt;/a>&lt;/p></description></item><item><title>关于</title><link>https://080812.xyz/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/about/</guid><description>&lt;p>原就读 &lt;strong>机械电气一体化&lt;/strong> 专业，现 &lt;strong>计算机科学/宪法与行政法学&lt;/strong> 专业 &lt;strong>工/法&lt;/strong> 双学位毕业，目标攻读运筹学OPT方向博士。&lt;/p></description></item><item><title>归档</title><link>https://080812.xyz/archives/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/archives/</guid><description/></item><item><title>链接</title><link>https://080812.xyz/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/links/</guid><description/></item><item><title>搜索</title><link>https://080812.xyz/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/search/</guid><description/></item></channel></rss>
