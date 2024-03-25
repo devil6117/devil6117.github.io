@@ -1,4 +1,112 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数据结构 on Kevin Lee's Blog</title><link>https://080812.xyz/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link><description>Recent content in 数据结构 on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Fri, 08 Mar 2024 21:18:52 +0800</lastBuildDate><atom:link href="https://080812.xyz/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml"/><item><title>数据结构</title><link>https://080812.xyz/p/thu-cst-ds/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/p/thu-cst-ds/</guid><description>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/ds.png" alt="Featured image of post 数据结构" />&lt;h2 id="绪论">绪论&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数据结构 on Kevin Lee's Blog</title><link>https://080812.xyz/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link><description>Recent content in 数据结构 on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Fri, 08 Mar 2024 21:18:52 +0800</lastBuildDate><atom:link href="https://080812.xyz/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml"/><item><title>数据结构(邓俊辉)学习笔记</title><link>https://080812.xyz/p/thu-cst-ds/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/p/thu-cst-ds/</guid><description>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/ds.png" alt="Featured image of post 数据结构(邓俊辉)学习笔记" />&lt;p>&lt;strong>注：标题有*的为课程考试重点。&lt;/strong>&lt;/p>
+&lt;h2 id="绪论">绪论&lt;/h2>
+&lt;h3 id="计算">计算&lt;/h3>
+&lt;h4 id="工具">工具&lt;/h4>
+&lt;p>    计算首先是我们这门课程的直接研究对象和内容，也是我们这门课程的研究目的和目标。&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/01.Introduction_page-0002.jpg"
+width="4000"
+height="2250"
+srcset="https://080812.xyz/p/thu-cst-ds/image/01.Introduction_page-0002_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1160794_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/01.Introduction_page-0002_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1160794_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="尺规计算器"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;p>    我们可以将上图的尺规理解成一种计算机，它能解决线段的等分问题，上述步骤可以认为是这个计算机所运行的“程序”或“算法”。其中“过直线外一点，做平行线”是一个被多次重复的操作，可以将这个重复操作封装成子程序，使其能被复用。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">因此对数据结构与算法的研究，可以从以下两个角度去理解：
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">对象：规律、技巧
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">目标：高效、低耗
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="算法-">算法 *&lt;/h4>
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/02.Introduction_page-0004.jpg"
+width="4000"
+height="2250"
+srcset="https://080812.xyz/p/thu-cst-ds/image/02.Introduction_page-0004_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1459149_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/02.Introduction_page-0004_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1459149_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="算法的定义"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">计算机科学与计算科学：
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">computer science - 对象
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">computing science - 目标
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/03.Introduction_page-0008.jpg"
+width="4000"
+height="2250"
+srcset="https://080812.xyz/p/thu-cst-ds/image/03.Introduction_page-0008_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1496947_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/03.Introduction_page-0008_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1496947_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="好的算法"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;p>&lt;code>退化是指在一个限制的情况下，一个集合中的对象改变其性质并且属于另一个集合，通常是变成比较简单的集合。&lt;/code>&lt;/p>
+&lt;h3 id="计算模型">计算模型&lt;/h3>
+&lt;h4 id="统一尺度">统一尺度&lt;/h4>
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/04.Introduction_page-0010.jpg"
+width="4000"
+height="2250"
+srcset="https://080812.xyz/p/thu-cst-ds/image/04.Introduction_page-0010_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1499464_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/04.Introduction_page-0010_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1499464_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+alt="算法分析"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;p>&lt;code>成本：时间成本和空间成本&lt;/code>&lt;/p>
+&lt;p>    同一问题通常由多种算法，而各个算法对不同问题集，其表现各不同，因此算法的优劣并不适合采用运行统计的方法来对比，它受硬件性能、编程语言甚至是问题集合等非算法自身因素限制。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"> 思考：最优算法一定是最好算法吗？
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 不一定，假设某大学开发一个学生信息管理系统，存在A、B两种算法，以10万在校学生(n)为临界条件，在学生少于10万时，A优于B，在学生多于十万时，B优于A。一般情况下，我们会认为在问题规模\\(n\rightarrow \infty \\)时，B为最优算法，即全局最优，而A通常认为是问题规模在n小于10万条件下的局部最优算法。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 但是，目前并不存在在校学生10万的学校，页一定不存在人数趋于无穷的学校。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> 故A在该问题场景下是最好算法，而非B。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>
+&lt;div class="video-wrapper">
+&lt;iframe src="https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV16u4m1c7cU&amp;autoplay=0"
+scrolling="no"
+frameborder="no"
+framespacing="0"
+allowfullscreen="true"
+high_quality=1
+danmaku=0
+sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;h4 id="图灵机">图灵机&lt;/h4>
+&lt;h4 id="ram">RAM&lt;/h4>
 &lt;h3 id="作业题">作业题&lt;/h3>
 &lt;p>&lt;code>《算法导论》思考题 3-4&lt;/code>&lt;/p>
 &lt;table>
@@ -46,4 +154,9 @@
 &lt;td style="text-align:left">✅证明：\(\exist c,n_0\geq 0,\forall n\geq n_0,0\leq g(n)\leq c\cdot f(n)\)&lt;br>\(\exist c_1,c_2,n_0,\forall n\geq n_0,0\leq c_1\cdot f(n)+g(n)\leq c_2\cdot f(n)\)&lt;/br>&lt;code>非重点&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item></channel></rss>
+&lt;/table>
+&lt;h2 id="参考文献">参考文献&lt;/h2>
+&lt;ul>
+&lt;li>DSACPP &lt;a class="link" href="https://cloud.tsinghua.edu.cn/d/3097126da2ab4e84b2c2/" target="_blank" rel="noopener"
+>https://cloud.tsinghua.edu.cn/d/3097126da2ab4e84b2c2/&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
