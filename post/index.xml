@@ -811,12 +811,14 @@ data-flex-basis="426px"
 &lt;/ul>
 &lt;p>    以\(i\)为行，\(k\)为列，构造如下矩阵：&lt;/p>
 &lt;p>$$
-\begin{pmatrix}
+\left(
+\begin{array}{cccc}
 a_{11}&amp;amp;\cdots&amp;amp;\cdots&amp;amp;0\
 a_{12}&amp;amp;a_{22}&amp;amp;\cdots&amp;amp;0\
 \vdots&amp;amp;\vdots&amp;amp;\ddots&amp;amp;\vdots\
 a_{n1}&amp;amp;\cdots&amp;amp;\cdots&amp;amp;a_{nn}
-\end{pmatrix}
+\end{array}
+\right)
 $$&lt;/p>
 &lt;p>    对角线位置相当于\(k=i\)。等号左边相当于先求矩阵的行和，再行和相加；等号右边相当于先求矩阵的列和，再进行列和相加。&lt;/p>
 &lt;h4 id="封底估算">封底估算&lt;/h4>
