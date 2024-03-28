@@ -634,7 +634,7 @@ Here is my ticket.
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">补语：主语的身份、性质、状态等。
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="lesson-7">Lesson 7&lt;/h2>
+&lt;/div>&lt;h2 id="lesson-7-lesson-7-are-you-a-teacher">Lesson 7 Lesson 7 Are you a teacher?&lt;/h2>
 &lt;h3 id="text-3">Text&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -729,7 +729,7 @@ Here is my ticket.
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="lesson-9">Lesson 9&lt;/h2>
+&lt;h2 id="lesson-9-how-are-you-today">Lesson 9 How are you today?&lt;/h2>
 &lt;h3 id="text-4">Text&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -793,7 +793,7 @@ Here is my ticket.
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">e.g. How are you? 你怎么样？
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="lesson-11">Lesson 11&lt;/h2>
+&lt;/div>&lt;h2 id="lesson-11-is-this-your-shirt">Lesson 11 Is this your shirt?&lt;/h2>
 &lt;h3 id="text-5">Text&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -861,7 +861,7 @@ Here is my ticket.
 &lt;p>表示所有格，&lt;strong>&amp;rsquo;s&lt;/strong> 后可以省略 shirt.&lt;/p>
 &lt;p>3.Here you are./Here it is.&lt;/p>
 &lt;p>给对方东西时说的话，句中的&lt;strong>be动词&lt;/strong>应重读。&lt;/p>
-&lt;h2 id="lesson-13">Lesson 13&lt;/h2>
+&lt;h2 id="lesson-13-a-new-dress">Lesson 13 A new dress.&lt;/h2>
 &lt;h3 id="text-6">Text&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -969,7 +969,7 @@ Here is my ticket.
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> The twins look the same. 那对双胞胎看起来一模一样。
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="lesson-15">Lesson 15&lt;/h2>
+&lt;/div>&lt;h2 id="lesson-15-your-passportplease">Lesson 15 Your passport,please.&lt;/h2>
 &lt;h3 id="text-7">Text&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -1132,7 +1132,7 @@ margin-right: auto;
 分类：可数名词/不可数名词
 复数：一般加s，s结尾加es。&lt;/li>
 &lt;/ul>
-&lt;h2 id="lesson-17">Lesson 17&lt;/h2>
+&lt;h2 id="lesson-17-how-do-you-do">Lesson 17 How do you do?&lt;/h2>
 &lt;h3 id="text-8">Text&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -1249,46 +1249,244 @@ margin-right: auto;
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="lesson-19">Lesson 19&lt;/h2>
+&lt;h2 id="lesson-19-tired-and-thirsty">Lesson 19 Tired and thirsty&lt;/h2>
 &lt;h3 id="text-9">Text&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">MOTHER: What’s the matter, children?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">GIRL: We are tired...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> and thirsty, Mum.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MOTHER: Sit down here.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MOTHER: Are you all right now?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">BOY: No, we aren’t.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MOTHER: Look!
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> There’s an ice cream man.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MOTHER: Two ice creams please.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MOTHER: Here you are, children.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">CHILDREN: Thanks, Mum.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">GIRL: These ice creams are nice.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MOTHER: Are you all right now?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">CHILDREN: Yes, we are, thank you!
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h3 id="notes-9">Notes&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">What&amp;#39;s the matter? = Tell me What&amp;#39;s wrong? 怎么了？
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">That&amp;#39;s all right. 没什么
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>1.感谢用语的答语&lt;/p>
+&lt;ul>
+&lt;li>Thank you very much.&lt;/li>
+&lt;li>That&amp;rsquo;s all right.&lt;/li>
+&lt;/ul>
+&lt;p>2.用于道歉的用语：没什么，不要紧。&lt;/p>
+&lt;ul>
+&lt;li>I&amp;rsquo;m sorry.&lt;/li>
+&lt;li>That&amp;rsquo;s all right.&lt;/li>
+&lt;/ul>
 &lt;h3 id="grammar-9">Grammar&lt;/h3>
-&lt;h2 id="lesson-21">Lesson 21&lt;/h2>
+&lt;p>1.There be 句型 &lt;strong>（重要句型）&lt;/strong> 这有&amp;hellip;&lt;/p>
+&lt;p>2.and 连词，和，还可以表示加。&lt;/p>
+&lt;h2 id="lesson-21-which-book">Lesson 21 Which book?&lt;/h2>
 &lt;h3 id="text-10">Text&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">MAN: Give me a book please, Jane.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">WOMAN: Which book?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">WOMAN: This one?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MAN: No, not that one. The red one.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">WOMAN: This one?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MAN: Yes, please.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">WOMAN: Here you are.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MAN: Thank you.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h3 id="notes-10">Notes&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">典型祈使句：come and see it.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">or 或者
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">单数&lt;/th>
+&lt;th style="text-align:left">复数&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">Here it is.&lt;/td>
+&lt;td style="text-align:left">Here they are.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
 &lt;h3 id="grammar-10">Grammar&lt;/h3>
-&lt;h2 id="lesson-23">Lesson 23&lt;/h2>
+&lt;p>&lt;strong>不定代词的概念&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Which one?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">the + adj. + one
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;code>原文中的one代指book.&lt;/code>&lt;/p>
+&lt;p>&lt;strong>省略&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Which book? = Which book do you want?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">This one? = Do you want this one?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">No, not that one. = No, I do not want that one.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="lesson-23-which-glasses">Lesson 23 Which glasses?&lt;/h2>
 &lt;h3 id="text-11">Text&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">MAN: Give me some glasses please, Jane.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">WOMAN: Which glasses?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">WOMAN: These glasses?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MAN: No, not those. The ones on the shelf.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">WOMAN: These?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MAN: Yes, please.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">WOMAN: Here you are.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MAN: Thanks.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h3 id="notes-11">Notes&lt;/h3>
+&lt;p>some glasses 一些玻璃杯&lt;/p>
+&lt;p>&lt;code>some + 复数n.&lt;/code>&lt;/p>
 &lt;h3 id="grammar-11">Grammar&lt;/h3>
-&lt;h2 id="lesson-23-1">Lesson 23&lt;/h2>
-&lt;h3 id="text-12">Text&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3 id="notes-12">Notes&lt;/h3>
-&lt;h3 id="grammar-12">Grammar&lt;/h3></description></item><item><title>新概念英语</title><link>https://080812.xyz/p/english-nce/</link><pubDate>Sat, 09 Mar 2024 11:18:52 +0800</pubDate><guid>https://080812.xyz/p/english-nce/</guid><description>
+&lt;p>1.Give me some glasses please, Jane.(S+V+O+O)&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">S&lt;/th>
+&lt;th style="text-align:center">V&lt;/th>
+&lt;th style="text-align:center">O&lt;/th>
+&lt;th style="text-align:center">O&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">(you)&lt;/td>
+&lt;td style="text-align:center">give&lt;/td>
+&lt;td style="text-align:center">me&lt;/td>
+&lt;td style="text-align:center">glasses&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Jane是句中的主语，即&amp;quot;(you)&amp;quot;.&lt;/p>
+&lt;p>2.人称代词的宾格&lt;/p>
+&lt;table>
+&lt;tr>
+&lt;td>我&lt;/td>
+&lt;td>me&lt;/td>
+&lt;td>你&lt;/td>
+&lt;td>you&lt;/td>
+&lt;td>他&lt;/td>
+&lt;td>him&lt;/td>
+&lt;td>她&lt;/td>
+&lt;td>her&lt;/td>
+&lt;td>它&lt;/td>
+&lt;td>it&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>我们&lt;/td>
+&lt;td>us&lt;/td>
+&lt;td>你们&lt;/td>
+&lt;td>you&lt;/td>
+&lt;td>他们&lt;/td>
+&lt;td>them&lt;/td>
+&lt;/tr>
+&lt;/table></description></item><item><title>新概念英语</title><link>https://080812.xyz/p/english-nce/</link><pubDate>Sat, 09 Mar 2024 11:18:52 +0800</pubDate><guid>https://080812.xyz/p/english-nce/</guid><description>
 &lt;div class="video-wrapper">
 &lt;iframe src="https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1fK421b7kD&amp;autoplay=0"
 scrolling="no"
