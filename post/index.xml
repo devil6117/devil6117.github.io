@@ -131,83 +131,51 @@
 &lt;h3 id="text-2">Text&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;span class="lnt">11
-&lt;/span>&lt;span class="lnt">12
-&lt;/span>&lt;span class="lnt">13
-&lt;/span>&lt;span class="lnt">14
-&lt;/span>&lt;span class="lnt">15
-&lt;/span>&lt;span class="lnt">16
-&lt;/span>&lt;span class="lnt">17
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Come in, Amy.
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Shut the door, please.
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">This bedroom is very untidy.
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">What must I do, Mrs. Jones?
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Open the window and air the room.
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Then put these clothes in the wardrobe.
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Then make the bed.
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Dust the dressing table.
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Then sweep the floor.
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">MRS.JONES:Come in, Amy.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MRS.JONES:Shut the door, please.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MRS.JONES:This bedroom is very untidy.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> AMY:What must I do, Mrs. Jones?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MRS.JONES:Open the window and air the room.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MRS.JONES:Then put these clothes in the wardrobe.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MRS.JONES:Then make the bed.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MRS.JONES:Dust the dressing table.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MRS.JONES:Then sweep the floor.
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h3 id="notes-2">Notes&lt;/h3>
 &lt;p>words：&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;span class="lnt">11
-&lt;/span>&lt;span class="lnt">12
-&lt;/span>&lt;span class="lnt">13
-&lt;/span>&lt;span class="lnt">14
-&lt;/span>&lt;span class="lnt">15
-&lt;/span>&lt;span class="lnt">16
-&lt;/span>&lt;span class="lnt">17
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">1.put on 穿上 / take off 脱下
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2.com in 进来
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">3.shut adj.关着 / open adj.开着
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">4.make v.做
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">5.clean adj.干净的 v.打扫
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">6.empty adj.空的 v.清空
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">e.g. The cup isn&amp;#39;t empty.empty it!
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">7.sharpen v.削 sharp adj.锋利的
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">8.turn on 打开 / turn off 关上
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
@@ -218,31 +186,134 @@
 &lt;/span>&lt;span class="lnt">2
 &lt;/span>&lt;span class="lnt">3
 &lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">1.air the room. 给房间通风换气.
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">air v.给......通风换气
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> air v.给......通风换气
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> n.空气
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2.then adv.然后，接着
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h3 id="grammar-2">Grammar&lt;/h3>
-&lt;p>一、祈使句&lt;/p>
-&lt;p>特点：省略主语、直接使用动词原形。&lt;/p>
-&lt;p>二、情态动词 Must&lt;/p>
-&lt;p>Must 必须，应该。&lt;/p>
-&lt;p>表示义务、不可避免的。&lt;/p>
-&lt;h2 id="lesson-31">Lesson 31&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">一、祈使句
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">特点：省略主语、直接使用动词原形。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">二、情态动词 Must
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Must 必须，应该。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">表示义务、不可避免的。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="lesson-31-wheres-sally">Lesson 31 Where’s Sally?&lt;/h2>
 &lt;h3 id="text-3">Text&lt;/h3>
-&lt;h3 id="notes-3">Notes&lt;/h3>
-&lt;h3 id="grammar-3">Grammar&lt;/h3>
-&lt;h2 id="lesson-33">Lesson 33&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">JEAN:Where’s Sally, Jack?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">JACK:She’s in the garden, Jane.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">JEAN:What’s she doing?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">JACK:She’s sitting under the tree.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">JEAN:Is Tim in the garden, too?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">JACK:Yes, he is.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> He’s climbing the tree.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">JACK:I beg your pardon?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Who’s climbing the tree.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">JACK:Tim is.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">JEAN:What about the dog?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">JACK:The dog’s in the garden, too.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> It’s running across the grass.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> It’s running after a cat.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="notes-3">Notes&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">what about ... ? 那么...呢？
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">e.g. what about the dog? 那么狗呢？
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="grammar-3">Grammar&lt;/h3>
+&lt;p>现在进行时：be动词+现在分词&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">情况&lt;/th>
+&lt;th style="text-align:left">做法&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">大多数动词&lt;/td>
+&lt;td style="text-align:left">结尾加ing&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">以字母e结尾的单词&lt;/td>
+&lt;td style="text-align:left">去掉词尾不发音的e，再加ing&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">动词只有一个原因字母，后面跟了一个辅音字母&lt;/td>
+&lt;td style="text-align:left">结尾辅音字母双写，再加ing&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>特殊疑问句：&lt;/p>
+&lt;p>1.What is&amp;hellip;?&lt;/p>
+&lt;p>2.Is &amp;hellip;?&lt;/p>
+&lt;h2 id="lesson-33-a-fine-day">Lesson 33 A fine day&lt;/h2>
 &lt;h3 id="text-4">Text&lt;/h3>
-&lt;h3 id="notes-4">Notes&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">It’s a fine day today.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">There are some clouds in the sky, but the sun is shining.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Mr Jones’s with his family.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">They are walking over the bridge.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">There are some boats on the river.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Mr Jones and his wife are looking at them.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Sally is looking at a big ship.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">The ship is going under the bridge.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Tim is looking at an airplane.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">The airplane is flying over the river.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="notes-4">Notes&lt;/h3>
 &lt;h3 id="grammar-4">Grammar&lt;/h3>
 &lt;h2 id="lesson-35">Lesson 35&lt;/h2>
 &lt;h3 id="text-5">Text&lt;/h3>
@@ -565,43 +636,658 @@ Here is my ticket.
 &lt;/div>
 &lt;/div>&lt;h2 id="lesson-7">Lesson 7&lt;/h2>
 &lt;h3 id="text-3">Text&lt;/h3>
-&lt;h3 id="notes-3">Notes&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">ROBERT: I am a new student.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> My name&amp;#39;s Robert.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">SOPHIE: Nice to meet you.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> My name&amp;#39;s Sophie.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ROBERT: Are you French?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">SOPHIE: Yes, I am.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">SOPHIE: Are you French too?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ROBERT: No, I am not.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">SOPHIE: What nationality are you?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ROBERT: I&amp;#39;m Italian.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ROBERT: Are you a teacher?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">SOPHIE: No, I&amp;#39;m not.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ROBERT: What&amp;#39;s your job?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">SOPHIE: I&amp;#39;m a keyboard operator.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">SOPHIE: What&amp;#39;s your job?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ROBERT: I&amp;#39;m an engineer.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="notes-3">Notes&lt;/h3>
+&lt;p>ROBERT: I&amp;rsquo;m &lt;u>an&lt;/u> engineer. &lt;code>名词以元音开头的，前面不定冠词用an.&lt;/code>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">单词&lt;/th>
+&lt;th style="text-align:center">释义&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">nation&lt;/td>
+&lt;td style="text-align:center">n.国家&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">career&lt;/td>
+&lt;td style="text-align:center">n.事业&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
 &lt;h3 id="grammar-3">Grammar&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">人称代词&lt;/th>
+&lt;th style="text-align:center">Be动词&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">I&lt;/td>
+&lt;td style="text-align:center">am&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">you&lt;/td>
+&lt;td style="text-align:center">are&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">he,she,it&lt;/td>
+&lt;td style="text-align:center">is&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
 &lt;h2 id="lesson-9">Lesson 9&lt;/h2>
 &lt;h3 id="text-4">Text&lt;/h3>
-&lt;h3 id="notes-4">Notes&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">STEVEN: Hello, Helen.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">HELEN: Hi, Steven.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">STEVEN: How are you today?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">HELEN: I&amp;#39;m very well, thank you.And you?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">STEVEN: I&amp;#39;m fine, thanks.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">STEVEN: How is Tony?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">HELEN: He&amp;#39;s fine, thanks.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> How&amp;#39;s Emma?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">STEVEN: She&amp;#39;s very well, too, Helen.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">STEVEN: Goodbye, Helen.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Nice to see you.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">HELEN: Nice to see you, too, Steven.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Goodbye.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="notes-4">Notes&lt;/h3>
+&lt;p>STEVEN: &lt;u>How&lt;/u> are you today? &lt;code>how 疑问副词，怎么样?&lt;/code>&lt;/p>
+&lt;p>HELEN: I&amp;rsquo;m &lt;u>very&lt;/u> &lt;u>well&lt;/u>, thank you.And you?&lt;/p>
+&lt;p>&lt;code>very 程度副词，非常，修饰well。&lt;/code>&lt;/p>
+&lt;p>&lt;code>well 作形容词，指身体健康。&lt;/code>&lt;/p>
+&lt;p>STEVEN: She&amp;rsquo;s very well, too, Helen.&lt;/p>
+&lt;p>&lt;code>fine、well作补语，表示主语的性质。&lt;/code>&lt;/p>
 &lt;h3 id="grammar-4">Grammar&lt;/h3>
-&lt;h2 id="lesson-11">Lesson 11&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">How 表示 怎么样？
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">e.g. How are you? 你怎么样？
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="lesson-11">Lesson 11&lt;/h2>
 &lt;h3 id="text-5">Text&lt;/h3>
-&lt;h3 id="notes-5">Notes&lt;/h3>
-&lt;h3 id="grammar-5">Grammar&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">TEACHER：Whose shirt is that?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">TEACHER：Is this your shirt, Dave?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">DAVE: No. Sir.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> It&amp;#39;s not my shirt.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">DAVE: This is my shirt.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> My shirt&amp;#39;s blue.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">TEACHER: Is this shirt Tim&amp;#39;s?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">DAVE: Perhaps it is, sir.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Tim&amp;#39;s shirt&amp;#39;s white.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">TEACHER：Tim!
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">TIM: Yes, sir?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">TEACHER：Is this your shirt?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">TIM: Yes, sir.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">TEACHER：Here you are.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Catch!
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">TIM: Thank you, sir.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="notes-5">Notes&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Whose 疑问词，谁的。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Here adv.这里
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="grammar-5">Grammar&lt;/h3>
+&lt;p>1.Whose shirt is that?&lt;/p>
+&lt;p>疑问代词Whose作定语，修饰shirt.&lt;code>定语：表示限定的词语。&lt;/code>&lt;/p>
+&lt;p>2.Is this Tim&lt;u>&amp;rsquo;s&lt;/u>&lt;/p>
+&lt;p>表示所有格，&lt;strong>&amp;rsquo;s&lt;/strong> 后可以省略 shirt.&lt;/p>
+&lt;p>3.Here you are./Here it is.&lt;/p>
+&lt;p>给对方东西时说的话，句中的&lt;strong>be动词&lt;/strong>应重读。&lt;/p>
 &lt;h2 id="lesson-13">Lesson 13&lt;/h2>
 &lt;h3 id="text-6">Text&lt;/h3>
-&lt;h3 id="notes-6">Notes&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">LOUISE: What colour&amp;#39;s your new dress?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ANNA: It&amp;#39;s green.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ANNA: Come upstairs and see it.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">LOUISE: Thank you.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ANNA: Look!
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Here it is!
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">LOUISE: That&amp;#39;s a nice dress.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> It&amp;#39;s very smart.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ANNA: My hat&amp;#39;s new, too.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">LOUISE: What colour is it?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ANNA: It&amp;#39;s the same colour.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> It&amp;#39;s green, too.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">LOUISE: That is a lovely hat!
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="notes-6">Notes&lt;/h3>
+&lt;p>1.ANNA: &lt;u>Come&lt;/u> upstairs and &lt;u>see it&lt;/u>.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">动词开头——祈使句
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">come on 过来，加油，快，得了吧，不是吧。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">go v.去，加油。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>2.LOUISE: That&amp;rsquo;s a &lt;u>nice&lt;/u> &lt;u>dress&lt;/u>.&lt;/p>
+&lt;p>&lt;code>nice 修饰 dress.&lt;/code>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">冠词&lt;/th>
+&lt;th style="text-align:center">形容词&lt;/th>
+&lt;th style="text-align:center">名词&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">a&lt;/td>
+&lt;td style="text-align:center">nice&lt;/td>
+&lt;td style="text-align:center">dress&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;code>冠词和形容词表示对名词的限定。&lt;/code>&lt;/p>
 &lt;h3 id="grammar-6">Grammar&lt;/h3>
-&lt;h2 id="lesson-15">Lesson 15&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">冠词
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">a/an 不定冠词——泛指
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">the 定冠词——特指
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">some 通常与the一起出现
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">e.g. The sirts are all the same size. 这些衬衣都一样大小。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> The twins look the same. 那对双胞胎看起来一模一样。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="lesson-15">Lesson 15&lt;/h2>
 &lt;h3 id="text-7">Text&lt;/h3>
-&lt;h3 id="notes-7">Notes&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;span class="lnt">25
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">CUSTOMS OFFICER: Are you Swedish?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">GIRLS: No, we are not.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> We are Danish.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">CUSTOMS OFFICER: Are your friends Danish, too?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">GIRLS: No, they aren&amp;#39;t.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> They are Norwegian.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">CUSTOMS OFFICER: Your passports, please.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">GIRLS: Here they are.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">CUSTOMS OFFICER: Are these your cases?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">GIRLS: No, they aren&amp;#39;t.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">GIRLS: Our cases are brown.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Here they are.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">CUSTOMS OFFICER: Are you tourists?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">GIRLS: Yes, we are.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">CUSTOMS OFFICER: Are your friends tourists too?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">GIRLS: Yes, they are.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">CUSTOMS OFFICER: That&amp;#39;s fine.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">GIRLS: Thank you very much.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="notes-7">Notes&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">单词&lt;/th>
+&lt;th style="text-align:center">释义&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">customs&lt;/td>
+&lt;td style="text-align:center">n.海关&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">officer&lt;/td>
+&lt;td style="text-align:center">n.官员&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">passport&lt;/td>
+&lt;td style="text-align:center">n.护照&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">tourists&lt;/td>
+&lt;td style="text-align:center">n.游客&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">go dutch&lt;/td>
+&lt;td style="text-align:center">AA制&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
 &lt;h3 id="grammar-7">Grammar&lt;/h3>
+&lt;ul>
+&lt;li>人称代词&lt;/li>
+&lt;/ul>
+&lt;style>
+.center
+{
+width: auto;
+display: table;
+margin-left: auto;
+margin-right: auto;
+}
+&lt;/style>
+&lt;div class="center">
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">形式&lt;/th>
+&lt;th style="text-align:center">第一人称&lt;/th>
+&lt;th style="text-align:center">第二人称&lt;/th>
+&lt;th style="text-align:center">第三人称&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">单数&lt;/td>
+&lt;td style="text-align:center">I&lt;/td>
+&lt;td style="text-align:center">You&lt;/td>
+&lt;td style="text-align:center">He / She / It&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">复数&lt;/td>
+&lt;td style="text-align:center">We&lt;/td>
+&lt;td style="text-align:center">You&lt;/td>
+&lt;td style="text-align:center">They&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;ul>
+&lt;li>主语复数：Be动词复数形式&lt;/li>
+&lt;/ul>
+&lt;style>
+.center
+{
+width: auto;
+display: table;
+margin-left: auto;
+margin-right: auto;
+}
+&lt;/style>
+&lt;div class="center">
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">第一人称&lt;/th>
+&lt;th style="text-align:center">第二人称&lt;/th>
+&lt;th style="text-align:center">第三人称&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">am&lt;/td>
+&lt;td style="text-align:center">is&lt;/td>
+&lt;td style="text-align:center">are&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;ul>
+&lt;li>名词
+分类：可数名词/不可数名词
+复数：一般加s，s结尾加es。&lt;/li>
+&lt;/ul>
 &lt;h2 id="lesson-17">Lesson 17&lt;/h2>
 &lt;h3 id="text-8">Text&lt;/h3>
-&lt;h3 id="notes-8">Notes&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;span class="lnt">23
+&lt;/span>&lt;span class="lnt">24
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Mr.JACKSON: Come and meet our employees,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> Mr. Richards.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MR.RICHARDS:Thank you, Mr. Jackson.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Mr.JACKSON: This is Nicola Grey,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> and this is Claire Taylor.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MR.RICHARDS:How do you do?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MR.RICHARDS:Those women are very hard-working.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> What are their jobs?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Mr.JACKSON: They’re keyboard operators.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MR.JACKSON: This is Michael Baker,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> and this is Jeremy Short.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MR.RICHARDS:How do you do?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MR.RICHARDS:They aren’t very busy!
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> What are their jobs?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Mr.JACKSON: They’re sales reps.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> They are very lazy.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">MR.RICHARDS:Who is this young man?
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Mr.JACKSON: This is Jim.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> He is our office assistant.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="notes-8">Notes&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">-er/-or 结尾的名词：与人的职业/身份有关（并非绝对）
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div>
+整十位数
+&lt;table>
+&lt;tr>
+&lt;td>10&lt;/td>
+&lt;td>ten&lt;/td>
+&lt;td>20&lt;/td>
+&lt;td>twenty&lt;/td>
+&lt;td>30&lt;/td>
+&lt;td>thirty&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>40&lt;/td>
+&lt;td>forty&lt;/td>
+&lt;td>50&lt;/td>
+&lt;td>fifty&lt;/td>
+&lt;td>60&lt;/td>
+&lt;td>sixty&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>70&lt;/td>
+&lt;td>seventy&lt;/td>
+&lt;td>80&lt;/td>
+&lt;td>eighty&lt;/td>
+&lt;td>90&lt;/td>
+&lt;td>ninety&lt;/td>
+&lt;/tr>
+&lt;/table>
+&lt;/div>
 &lt;h3 id="grammar-8">Grammar&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">释义&lt;/th>
+&lt;th style="text-align:center">单词&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">我们的&lt;/td>
+&lt;td style="text-align:center">Our&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">你们的&lt;/td>
+&lt;td style="text-align:center">Your&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">他（她/它）们的&lt;/td>
+&lt;td style="text-align:center">Their&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
 &lt;h2 id="lesson-19">Lesson 19&lt;/h2>
 &lt;h3 id="text-9">Text&lt;/h3>
-&lt;h3 id="notes-9">Notes&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="notes-9">Notes&lt;/h3>
 &lt;h3 id="grammar-9">Grammar&lt;/h3>
 &lt;h2 id="lesson-21">Lesson 21&lt;/h2>
 &lt;h3 id="text-10">Text&lt;/h3>
-&lt;h3 id="notes-10">Notes&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="notes-10">Notes&lt;/h3>
 &lt;h3 id="grammar-10">Grammar&lt;/h3>
 &lt;h2 id="lesson-23">Lesson 23&lt;/h2>
 &lt;h3 id="text-11">Text&lt;/h3>
-&lt;h3 id="notes-11">Notes&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="notes-11">Notes&lt;/h3>
 &lt;h3 id="grammar-11">Grammar&lt;/h3>
 &lt;h2 id="lesson-23-1">Lesson 23&lt;/h2>
 &lt;h3 id="text-12">Text&lt;/h3>
-&lt;h3 id="notes-12">Notes&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="notes-12">Notes&lt;/h3>
 &lt;h3 id="grammar-12">Grammar&lt;/h3></description></item><item><title>新概念英语</title><link>https://080812.xyz/p/english-nce/</link><pubDate>Sat, 09 Mar 2024 11:18:52 +0800</pubDate><guid>https://080812.xyz/p/english-nce/</guid><description>
 &lt;div class="video-wrapper">
 &lt;iframe src="https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1fK421b7kD&amp;autoplay=0"
