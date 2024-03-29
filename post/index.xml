@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Kevin Lee's Blog</title><link>https://080812.xyz/post/</link><description>Recent content in Posts on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Fri, 29 Mar 2024 19:36:35 +0800</lastBuildDate><atom:link href="https://080812.xyz/post/index.xml" rel="self" type="application/rss+xml"/><item><title>数据结构学习笔记</title><link>https://080812.xyz/p/cst-ds/</link><pubDate>Fri, 29 Mar 2024 19:36:35 +0800</pubDate><guid>https://080812.xyz/p/cst-ds/</guid><description>&lt;img src="https://080812.xyz/image/ds.png" alt="Featured image of post 数据结构学习笔记" />&lt;p>本笔记配套学习教材为严蔚敏《数据结构（C语言版）（第2版）》，ISBN 978-7-115-37950-4，封面如图所示。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Kevin Lee's Blog</title><link>https://080812.xyz/post/</link><description>Recent content in Posts on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Fri, 29 Mar 2024 19:36:35 +0800</lastBuildDate><atom:link href="https://080812.xyz/post/index.xml" rel="self" type="application/rss+xml"/><item><title>数据结构学习笔记</title><link>https://080812.xyz/p/cst-ds/</link><pubDate>Fri, 29 Mar 2024 19:36:35 +0800</pubDate><guid>https://080812.xyz/p/cst-ds/</guid><description>&lt;p>本笔记配套学习教材为严蔚敏《数据结构(C语言版)(第2版)》，ISBN 978-7-115-37950-4，封面如图所示。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/p/cst-ds/image/0-0.%E5%B0%81%E9%9D%A2.jpg"
 width="231"
 height="323"
@@ -21,7 +21,7 @@ data-flex-basis="360px"
 >&lt;/p>
 &lt;p>配套教学资源：&lt;a class="link" href="https://www.ryjiaoyu.com/book/details/3489" target="_blank" rel="noopener"
 >https://www.ryjiaoyu.com/book/details/3489&lt;/a>&lt;/p>
-&lt;h2 id="绪论">绪论&lt;/h2></description></item><item><title>新概念英语 第一册 25-48</title><link>https://080812.xyz/p/nce1-02/</link><pubDate>Thu, 28 Mar 2024 14:07:55 +0800</pubDate><guid>https://080812.xyz/p/nce1-02/</guid><description>&lt;h2 id="lesson-25-mrs-smiths-kitchen">Lesson 25 Mrs. Smith’s kitchen&lt;/h2>
+&lt;h1 id="绪论">绪论&lt;/h1></description></item><item><title>新概念英语 第一册 25-48</title><link>https://080812.xyz/p/nce1-02/</link><pubDate>Thu, 28 Mar 2024 14:07:55 +0800</pubDate><guid>https://080812.xyz/p/nce1-02/</guid><description>&lt;h2 id="lesson-25-mrs-smiths-kitchen">Lesson 25 Mrs. Smith’s kitchen&lt;/h2>
 &lt;h3 id="text">Text&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -1587,7 +1587,7 @@ margin-right: auto;
 &lt;p>    《新概念英语》（New Concept English）作为享誉全球的最为经典地道的英语教材，以其严密的体系性、严谨的科学性、精湛的实用性、浓郁的趣味性深受英语学习者的青睐，《新概念英语》在中国有30多年的历史，每年有数百万学习者，早已成为英语学习者的必选读物。本教材由何其莘博士，亚历山大（L.G.Alexander）合作编著。&lt;/p>
 &lt;h3 id="作者简介">作者简介&lt;/h3>
 &lt;p>    亚历山大L.G. Alexander，世界著名的英语教学权威，曾任欧洲现代语言教学委员会理事。他的著作为交际教学法奠定了基础，其中一些如NCE（《新概念英语》）和 &lt;em>FollowMe&lt;/em> （《跟我学》）已成为经典教材。&lt;/p>
-&lt;p>    何其莘，博士，现任北京外国语大学副校长、英美文学教授、博士生导师。著有《英国文艺复兴时期文学史》、《英国戏剧选读》和 &lt;em>Listen to This&lt;/em> 等。&lt;/p></description></item><item><title>数据结构习题</title><link>https://080812.xyz/p/thu-cst-ds-ex/</link><pubDate>Fri, 08 Mar 2024 21:27:11 +0800</pubDate><guid>https://080812.xyz/p/thu-cst-ds-ex/</guid><description>&lt;img src="https://080812.xyz/p/thu-cst-ds-ex/image/ds_ex.png" alt="Featured image of post 数据结构习题" />&lt;h2 id="绪论">绪论&lt;/h2>
+&lt;p>    何其莘，博士，现任北京外国语大学副校长、英美文学教授、博士生导师。著有《英国文艺复兴时期文学史》、《英国戏剧选读》和 &lt;em>Listen to This&lt;/em> 等。&lt;/p></description></item><item><title>数据结构习题</title><link>https://080812.xyz/p/thu-cst-ds-ex/</link><pubDate>Fri, 08 Mar 2024 21:27:11 +0800</pubDate><guid>https://080812.xyz/p/thu-cst-ds-ex/</guid><description>&lt;h2 id="绪论">绪论&lt;/h2>
 &lt;h3 id="算法导论思考题-3-4">《算法导论》思考题 3-4&lt;/h3>
 &lt;table>
 &lt;thead>
@@ -1817,10 +1817,10 @@ $$&lt;/p>
 &lt;/div>
 &lt;/div>&lt;p>解法同 ex.10。&lt;/p>
 &lt;h4 id="ex11">ex.11&lt;/h4>
-&lt;p>见书。&lt;/p></description></item><item><title>数据结构学习笔记</title><link>https://080812.xyz/p/thu-cst-ds/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/p/thu-cst-ds/</guid><description>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/ds.png" alt="Featured image of post 数据结构学习笔记" />&lt;p>&lt;strong>注：标题有*的为课程考试重点。&lt;/strong>&lt;/p>
-&lt;h2 id="绪论">绪论&lt;/h2>
-&lt;h3 id="计算">计算&lt;/h3>
-&lt;h4 id="工具">工具&lt;/h4>
+&lt;p>见书。&lt;/p></description></item><item><title>数据结构学习笔记</title><link>https://080812.xyz/p/thu-cst-ds/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/p/thu-cst-ds/</guid><description>&lt;p>&lt;strong>注：标题有*的为课程考试重点。&lt;/strong>&lt;/p>
+&lt;h1 id="绪论">绪论&lt;/h1>
+&lt;h2 id="计算">计算&lt;/h2>
+&lt;h3 id="工具">工具&lt;/h3>
 &lt;p>    计算首先是我们这门课程的直接研究对象和内容，也是我们这门课程的研究目的和目标。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/01.Introduction_page-0002.jpg"
 width="4000"
@@ -1836,7 +1836,7 @@ data-flex-basis="426px"
 &lt;p>    因此对数据结构与算法的研究，可以从以下两个角度去理解：&lt;/p>
 &lt;p>    对象：规律、技巧&lt;/p>
 &lt;p>    目标：高效、低耗&lt;/p>
-&lt;h4 id="算法-">算法 *&lt;/h4>
+&lt;h3 id="算法-">算法 *&lt;/h3>
 &lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/02.Introduction_page-0004.jpg"
 width="4000"
 height="2250"
@@ -1861,8 +1861,8 @@ data-flex-grow="177"
 data-flex-basis="426px"
 >&lt;/p>
 &lt;p>    &lt;code>退化是指在一个限制的情况下，一个集合中的对象改变其性质并且属于另一个集合，通常是变成比较简单的集合。&lt;/code>&lt;/p>
-&lt;h3 id="计算模型">计算模型&lt;/h3>
-&lt;h4 id="统一尺度">统一尺度&lt;/h4>
+&lt;h2 id="计算模型">计算模型&lt;/h2>
+&lt;h3 id="统一尺度">统一尺度&lt;/h3>
 &lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/04.Introduction_page-0010.jpg"
 width="4000"
 height="2250"
@@ -1891,7 +1891,7 @@ sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 &lt;/div>
 &lt;p>视频链接：&lt;a class="link" href="https://www.bilibili.com/video/BV16u4m1c7cU" target="_blank" rel="noopener"
 >BV16u4m1c7cU&lt;/a>&lt;/p>
-&lt;h3 id="渐近复杂度-">渐近复杂度 *&lt;/h3>
+&lt;h2 id="渐近复杂度-">渐近复杂度 *&lt;/h2>
 &lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/05.Introduction_page-0023.jpg"
 width="4000"
 height="2250"
@@ -1903,7 +1903,7 @@ data-flex-grow="177"
 data-flex-basis="426px"
 >&lt;/p>
 &lt;p>    我们看重的是长远增长趋势，即问题规模\(n\rightarrow \infty \)时，\(O(n)\)的增长趋势。&lt;/p>
-&lt;h4 id="大o记号-">大\(O\)记号 *&lt;/h4>
+&lt;h3 id="大o记号-">大\(O\)记号 *&lt;/h3>
 &lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/06.Introduction_page-0024.jpg"
 width="4000"
 height="2250"
@@ -1928,7 +1928,7 @@ data-flex-basis="426px"
 &lt;p>    \(O\) 表示上界，即最坏情况。&lt;/p>
 &lt;p>    \(\Theta\) 表示确界，即最接近大多数情况。&lt;/p>
 &lt;p>    \(\Omega\) 表示下界，即最好情况。&lt;/p>
-&lt;h4 id="多项式-">多项式 *&lt;/h4>
+&lt;h3 id="多项式-">多项式 *&lt;/h3>
 &lt;p>    从渐近的角度来看，再大的常数，也小于递增的变数。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/08.Introduction_page-0029.jpg"
 width="4000"
@@ -1946,7 +1946,7 @@ data-flex-basis="426px"
 &lt;li>常次幂同理。&lt;/li>
 &lt;li>所有的低次项都是可忽略的，常系数项也是可以去掉的。&lt;/li>
 &lt;/ul>
-&lt;h4 id="指数">指数&lt;/h4>
+&lt;h3 id="指数">指数&lt;/h3>
 &lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/09.Introduction_page-0032.jpg"
 width="4000"
 height="2250"
@@ -1957,7 +1957,7 @@ data-flex-grow="177"
 data-flex-basis="426px"
 >&lt;/p>
 &lt;p>指数型复杂度通常表示该问题已经不可解（难以在有穷条件内可解）。&lt;/p>
-&lt;h4 id="复杂度层次-">复杂度层次 *&lt;/h4>
+&lt;h3 id="复杂度层次-">复杂度层次 *&lt;/h3>
 &lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/10.Introduction_page-0037.jpg"
 width="4000"
 height="2250"
@@ -1991,16 +1991,16 @@ data-flex-grow="177"
 data-flex-basis="426px"
 >&lt;/p>
 &lt;p>    记忆口诀：常对幂指阶。&lt;/p>
-&lt;h3 id="复杂度分析">复杂度分析&lt;/h3>
+&lt;h2 id="复杂度分析">复杂度分析&lt;/h2>
 &lt;p>主要方法：迭代（级数求和）、递归（递归跟踪+递归方程）、实用（猜测+验证）。&lt;/p>
-&lt;h4 id="级数">级数&lt;/h4>
+&lt;h3 id="级数">级数&lt;/h3>
 &lt;ul>
 &lt;li>算数：与末项平方同阶。&lt;/li>
 &lt;li>幂方：比幂次高出一阶。&lt;/li>
 &lt;li>几何：与末项同阶。&lt;/li>
 &lt;/ul>
 &lt;p>    参考：Concrete Mathematics&lt;/p>
-&lt;h4 id="迭代">迭代&lt;/h4>
+&lt;h3 id="迭代">迭代&lt;/h3>
 &lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/13.Introduction_page-0046.jpg"
 width="4000"
 height="2250"
@@ -2051,14 +2051,17 @@ a_{n1}&amp;\cdots&amp;\cdots&amp;a_{nn}\\
 $$
 &lt;/div>
 &lt;p>    对角线位置相当于\(k=i\)。等号左边相当于先求矩阵的行和，再行和相加；等号右边相当于先求矩阵的列和，再进行列和相加。&lt;/p>
-&lt;h4 id="封底估算">封底估算&lt;/h4>
-&lt;h3 id="迭代与递归">迭代与递归&lt;/h3>
-&lt;h4 id="减而治之">减而治之&lt;/h4>
-&lt;h4 id="分而治之">分而治之&lt;/h4>
-&lt;h4 id="总和最大区段">总和最大区段&lt;/h4>
-&lt;h3 id="动态规划">动态规划&lt;/h3>
-&lt;h4 id="记忆化">记忆化&lt;/h4>
-&lt;h4 id="最长公共子序列">最长公共子序列&lt;/h4>
+&lt;h3 id="封底估算">封底估算&lt;/h3>
+&lt;h2 id="迭代与递归">迭代与递归&lt;/h2>
+&lt;h3 id="减而治之">减而治之&lt;/h3>
+&lt;h3 id="分而治之">分而治之&lt;/h3>
+&lt;h3 id="总和最大区段">总和最大区段&lt;/h3>
+&lt;h2 id="动态规划">动态规划&lt;/h2>
+&lt;h3 id="记忆化">记忆化&lt;/h3>
+&lt;h3 id="最长公共子序列">最长公共子序列&lt;/h3>
+&lt;h1 id="向量">向量&lt;/h1>
+&lt;h1 id="列表">列表&lt;/h1>
+&lt;h1 id="栈和队列">栈和队列&lt;/h1>
 &lt;h2 id="参考文献">参考文献&lt;/h2>
 &lt;table>
 &lt;thead>
