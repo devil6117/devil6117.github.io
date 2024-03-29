@@ -1,27 +1,115 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Kevin Lee's Blog</title><link>https://080812.xyz/post/</link><description>Recent content in Posts on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Fri, 29 Mar 2024 19:36:35 +0800</lastBuildDate><atom:link href="https://080812.xyz/post/index.xml" rel="self" type="application/rss+xml"/><item><title>数据结构学习笔记</title><link>https://080812.xyz/p/cst-ds/</link><pubDate>Fri, 29 Mar 2024 19:36:35 +0800</pubDate><guid>https://080812.xyz/p/cst-ds/</guid><description>&lt;p>本笔记配套学习教材为严蔚敏《数据结构(C语言版)(第2版)》，ISBN 978-7-115-37950-4，封面如图所示。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/p/cst-ds/image/0-0.%E5%B0%81%E9%9D%A2.jpg"
+&lt;p>&lt;img src="https://080812.xyz/p/cst-ds/image/0_0_%E5%B0%81%E9%9D%A2.jpg"
 width="231"
 height="323"
-srcset="https://080812.xyz/p/cst-ds/image/0-0.%E5%B0%81%E9%9D%A2_hufaa32669fe45d90cee6377a2a74ba652_24057_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/cst-ds/image/0-0.%E5%B0%81%E9%9D%A2_hufaa32669fe45d90cee6377a2a74ba652_24057_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://080812.xyz/p/cst-ds/image/0_0_%E5%B0%81%E9%9D%A2_hufaa32669fe45d90cee6377a2a74ba652_24057_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/cst-ds/image/0_0_%E5%B0%81%E9%9D%A2_hufaa32669fe45d90cee6377a2a74ba652_24057_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="封面"
 class="gallery-image"
 data-flex-grow="71"
 data-flex-basis="171px"
 >&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/p/cst-ds/image/0-1.%E7%9B%AE%E5%BD%95%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.png"
+&lt;p>&lt;img src="https://080812.xyz/p/cst-ds/image/0_1_%E7%9B%AE%E5%BD%95%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.png"
 width="996"
 height="663"
-srcset="https://080812.xyz/p/cst-ds/image/0-1.%E7%9B%AE%E5%BD%95%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE_hu66a08cfbe1b710d16025cd36145b88a4_116248_480x0_resize_box_3.png 480w, https://080812.xyz/p/cst-ds/image/0-1.%E7%9B%AE%E5%BD%95%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE_hu66a08cfbe1b710d16025cd36145b88a4_116248_1024x0_resize_box_3.png 1024w"
+srcset="https://080812.xyz/p/cst-ds/image/0_1_%E7%9B%AE%E5%BD%95%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE_hu66a08cfbe1b710d16025cd36145b88a4_116248_480x0_resize_box_3.png 480w, https://080812.xyz/p/cst-ds/image/0_1_%E7%9B%AE%E5%BD%95%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE_hu66a08cfbe1b710d16025cd36145b88a4_116248_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="数据结构目录"
 class="gallery-image"
 data-flex-grow="150"
 data-flex-basis="360px"
 >&lt;/p>
+&lt;p>推荐配套课程：&lt;a class="link" href="https://www.bilibili.com/read/cv2306631/" target="_blank" rel="noopener"
+>青岛大学-王卓-数据结构 - 哔哩哔哩&lt;/a>&lt;/p>
 &lt;p>配套教学资源：&lt;a class="link" href="https://www.ryjiaoyu.com/book/details/3489" target="_blank" rel="noopener"
->https://www.ryjiaoyu.com/book/details/3489&lt;/a>&lt;/p>
-&lt;h1 id="绪论">绪论&lt;/h1></description></item><item><title>新概念英语 第一册 25-48</title><link>https://080812.xyz/p/nce1-02/</link><pubDate>Thu, 28 Mar 2024 14:07:55 +0800</pubDate><guid>https://080812.xyz/p/nce1-02/</guid><description>&lt;h2 id="lesson-25-mrs-smiths-kitchen">Lesson 25 Mrs. Smith’s kitchen&lt;/h2>
+>数据结构（C语言版）（第2版）-图书-人邮教育社区&lt;/a>&lt;/p>
+&lt;h1 id="绪论">绪论&lt;/h1>
+&lt;p>&lt;img src="https://080812.xyz/p/cst-ds/image/1.1_0_%E7%94%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98.png"
+width="1388"
+height="483"
+srcset="https://080812.xyz/p/cst-ds/image/1.1_0_%E7%94%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98_hu8d7de640ad4ec4438e8e008ebe952bd2_78132_480x0_resize_box_3.png 480w, https://080812.xyz/p/cst-ds/image/1.1_0_%E7%94%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98_hu8d7de640ad4ec4438e8e008ebe952bd2_78132_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="用计算机解决问题的步骤"
+class="gallery-image"
+data-flex-grow="287"
+data-flex-basis="689px"
+>&lt;/p>
+&lt;h3 id="数据结构的研究内容">数据结构的研究内容&lt;/h3>
+&lt;hr>
+&lt;p>计算机主要用于&lt;strong>数值计算&lt;/strong>时，一般经过如下几个步骤：&lt;/p>
+&lt;p>&lt;strong>首先&lt;/strong> 从&lt;u>具体问题&lt;/u>抽象出&lt;u>数学模型&lt;/u>，&lt;/p>
+&lt;p>&lt;strong>然后&lt;/strong> 设计一个解此数学模型的&lt;u>算法&lt;/u>，&lt;/p>
+&lt;p>&lt;strong>最后&lt;/strong> 编写&lt;u>程序&lt;/u>，进行&lt;u>测试、调试&lt;/u>，直到解决问题。&lt;/p>
+&lt;hr>
+&lt;p>寻求数学模型的实质是&lt;u>分析问题&lt;/u>，从中&lt;u>提取操作的对象&lt;/u>，并&lt;u>找出&lt;/u>这些操作对象之间的联系，然后&lt;u>用数学语言加以描述&lt;/u>，即建立相应的数学方程。&lt;/p>
+&lt;p>数据结构主要研究&lt;u>非数值计算&lt;/u>问题，非数值计算无法用数学方程建立数学模型。&lt;strong>(共性)&lt;/strong>&lt;/p>
+&lt;p>非数值计算问题的数学模型不再是数学方程，而是诸如线性表、树和图的数据结构。&lt;/p>
+&lt;p>数据结构是一门研究&lt;u>非数值计算程序设计中的操作对象&lt;/u>，以及&lt;u>这些操作对象之间的关系和操作&lt;/u>的学科。&lt;/p>
+&lt;h3 id="基本概念和术语">基本概念和术语&lt;/h3>
+&lt;h4 id="数据数据元素数据项和数据对象">数据、数据元素、数据项和数据对象&lt;/h4>
+&lt;ul>
+&lt;li>
+&lt;p>数据 (Data) &lt;code>信息的载体&lt;/code> &lt;code>(集合)&lt;/code>&lt;/p>
+&lt;p>所有&lt;u>能输入到计算机中并被计算机程序处理的符号&lt;/u>的总称。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>数据元素 (Data Element) &lt;code>数据的基本单位&lt;/code> &lt;code>(集合的个体)&lt;/code>&lt;/p>
+&lt;p>在计算机中通常作为一个整体进行考虑和处理。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>数据项 (Data Item) &lt;code>(组成个体的内容)&lt;/code>&lt;/p>
+&lt;p>组成数据元素的、有独立含义的、不可分割的最小单位。&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>数据对象 (Data Object) &lt;code>(集合的子集)&lt;/code>&lt;/p>
+&lt;p>性质&lt;u>相同的数据元素&lt;/u>的集合&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="数据结构">数据结构&lt;/h4>
+&lt;p>数据的&lt;u>运算&lt;/u>和&lt;u>实现&lt;/u>，即对数据元素可以施加的操作需在&lt;u>相应的存储结构&lt;/u>上实现。&lt;/p>
+&lt;hr>
+&lt;p>数据结构包括 &lt;strong>逻辑结构&lt;/strong> 和 &lt;strong>存储结构&lt;/strong> 两个层次。&lt;/p>
+&lt;ul>
+&lt;li>逻辑结构于存储结构的关系&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">存储结构是逻辑关系的映像与元素本身的映像。
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">逻辑结构是数据结构的抽象，存储结构是数据结构的实现。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h5 id="逻辑结构">逻辑结构&lt;/h5>
+&lt;p>数据的&lt;strong>逻辑结构&lt;/strong>是从&lt;u>逻辑关系&lt;/u>上描述数据，它&lt;u>与数据的存储无关，是独立于计算机的&lt;/u>，数据结构可以看作&lt;u>从具体问题抽象出来的数学模型&lt;/u>。&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/p/cst-ds/image/1.1_1_%E6%95%B0%E6%8D%AE%E7%9A%84%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84.png"
+width="827"
+height="296"
+srcset="https://080812.xyz/p/cst-ds/image/1.1_1_%E6%95%B0%E6%8D%AE%E7%9A%84%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84_hubd1de4814c4ee4cdc0bfa5ecf2530a07_41791_480x0_resize_box_3.png 480w, https://080812.xyz/p/cst-ds/image/1.1_1_%E6%95%B0%E6%8D%AE%E7%9A%84%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84_hubd1de4814c4ee4cdc0bfa5ecf2530a07_41791_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+alt="数据的逻辑结构层次"
+class="gallery-image"
+data-flex-grow="279"
+data-flex-basis="670px"
+>&lt;/p>
+&lt;p>(1) 集合结构&lt;/p>
+&lt;p>除了“属于同一集合”的关系外，没有其他关系。&lt;/p>
+&lt;p>(2) 线性结构&lt;/p>
+&lt;p>数据元素间存在&lt;u>一对一&lt;/u>的关系。 &lt;code>有且仅有一个开始和终端，所有结点最多一个直接前驱和后继。&lt;/code>&lt;/p>
+&lt;p>(3) 树结构&lt;/p>
+&lt;p>数据元素之间存在&lt;u>一对多&lt;/u>的关系。 &lt;code>一个结点可能有多个直接前驱和后继&lt;/code>&lt;/p>
+&lt;p>(4) 图结构或网状结构&lt;/p>
+&lt;p>数据元素之间存在&lt;u>多对多&lt;/u>的关系。&lt;/p>
+&lt;h5 id="存储结构-物理结构">存储结构 (物理结构)&lt;/h5>
+&lt;h2 id="线性表">线性表&lt;/h2>
+&lt;h2 id="栈和队列">栈和队列&lt;/h2>
+&lt;h2 id="串数组和广义表">串、数组和广义表&lt;/h2>
+&lt;h2 id="树和二叉树">树和二叉树&lt;/h2>
+&lt;h2 id="图">图&lt;/h2>
+&lt;h2 id="查找">查找&lt;/h2>
+&lt;h2 id="排序">排序&lt;/h2></description></item><item><title>新概念英语 第一册 25-48</title><link>https://080812.xyz/p/nce1-02/</link><pubDate>Thu, 28 Mar 2024 14:07:55 +0800</pubDate><guid>https://080812.xyz/p/nce1-02/</guid><description>&lt;h2 id="lesson-25-mrs-smiths-kitchen">Lesson 25 Mrs. Smith’s kitchen&lt;/h2>
 &lt;h3 id="text">Text&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
