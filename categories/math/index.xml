@@ -1,7 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数学 on Kevin Lee's Blog</title><link>https://080812.xyz/categories/math/</link><description>Recent content in 数学 on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Mon, 01 Apr 2024 09:56:12 +0800</lastBuildDate><atom:link href="https://080812.xyz/categories/math/index.xml" rel="self" type="application/rss+xml"/><item><title>一级标题渲染测试</title><link>https://080812.xyz/p/cst-math/</link><pubDate>Mon, 01 Apr 2024 09:56:12 +0800</pubDate><guid>https://080812.xyz/p/cst-math/</guid><description>&lt;h1 id="数论">数论&lt;/h1>
-&lt;h2 id="概论">概论&lt;/h2>
-&lt;h2 id="长除">长除&lt;/h2>
-&lt;h1 id="离散数学">离散数学&lt;/h1>
-&lt;h2 id="图论">图论&lt;/h2>
-&lt;h1 id="组合数学">组合数学&lt;/h1>
-&lt;h2 id="最优化">最优化&lt;/h2></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数学 on Kevin Lee's Blog</title><link>https://080812.xyz/categories/math/</link><description>Recent content in 数学 on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><atom:link href="https://080812.xyz/categories/math/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
