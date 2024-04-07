@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>计算机科学 on Kevin Lee's Blog</title><link>https://080812.xyz/categories/computer_science/</link><description>Recent content in 计算机科学 on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Sat, 30 Mar 2024 11:09:45 +0800</lastBuildDate><atom:link href="https://080812.xyz/categories/computer_science/index.xml" rel="self" type="application/rss+xml"/><item><title>计算机网络学习笔记</title><link>https://080812.xyz/p/cst-cn/</link><pubDate>Sat, 30 Mar 2024 11:09:45 +0800</pubDate><guid>https://080812.xyz/p/cst-cn/</guid><description>&lt;p>本笔记配套教材为湖南科技大学高军《深入浅出计算机网络》，ISBN 978-7-302-60626-0，封面如图所示。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>计算机科学 on Kevin Lee's Blog</title><link>https://080812.xyz/categories/computer_science/</link><description>Recent content in 计算机科学 on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Mon, 01 Apr 2024 09:56:12 +0800</lastBuildDate><atom:link href="https://080812.xyz/categories/computer_science/index.xml" rel="self" type="application/rss+xml"/><item><title>一级标题渲染测试</title><link>https://080812.xyz/p/cst-math/</link><pubDate>Mon, 01 Apr 2024 09:56:12 +0800</pubDate><guid>https://080812.xyz/p/cst-math/</guid><description>&lt;h1 id="数论">数论&lt;/h1>
+&lt;h2 id="概论">概论&lt;/h2>
+&lt;h2 id="长除">长除&lt;/h2>
+&lt;h1 id="离散数学">离散数学&lt;/h1>
+&lt;h2 id="图论">图论&lt;/h2>
+&lt;h1 id="组合数学">组合数学&lt;/h1>
+&lt;h2 id="最优化">最优化&lt;/h2></description></item><item><title>计算机网络学习笔记</title><link>https://080812.xyz/p/cst-cn/</link><pubDate>Sat, 30 Mar 2024 11:09:45 +0800</pubDate><guid>https://080812.xyz/p/cst-cn/</guid><description>&lt;p>本笔记配套教材为湖南科技大学高军《深入浅出计算机网络》，ISBN 978-7-302-60626-0，封面如图所示。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/p/cst-cn/image/0_0_%E5%B0%81%E9%9D%A2.jpg"
 width="284"
 height="400"
@@ -40,6 +46,8 @@ class="gallery-image"
 data-flex-grow="180"
 data-flex-basis="432px"
 >&lt;/p>
+&lt;p>推荐参考图书：程杰《大话数据结构(溢彩加强版)》 &lt;a class="link" href="https://www.tup.tsinghua.edu.cn/booksCenter/book_08952301.html" target="_blank" rel="noopener"
+>配套资源&lt;/a>&lt;/p>
 &lt;p>推荐配套课程：&lt;a class="link" href="https://www.bilibili.com/read/cv2306631/" target="_blank" rel="noopener"
 >青岛大学-王卓-数据结构 - 哔哩哔哩&lt;/a>&lt;/p>
 &lt;p>配套教学资源：&lt;a class="link" href="https://www.ryjiaoyu.com/book/details/3489" target="_blank" rel="noopener"
