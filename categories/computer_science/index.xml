@@ -209,7 +209,7 @@ data-flex-basis="670px"
 &lt;/tbody>
 &lt;/table>
 &lt;h3 id="习题解析1-32">《习题解析》[1-32]&lt;/h3>
-&lt;p>    若假定机器字长无限，移位位操作只需单位时间，递归不会溢出，且rand()为理想的随机数发生器。试分析以下函数 F(n)，并以大 O 记号的形式确定其渐近复杂度的紧上界。&lt;/p>
+&lt;p>    若假定机器字长无限，移位位操作只需单位时间，递归不会溢出，且rand()为理想的随机数发生器。试分析以下函数(F(n))，并以大(O)记号的形式确定其渐近复杂度的紧上界。&lt;/p>
 &lt;h4 id="ex8">ex.8&lt;/h4>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
