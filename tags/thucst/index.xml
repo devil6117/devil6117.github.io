@@ -1,242 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>THUCST on Kevin Lee's Blog</title><link>https://080812.xyz/tags/thucst/</link><description>Recent content in THUCST on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Fri, 08 Mar 2024 21:27:11 +0800</lastBuildDate><atom:link href="https://080812.xyz/tags/thucst/index.xml" rel="self" type="application/rss+xml"/><item><title>数据结构习题</title><link>https://080812.xyz/p/thu-cst-ds-ex/</link><pubDate>Fri, 08 Mar 2024 21:27:11 +0800</pubDate><guid>https://080812.xyz/p/thu-cst-ds-ex/</guid><description>&lt;h2 id="绪论">绪论&lt;/h2>
-&lt;h3 id="算法导论思考题-3-4">《算法导论》思考题 3-4&lt;/h3>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:left">&lt;center>问题&lt;/center>&lt;/th>
-&lt;th style="text-align:left">&lt;center>解析&lt;/center>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:left">(渐近记号的性质)假设\(f(n)\)和\(g(n)\)为渐近正函数。&lt;br>证明或反驳下面的每个猜测。&lt;/br>&lt;/td>
-&lt;td style="text-align:left">&lt;code>注：蕴涵，即可推出。例：A蕴涵B，即可由A推出B。&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">\(a.f(n)=O(g(n))\ \)蕴涵\(\ g(n)=O(f(n))。\)&lt;/td>
-&lt;td style="text-align:left">❌ 反例 \(g(n)=n^2,f(n)=n\)。但是\(n^2\neq O(n)。\)&lt;br>大 \(O\) 记号表达的是一个渐近函数，而非具象函数。&lt;/br>多个具象函数可以对应同一个渐近函数，&lt;br>但特定某个渐近函数是无法反推出原具象函数。&lt;/br>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">\(b.f(n)+g(n)=Θ(min(f(n),g(n)))\)&lt;/td>
-&lt;td style="text-align:left">❌ \(n^2+n\neq Θ(min(n^2,n))=Θ(n)\),&lt;br>\(Θ\) 必须取最高阶中的下界，即 \(Θ\) 需严格同阶。&lt;/br>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">\(c.f(n)=O(g(n))\)蕴涵\(lg(f(n))=O(lg(g(n)))\),&lt;br>其中对所有足够的\(n\)，有\(lg(g(n))\geq 1\)且 \(n&amp;gt;1\)。&lt;/br>&lt;/td>
-&lt;td style="text-align:left">✅ 正数取对数不改变大小关系。&lt;br>证明:\(\exist c,n_0&amp;gt;0,\forall n\geq n_0\)&lt;/br>\(f(n)\leq c\cdot g(n),lg(f(n))\leq d\cdot lg(g(n))\)&lt;/br>\(d=\frac {lg\ c+lg\ g(n)}{lg\ (n)}=\frac {lg\ c}{lg\ g(n)}+1\leq lg\ c+1\)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">\(d.f(n)=0(g(n))\ 蕴涵\ 2^{f(n)} =O(2^{g(n)})。\)&lt;/td>
-&lt;td style="text-align:left">❌ 可以取对数，但不能取指数。&lt;br>反例：\(f(n)=2n,g(n)=n。O(f(n))=O(g(n))\),&lt;br>但是\(2^{f(n)}=(2^2)^n=4^n\),与 \(2^{g(n)}=O(2^n)\)不相等。&lt;/br>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">\(e.f(n)=O((f(n))^2)。\)&lt;/td>
-&lt;td style="text-align:left">❌ 反例\(f(n)=\frac {1}{n}\)，这个等式在 \(n\geq 1\) 情况下恒成立。&lt;br>但需要注意的是：大 \(O\) 记号并不仅仅用于描述时间复杂度。&lt;/br>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">\(f.f(n)=O(g(n))\ 蕴涵\ g(n)=2(f(n))。\)&lt;/td>
-&lt;td style="text-align:left">✅ 证明：\(\exist c,n_0&amp;gt;0,\forall n\geq n_0\)&lt;br>\(f(n)\leq c\cdot g(n),lg(f(n))\leq d\cdot lg(g(n))\\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ d=\frac {1}{c}\),当\(n\geq n_0,g(n)\geq d\cdot f(n),g(n)=\Omega (n)\)&lt;/br>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">\(g.f(n)=Θ(f(n/2))\)&lt;/td>
-&lt;td style="text-align:left">❌ 反例：\(f(n)=2^{2n}\neq Θ(2^n)\)，而\(f(\frac {n}{2})=2^n\)。&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">\(h.f(n)+o(f(n))=Θ(f(n))\)&lt;/td>
-&lt;td style="text-align:left">✅证明：\(\exist c,n_0\geq 0,\forall n\geq n_0,0\leq g(n)\leq c\cdot f(n)\)&lt;br>\(\exist c_1,c_2,n_0,\forall n\geq n_0,0\leq c_1\cdot f(n)+g(n)\leq c_2\cdot f(n)\)&lt;/br>&lt;code>非重点&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h3 id="习题解析1-32">《习题解析》[1-32]&lt;/h3>
-&lt;p>    若假定机器字长无限，移位位操作只需单位时间，递归不会溢出，且rand()为理想的随机数发生器。试分析以下函数(F(n))，并以大(O)记号的形式确定其渐近复杂度的紧上界。&lt;/p>
-&lt;h4 id="ex8">ex.8&lt;/h4>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-c++" data-lang="c++">&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">F&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">++&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">+=&lt;/span> &lt;span class="n">i&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>    分析：&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">\(i\)&lt;/th>
-&lt;th style="text-align:center">\(times\)&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">\(i=1\)&lt;/td>
-&lt;td style="text-align:center">\(n\)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">\(i=2\)&lt;/td>
-&lt;td style="text-align:center">\(\frac{n}{2}\)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">\(i=3\)&lt;/td>
-&lt;td style="text-align:center">\(\frac{n}{3}\)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">\(\vdots\)&lt;/td>
-&lt;td style="text-align:center">\(\vdots\)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">\(i=n-1\)&lt;/td>
-&lt;td style="text-align:center">\(\frac{n}{n-1}\)&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>    解答：&lt;/p>
-&lt;p>    此处内循环的控制变量\(i\)尽管是在\([0，n)\)内按算术级数递增，但步长并不固定。具体地，第i轮内循环采用的步长即为\(i\)，故需做\(n/i\)次迭代。于是，所有循环的累计迭代次数为：&lt;/p>
-&lt;p>$$
-\sum_{i=0}^{n-1} \sum_{(k=\frac {j}{i})=0}^{\frac {n}{i}-1}1=\sum{i=1}^{n-1} \frac{n}{i}=\sum_{i=1}^{n-1} \frac{1}{i}=O(n\ log\ n)
-$$&lt;/p>
-&lt;p>    这里需要借助关于调和级数的以下性质：&lt;/p>
-&lt;p>$$
-\sum_{i=1}^{n}\frac{1}{i}=1+\frac{1}{2}+\frac{1}{3}+\cdots\frac{1}{n}=\ln\ n+\gamma+\Theta(\frac{1}{2n})
-$$&lt;/p>
-&lt;p>    其中，\(\gamma\approx 0.577216\)为欧拉常数。&lt;/p>
-&lt;h4 id="ex9">ex.9&lt;/h4>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-c++" data-lang="c++">&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">F&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="k">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">+=&lt;/span> &lt;span class="n">j&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">++&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>分析：&lt;/p>
-&lt;p>    这里的变量\(i\)和\(j\)均从\(0\)开始不断递增，每经过一步迭代，\(i\)递增\(j\)，\(j\)递增\(1\)。&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">迭代次序\(t\)&lt;/th>
-&lt;th style="text-align:center">\(0\)&lt;/th>
-&lt;th style="text-align:center">\(1\)&lt;/th>
-&lt;th style="text-align:center">\(2\)&lt;/th>
-&lt;th style="text-align:center">\(3\)&lt;/th>
-&lt;th style="text-align:center">\(\cdots\)&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">变量\(t\)&lt;/td>
-&lt;td style="text-align:center">\(0+0\)&lt;/td>
-&lt;td style="text-align:center">\(0+0+1\)&lt;/td>
-&lt;td style="text-align:center">\(0+0+1+2\)&lt;/td>
-&lt;td style="text-align:center">\(0+0+1+2+3\)&lt;/td>
-&lt;td style="text-align:center">\(\cdots\)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">变量\(j\)&lt;/td>
-&lt;td style="text-align:center">\(1\)&lt;/td>
-&lt;td style="text-align:center">\(2\)&lt;/td>
-&lt;td style="text-align:center">\(3\)&lt;/td>
-&lt;td style="text-align:center">\(4\)&lt;/td>
-&lt;td style="text-align:center">\(\cdots\)&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>    具体地，这一过程可以归纳如上表所示。经过\(k\)次迭代，必有：&lt;/p>
-&lt;p>$$
-i=\sum_{t=0}^{k-1} t=k(k-1)/2
-$$&lt;/p>
-&lt;p>在循环退出之前，必有：&lt;/p>
-&lt;p>\(i=k(k-1)/2&amp;lt;n\)或等价地，\(k&amp;lt;\frac{1+\sqrt{1+8n}}{2}\)&lt;/p>
-&lt;p>故该函数的时间复杂度为\(O(\sqrt{n})\)。&lt;/p>
-&lt;h4 id="ex10-">ex.10 *&lt;/h4>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-c++" data-lang="c++">&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">F&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="k">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">0&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">+=&lt;/span> &lt;span class="n">j&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">++&lt;/span>&lt;span class="p">);&lt;/span> &lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>    这里的变量\(i\)和\(r\)均从\(1\)开始不断递增，每经过一步迭代，\(i\)递增为\(i\cdot 2^r\)，\(r\)递增为\(2\cdot r\)。&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">迭代次序\(t\)&lt;/th>
-&lt;th style="text-align:center">\(0\)&lt;/th>
-&lt;th style="text-align:center">\(1\)&lt;/th>
-&lt;th style="text-align:center">\(2\)&lt;/th>
-&lt;th style="text-align:center">\(3\)&lt;/th>
-&lt;th style="text-align:center">\(\cdots\)&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">变量\(t\)&lt;/td>
-&lt;td style="text-align:center">\(2^0\)&lt;/td>
-&lt;td style="text-align:center">\(2^{(0+1)}\)&lt;/td>
-&lt;td style="text-align:center">\(2^{(0+1+2)}\)&lt;/td>
-&lt;td style="text-align:center">\(2^{(0+1+2+3)}\)&lt;/td>
-&lt;td style="text-align:center">\(\cdots\)&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">变量\(2^0=1\)&lt;/td>
-&lt;td style="text-align:center">\(2^1=2\)&lt;/td>
-&lt;td style="text-align:center">\(2^2=4\)&lt;/td>
-&lt;td style="text-align:center">\(2^3=8\)&lt;/td>
-&lt;td style="text-align:center">\(4\)&lt;/td>
-&lt;td style="text-align:center">\(\cdots\)&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>    具体地，这一过程可以归纳为如上表所示。故经过\(k\)次迭代后，必有&lt;/p>
-&lt;p>$$
-i=\prod_{t=0}^{k-1} 2^{(2t)}=2^{\sum_{t=0}^{k-1}2t}={(2^k -1)}
-$$&lt;/p>
-&lt;p>    在循环退出之前，必有&lt;/p>
-&lt;p>$$
-i=2^{(2^{k}-1)}&amp;lt;n
-$$&lt;/p>
-&lt;p>    亦即&lt;/p>
-&lt;p>$$
-2^k-1&amp;lt;log\ n
-\
-2^k\leq log\ n
-\
-k\leq log\ log\ n
-$$&lt;/p>
-&lt;p>    故该函数的时间复杂度为\(O(log\ log\ n)\)。&lt;/p>
-&lt;p>    同样地，这里通过左移操作实现了变量递增地方式，也为我们快捷估算时间复杂度提供了新的视角和线索。从二进制展开的角度来看，变量\(r\)的展开度每次增加一位，而变量\(i\)则每次增加\(r\)位。也就是说，变量\(i\)的宽度将以（大致）加倍的指数速度膨胀，直至刚好超过\(log\ n\)。因此，总体的迭代次数应不超过\(log\ n\)的对数，亦即O(log\ log\ n)。&lt;/p>
-&lt;h4 id="ex10-exam2024-">ex.10 (exam.2024) *&lt;/h4>
-&lt;p>以下函数的时间复杂度为 (    )&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-c++" data-lang="c++">&lt;span class="line">&lt;span class="cl">&lt;span class="kt">void&lt;/span> &lt;span class="nf">F&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>&lt;span class="c1">//假定字宽足够，运算不会溢出，且每次只需常数时间
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="k">for&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="kt">int&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">i&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="n">n&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;=&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">i&lt;/span> &lt;span class="o">&amp;lt;&amp;lt;=&lt;/span> &lt;span class="n">j&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>解法同 ex.10。&lt;/p>
-&lt;h4 id="ex11">ex.11&lt;/h4>
-&lt;p>见书。&lt;/p></description></item><item><title>数据结构学习笔记</title><link>https://080812.xyz/p/thu-cst-ds/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/p/thu-cst-ds/</guid><description>&lt;p>&lt;strong>注：标题有*的为课程考试重点。&lt;/strong>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>THUCST on Kevin Lee's Blog</title><link>https://080812.xyz/tags/thucst/</link><description>Recent content in THUCST on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Fri, 08 Mar 2024 21:18:52 +0800</lastBuildDate><atom:link href="https://080812.xyz/tags/thucst/index.xml" rel="self" type="application/rss+xml"/><item><title>数据结构学习笔记</title><link>https://080812.xyz/p/thu-cst/ds/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/p/thu-cst/ds/</guid><description>&lt;p>&lt;strong>注：标题有*的为课程考试重点。&lt;/strong>&lt;/p>
 &lt;h2 id="绪论">绪论&lt;/h2>
 &lt;h3 id="计算">计算&lt;/h3>
 &lt;h4 id="工具">工具&lt;/h4>
 &lt;p>    计算首先是我们这门课程的直接研究对象和内容，也是我们这门课程的研究目的和目标。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/01.Introduction_page-0002.jpg"
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst/ds/image/01.Introduction_page-0002.jpg"
 width="4000"
 height="2250"
-srcset="https://080812.xyz/p/thu-cst-ds/image/01.Introduction_page-0002_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1160794_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/01.Introduction_page-0002_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1160794_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://080812.xyz/p/thu-cst/ds/image/01.Introduction_page-0002_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1160794_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst/ds/image/01.Introduction_page-0002_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1160794_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="尺规计算器"
 class="gallery-image"
@@ -248,10 +18,10 @@ data-flex-basis="426px"
 &lt;p>    对象：规律、技巧&lt;/p>
 &lt;p>    目标：高效、低耗&lt;/p>
 &lt;h4 id="算法-">算法 *&lt;/h4>
-&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/02.Introduction_page-0004.jpg"
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst/ds/image/02.Introduction_page-0004.jpg"
 width="4000"
 height="2250"
-srcset="https://080812.xyz/p/thu-cst-ds/image/02.Introduction_page-0004_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1459149_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/02.Introduction_page-0004_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1459149_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://080812.xyz/p/thu-cst/ds/image/02.Introduction_page-0004_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1459149_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst/ds/image/02.Introduction_page-0004_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1459149_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="算法的定义"
 class="gallery-image"
@@ -261,10 +31,10 @@ data-flex-basis="426px"
 &lt;p>    计算机科学与计算科学的关系：&lt;/p>
 &lt;p>    computer science - 对象&lt;/p>
 &lt;p>    computing science - 目标&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/03.Introduction_page-0008.jpg"
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst/ds/image/03.Introduction_page-0008.jpg"
 width="4000"
 height="2250"
-srcset="https://080812.xyz/p/thu-cst-ds/image/03.Introduction_page-0008_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1496947_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/03.Introduction_page-0008_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1496947_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://080812.xyz/p/thu-cst/ds/image/03.Introduction_page-0008_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1496947_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst/ds/image/03.Introduction_page-0008_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1496947_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="好的算法"
 class="gallery-image"
@@ -274,10 +44,10 @@ data-flex-basis="426px"
 &lt;p>    &lt;code>退化是指在一个限制的情况下，一个集合中的对象改变其性质并且属于另一个集合，通常是变成比较简单的集合。&lt;/code>&lt;/p>
 &lt;h3 id="计算模型">计算模型&lt;/h3>
 &lt;h4 id="统一尺度">统一尺度&lt;/h4>
-&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/04.Introduction_page-0010.jpg"
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst/ds/image/04.Introduction_page-0010.jpg"
 width="4000"
 height="2250"
-srcset="https://080812.xyz/p/thu-cst-ds/image/04.Introduction_page-0010_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1499464_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/04.Introduction_page-0010_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1499464_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://080812.xyz/p/thu-cst/ds/image/04.Introduction_page-0010_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1499464_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst/ds/image/04.Introduction_page-0010_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1499464_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="算法分析"
 class="gallery-image"
@@ -303,10 +73,10 @@ sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 &lt;p>视频链接：&lt;a class="link" href="https://www.bilibili.com/video/BV16u4m1c7cU" target="_blank" rel="noopener"
 >BV16u4m1c7cU&lt;/a>&lt;/p>
 &lt;h3 id="渐近复杂度-">渐近复杂度 *&lt;/h3>
-&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/05.Introduction_page-0023.jpg"
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst/ds/image/05.Introduction_page-0023.jpg"
 width="4000"
 height="2250"
-srcset="https://080812.xyz/p/thu-cst-ds/image/05.Introduction_page-0023_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1093741_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/05.Introduction_page-0023_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1093741_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://080812.xyz/p/thu-cst/ds/image/05.Introduction_page-0023_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1093741_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst/ds/image/05.Introduction_page-0023_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1093741_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="渐近分析"
 class="gallery-image"
@@ -315,10 +85,10 @@ data-flex-basis="426px"
 >&lt;/p>
 &lt;p>    我们看重的是长远增长趋势，即问题规模\(n\rightarrow \infty \)时，\(O(n)\)的增长趋势。&lt;/p>
 &lt;h4 id="大o记号-">大\(O\)记号 *&lt;/h4>
-&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/06.Introduction_page-0024.jpg"
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst/ds/image/06.Introduction_page-0024.jpg"
 width="4000"
 height="2250"
-srcset="https://080812.xyz/p/thu-cst-ds/image/06.Introduction_page-0024_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1120721_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/06.Introduction_page-0024_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1120721_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://080812.xyz/p/thu-cst/ds/image/06.Introduction_page-0024_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1120721_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst/ds/image/06.Introduction_page-0024_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1120721_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Big-O"
 class="gallery-image"
@@ -326,10 +96,10 @@ data-flex-grow="177"
 data-flex-basis="426px"
 >&lt;/p>
 &lt;p>    常系数可忽略，低次项可忽略，参考“抓大头”思想。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/07.Introduction_page-0025.jpg"
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst/ds/image/07.Introduction_page-0025.jpg"
 width="4000"
 height="2250"
-srcset="https://080812.xyz/p/thu-cst-ds/image/07.Introduction_page-0025_hu04becbf5e8f3877f737f7c1ac6ba1cc0_893103_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/07.Introduction_page-0025_hu04becbf5e8f3877f737f7c1ac6ba1cc0_893103_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://080812.xyz/p/thu-cst/ds/image/07.Introduction_page-0025_hu04becbf5e8f3877f737f7c1ac6ba1cc0_893103_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst/ds/image/07.Introduction_page-0025_hu04becbf5e8f3877f737f7c1ac6ba1cc0_893103_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="Other-Notation"
 class="gallery-image"
@@ -341,10 +111,10 @@ data-flex-basis="426px"
 &lt;p>    \(\Omega\) 表示下界，即最好情况。&lt;/p>
 &lt;h4 id="多项式-">多项式 *&lt;/h4>
 &lt;p>    从渐近的角度来看，再大的常数，也小于递增的变数。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/08.Introduction_page-0029.jpg"
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst/ds/image/08.Introduction_page-0029.jpg"
 width="4000"
 height="2250"
-srcset="https://080812.xyz/p/thu-cst-ds/image/08.Introduction_page-0029_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1036629_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/08.Introduction_page-0029_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1036629_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://080812.xyz/p/thu-cst/ds/image/08.Introduction_page-0029_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1036629_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst/ds/image/08.Introduction_page-0029_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1036629_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="多项式"
 class="gallery-image"
@@ -358,10 +128,10 @@ data-flex-basis="426px"
 &lt;li>所有的低次项都是可忽略的，常系数项也是可以去掉的。&lt;/li>
 &lt;/ul>
 &lt;h4 id="指数">指数&lt;/h4>
-&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/09.Introduction_page-0032.jpg"
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst/ds/image/09.Introduction_page-0032.jpg"
 width="4000"
 height="2250"
-srcset="https://080812.xyz/p/thu-cst-ds/image/09.Introduction_page-0032_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1498104_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/09.Introduction_page-0032_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1498104_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://080812.xyz/p/thu-cst/ds/image/09.Introduction_page-0032_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1498104_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst/ds/image/09.Introduction_page-0032_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1498104_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="177"
@@ -369,10 +139,10 @@ data-flex-basis="426px"
 >&lt;/p>
 &lt;p>指数型复杂度通常表示该问题已经不可解（难以在有穷条件内可解）。&lt;/p>
 &lt;h4 id="复杂度层次-">复杂度层次 *&lt;/h4>
-&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/10.Introduction_page-0037.jpg"
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst/ds/image/10.Introduction_page-0037.jpg"
 width="4000"
 height="2250"
-srcset="https://080812.xyz/p/thu-cst-ds/image/10.Introduction_page-0037_hu04becbf5e8f3877f737f7c1ac6ba1cc0_868007_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/10.Introduction_page-0037_hu04becbf5e8f3877f737f7c1ac6ba1cc0_868007_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://080812.xyz/p/thu-cst/ds/image/10.Introduction_page-0037_hu04becbf5e8f3877f737f7c1ac6ba1cc0_868007_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst/ds/image/10.Introduction_page-0037_hu04becbf5e8f3877f737f7c1ac6ba1cc0_868007_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="先胖不算胖"
 class="gallery-image"
@@ -380,10 +150,10 @@ data-flex-grow="177"
 data-flex-basis="426px"
 >&lt;/p>
 &lt;p>    先胖不算胖：初始条件较低时的复杂度高，并不是全局复杂度高。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/11.Introduction_page-0038.jpg"
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst/ds/image/11.Introduction_page-0038.jpg"
 width="4000"
 height="2250"
-srcset="https://080812.xyz/p/thu-cst-ds/image/11.Introduction_page-0038_hu04becbf5e8f3877f737f7c1ac6ba1cc0_757293_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/11.Introduction_page-0038_hu04becbf5e8f3877f737f7c1ac6ba1cc0_757293_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://080812.xyz/p/thu-cst/ds/image/11.Introduction_page-0038_hu04becbf5e8f3877f737f7c1ac6ba1cc0_757293_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst/ds/image/11.Introduction_page-0038_hu04becbf5e8f3877f737f7c1ac6ba1cc0_757293_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="路遥知马力"
 class="gallery-image"
@@ -391,10 +161,10 @@ data-flex-grow="177"
 data-flex-basis="426px"
 >&lt;/p>
 &lt;p>    路遥知马力：算法复杂度通常需要问题规模增长到一定规模才能表现出现来。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/12.Introduction_page-0039.jpg"
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst/ds/image/12.Introduction_page-0039.jpg"
 width="4000"
 height="2250"
-srcset="https://080812.xyz/p/thu-cst-ds/image/12.Introduction_page-0039_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1552646_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/12.Introduction_page-0039_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1552646_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://080812.xyz/p/thu-cst/ds/image/12.Introduction_page-0039_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1552646_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst/ds/image/12.Introduction_page-0039_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1552646_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="复杂度层次"
 class="gallery-image"
@@ -412,10 +182,10 @@ data-flex-basis="426px"
 &lt;/ul>
 &lt;p>    参考：Concrete Mathematics&lt;/p>
 &lt;h4 id="迭代">迭代&lt;/h4>
-&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/13.Introduction_page-0046.jpg"
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst/ds/image/13.Introduction_page-0046.jpg"
 width="4000"
 height="2250"
-srcset="https://080812.xyz/p/thu-cst-ds/image/13.Introduction_page-0046_hu04becbf5e8f3877f737f7c1ac6ba1cc0_789602_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/13.Introduction_page-0046_hu04becbf5e8f3877f737f7c1ac6ba1cc0_789602_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://080812.xyz/p/thu-cst/ds/image/13.Introduction_page-0046_hu04becbf5e8f3877f737f7c1ac6ba1cc0_789602_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst/ds/image/13.Introduction_page-0046_hu04becbf5e8f3877f737f7c1ac6ba1cc0_789602_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="迭代"
 class="gallery-image"
@@ -425,10 +195,10 @@ data-flex-basis="426px"
 &lt;p>    上图中的图形面积为时间复杂度。&lt;/p>
 &lt;p>    迭代：每次运算的输出结果，都会作为下一次运算的输入参数，直到边界条件停止后算法退出，这种方法称为迭代。&lt;/p>
 &lt;p>    步骤：单个外层循环中的内部循环全部执行完以后，外层循环开始下一次。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/p/thu-cst-ds/image/14.Introduction_page-0048.jpg"
+&lt;p>&lt;img src="https://080812.xyz/p/thu-cst/ds/image/14.Introduction_page-0048.jpg"
 width="4000"
 height="2250"
-srcset="https://080812.xyz/p/thu-cst-ds/image/14.Introduction_page-0048_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1188104_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst-ds/image/14.Introduction_page-0048_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1188104_1024x0_resize_q75_box.jpg 1024w"
+srcset="https://080812.xyz/p/thu-cst/ds/image/14.Introduction_page-0048_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1188104_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/thu-cst/ds/image/14.Introduction_page-0048_hu04becbf5e8f3877f737f7c1ac6ba1cc0_1188104_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="迭代&amp;#43;级数"
 class="gallery-image"
