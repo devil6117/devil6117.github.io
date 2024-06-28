@@ -1,14 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog</title><link>https://080812.xyz/</link><description>Recent content on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Sat, 04 May 2024 07:35:19 +0800</lastBuildDate><atom:link href="https://080812.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>XiaomiAX3000T刷ImmortalWRT笔记</title><link>https://080812.xyz/p/router/xiaomiax3000t/</link><pubDate>Sat, 04 May 2024 07:35:19 +0800</pubDate><guid>https://080812.xyz/p/router/xiaomiax3000t/</guid><description>&lt;h1 id="简介">简介&lt;/h1>
-&lt;h1 id="硬件配置">硬件配置&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog</title><link>https://080812.xyz/</link><description>Recent content on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Sat, 04 May 2024 07:35:19 +0800</lastBuildDate><atom:link href="https://080812.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>XiaomiAX3000T刷ImmortalWRT笔记</title><link>https://080812.xyz/p/router/xiaomiax3000t/</link><pubDate>Sat, 04 May 2024 07:35:19 +0800</pubDate><guid>https://080812.xyz/p/router/xiaomiax3000t/</guid><description>&lt;h2 id="前情提要">前情提要&lt;/h2>
+&lt;p>    在学校实验室一直用小米AC2100，但实验室只提供100M宽带，别说AC2100了，就是用斐讯K2P都绰绰有余，就没打算换路由器的。搬入基地后，偶然发现基地的网速特别快，直接连WIFI可以跑到300M甚至500M。如果用AC2100是网线直连还好，碍于基地没有提供有线网口，只能通过无线中继，尽管AC2100的5GWIFI能达到1733Mbps带宽，但中继需要收发各占一半，因此网速达不到200M。再一个基地是WIFI6，AC2100这款WIFI5路由器确实有点力不从心。&lt;/p>
+&lt;p>    在本科同学推荐下，选择了AX3000T，当时百元价位最具性价比的WIFI6路由器。有个小插曲儿：拼多多拉他拼团，刚说不买，过一会儿又问我拼不拼。于是拼多多三人团+免拼一人，实付148入手。&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/p/router/xiaomiax3000t/image/000-0.jpg"
+width="737"
+height="1920"
+srcset="https://080812.xyz/p/router/xiaomiax3000t/image/000-0_hu627f6732e231466cb165bdb868e7b24b_89265_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/router/xiaomiax3000t/image/000-0_hu627f6732e231466cb165bdb868e7b24b_89265_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="38"
+data-flex-basis="92px"
+>&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/p/router/xiaomiax3000t/image/000-1.jpg"
+width="1080"
+height="635"
+srcset="https://080812.xyz/p/router/xiaomiax3000t/image/000-1_hueb6d02a143dbf832bce2da6cca2d474a_70665_480x0_resize_q75_box.jpg 480w, https://080812.xyz/p/router/xiaomiax3000t/image/000-1_hueb6d02a143dbf832bce2da6cca2d474a_70665_1024x0_resize_q75_box.jpg 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="170"
+data-flex-basis="408px"
+>&lt;/p>
+&lt;h2 id="硬件配置">硬件配置&lt;/h2>
 &lt;p>CPU：联发科 FiLogic 820系列 MT7981(双核A53架构，12nm工艺制程，1.3GHz主频)&lt;/p>
 &lt;p>Storage：256MB&lt;/p>
 &lt;p>RAM：128MB；&lt;/p>
 &lt;p>网口：4个自适应千兆口（支持盲插和双WAN，但对我来说没用）&lt;/p>
 &lt;p>无线：天线数量4根（5G频段2+1配置），支持160MHz频宽，近场NFC连接WiFi（没啥用）。&lt;/p>
 &lt;p>优点：拼多多149入手，性价比高，轻松跑满千兆，支持Mesh。&lt;/p>
-&lt;p>缺点：暂未发现。&lt;/p>
-&lt;h1 id="刷机过程">刷机过程&lt;/h1>
-&lt;h2 id="固件降级到1047">固件降级到1.0.47&lt;/h2>
+&lt;p>缺点：RAM只开基础功能还行，如果开科网的话就不太够用。&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/p/router/xiaomiax3000t/image/000-2.png"
+width="2203"
+height="414"
+srcset="https://080812.xyz/p/router/xiaomiax3000t/image/000-2_hu7f76e9b162271e837cb82d4341337f2d_39397_480x0_resize_box_3.png 480w, https://080812.xyz/p/router/xiaomiax3000t/image/000-2_hu7f76e9b162271e837cb82d4341337f2d_39397_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="532"
+data-flex-basis="1277px"
+>&lt;/p>
+&lt;h2 id="刷机过程">刷机过程&lt;/h2>
+&lt;h3 id="固件降级到1047">固件降级到1.0.47&lt;/h3>
 &lt;p>&lt;img src="https://080812.xyz/p/router/xiaomiax3000t/image/001.PNG"
 width="1777"
 height="1151"
@@ -19,7 +48,7 @@ data-flex-grow="154"
 data-flex-basis="370px"
 >&lt;/p>
 &lt;p>（收货到手就是1.0.47，故省略此步骤）&lt;/p>
-&lt;h2 id="开启ssh">开启SSH&lt;/h2>
+&lt;h3 id="开启ssh">开启SSH&lt;/h3>
 &lt;p>&lt;img src="https://080812.xyz/p/router/xiaomiax3000t/image/002.PNG"
 width="869"
 height="52"
@@ -73,8 +102,8 @@ data-flex-grow="191"
 data-flex-basis="460px"
 >&lt;/p>
 &lt;p>每条命令输入回车后会返回{code：0}，至此SSH已解锁成功。&lt;/p>
-&lt;h2 id="ssh连接路由器">SSH连接路由器&lt;/h2>
-&lt;h3 id="计算ssh密码">计算SSH密码&lt;/h3>
+&lt;h3 id="ssh连接路由器">SSH连接路由器&lt;/h3>
+&lt;h4 id="计算ssh密码">计算SSH密码&lt;/h4>
 &lt;p>&lt;img src="https://080812.xyz/p/router/xiaomiax3000t/image/004.PNG"
 width="1777"
 height="1151"
@@ -95,7 +124,7 @@ class="gallery-image"
 data-flex-grow="316"
 data-flex-basis="760px"
 >&lt;/p>
-&lt;h3 id="登录ssh">登录SSH&lt;/h3>
+&lt;h4 id="登录ssh">登录SSH&lt;/h4>
 &lt;p>&lt;img src="https://080812.xyz/p/router/xiaomiax3000t/image/006.PNG"
 width="1358"
 height="991"
@@ -126,7 +155,7 @@ data-flex-grow="96"
 data-flex-basis="230px"
 >&lt;/p>
 &lt;p>are u ok，官方玩梗。&lt;/p>
-&lt;h3 id="备份扇区">备份扇区&lt;/h3>
+&lt;h4 id="备份扇区">备份扇区&lt;/h4>
 &lt;p>在ssh以此输入以下命令备份路由器扇区，路由器存储空间不是特别大，需要使用Winscp把备份文件copy出来。扇区备份文件用于意外后的救砖恢复，备份过程省略。&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -224,13 +253,22 @@ data-flex-basis="230px"
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">dd &lt;span class="k">if&lt;/span>&lt;span class="o">=&lt;/span>/dev/mtd12 &lt;span class="nv">of&lt;/span>&lt;span class="o">=&lt;/span>/tmp/KF.bin
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h1 id="刷入immortalwrt">刷入ImmortalWRT&lt;/h1>
-&lt;p>&lt;code>笔记是后来补的，截图没留存这么多。&lt;/code>&lt;/p>
+&lt;/div>&lt;h2 id="刷入immortalwrt">刷入ImmortalWRT&lt;/h2>
+&lt;p>&lt;code>笔记是后来补的，截图没留存这么多，固件类型选ImmortalWRT或者OpenWRT就行，反正刷错了重选就是。&lt;/code>&lt;/p>
 &lt;p>手动电脑的IP地址设置为192.168.1.2，按住路由器的reset键再通电。一直按住状态等待15秒左右，浏览器里输入192.168.1.1，进入uboot了。&lt;/p>
 &lt;p>选择解压出来的ImmortalWRT固件刷入等待重启就差不多了。&lt;/p>
 &lt;p>默认web地址：192.168.1.1&lt;/p>
 &lt;p>用户名：root&lt;/p>
-&lt;p>密码：possword&lt;/p></description></item><item><title>计算机网络学习笔记</title><link>https://080812.xyz/p/cst/computer-network/</link><pubDate>Sat, 30 Mar 2024 11:09:45 +0800</pubDate><guid>https://080812.xyz/p/cst/computer-network/</guid><description>&lt;p>本笔记配套教材为湖南科技大学高军《深入浅出计算机网络》，ISBN 978-7-302-60626-0，封面如图所示。&lt;/p>
+&lt;p>密码：possword&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/p/router/xiaomiax3000t/image/009.png"
+width="2067"
+height="731"
+srcset="https://080812.xyz/p/router/xiaomiax3000t/image/009_hufc4685787b0fc9f4fcf14d9071360153_80996_480x0_resize_box_3.png 480w, https://080812.xyz/p/router/xiaomiax3000t/image/009_hufc4685787b0fc9f4fcf14d9071360153_80996_1024x0_resize_box_3.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="282"
+data-flex-basis="678px"
+>&lt;/p></description></item><item><title>计算机网络学习笔记</title><link>https://080812.xyz/p/cst/computer-network/</link><pubDate>Sat, 30 Mar 2024 11:09:45 +0800</pubDate><guid>https://080812.xyz/p/cst/computer-network/</guid><description>&lt;p>本笔记配套教材为湖南科技大学高军《深入浅出计算机网络》，ISBN 978-7-302-60626-0，封面如图所示。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/p/cst/computer-network/image/0_0_%E5%B0%81%E9%9D%A2.jpg"
 width="284"
 height="400"
