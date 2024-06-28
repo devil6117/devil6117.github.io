@@ -266,7 +266,7 @@ data-flex-basis="230px"
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">dd &lt;span class="k">if&lt;/span>&lt;span class="o">=&lt;/span>/dev/mtd12 &lt;span class="nv">of&lt;/span>&lt;span class="o">=&lt;/span>/tmp/KF.bin
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="刷入immortalwrt">刷入ImmortalWRT&lt;/h2>
+&lt;/div>&lt;h3 id="刷入immortalwrt">刷入ImmortalWRT&lt;/h3>
 &lt;p>&lt;code>笔记是后来补的，截图没留存这么多，固件类型选ImmortalWRT或者OpenWRT就行，反正刷错了重选就是。&lt;/code>&lt;/p>
 &lt;p>手动电脑的IP地址设置为192.168.1.2，按住路由器的reset键再通电。一直按住状态等待15秒左右，浏览器里输入192.168.1.1，进入uboot了。&lt;/p>
 &lt;p>选择解压出来的ImmortalWRT固件刷入等待重启就差不多了。&lt;/p>
