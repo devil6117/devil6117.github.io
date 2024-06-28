@@ -1,4 +1,236 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>网络 on Kevin Lee's Blog</title><link>https://080812.xyz/categories/network/</link><description>Recent content in 网络 on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Thu, 11 Jan 2024 19:19:33 +0800</lastBuildDate><atom:link href="https://080812.xyz/categories/network/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo 接入 Giscus 评论系统</title><link>https://080812.xyz/p/hugo/hugo-with-giscus/</link><pubDate>Thu, 11 Jan 2024 19:19:33 +0800</pubDate><guid>https://080812.xyz/p/hugo/hugo-with-giscus/</guid><description>&lt;h2 id="前言">前言&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>网络 on Kevin Lee's Blog</title><link>https://080812.xyz/categories/network/</link><description>Recent content in 网络 on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Sat, 04 May 2024 07:35:19 +0800</lastBuildDate><atom:link href="https://080812.xyz/categories/network/index.xml" rel="self" type="application/rss+xml"/><item><title>XiaomiAX3000T刷ImmortalWRT笔记</title><link>https://080812.xyz/p/router/xiaomiax3000t/</link><pubDate>Sat, 04 May 2024 07:35:19 +0800</pubDate><guid>https://080812.xyz/p/router/xiaomiax3000t/</guid><description>&lt;h1 id="简介">简介&lt;/h1>
+&lt;h1 id="硬件配置">硬件配置&lt;/h1>
+&lt;p>CPU：联发科 FiLogic 820系列 MT7981(双核A53架构，12nm工艺制程，1.3GHz主频)&lt;/p>
+&lt;p>Storage：256MB&lt;/p>
+&lt;p>RAM：128MB；&lt;/p>
+&lt;p>网口：4个自适应千兆口（支持盲插和双WAN，但对我来说没用）&lt;/p>
+&lt;p>无线：天线数量4根（5G频段2+1配置），支持160MHz频宽，近场NFC连接WiFi（没啥用）。&lt;/p>
+&lt;p>优点：拼多多149入手，性价比高，轻松跑满千兆，支持Mesh。&lt;/p>
+&lt;p>缺点：暂未发现。&lt;/p>
+&lt;h1 id="刷机过程">刷机过程&lt;/h1>
+&lt;h2 id="固件降级到1047">固件降级到1.0.47&lt;/h2>
+&lt;p>&lt;img src="https://080812.xyz/p/router/xiaomiax3000t/image/001.PNG"
+width="1777"
+height="1151"
+srcset="https://080812.xyz/p/router/xiaomiax3000t/image/001_huc163d380a48571ab02a6266fe7c573a1_147603_480x0_resize_box_3.PNG 480w, https://080812.xyz/p/router/xiaomiax3000t/image/001_huc163d380a48571ab02a6266fe7c573a1_147603_1024x0_resize_box_3.PNG 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="154"
+data-flex-basis="370px"
+>&lt;/p>
+&lt;p>（收货到手就是1.0.47，故省略此步骤）&lt;/p>
+&lt;h2 id="开启ssh">开启SSH&lt;/h2>
+&lt;p>&lt;img src="https://080812.xyz/p/router/xiaomiax3000t/image/002.PNG"
+width="869"
+height="52"
+srcset="https://080812.xyz/p/router/xiaomiax3000t/image/002_hu3bb135533cc9893740f7ac0955b23540_6606_480x0_resize_box_3.PNG 480w, https://080812.xyz/p/router/xiaomiax3000t/image/002_hu3bb135533cc9893740f7ac0955b23540_6606_1024x0_resize_box_3.PNG 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="1671"
+data-flex-basis="4010px"
+>&lt;/p>
+&lt;p>登录路由器后台，复制红框中的stok值，替换下面代码的中“你的值”。
+&lt;code>小米路由器默认ip是192.168.31.1，我习惯到手就改了。&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">curl -X POST http://192.168.31.1/cgi-bin/luci/&lt;span class="p">;&lt;/span>&lt;span class="nv">stok&lt;/span>&lt;span class="o">=&lt;/span>你的值/api/misystem/arn_switch -d &lt;span class="s2">&amp;#34;open=1&amp;amp;model=1&amp;amp;level=%0Anvram%20set%20ssh_en%3D1%0A&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">curl -X POST http://192.168.31.1/cgi-bin/luci/&lt;span class="p">;&lt;/span>&lt;span class="nv">stok&lt;/span>&lt;span class="o">=&lt;/span>你的值/api/misystem/arn_switch -d &lt;span class="s2">&amp;#34;open=1&amp;amp;model=1&amp;amp;level=%0Anvram%20commit%0A&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">curl -X POST http://192.168.31.1/cgi-bin/luci/&lt;span class="p">;&lt;/span>&lt;span class="nv">stok&lt;/span>&lt;span class="o">=&lt;/span>你的值/api/misystem/arn_switch -d &lt;span class="s2">&amp;#34;open=1&amp;amp;model=1&amp;amp;level=%0Ased%20-i%20&amp;#39;s%2Fchannel%3D.*%2Fchannel%3D%22debug%22%2Fg&amp;#39;%20%2Fetc%2Finit.d%2Fdropbear%0A&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">curl -X POST http://192.168.31.1/cgi-bin/luci/&lt;span class="p">;&lt;/span>&lt;span class="nv">stok&lt;/span>&lt;span class="o">=&lt;/span>你的值/api/misystem/arn_switch -d &lt;span class="s2">&amp;#34;open=1&amp;amp;model=1&amp;amp;level=%0A%2Fetc%2Finit.d%2Fdropbear%20start%0A&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;img src="https://080812.xyz/p/router/xiaomiax3000t/image/003.PNG"
+width="1470"
+height="766"
+srcset="https://080812.xyz/p/router/xiaomiax3000t/image/003_hu0ed40d564648454e70d71e3a941b8f8e_107769_480x0_resize_box_3.PNG 480w, https://080812.xyz/p/router/xiaomiax3000t/image/003_hu0ed40d564648454e70d71e3a941b8f8e_107769_1024x0_resize_box_3.PNG 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="191"
+data-flex-basis="460px"
+>&lt;/p>
+&lt;p>每条命令输入回车后会返回{code：0}，至此SSH已解锁成功。&lt;/p>
+&lt;h2 id="ssh连接路由器">SSH连接路由器&lt;/h2>
+&lt;h3 id="计算ssh密码">计算SSH密码&lt;/h3>
+&lt;p>&lt;img src="https://080812.xyz/p/router/xiaomiax3000t/image/004.PNG"
+width="1777"
+height="1151"
+srcset="https://080812.xyz/p/router/xiaomiax3000t/image/004_hue2ce824679888e914617e148436e797a_135068_480x0_resize_box_3.PNG 480w, https://080812.xyz/p/router/xiaomiax3000t/image/004_hue2ce824679888e914617e148436e797a_135068_1024x0_resize_box_3.PNG 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="154"
+data-flex-basis="370px"
+>&lt;/p>
+&lt;p>复制路由器后台的SN。&lt;/p>
+&lt;p>粘贴到小米SSH ROOT密码计算器计算ROOT密码。&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/p/router/xiaomiax3000t/image/005.PNG"
+width="846"
+height="267"
+srcset="https://080812.xyz/p/router/xiaomiax3000t/image/005_hu5f230e91909ba13707fa656717e20183_23748_480x0_resize_box_3.PNG 480w, https://080812.xyz/p/router/xiaomiax3000t/image/005_hu5f230e91909ba13707fa656717e20183_23748_1024x0_resize_box_3.PNG 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="316"
+data-flex-basis="760px"
+>&lt;/p>
+&lt;h3 id="登录ssh">登录SSH&lt;/h3>
+&lt;p>&lt;img src="https://080812.xyz/p/router/xiaomiax3000t/image/006.PNG"
+width="1358"
+height="991"
+srcset="https://080812.xyz/p/router/xiaomiax3000t/image/006_hu8794772d6a6b25d04972fd1795b8295c_79483_480x0_resize_box_3.PNG 480w, https://080812.xyz/p/router/xiaomiax3000t/image/006_hu8794772d6a6b25d04972fd1795b8295c_79483_1024x0_resize_box_3.PNG 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="137"
+data-flex-basis="328px"
+>&lt;/p>
+&lt;p>输入路由器IP。&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/p/router/xiaomiax3000t/image/007.PNG"
+width="519"
+height="98"
+srcset="https://080812.xyz/p/router/xiaomiax3000t/image/007_hufbbd7c6490d8ddf3f6bac49a39a11967_5614_480x0_resize_box_3.PNG 480w, https://080812.xyz/p/router/xiaomiax3000t/image/007_hufbbd7c6490d8ddf3f6bac49a39a11967_5614_1024x0_resize_box_3.PNG 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="529"
+data-flex-basis="1271px"
+>&lt;/p>
+&lt;p>粘贴计算出来的Root密码。&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/p/router/xiaomiax3000t/image/008.PNG"
+width="966"
+height="1006"
+srcset="https://080812.xyz/p/router/xiaomiax3000t/image/008_hu581b9bd3532624b0b7b2e287ba73a195_44454_480x0_resize_box_3.PNG 480w, https://080812.xyz/p/router/xiaomiax3000t/image/008_hu581b9bd3532624b0b7b2e287ba73a195_44454_1024x0_resize_box_3.PNG 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="96"
+data-flex-basis="230px"
+>&lt;/p>
+&lt;p>are u ok，官方玩梗。&lt;/p>
+&lt;h3 id="备份扇区">备份扇区&lt;/h3>
+&lt;p>在ssh以此输入以下命令备份路由器扇区，路由器存储空间不是特别大，需要使用Winscp把备份文件copy出来。扇区备份文件用于意外后的救砖恢复，备份过程省略。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">dd &lt;span class="k">if&lt;/span>&lt;span class="o">=&lt;/span>/dev/mtd1 &lt;span class="nv">of&lt;/span>&lt;span class="o">=&lt;/span>/tmp/BL2.bin
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">dd &lt;span class="k">if&lt;/span>&lt;span class="o">=&lt;/span>/dev/mtd2 &lt;span class="nv">of&lt;/span>&lt;span class="o">=&lt;/span>/tmp/Nvram.bin
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">dd &lt;span class="k">if&lt;/span>&lt;span class="o">=&lt;/span>/dev/mtd3 &lt;span class="nv">of&lt;/span>&lt;span class="o">=&lt;/span>/tmp/Bdate.bin
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">dd &lt;span class="k">if&lt;/span>&lt;span class="o">=&lt;/span>/dev/mtd4 &lt;span class="nv">of&lt;/span>&lt;span class="o">=&lt;/span>/tmp/Factory.bin
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">dd &lt;span class="k">if&lt;/span>&lt;span class="o">=&lt;/span>/dev/mtd5 &lt;span class="nv">of&lt;/span>&lt;span class="o">=&lt;/span>/tmp/FIP.bin
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">dd &lt;span class="k">if&lt;/span>&lt;span class="o">=&lt;/span>/dev/mtd6 &lt;span class="nv">of&lt;/span>&lt;span class="o">=&lt;/span>/tmp/crash.bin
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">dd &lt;span class="k">if&lt;/span>&lt;span class="o">=&lt;/span>/dev/mtd7 &lt;span class="nv">of&lt;/span>&lt;span class="o">=&lt;/span>/tmp/crash_log.bin
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">dd &lt;span class="k">if&lt;/span>&lt;span class="o">=&lt;/span>/dev/mtd8 &lt;span class="nv">of&lt;/span>&lt;span class="o">=&lt;/span>/tmp/ubi.bin
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">dd &lt;span class="k">if&lt;/span>&lt;span class="o">=&lt;/span>/dev/mtd9 &lt;span class="nv">of&lt;/span>&lt;span class="o">=&lt;/span>/tmp/ubi1.bin
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">dd &lt;span class="k">if&lt;/span>&lt;span class="o">=&lt;/span>/dev/mtd10 &lt;span class="nv">of&lt;/span>&lt;span class="o">=&lt;/span>/tmp/overlay.bin
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">dd &lt;span class="k">if&lt;/span>&lt;span class="o">=&lt;/span>/dev/mtd11 &lt;span class="nv">of&lt;/span>&lt;span class="o">=&lt;/span>/tmp/date.bin
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">dd &lt;span class="k">if&lt;/span>&lt;span class="o">=&lt;/span>/dev/mtd12 &lt;span class="nv">of&lt;/span>&lt;span class="o">=&lt;/span>/tmp/KF.bin
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h1 id="刷入immortalwrt">刷入ImmortalWRT&lt;/h1>
+&lt;p>&lt;code>笔记是后来补的，截图没留存这么多。&lt;/code>&lt;/p>
+&lt;p>手动电脑的IP地址设置为192.168.1.2，按住路由器的reset键再通电。一直按住状态等待15秒左右，浏览器里输入192.168.1.1，进入uboot了。&lt;/p>
+&lt;p>选择解压出来的ImmortalWRT固件刷入等待重启就差不多了。&lt;/p>
+&lt;p>默认web地址：192.168.1.1&lt;/p>
+&lt;p>用户名：root&lt;/p>
+&lt;p>密码：possword&lt;/p></description></item><item><title>Hugo 接入 Giscus 评论系统</title><link>https://080812.xyz/p/hugo/hugo-with-giscus/</link><pubDate>Thu, 11 Jan 2024 19:19:33 +0800</pubDate><guid>https://080812.xyz/p/hugo/hugo-with-giscus/</guid><description>&lt;h2 id="前言">前言&lt;/h2>
 &lt;p>    折腾了这么些天的Hugo，看很多人的博客都有评论功能，也想整一个。考虑到我的博客是搭建在Github上，那么评论放在Github上也是情理之中的。&lt;/p>
 &lt;p>    Giscus 是一个由 Github Discussions 驱动的评论系统，无需自己单独配置。&lt;/p>
 &lt;h2 id="创建public仓库">创建Public仓库&lt;/h2>
