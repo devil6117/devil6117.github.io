@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>英语学习 on Kevin Lee's Blog</title><link>https://080812.xyz/categories/english/</link><description>Recent content in 英语学习 on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Kevin Lee's Blog</copyright><lastBuildDate>Sat, 09 Mar 2024 11:18:52 +0800</lastBuildDate><atom:link href="https://080812.xyz/categories/english/index.xml" rel="self" type="application/rss+xml"/><item><title>新概念英语</title><link>https://080812.xyz/p/english/nce/</link><pubDate>Sat, 09 Mar 2024 11:18:52 +0800</pubDate><guid>https://080812.xyz/p/english/nce/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog – English</title><link>https://080812.xyz/categories/english/</link><description>Recent content in English on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 09 Mar 2024 11:18:52 +0800</lastBuildDate><atom:link href="https://080812.xyz/categories/english/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 新概念英语</title><link>https://080812.xyz/docs/english/nce/nce/</link><pubDate>Sat, 09 Mar 2024 11:18:52 +0800</pubDate><guid>https://080812.xyz/docs/english/nce/nce/</guid><description>
 &lt;div class="video-wrapper">
 &lt;iframe src="https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1fK421b7kD&amp;autoplay=0"
 scrolling="no"
@@ -11,21 +11,12 @@ sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 >
 &lt;/iframe>
 &lt;/div>
-&lt;p>视频链接：&lt;a class="link" href="https://www.bilibili.com/video/BV1fK421b7kD" target="_blank" rel="noopener"
->BV1fK421b7kD&lt;/a>&lt;/p>
+&lt;p>视频链接：&lt;a href="https://www.bilibili.com/video/BV1fK421b7kD">BV1fK421b7kD&lt;/a>&lt;/p>
 &lt;h2 id="简介">简介&lt;/h2>
 &lt;p>    本文档是我学习《新概念英语》的电子版学习笔记，我通常在第一次学习时直接在教材上做笔记，复习阶段再整理为电子版，复习的同时也是对知识体系进行一次整理的过程，尽管这件事很耗费时间，但也很有必要。&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">2024年6月28日
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">全年重心在计算机科学，英语相关笔记暂时隐藏，整理完毕后重新开放。
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="学习建议">学习建议&lt;/h2>
+&lt;pre tabindex="0">&lt;code>2024年6月28日
+全年重心在计算机科学，英语相关笔记暂时隐藏，整理完毕后重新开放。
+&lt;/code>&lt;/pre>&lt;h2 id="学习建议">学习建议&lt;/h2>
 &lt;p>    《新概念英语》这套教材怎么样？允我愚见，这套教材好，但也不好，如好。没有到别无选择的境地，尽可能地选用其他贴合自己实际需求的教材，为什么不推荐直接使用《新概念英语》的原因，开篇视频就是答案，《新概念英语》太老了，最新的第二版都是1997年10月。从非应试的角度理解，我非常支持视频中女生的行为，不过我建议该女生在选择engineer答案前，在冠词a后面手写加个n，答案就是 she is an engineer，我想这样争议会小很多了。&lt;/p>
 &lt;p>    那么《新概念英语》还值得学习吗？如果你需要全面提升听说读写能力，而非某单一能力，并且现有条件只能自学，并不具备报班条件的前提下，那么我推荐你使用《新概念英语》，在我有限的认知里，它是唯一一套仅通过自学就可以全面提升听说读写能力的教材，如果你基础不错，我更推荐《新视野》。&lt;/p>
 &lt;p>    那么请对照下表确定自己从哪一册开始学期吧。&lt;strong>零基础是指仅认识26个英文字母，而不是连字母都不认识！&lt;/strong>&lt;/p>
