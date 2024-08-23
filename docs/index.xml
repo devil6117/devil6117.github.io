@@ -7,12 +7,12 @@ size of your docset, you can have a separate overview page (like this one) or
 put your overview contents in the Documentation landing page (like in the Docsy
 User Guide).&lt;/p>
 &lt;p>Try answering these questions for your user in this page:&lt;/p>
-&lt;h2 id="what-is-it">What is it?&lt;/h2>
+&lt;h2 id="what-is-it">What is it?&lt;a class="td-heading-self-link" href="#what-is-it" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>Introduce your project, including what it does or lets you do, why you would use
 it, and its primary goal (and how it achieves it). This should be similar to
 your README description, though you can go into a little more detail here if you
 want.&lt;/p>
-&lt;h2 id="why-do-i-want-it">Why do I want it?&lt;/h2>
+&lt;h2 id="why-do-i-want-it">Why do I want it?&lt;a class="td-heading-self-link" href="#why-do-i-want-it" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>Help your user know if your project will help them. Useful information can
 include:&lt;/p>
 &lt;ul>
@@ -31,18 +31,18 @@ your users know if the project is not for them.&lt;/p>
 coming soon.&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="where-should-i-go-next">Where should I go next?&lt;/h2>
+&lt;h2 id="where-should-i-go-next">Where should I go next?&lt;a class="td-heading-self-link" href="#where-should-i-go-next" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>Give your users next steps from the Overview. For example:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://080812.xyz/docs/getting-started/">Getting Started&lt;/a>: Get started with $project&lt;/li>
 &lt;li>&lt;a href="https://080812.xyz/docs/examples/">Examples&lt;/a>: Check out some example code!&lt;/li>
 &lt;/ul></description></item><item><title>Docs: XiaomiAX3000T刷ImmortalWRT笔记</title><link>https://080812.xyz/docs/network/rs/xiaomiax3000t/</link><pubDate>Sat, 04 May 2024 07:35:19 +0800</pubDate><guid>https://080812.xyz/docs/network/rs/xiaomiax3000t/</guid><description>
-&lt;h2 id="前情提要">前情提要&lt;/h2>
+&lt;h2 id="前情提要">前情提要&lt;a class="td-heading-self-link" href="#%e5%89%8d%e6%83%85%e6%8f%90%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>    在学校实验室一直用小米AC2100，但实验室只提供100M宽带，别说AC2100了，就是用斐讯K2P都绰绰有余，就没打算换路由器的。搬入基地后，偶然发现基地的网速特别快，直接连WIFI可以跑到300M甚至500M。如果用AC2100是网线直连还好，碍于基地没有提供有线网口，只能通过无线中继，尽管AC2100的5GWIFI能达到1733Mbps带宽，但中继需要收发各占一半，因此网速达不到200M。再一个基地是WIFI6，AC2100这款WIFI5路由器确实有点力不从心。&lt;/p>
 &lt;p>    在本科同学推荐下，选择了AX3000T，当时百元价位最具性价比的WIFI6路由器。有个小插曲儿：拼多多拉他拼团，刚说不买，过一会儿又问我拼不拼。于是拼多多三人团+免拼一人，实付148入手。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/rs/xiaomiax3000t/image/000-0.jpg">&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/rs/xiaomiax3000t/image/000-1.jpg">&lt;/p>
-&lt;h2 id="硬件配置">硬件配置&lt;/h2>
+&lt;h2 id="硬件配置">硬件配置&lt;a class="td-heading-self-link" href="#%e7%a1%ac%e4%bb%b6%e9%85%8d%e7%bd%ae" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>CPU：联发科 FiLogic 820系列 MT7981(双核A53架构，12nm工艺制程，1.3GHz主频)&lt;/p>
 &lt;p>Storage：256MB&lt;/p>
 &lt;p>RAM：128MB；&lt;/p>
@@ -51,15 +51,15 @@ coming soon.&lt;/p>
 &lt;p>优点：拼多多149入手，性价比高，轻松跑满千兆，支持Mesh。&lt;/p>
 &lt;p>缺点：RAM只开基础功能还行，如果开科网的话就不太够用。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/rs/xiaomiax3000t/image/000-2.png">&lt;/p>
-&lt;h2 id="刷机过程">刷机过程&lt;/h2>
+&lt;h2 id="刷机过程">刷机过程&lt;a class="td-heading-self-link" href="#%e5%88%b7%e6%9c%ba%e8%bf%87%e7%a8%8b" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>刷机所需资源包&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>链接：https://pan.baidu.com/s/12oEnYIhNTwtub4QQir-dhQ?pwd=28yf
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>提取码：28yf
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>--来自百度网盘超级会员V6的分享
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="固件降级到1047">固件降级到1.0.47&lt;/h3>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="固件降级到1047">固件降级到1.0.47&lt;a class="td-heading-self-link" href="#%e5%9b%ba%e4%bb%b6%e9%99%8d%e7%ba%a7%e5%88%b01047" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/rs/xiaomiax3000t/image/001.png">&lt;/p>
 &lt;p>（收货到手就是1.0.47，故省略此步骤）&lt;/p>
-&lt;h3 id="开启ssh">开启SSH&lt;/h3>
+&lt;h3 id="开启ssh">开启SSH&lt;a class="td-heading-self-link" href="#%e5%bc%80%e5%90%afssh" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/rs/xiaomiax3000t/image/002.png">&lt;/p>
 &lt;p>登录路由器后台，复制红框中的stok值，替换下面代码的中“你的值”。
 &lt;code>小米路由器默认ip是192.168.31.1，我习惯到手就改了。&lt;/code>&lt;/p>
@@ -69,20 +69,20 @@ coming soon.&lt;/p>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>curl -X POST http://192.168.31.1/cgi-bin/luci/&lt;span style="color:#000;font-weight:bold">;&lt;/span>&lt;span style="color:#000">stok&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>你的值/api/misystem/arn_switch -d &lt;span style="color:#4e9a06">&amp;#34;open=1&amp;amp;model=1&amp;amp;level=%0A%2Fetc%2Finit.d%2Fdropbear%20start%0A&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://080812.xyz/docs/network/rs/xiaomiax3000t/image/003.png">&lt;/p>
 &lt;p>每条命令输入回车后会返回{code：0}，至此SSH已解锁成功。&lt;/p>
-&lt;h3 id="ssh连接路由器">SSH连接路由器&lt;/h3>
-&lt;h4 id="计算ssh密码">计算SSH密码&lt;/h4>
+&lt;h3 id="ssh连接路由器">SSH连接路由器&lt;a class="td-heading-self-link" href="#ssh%e8%bf%9e%e6%8e%a5%e8%b7%af%e7%94%b1%e5%99%a8" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;h4 id="计算ssh密码">计算SSH密码&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97ssh%e5%af%86%e7%a0%81" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/rs/xiaomiax3000t/image/004.png">&lt;/p>
 &lt;p>复制路由器后台的SN。&lt;/p>
 &lt;p>粘贴到小米SSH ROOT密码计算器计算ROOT密码。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/rs/xiaomiax3000t/image/005.png">&lt;/p>
-&lt;h4 id="登录ssh">登录SSH&lt;/h4>
+&lt;h4 id="登录ssh">登录SSH&lt;a class="td-heading-self-link" href="#%e7%99%bb%e5%bd%95ssh" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/rs/xiaomiax3000t/image/006.PNG">&lt;/p>
 &lt;p>输入路由器IP。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/rs/xiaomiax3000t/image/007.PNG">&lt;/p>
 &lt;p>粘贴计算出来的Root密码。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/rs/xiaomiax3000t/image/008.PNG">&lt;/p>
 &lt;p>are u ok，官方玩梗。&lt;/p>
-&lt;h4 id="备份扇区">备份扇区&lt;/h4>
+&lt;h4 id="备份扇区">备份扇区&lt;a class="td-heading-self-link" href="#%e5%a4%87%e4%bb%bd%e6%89%87%e5%8c%ba" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;p>在ssh以此输入以下命令备份路由器扇区，路由器存储空间不是特别大，需要使用Winscp把备份文件copy出来。扇区备份文件用于意外后的救砖恢复，备份过程省略。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>dd &lt;span style="color:#204a87;font-weight:bold">if&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/dev/mtd1 &lt;span style="color:#000">of&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/tmp/BL2.bin
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>dd &lt;span style="color:#204a87;font-weight:bold">if&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/dev/mtd2 &lt;span style="color:#000">of&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/tmp/Nvram.bin
@@ -96,7 +96,7 @@ coming soon.&lt;/p>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>dd &lt;span style="color:#204a87;font-weight:bold">if&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/dev/mtd10 &lt;span style="color:#000">of&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/tmp/overlay.bin
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>dd &lt;span style="color:#204a87;font-weight:bold">if&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/dev/mtd11 &lt;span style="color:#000">of&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/tmp/date.bin
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>dd &lt;span style="color:#204a87;font-weight:bold">if&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/dev/mtd12 &lt;span style="color:#000">of&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/tmp/KF.bin
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="刷入immortalwrt">刷入ImmortalWRT&lt;/h3>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="刷入immortalwrt">刷入ImmortalWRT&lt;a class="td-heading-self-link" href="#%e5%88%b7%e5%85%a5immortalwrt" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>&lt;code>笔记是后来补的，截图没留存这么多，固件类型选ImmortalWRT或者OpenWRT就行，反正刷错了重选就是。&lt;/code>&lt;/p>
 &lt;p>手动电脑的IP地址设置为192.168.1.2，按住路由器的reset键再通电。一直按住状态等待15秒左右，浏览器里输入192.168.1.1，进入uboot了。&lt;/p>
 &lt;p>选择解压出来的ImmortalWRT固件刷入等待重启就差不多了。&lt;/p>
@@ -108,22 +108,22 @@ coming soon.&lt;/p>
 &lt;p>&lt;img alt="封面" src="https://080812.xyz/docs/cst/cn/image/0_0_%E5%B0%81%E9%9D%A2.jpg">&lt;/p>
 &lt;p>配套教学课程：&lt;a href="https://www.bilibili.com/video/BV1NT411g7n6/">深入浅出计算机网络 微课视频_哔哩哔哩_bilibili&lt;/a>&lt;/p>
 &lt;p>配套教学资源：&lt;a href="https://www.tup.tsinghua.edu.cn/booksCenter/book_09342101.html">清华大学出版社-图书详情-《深入浅出计算机网络（微课视频版）》&lt;/a>&lt;/p>
-&lt;h2 id="概论">概论&lt;/h2>
-&lt;h2 id="物理层">物理层&lt;/h2>
-&lt;h2 id="数据链路层">数据链路层&lt;/h2>
-&lt;h2 id="网络层">网络层&lt;/h2>
-&lt;h2 id="运输层">运输层&lt;/h2>
-&lt;h2 id="应用层">应用层&lt;/h2>
-&lt;h2 id="网络安全">网络安全&lt;/h2></description></item><item><title>Docs: 数据结构(C语言版)学习笔记</title><link>https://080812.xyz/docs/cst/ds/</link><pubDate>Fri, 29 Mar 2024 19:36:35 +0800</pubDate><guid>https://080812.xyz/docs/cst/ds/</guid><description>
+&lt;h2 id="概论">概论&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%ae%ba" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="物理层">物理层&lt;a class="td-heading-self-link" href="#%e7%89%a9%e7%90%86%e5%b1%82" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="数据链路层">数据链路层&lt;a class="td-heading-self-link" href="#%e6%95%b0%e6%8d%ae%e9%93%be%e8%b7%af%e5%b1%82" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="网络层">网络层&lt;a class="td-heading-self-link" href="#%e7%bd%91%e7%bb%9c%e5%b1%82" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="运输层">运输层&lt;a class="td-heading-self-link" href="#%e8%bf%90%e8%be%93%e5%b1%82" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="应用层">应用层&lt;a class="td-heading-self-link" href="#%e5%ba%94%e7%94%a8%e5%b1%82" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="网络安全">网络安全&lt;a class="td-heading-self-link" href="#%e7%bd%91%e7%bb%9c%e5%ae%89%e5%85%a8" aria-label="Heading self-link">&lt;/a>&lt;/h2></description></item><item><title>Docs: 数据结构(C语言版)学习笔记</title><link>https://080812.xyz/docs/cst/ds/</link><pubDate>Fri, 29 Mar 2024 19:36:35 +0800</pubDate><guid>https://080812.xyz/docs/cst/ds/</guid><description>
 &lt;p>本笔记配套学习教材为严蔚敏《数据结构(C语言版)(第2版)》，ISBN 978-7-115-37950-4，封面如图所示。&lt;/p>
 &lt;p>&lt;img alt="封面" src="https://080812.xyz/docs/cst/ds/image/0_0_%E5%B0%81%E9%9D%A2.jpg">&lt;/p>
 &lt;p>&lt;img alt="数据结构目录" src="https://080812.xyz/docs/cst/ds/image/0_1_%E7%9B%AE%E5%BD%95%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.png">&lt;/p>
 &lt;p>推荐参考图书：程杰《大话数据结构(溢彩加强版)》 &lt;a href="https://www.tup.tsinghua.edu.cn/booksCenter/book_08952301.html">配套资源&lt;/a>&lt;/p>
 &lt;p>推荐配套课程：&lt;a href="https://www.bilibili.com/read/cv2306631/">青岛大学-王卓-数据结构 - 哔哩哔哩&lt;/a>&lt;/p>
 &lt;p>配套教学资源：&lt;a href="https://www.ryjiaoyu.com/book/details/3489">数据结构（C语言版）（第2版）-图书-人邮教育社区&lt;/a>&lt;/p>
-&lt;h2 id="绪论">绪论&lt;/h2>
+&lt;h2 id="绪论">绪论&lt;a class="td-heading-self-link" href="#%e7%bb%aa%e8%ae%ba" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>&lt;img alt="用计算机解决问题的步骤" src="https://080812.xyz/docs/cst/ds/image/1.1_0_%E7%94%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98.png">&lt;/p>
-&lt;h3 id="数据结构的研究内容">数据结构的研究内容&lt;/h3>
+&lt;h3 id="数据结构的研究内容">数据结构的研究内容&lt;a class="td-heading-self-link" href="#%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84%e7%9a%84%e7%a0%94%e7%a9%b6%e5%86%85%e5%ae%b9" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;hr>
 &lt;p>计算机主要用于&lt;strong>数值计算&lt;/strong>时，一般经过如下几个步骤：&lt;/p>
 &lt;p>&lt;strong>首先&lt;/strong> 从&lt;u>具体问题&lt;/u>抽象出&lt;u>数学模型&lt;/u>，&lt;/p>
@@ -135,8 +135,8 @@ coming soon.&lt;/p>
 &lt;p>非数值计算问题的数学模型不再是数学方程，而是诸如线性表、树和图的数据结构。&lt;/p>
 &lt;p>数据结构是一门研究&lt;u>非数值计算程序设计中的操作对象&lt;/u>，以及&lt;u>这些操作对象之间的关系和操作&lt;/u>的学科。&lt;/p>
 &lt;hr>
-&lt;h3 id="基本概念和术语">基本概念和术语&lt;/h3>
-&lt;h4 id="数据数据元素数据项和数据对象">数据、数据元素、数据项和数据对象&lt;/h4>
+&lt;h3 id="基本概念和术语">基本概念和术语&lt;a class="td-heading-self-link" href="#%e5%9f%ba%e6%9c%ac%e6%a6%82%e5%bf%b5%e5%92%8c%e6%9c%af%e8%af%ad" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;h4 id="数据数据元素数据项和数据对象">数据、数据元素、数据项和数据对象&lt;a class="td-heading-self-link" href="#%e6%95%b0%e6%8d%ae%e6%95%b0%e6%8d%ae%e5%85%83%e7%b4%a0%e6%95%b0%e6%8d%ae%e9%a1%b9%e5%92%8c%e6%95%b0%e6%8d%ae%e5%af%b9%e8%b1%a1" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>
 &lt;p>数据 (Data) &lt;code>信息的载体&lt;/code> &lt;code>(集合)&lt;/code>&lt;/p>
@@ -155,7 +155,7 @@ coming soon.&lt;/p>
 &lt;p>性质&lt;u>相同的数据元素&lt;/u>的集合&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;h4 id="数据结构">数据结构&lt;/h4>
+&lt;h4 id="数据结构">数据结构&lt;a class="td-heading-self-link" href="#%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;p>数据的&lt;u>运算&lt;/u>和&lt;u>实现&lt;/u>，即对数据元素可以施加的操作需在&lt;u>相应的存储结构&lt;/u>上实现。&lt;/p>
 &lt;hr>
 &lt;p>数据结构包括 &lt;strong>逻辑结构&lt;/strong> 和 &lt;strong>存储结构&lt;/strong> 两个层次。&lt;/p>
@@ -165,7 +165,7 @@ coming soon.&lt;/p>
 &lt;pre tabindex="0">&lt;code>存储结构是逻辑关系的映像与元素本身的映像。
 逻辑结构是数据结构的抽象，存储结构是数据结构的实现。
 &lt;/code>&lt;/pre>&lt;hr>
-&lt;h5 id="逻辑结构">逻辑结构&lt;/h5>
+&lt;h5 id="逻辑结构">逻辑结构&lt;a class="td-heading-self-link" href="#%e9%80%bb%e8%be%91%e7%bb%93%e6%9e%84" aria-label="Heading self-link">&lt;/a>&lt;/h5>
 &lt;p>数据的&lt;strong>逻辑结构&lt;/strong>是从&lt;u>逻辑关系&lt;/u>上描述数据，它&lt;u>与数据的存储无关，是独立于计算机的&lt;/u>，数据结构可以看作&lt;u>从具体问题抽象出来的数学模型&lt;/u>。&lt;/p>
 &lt;p>&lt;img alt="数据的逻辑结构层次" src="https://080812.xyz/docs/cst/ds/image/1.1_1_%E6%95%B0%E6%8D%AE%E7%9A%84%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84.png">&lt;/p>
 &lt;hr>
@@ -178,7 +178,7 @@ coming soon.&lt;/p>
 &lt;p>(4) 图结构或网状结构&lt;/p>
 &lt;p>数据元素之间存在&lt;u>多对多&lt;/u>的关系。&lt;/p>
 &lt;hr>
-&lt;h5 id="存储结构-物理结构">存储结构 (物理结构)&lt;/h5>
+&lt;h5 id="存储结构-物理结构">存储结构 (物理结构)&lt;a class="td-heading-self-link" href="#%e5%ad%98%e5%82%a8%e7%bb%93%e6%9e%84-%e7%89%a9%e7%90%86%e7%bb%93%e6%9e%84" aria-label="Heading self-link">&lt;/a>&lt;/h5>
 &lt;p>数据对象&lt;u>在计算机的存储表示&lt;/u>称为&lt;strong>数据结构&lt;/strong>，也称为&lt;strong>物理结构&lt;/strong>。&lt;/p>
 &lt;pre tabindex="0">&lt;code>数据元素及其关系 在 计算机存储结构中的结构 (存储方式)。
 数据结构在计算机中的表示。
@@ -187,13 +187,13 @@ coming soon.&lt;/p>
 &lt;pre tabindex="0">&lt;code>用一组连续的存储单元依次存储数据元素。
 数据之间的逻辑关系由元素的位置表示。
 &lt;/code>&lt;/pre>&lt;p>(2) 链式存储结构&lt;/p>
-&lt;h2 id="线性表">线性表&lt;/h2>
-&lt;h2 id="栈和队列">栈和队列&lt;/h2>
-&lt;h2 id="串数组和广义表">串、数组和广义表&lt;/h2>
-&lt;h2 id="树和二叉树">树和二叉树&lt;/h2>
-&lt;h2 id="图">图&lt;/h2>
-&lt;h2 id="查找">查找&lt;/h2>
-&lt;h2 id="排序">排序&lt;/h2></description></item><item><title>Docs: 新概念英语</title><link>https://080812.xyz/docs/english/nce/nce/</link><pubDate>Sat, 09 Mar 2024 11:18:52 +0800</pubDate><guid>https://080812.xyz/docs/english/nce/nce/</guid><description>
+&lt;h2 id="线性表">线性表&lt;a class="td-heading-self-link" href="#%e7%ba%bf%e6%80%a7%e8%a1%a8" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="栈和队列">栈和队列&lt;a class="td-heading-self-link" href="#%e6%a0%88%e5%92%8c%e9%98%9f%e5%88%97" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="串数组和广义表">串、数组和广义表&lt;a class="td-heading-self-link" href="#%e4%b8%b2%e6%95%b0%e7%bb%84%e5%92%8c%e5%b9%bf%e4%b9%89%e8%a1%a8" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="树和二叉树">树和二叉树&lt;a class="td-heading-self-link" href="#%e6%a0%91%e5%92%8c%e4%ba%8c%e5%8f%89%e6%a0%91" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="图">图&lt;a class="td-heading-self-link" href="#%e5%9b%be" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="查找">查找&lt;a class="td-heading-self-link" href="#%e6%9f%a5%e6%89%be" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="排序">排序&lt;a class="td-heading-self-link" href="#%e6%8e%92%e5%ba%8f" aria-label="Heading self-link">&lt;/a>&lt;/h2></description></item><item><title>Docs: 新概念英语</title><link>https://080812.xyz/docs/english/nce/nce/</link><pubDate>Sat, 09 Mar 2024 11:18:52 +0800</pubDate><guid>https://080812.xyz/docs/english/nce/nce/</guid><description>
 &lt;div class="video-wrapper">
 &lt;iframe src="https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV1fK421b7kD&amp;autoplay=0"
 scrolling="no"
@@ -207,11 +207,11 @@ sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 &lt;/iframe>
 &lt;/div>
 &lt;p>视频链接：&lt;a href="https://www.bilibili.com/video/BV1fK421b7kD">BV1fK421b7kD&lt;/a>&lt;/p>
-&lt;h2 id="简介">简介&lt;/h2>
+&lt;h2 id="简介">简介&lt;a class="td-heading-self-link" href="#%e7%ae%80%e4%bb%8b" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>    本文档是我学习《新概念英语》的电子版学习笔记，我通常在第一次学习时直接在教材上做笔记，复习阶段再整理为电子版，复习的同时也是对知识体系进行一次整理的过程，尽管这件事很耗费时间，但也很有必要。&lt;/p>
 &lt;pre tabindex="0">&lt;code>2024年6月28日
 全年重心在计算机科学，英语相关笔记暂时隐藏，整理完毕后重新开放。
-&lt;/code>&lt;/pre>&lt;h2 id="学习建议">学习建议&lt;/h2>
+&lt;/code>&lt;/pre>&lt;h2 id="学习建议">学习建议&lt;a class="td-heading-self-link" href="#%e5%ad%a6%e4%b9%a0%e5%bb%ba%e8%ae%ae" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>    《新概念英语》这套教材怎么样？允我愚见，这套教材好，但也不好，如好。没有到别无选择的境地，尽可能地选用其他贴合自己实际需求的教材，为什么不推荐直接使用《新概念英语》的原因，开篇视频就是答案，《新概念英语》太老了，最新的第二版都是1997年10月。从非应试的角度理解，我非常支持视频中女生的行为，不过我建议该女生在选择engineer答案前，在冠词a后面手写加个n，答案就是 she is an engineer，我想这样争议会小很多了。&lt;/p>
 &lt;p>    那么《新概念英语》还值得学习吗？如果你需要全面提升听说读写能力，而非某单一能力，并且现有条件只能自学，并不具备报班条件的前提下，那么我推荐你使用《新概念英语》，在我有限的认知里，它是唯一一套仅通过自学就可以全面提升听说读写能力的教材，如果你基础不错，我更推荐《新视野》。&lt;/p>
 &lt;p>    那么请对照下表确定自己从哪一册开始学期吧。&lt;strong>零基础是指仅认识26个英文字母，而不是连字母都不认识！&lt;/strong>&lt;/p>
@@ -257,15 +257,15 @@ margin-right: auto;
 &lt;/tbody>
 &lt;/table>
 &lt;/div>
-&lt;h2 id="概况">概况&lt;/h2>
+&lt;h2 id="概况">概况&lt;a class="td-heading-self-link" href="#%e6%a6%82%e5%86%b5" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>&lt;code>以下内容摘自百度百科。&lt;/code>&lt;/p>
-&lt;h3 id="教材">教材&lt;/h3>
+&lt;h3 id="教材">教材&lt;a class="td-heading-self-link" href="#%e6%95%99%e6%9d%90" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>    《新概念英语》（New Concept English）作为享誉全球的最为经典地道的英语教材，以其严密的体系性、严谨的科学性、精湛的实用性、浓郁的趣味性深受英语学习者的青睐，《新概念英语》在中国有30多年的历史，每年有数百万学习者，早已成为英语学习者的必选读物。本教材由何其莘博士，亚历山大（L.G.Alexander）合作编著。&lt;/p>
-&lt;h3 id="作者简介">作者简介&lt;/h3>
+&lt;h3 id="作者简介">作者简介&lt;a class="td-heading-self-link" href="#%e4%bd%9c%e8%80%85%e7%ae%80%e4%bb%8b" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>    亚历山大L.G. Alexander，世界著名的英语教学权威，曾任欧洲现代语言教学委员会理事。他的著作为交际教学法奠定了基础，其中一些如NCE（《新概念英语》）和 &lt;em>FollowMe&lt;/em> （《跟我学》）已成为经典教材。&lt;/p>
 &lt;p>    何其莘，博士，现任北京外国语大学副校长、英美文学教授、博士生导师。著有《英国文艺复兴时期文学史》、《英国戏剧选读》和 &lt;em>Listen to This&lt;/em> 等。&lt;/p></description></item><item><title>Docs: 数据结构(C++版)习题</title><link>https://080812.xyz/docs/thu-cst/ds_ex/</link><pubDate>Fri, 08 Mar 2024 21:27:11 +0800</pubDate><guid>https://080812.xyz/docs/thu-cst/ds_ex/</guid><description>
-&lt;h2 id="绪论">绪论&lt;/h2>
-&lt;h3 id="算法导论思考题-3-4">《算法导论》思考题 3-4&lt;/h3>
+&lt;h2 id="绪论">绪论&lt;a class="td-heading-self-link" href="#%e7%bb%aa%e8%ae%ba" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="算法导论思考题-3-4">《算法导论》思考题 3-4&lt;a class="td-heading-self-link" href="#%e7%ae%97%e6%b3%95%e5%af%bc%e8%ae%ba%e6%80%9d%e8%80%83%e9%a2%98-3-4" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -312,9 +312,9 @@ margin-right: auto;
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h3 id="习题解析1-32">《习题解析》[1-32]&lt;/h3>
+&lt;h3 id="习题解析1-32">《习题解析》[1-32]&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%98%e8%a7%a3%e6%9e%901-32" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>    若假定机器字长无限，移位位操作只需单位时间，递归不会溢出，且rand()为理想的随机数发生器。试分析以下函数(F(n))，并以大(O)记号的形式确定其渐近复杂度的紧上界。&lt;/p>
-&lt;h4 id="ex8">ex.8&lt;/h4>
+&lt;h4 id="ex8">ex.8&lt;a class="td-heading-self-link" href="#ex8" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c++" data-lang="c++">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">void&lt;/span> &lt;span style="color:#000">F&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">int&lt;/span> &lt;span style="color:#000">n&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">for&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">int&lt;/span> &lt;span style="color:#000">i&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">1&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span> &lt;span style="color:#000">i&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;lt;&lt;/span> &lt;span style="color:#000">n&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span> &lt;span style="color:#000">i&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">++&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">for&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">int&lt;/span> &lt;span style="color:#000">j&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">0&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span> &lt;span style="color:#000">j&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;lt;&lt;/span> &lt;span style="color:#000">n&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span> &lt;span style="color:#000">j&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+=&lt;/span> &lt;span style="color:#000">i&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span>
@@ -360,7 +360,7 @@ $$&lt;/p>
 \sum_{i=1}^{n}\frac{1}{i}=1+\frac{1}{2}+\frac{1}{3}+\cdots\frac{1}{n}=\ln\ n+\gamma+\Theta(\frac{1}{2n})
 $$&lt;/p>
 &lt;p>    其中，\(\gamma\approx 0.577216\)为欧拉常数。&lt;/p>
-&lt;h4 id="ex9">ex.9&lt;/h4>
+&lt;h4 id="ex9">ex.9&lt;a class="td-heading-self-link" href="#ex9" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c++" data-lang="c++">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">void&lt;/span> &lt;span style="color:#000">F&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">int&lt;/span> &lt;span style="color:#000">n&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#204a87;font-weight:bold">for&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">int&lt;/span> &lt;span style="color:#000">i&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">0&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">j&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">0&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span> &lt;span style="color:#000">i&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;lt;&lt;/span> &lt;span style="color:#000">n&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span> &lt;span style="color:#000">i&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+=&lt;/span> &lt;span style="color:#000">j&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">j&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">++&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>分析：&lt;/p>
 &lt;p>    这里的变量\(i\)和\(j\)均从\(0\)开始不断递增，每经过一步迭代，\(i\)递增\(j\)，\(j\)递增\(1\)。&lt;/p>
@@ -401,7 +401,7 @@ $$&lt;/p>
 &lt;p>在循环退出之前，必有：&lt;/p>
 &lt;p>\(i=k(k-1)/2&amp;lt;n\)或等价地，\(k&amp;lt;\frac{1+\sqrt{1+8n}}{2}\)&lt;/p>
 &lt;p>故该函数的时间复杂度为\(O(\sqrt{n})\)。&lt;/p>
-&lt;h4 id="ex10-">ex.10 *&lt;/h4>
+&lt;h4 id="ex10-">ex.10 *&lt;a class="td-heading-self-link" href="#ex10-" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c++" data-lang="c++">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">void&lt;/span> &lt;span style="color:#000">F&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">int&lt;/span> &lt;span style="color:#000">n&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span> &lt;span style="color:#204a87;font-weight:bold">for&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">int&lt;/span> &lt;span style="color:#000">i&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">0&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">j&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">0&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span> &lt;span style="color:#000">i&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;lt;&lt;/span> &lt;span style="color:#000">n&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span> &lt;span style="color:#000">i&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+=&lt;/span> &lt;span style="color:#000">j&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">j&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">++&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>    这里的变量\(i\)和\(r\)均从\(1\)开始不断递增，每经过一步迭代，\(i\)递增为\(i\cdot 2^r\)，\(r\)递增为\(2\cdot r\)。&lt;/p>
 &lt;table>
@@ -452,34 +452,34 @@ k\leq log\ log\ n
 $$&lt;/p>
 &lt;p>    故该函数的时间复杂度为\(O(log\ log\ n)\)。&lt;/p>
 &lt;p>    同样地，这里通过左移操作实现了变量递增地方式，也为我们快捷估算时间复杂度提供了新的视角和线索。从二进制展开的角度来看，变量\(r\)的展开度每次增加一位，而变量\(i\)则每次增加\(r\)位。也就是说，变量\(i\)的宽度将以（大致）加倍的指数速度膨胀，直至刚好超过\(log\ n\)。因此，总体的迭代次数应不超过\(log\ n\)的对数，亦即\(O(log\ log\ n)\)。&lt;/p>
-&lt;h4 id="ex10-exam2024-">ex.10 (exam.2024) *&lt;/h4>
+&lt;h4 id="ex10-exam2024-">ex.10 (exam.2024) *&lt;a class="td-heading-self-link" href="#ex10-exam2024-" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;p>以下函数的时间复杂度为 (    )&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c++" data-lang="c++">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">void&lt;/span> &lt;span style="color:#000">F&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">int&lt;/span> &lt;span style="color:#000">n&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>&lt;span style="color:#8f5902;font-style:italic">//假定字宽足够，运算不会溢出，且每次只需常数时间
 &lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">for&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">int&lt;/span> &lt;span style="color:#000">i&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">1&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">j&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">1&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span> &lt;span style="color:#000">i&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;lt;&lt;/span> &lt;span style="color:#000">n&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span> &lt;span style="color:#000">j&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;lt;&amp;lt;=&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">1&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">i&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;lt;&amp;lt;=&lt;/span> &lt;span style="color:#000">j&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>解法同 ex.10。&lt;/p>
-&lt;h4 id="ex11">ex.11&lt;/h4>
+&lt;h4 id="ex11">ex.11&lt;a class="td-heading-self-link" href="#ex11" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;p>见书。&lt;/p></description></item><item><title>Docs: 数据结构(C++)学习笔记</title><link>https://080812.xyz/docs/thu-cst/ds/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/docs/thu-cst/ds/</guid><description>
 &lt;p>&lt;strong>注：标题有*的为课程考试重点。&lt;/strong>&lt;/p>
-&lt;h2 id="绪论">绪论&lt;/h2>
-&lt;h3 id="计算">计算&lt;/h3>
-&lt;h4 id="工具">工具&lt;/h4>
+&lt;h2 id="绪论">绪论&lt;a class="td-heading-self-link" href="#%e7%bb%aa%e8%ae%ba" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="计算">计算&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;h4 id="工具">工具&lt;a class="td-heading-self-link" href="#%e5%b7%a5%e5%85%b7" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;p>    计算首先是我们这门课程的直接研究对象和内容，也是我们这门课程的研究目的和目标。&lt;/p>
 &lt;p>&lt;img alt="尺规计算器" src="https://080812.xyz/docs/thu-cst/ds/image/01.Introduction_page-0002.jpg">&lt;/p>
 &lt;p>    我们可以将上图的尺规理解成一种计算机，它能解决线段的等分问题，上述步骤可以认为是这个计算机所运行的“程序”或“算法”。其中“过直线外一点，做平行线”是一个被多次重复的操作，可以将这个重复操作封装成子程序，使其能被复用。&lt;/p>
 &lt;p>    因此对数据结构与算法的研究，可以从以下两个角度去理解：&lt;/p>
 &lt;p>    对象：规律、技巧&lt;/p>
 &lt;p>    目标：高效、低耗&lt;/p>
-&lt;h4 id="算法-">算法 *&lt;/h4>
+&lt;h4 id="算法-">算法 *&lt;a class="td-heading-self-link" href="#%e7%ae%97%e6%b3%95-" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;p>&lt;img alt="算法的定义" src="https://080812.xyz/docs/thu-cst/ds/image/02.Introduction_page-0004.jpg">&lt;/p>
 &lt;p>    计算机科学与计算科学的关系：&lt;/p>
 &lt;p>    computer science - 对象&lt;/p>
 &lt;p>    computing science - 目标&lt;/p>
 &lt;p>&lt;img alt="好的算法" src="https://080812.xyz/docs/thu-cst/ds/image/03.Introduction_page-0008.jpg">&lt;/p>
 &lt;p>    &lt;code>退化是指在一个限制的情况下，一个集合中的对象改变其性质并且属于另一个集合，通常是变成比较简单的集合。&lt;/code>&lt;/p>
-&lt;h3 id="计算模型">计算模型&lt;/h3>
-&lt;h4 id="统一尺度">统一尺度&lt;/h4>
+&lt;h3 id="计算模型">计算模型&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%a8%a1%e5%9e%8b" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;h4 id="统一尺度">统一尺度&lt;a class="td-heading-self-link" href="#%e7%bb%9f%e4%b8%80%e5%b0%ba%e5%ba%a6" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;p>&lt;img alt="算法分析" src="https://080812.xyz/docs/thu-cst/ds/image/04.Introduction_page-0010.jpg">&lt;/p>
 &lt;p>    &lt;code>成本：时间成本和空间成本&lt;/code>&lt;/p>
 &lt;p>    同一问题通常由多种算法，而各个算法对不同问题集，其表现各不同，因此算法的优劣并不适合采用运行统计的方法来对比，它受硬件性能、编程语言甚至是问题集合等非算法自身因素限制。&lt;/p>
@@ -498,17 +498,17 @@ sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 &lt;/iframe>
 &lt;/div>
 &lt;p>视频链接：&lt;a href="https://www.bilibili.com/video/BV16u4m1c7cU">BV16u4m1c7cU&lt;/a>&lt;/p>
-&lt;h3 id="渐近复杂度-">渐近复杂度 *&lt;/h3>
+&lt;h3 id="渐近复杂度-">渐近复杂度 *&lt;a class="td-heading-self-link" href="#%e6%b8%90%e8%bf%91%e5%a4%8d%e6%9d%82%e5%ba%a6-" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>&lt;img alt="渐近分析" src="https://080812.xyz/docs/thu-cst/ds/image/05.Introduction_page-0023.jpg">&lt;/p>
 &lt;p>    我们看重的是长远增长趋势，即问题规模\(n\rightarrow \infty \)时，\(O(n)\)的增长趋势。&lt;/p>
-&lt;h4 id="大o记号-">大\(O\)记号 *&lt;/h4>
+&lt;h4 id="大o记号-">大\(O\)记号 *&lt;a class="td-heading-self-link" href="#%e5%a4%a7o%e8%ae%b0%e5%8f%b7-" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;p>&lt;img alt="Big-O" src="https://080812.xyz/docs/thu-cst/ds/image/06.Introduction_page-0024.jpg">&lt;/p>
 &lt;p>    常系数可忽略，低次项可忽略，参考“抓大头”思想。&lt;/p>
 &lt;p>&lt;img alt="Other-Notation" src="https://080812.xyz/docs/thu-cst/ds/image/07.Introduction_page-0025.jpg">&lt;/p>
 &lt;p>    \(O\) 表示上界，即最坏情况。&lt;/p>
 &lt;p>    \(\Theta\) 表示确界，即最接近大多数情况。&lt;/p>
 &lt;p>    \(\Omega\) 表示下界，即最好情况。&lt;/p>
-&lt;h4 id="多项式-">多项式 *&lt;/h4>
+&lt;h4 id="多项式-">多项式 *&lt;a class="td-heading-self-link" href="#%e5%a4%9a%e9%a1%b9%e5%bc%8f-" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;p>    从渐近的角度来看，再大的常数，也小于递增的变数。&lt;/p>
 &lt;p>&lt;img alt="多项式" src="https://080812.xyz/docs/thu-cst/ds/image/08.Introduction_page-0029.jpg">&lt;/p>
 &lt;ul>
@@ -517,26 +517,26 @@ sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 &lt;li>常次幂同理。&lt;/li>
 &lt;li>所有的低次项都是可忽略的，常系数项也是可以去掉的。&lt;/li>
 &lt;/ul>
-&lt;h4 id="指数">指数&lt;/h4>
+&lt;h4 id="指数">指数&lt;a class="td-heading-self-link" href="#%e6%8c%87%e6%95%b0" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;p>&lt;img src="https://080812.xyz/docs/thu-cst/ds/image/09.Introduction_page-0032.jpg">&lt;/p>
 &lt;p>指数型复杂度通常表示该问题已经不可解（难以在有穷条件内可解）。&lt;/p>
-&lt;h4 id="复杂度层次-">复杂度层次 *&lt;/h4>
+&lt;h4 id="复杂度层次-">复杂度层次 *&lt;a class="td-heading-self-link" href="#%e5%a4%8d%e6%9d%82%e5%ba%a6%e5%b1%82%e6%ac%a1-" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;p>&lt;img alt="先胖不算胖" src="https://080812.xyz/docs/thu-cst/ds/image/10.Introduction_page-0037.jpg">&lt;/p>
 &lt;p>    先胖不算胖：初始条件较低时的复杂度高，并不是全局复杂度高。&lt;/p>
 &lt;p>&lt;img alt="路遥知马力" src="https://080812.xyz/docs/thu-cst/ds/image/11.Introduction_page-0038.jpg">&lt;/p>
 &lt;p>    路遥知马力：算法复杂度通常需要问题规模增长到一定规模才能表现出现来。&lt;/p>
 &lt;p>&lt;img alt="复杂度层次" src="https://080812.xyz/docs/thu-cst/ds/image/12.Introduction_page-0039.jpg">&lt;/p>
 &lt;p>    记忆口诀：常对幂指阶。&lt;/p>
-&lt;h3 id="复杂度分析">复杂度分析&lt;/h3>
+&lt;h3 id="复杂度分析">复杂度分析&lt;a class="td-heading-self-link" href="#%e5%a4%8d%e6%9d%82%e5%ba%a6%e5%88%86%e6%9e%90" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>主要方法：迭代（级数求和）、递归（递归跟踪+递归方程）、实用（猜测+验证）。&lt;/p>
-&lt;h4 id="级数">级数&lt;/h4>
+&lt;h4 id="级数">级数&lt;a class="td-heading-self-link" href="#%e7%ba%a7%e6%95%b0" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;ul>
 &lt;li>算数：与末项平方同阶。&lt;/li>
 &lt;li>幂方：比幂次高出一阶。&lt;/li>
 &lt;li>几何：与末项同阶。&lt;/li>
 &lt;/ul>
 &lt;p>    参考：Concrete Mathematics&lt;/p>
-&lt;h4 id="迭代">迭代&lt;/h4>
+&lt;h4 id="迭代">迭代&lt;a class="td-heading-self-link" href="#%e8%bf%ad%e4%bb%a3" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;p>&lt;img alt="迭代" src="https://080812.xyz/docs/thu-cst/ds/image/13.Introduction_page-0046.jpg">&lt;/p>
 &lt;p>    上图中的图形面积为时间复杂度。&lt;/p>
 &lt;p>    迭代：每次运算的输出结果，都会作为下一次运算的输入参数，直到边界条件停止后算法退出，这种方法称为迭代。&lt;/p>
@@ -569,28 +569,28 @@ a_{n1}&amp;\cdots&amp;\cdots&amp;a_{nn}\\
 $$
 &lt;/div>
 &lt;p>    对角线位置相当于\(k=i\)。等号左边相当于先求矩阵的行和，再行和相加；等号右边相当于先求矩阵的列和，再进行列和相加。&lt;/p>
-&lt;h4 id="封底估算">封底估算&lt;/h4>
-&lt;h3 id="迭代与递归">迭代与递归&lt;/h3>
-&lt;h4 id="减而治之">减而治之&lt;/h4>
-&lt;h4 id="分而治之">分而治之&lt;/h4>
-&lt;h4 id="总和最大区段">总和最大区段&lt;/h4>
-&lt;h3 id="动态规划">动态规划&lt;/h3>
-&lt;h4 id="记忆化">记忆化&lt;/h4>
-&lt;h4 id="最长公共子序列">最长公共子序列&lt;/h4>
-&lt;h2 id="向量">向量&lt;/h2>
-&lt;h2 id="列表">列表&lt;/h2>
-&lt;h2 id="栈和队列">栈和队列&lt;/h2>
-&lt;h2 id="二叉树">二叉树&lt;/h2>
-&lt;h2 id="二叉搜索树">二叉搜索树&lt;/h2>
-&lt;h2 id="搜索树的应用">搜索树的应用&lt;/h2>
-&lt;h2 id="高级搜索树">高级搜索树&lt;/h2>
-&lt;h2 id="词典">词典&lt;/h2>
-&lt;h2 id="图">图&lt;/h2>
-&lt;h2 id="图应用">图应用&lt;/h2>
-&lt;h2 id="优先级队列">优先级队列&lt;/h2>
-&lt;h2 id="串">串&lt;/h2>
-&lt;h2 id="排序">排序&lt;/h2>
-&lt;h2 id="参考文献">参考文献&lt;/h2>
+&lt;h4 id="封底估算">封底估算&lt;a class="td-heading-self-link" href="#%e5%b0%81%e5%ba%95%e4%bc%b0%e7%ae%97" aria-label="Heading self-link">&lt;/a>&lt;/h4>
+&lt;h3 id="迭代与递归">迭代与递归&lt;a class="td-heading-self-link" href="#%e8%bf%ad%e4%bb%a3%e4%b8%8e%e9%80%92%e5%bd%92" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;h4 id="减而治之">减而治之&lt;a class="td-heading-self-link" href="#%e5%87%8f%e8%80%8c%e6%b2%bb%e4%b9%8b" aria-label="Heading self-link">&lt;/a>&lt;/h4>
+&lt;h4 id="分而治之">分而治之&lt;a class="td-heading-self-link" href="#%e5%88%86%e8%80%8c%e6%b2%bb%e4%b9%8b" aria-label="Heading self-link">&lt;/a>&lt;/h4>
+&lt;h4 id="总和最大区段">总和最大区段&lt;a class="td-heading-self-link" href="#%e6%80%bb%e5%92%8c%e6%9c%80%e5%a4%a7%e5%8c%ba%e6%ae%b5" aria-label="Heading self-link">&lt;/a>&lt;/h4>
+&lt;h3 id="动态规划">动态规划&lt;a class="td-heading-self-link" href="#%e5%8a%a8%e6%80%81%e8%a7%84%e5%88%92" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;h4 id="记忆化">记忆化&lt;a class="td-heading-self-link" href="#%e8%ae%b0%e5%bf%86%e5%8c%96" aria-label="Heading self-link">&lt;/a>&lt;/h4>
+&lt;h4 id="最长公共子序列">最长公共子序列&lt;a class="td-heading-self-link" href="#%e6%9c%80%e9%95%bf%e5%85%ac%e5%85%b1%e5%ad%90%e5%ba%8f%e5%88%97" aria-label="Heading self-link">&lt;/a>&lt;/h4>
+&lt;h2 id="向量">向量&lt;a class="td-heading-self-link" href="#%e5%90%91%e9%87%8f" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="列表">列表&lt;a class="td-heading-self-link" href="#%e5%88%97%e8%a1%a8" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="栈和队列">栈和队列&lt;a class="td-heading-self-link" href="#%e6%a0%88%e5%92%8c%e9%98%9f%e5%88%97" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="二叉树">二叉树&lt;a class="td-heading-self-link" href="#%e4%ba%8c%e5%8f%89%e6%a0%91" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="二叉搜索树">二叉搜索树&lt;a class="td-heading-self-link" href="#%e4%ba%8c%e5%8f%89%e6%90%9c%e7%b4%a2%e6%a0%91" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="搜索树的应用">搜索树的应用&lt;a class="td-heading-self-link" href="#%e6%90%9c%e7%b4%a2%e6%a0%91%e7%9a%84%e5%ba%94%e7%94%a8" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="高级搜索树">高级搜索树&lt;a class="td-heading-self-link" href="#%e9%ab%98%e7%ba%a7%e6%90%9c%e7%b4%a2%e6%a0%91" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="词典">词典&lt;a class="td-heading-self-link" href="#%e8%af%8d%e5%85%b8" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="图">图&lt;a class="td-heading-self-link" href="#%e5%9b%be" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="图应用">图应用&lt;a class="td-heading-self-link" href="#%e5%9b%be%e5%ba%94%e7%94%a8" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="优先级队列">优先级队列&lt;a class="td-heading-self-link" href="#%e4%bc%98%e5%85%88%e7%ba%a7%e9%98%9f%e5%88%97" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="串">串&lt;a class="td-heading-self-link" href="#%e4%b8%b2" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="排序">排序&lt;a class="td-heading-self-link" href="#%e6%8e%92%e5%ba%8f" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="参考文献">参考文献&lt;a class="td-heading-self-link" href="#%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -609,19 +609,19 @@ $$
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>Docs: 基于VS Code搭建LaTeX写作环境</title><link>https://080812.xyz/docs/computer-basic/vscode/vscode_latex/</link><pubDate>Thu, 29 Feb 2024 19:19:33 +0800</pubDate><guid>https://080812.xyz/docs/computer-basic/vscode/vscode_latex/</guid><description>
-&lt;h2 id="前言">前言&lt;/h2>
+&lt;h2 id="前言">前言&lt;a class="td-heading-self-link" href="#%e5%89%8d%e8%a8%80" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>    LaTeX 是一套强大的排版系统，在学术论文排版方面应用广泛，很多高校和期刊都会提供自己 LaTeX 模板方便论文提交。&lt;/p>
 &lt;p>    引擎是 TeX 语法的解释器。最原始的 TeX 引擎在 1978 年由 Donald Erwin Knuth（高德纳）开发，其生成 dvi 文件，然后经由其他程序转换为 PDF 文件。改进引擎包括：&lt;/p>
 &lt;p>    pdfTeX：将 TeX 代码直接编译成 PDF 文件。&lt;/p>
 &lt;p>    XeTeX：TeX 语言的新的实现，支持 Unicode 编码和直接访问操作系统字体。&lt;/p>
 &lt;p>    LuaTeX：TeX 语言的一个完整的有扩展的实现，支持 Unicode、系统字体和内嵌语言扩展，能直接输出 PDF 格式文件，也可以仍然输出 DVI 格式。&lt;/p>
-&lt;h2 id="安装tex">安装TeX&lt;/h2>
-&lt;h3 id="访问tuna镜像站并下载镜像文件">访问TUNA镜像站并下载镜像文件&lt;/h3>
+&lt;h2 id="安装tex">安装TeX&lt;a class="td-heading-self-link" href="#%e5%ae%89%e8%a3%85tex" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="访问tuna镜像站并下载镜像文件">访问TUNA镜像站并下载镜像文件&lt;a class="td-heading-self-link" href="#%e8%ae%bf%e9%97%aetuna%e9%95%9c%e5%83%8f%e7%ab%99%e5%b9%b6%e4%b8%8b%e8%bd%bd%e9%95%9c%e5%83%8f%e6%96%87%e4%bb%b6" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_latex/img/001.png">&lt;/p>
 &lt;p>&lt;a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/&lt;/a>&lt;/p>
-&lt;h3 id="解压latex镜像">解压latex镜像&lt;/h3>
+&lt;h3 id="解压latex镜像">解压latex镜像&lt;a class="td-heading-self-link" href="#%e8%a7%a3%e5%8e%8blatex%e9%95%9c%e5%83%8f" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_latex/img/002.png">&lt;/p>
-&lt;h3 id="运行安装程序">运行安装程序&lt;/h3>
+&lt;h3 id="运行安装程序">运行安装程序&lt;a class="td-heading-self-link" href="#%e8%bf%90%e8%a1%8c%e5%ae%89%e8%a3%85%e7%a8%8b%e5%ba%8f" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_latex/img/003.png">&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_latex/img/004.png">&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_latex/img/005.png">&lt;/p>
@@ -632,15 +632,15 @@ $$
 &lt;p>注：安装时间较长，请耐心等待。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_latex/img/008.png">&lt;/p>
 &lt;p>安装完成。&lt;/p>
-&lt;h3 id="检查latex安装是否正常">检查Latex安装是否正常。&lt;/h3>
+&lt;h3 id="检查latex安装是否正常">检查Latex安装是否正常。&lt;a class="td-heading-self-link" href="#%e6%a3%80%e6%9f%a5latex%e5%ae%89%e8%a3%85%e6%98%af%e5%90%a6%e6%ad%a3%e5%b8%b8" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>cmd输入命令xelatex -v。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_latex/img/009.png">&lt;/p>
-&lt;h3 id="配置vscode">配置VSCode&lt;/h3>
+&lt;h3 id="配置vscode">配置VSCode&lt;a class="td-heading-self-link" href="#%e9%85%8d%e7%bd%aevscode" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>    在安装完VS Code之后还不能编写LaTeX代码，此时就需要安装必要的插件。&lt;/p>
 &lt;p>&lt;strong>LaTeX Workshop&lt;/strong>，具体执行步骤如下所示：&lt;/p>
-&lt;h3 id="安装latex-workshop">安装latex workshop；&lt;/h3>
+&lt;h3 id="安装latex-workshop">安装latex workshop；&lt;a class="td-heading-self-link" href="#%e5%ae%89%e8%a3%85latex-workshop" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_latex/img/010.png">&lt;/p>
-&lt;h3 id="打开latex-workshop设置环境">打开Latex Workshop设置环境&lt;/h3>
+&lt;h3 id="打开latex-workshop设置环境">打开Latex Workshop设置环境&lt;a class="td-heading-self-link" href="#%e6%89%93%e5%bc%80latex-workshop%e8%ae%be%e7%bd%ae%e7%8e%af%e5%a2%83" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>打开设置窗口&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_latex/img/011.png">&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_latex/img/012.png">&lt;/p>
@@ -744,22 +744,22 @@ $$
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">},&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">]&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="测试效果">测试效果&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="测试效果">测试效果&lt;a class="td-heading-self-link" href="#%e6%b5%8b%e8%af%95%e6%95%88%e6%9e%9c" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_latex/img/013.png">&lt;/p>
-&lt;h2 id="pdf">PDF&lt;/h2>
+&lt;h2 id="pdf">PDF&lt;a class="td-heading-self-link" href="#pdf" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>(未完成)&lt;/p>
-&lt;h2 id="模板">模板&lt;/h2>
+&lt;h2 id="模板">模板&lt;a class="td-heading-self-link" href="#%e6%a8%a1%e6%9d%bf" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>清华大学学位论文 &lt;a href="https://mirrors.tuna.tsinghua.edu.cn/github-release/tuna/thuthesis/">https://mirrors.tuna.tsinghua.edu.cn/github-release/tuna/thuthesis/&lt;/a>&lt;/p></description></item><item><title>Docs: VS Code 安装</title><link>https://080812.xyz/docs/computer-basic/vscode/vscode_setup/</link><pubDate>Mon, 19 Feb 2024 19:19:33 +0800</pubDate><guid>https://080812.xyz/docs/computer-basic/vscode/vscode_setup/</guid><description>
-&lt;h2 id="系统环境">系统环境&lt;/h2>
+&lt;h2 id="系统环境">系统环境&lt;a class="td-heading-self-link" href="#%e7%b3%bb%e7%bb%9f%e7%8e%af%e5%a2%83" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>Windows 10x64&lt;/p>
-&lt;h2 id="获取安装包">获取安装包&lt;/h2>
+&lt;h2 id="获取安装包">获取安装包&lt;a class="td-heading-self-link" href="#%e8%8e%b7%e5%8f%96%e5%ae%89%e8%a3%85%e5%8c%85" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>1、打开官网下载页面&lt;/p>
 &lt;p>&lt;a href="https://code.visualstudio.com/Download">https://code.visualstudio.com/Download&lt;/a>&lt;/p>
 &lt;p>2、下载system-x64版&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_setup/img/001.png">&lt;/p>
-&lt;h2 id="安装vs-code">安装VS Code&lt;/h2>
+&lt;h2 id="安装vs-code">安装VS Code&lt;a class="td-heading-self-link" href="#%e5%ae%89%e8%a3%85vs-code" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>(安装过程略)&lt;/p>
-&lt;h2 id="配置中文语言可选项">配置中文语言(可选项)&lt;/h2>
+&lt;h2 id="配置中文语言可选项">配置中文语言(可选项)&lt;a class="td-heading-self-link" href="#%e9%85%8d%e7%bd%ae%e4%b8%ad%e6%96%87%e8%af%ad%e8%a8%80%e5%8f%af%e9%80%89%e9%a1%b9" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>注：个人建议全英文环境使用，有利于培养学术思维。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_setup/img/002.png">&lt;/p>
 &lt;p>（1）主界面按下Ctrl+Shift+P&lt;/p>
@@ -769,25 +769,25 @@ $$
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_setup/img/004.png">&lt;/p>
 &lt;p>（4）重启VS Code&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_setup/img/005.png">&lt;/p>
-&lt;h2 id="安装完成">安装完成&lt;/h2>
+&lt;h2 id="安装完成">安装完成&lt;a class="td-heading-self-link" href="#%e5%ae%89%e8%a3%85%e5%ae%8c%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_setup/img/006.png">&lt;/p></description></item><item><title>Docs: Hugo 接入 Giscus 评论系统</title><link>https://080812.xyz/docs/network/hugo/hugo-giscus/</link><pubDate>Thu, 11 Jan 2024 19:19:33 +0800</pubDate><guid>https://080812.xyz/docs/network/hugo/hugo-giscus/</guid><description>
-&lt;h2 id="前言">前言&lt;/h2>
+&lt;h2 id="前言">前言&lt;a class="td-heading-self-link" href="#%e5%89%8d%e8%a8%80" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>    折腾了这么些天的Hugo，看很多人的博客都有评论功能，也想整一个。考虑到我的博客是搭建在Github上，那么评论放在Github上也是情理之中的。&lt;/p>
 &lt;p>    Giscus 是一个由 Github Discussions 驱动的评论系统，无需自己单独配置。&lt;/p>
-&lt;h2 id="创建public仓库">创建Public仓库&lt;/h2>
+&lt;h2 id="创建public仓库">创建Public仓库&lt;a class="td-heading-self-link" href="#%e5%88%9b%e5%bb%bapublic%e4%bb%93%e5%ba%93" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>    这并不是一个必需的步骤，事实上你也可以直接使用博客本来的仓库。但我建议还是分离不同仓库，这样既方便后续调整不影响博客，如果迁移的话，你只能带走博客内容，却无法带走评论，如果单独一个仓库，只需要在迁移后的新博客重新指向该仓库即可。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/001.png">&lt;/p>
 &lt;p>注：仓库必须是Public，否则无法评论。&lt;/p>
-&lt;h2 id="启用-discussions">启用 Discussions&lt;/h2>
+&lt;h2 id="启用-discussions">启用 Discussions&lt;a class="td-heading-self-link" href="#%e5%90%af%e7%94%a8-discussions" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/002.png">&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/003.png">&lt;/p>
 &lt;p>勾选后会立即生效。&lt;/p>
-&lt;h2 id="安装-giscus-到仓库">安装 Giscus 到仓库&lt;/h2>
+&lt;h2 id="安装-giscus-到仓库">安装 Giscus 到仓库&lt;a class="td-heading-self-link" href="#%e5%ae%89%e8%a3%85-giscus-%e5%88%b0%e4%bb%93%e5%ba%93" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>访问 &lt;a href="https://github.com/apps/giscus">https://github.com/apps/giscus&lt;/a> 进入 Giscus 安装界面。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/004.png">&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/005.png">&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/006.png">&lt;/p>
-&lt;h2 id="生成-giscus-配置">生成 Giscus 配置&lt;/h2>
+&lt;h2 id="生成-giscus-配置">生成 Giscus 配置&lt;a class="td-heading-self-link" href="#%e7%94%9f%e6%88%90-giscus-%e9%85%8d%e7%bd%ae" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>访问 &lt;a href="https://giscus.app/zh-CN">https://giscus.app/zh-CN&lt;/a>&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/007.png">&lt;/p>
 &lt;p>填入评论的仓库地址。&lt;/p>
@@ -806,10 +806,10 @@ $$
 &lt;p>    打开任意博文，下拉查看，已成功启用。&lt;/p>
 &lt;p>    如果浏览器已登录 Github，点击 “ 使用Github登录 ” 就直接登录成功并跳转回页面，效果如下图所示。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/015.png">&lt;/p></description></item><item><title>Docs: Hugo 博客基于Codespace搭建记录</title><link>https://080812.xyz/docs/network/hugo/hugo/</link><pubDate>Tue, 09 Jan 2024 19:18:52 +0800</pubDate><guid>https://080812.xyz/docs/network/hugo/hugo/</guid><description>
-&lt;h2 id="前言">前言&lt;/h2>
+&lt;h2 id="前言">前言&lt;a class="td-heading-self-link" href="#%e5%89%8d%e8%a8%80" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>编译平台：Github Codespaces&lt;/p>
 &lt;p>发布平台：Github Pages&lt;/p>
-&lt;h3 id="前置知识">前置知识&lt;/h3>
+&lt;h3 id="前置知识">前置知识&lt;a class="td-heading-self-link" href="#%e5%89%8d%e7%bd%ae%e7%9f%a5%e8%af%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;ul>
 &lt;li>
 &lt;p>&lt;strong>Hugo&lt;/strong> 是一个用 Go 语言编写的静态站点生成器，它针对速度、易用性和可配置性进行了优化，快速灵活。&lt;/p>
@@ -821,11 +821,11 @@ $$
 &lt;p>&lt;strong>GitHub Codespaces&lt;/strong> Github提供的云端开发环境。 可通过将配置文件提交到存储库（通常称为“配置即代码”）来为 GitHub Codespaces 自定义项目，这将为项目的所有用户创建可重复的 codespace 配置。&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;h3 id="我为什么选择hugo">我为什么选择Hugo？&lt;/h3>
+&lt;h3 id="我为什么选择hugo">我为什么选择Hugo？&lt;a class="td-heading-self-link" href="#%e6%88%91%e4%b8%ba%e4%bb%80%e4%b9%88%e9%80%89%e6%8b%a9hugo" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>    目前无服务器博客大多是Hexo加 Github Page，Hexo比较容易上手，并且有丰富的主题。每个CS专业的人基本都有Github账户，Github Pages又是免费的，配合Cloudflare的DNS解析和CDN加速，也能取得不错的访问速度。&lt;/p>
 &lt;p>    Hexo搭建比较简单，搭建过程就建立了Github仓库访问，完成搭建以后，只需要专注于写作，使用&amp;quot;-g&amp;quot;和&amp;quot;-d&amp;quot;命令就完成静态文件生成和自动发布到Github操作。&lt;/p>
 &lt;p>    Hugo搭建比Hexo麻烦，并且Hexo只需要&amp;quot;-d&amp;quot;即可直接发布到Github Pages，尽管Hugo官方文档比较糟糕，且易用性不如Hexo，但我选用Hugo的原因只需要一个理由——快，Hugo使用Go语言开发，在生成静态文件时会判定源文件是否有改动，无改动的则不需要重新生成。有博主测评同样200篇博文，采用Hexo需要10分钟生成静态网页，而Hugo只需要10秒钟，仅我个人测试，同样只有Example，Hexo需要一分多钟，而Hugo只需要毫秒。&lt;/p>
-&lt;h2 id="新建仓库">新建仓库&lt;/h2>
+&lt;h2 id="新建仓库">新建仓库&lt;a class="td-heading-self-link" href="#%e6%96%b0%e5%bb%ba%e4%bb%93%e5%ba%93" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>    为了保护博文不被直接剽窃（尤其workflow文件包含了public仓库key，如果被他人拿到，是可以通过SSH纂改博客），建立两个Repositories，分别存放源码和编译成品。&lt;/p>
 &lt;style>
 .center
@@ -860,13 +860,13 @@ margin-right: auto;
 &lt;/table>
 &lt;/div>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo/img/001.png">&lt;/p>
-&lt;h2 id="克隆仓库">克隆仓库&lt;/h2>
+&lt;h2 id="克隆仓库">克隆仓库&lt;a class="td-heading-self-link" href="#%e5%85%8b%e9%9a%86%e4%bb%93%e5%ba%93" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>为了方便你使用codespace部署，我已经将hugo extended相关文件开源。&lt;/p>
 &lt;p>访问 &lt;a href="https://github.com/devil6117/hugo-codespaces-starter">https://github.com/devil6117/hugo-codespaces-starter&lt;/a>&lt;/p>
 &lt;p>将该仓库代码上传到你博客的private仓库中，你也可以直接从你的仓库中impoert code，像下图这样。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo/img/002.png">&lt;/p>
 &lt;p>注：如果你采用这类方式，你的仓库页面会出现代码来自某某，尽管他对外不可见，如果你和我有一样强迫症，还是自己下载再上传一下吧。&lt;/p>
-&lt;h2 id="部署环境">部署环境&lt;/h2>
+&lt;h2 id="部署环境">部署环境&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2%e7%8e%af%e5%a2%83" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>(1) 创建codespace实例&lt;/p>
 &lt;p>打开private仓库，直接以该仓库创建实例。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo/img/003.png">&lt;/p>
@@ -877,16 +877,16 @@ margin-right: auto;
 &lt;p>在codespace的终端运行&amp;quot;hugo server&amp;quot;&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo/img/005.png">&lt;/p>
 &lt;p>测试成功。&lt;/p>
-&lt;h2 id="编写内容">编写内容&lt;/h2>
+&lt;h2 id="编写内容">编写内容&lt;a class="td-heading-self-link" href="#%e7%bc%96%e5%86%99%e5%86%85%e5%ae%b9" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>博文路径：&amp;quot; \content \post \ &amp;quot;&lt;/p>
 &lt;p>博文以文件夹形式存储，文本文件命名为index.zh-cn.md，与该博文有关的资源文件都放置在该文件夹内。&lt;/p>
 &lt;p>过程略。&lt;/p>
-&lt;h2 id="部署自动发布">部署自动发布&lt;/h2>
-&lt;h3 id="workflow-代码">workflow 代码&lt;/h3>
+&lt;h2 id="部署自动发布">部署自动发布&lt;a class="td-heading-self-link" href="#%e9%83%a8%e7%bd%b2%e8%87%aa%e5%8a%a8%e5%8f%91%e5%b8%83" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="workflow-代码">workflow 代码&lt;a class="td-heading-self-link" href="#workflow-%e4%bb%a3%e7%a0%81" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>workflow代码已包含在.github/workflow下，名为build.yml，修改build.yml中的参数。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo/img/006.png">&lt;/p>
 &lt;p>external_repository 为网站仓库，如果有域名，在cname填写上要绑定的域名并取消注释符号，否则每次push都会覆盖。&lt;/p>
-&lt;h3 id="ssh-keygen">ssh-keygen&lt;/h3>
+&lt;h3 id="ssh-keygen">ssh-keygen&lt;a class="td-heading-self-link" href="#ssh-keygen" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>生成密钥在以下两种方式二选一：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>ssh-keygen -t rsa -c &lt;span style="color:#4e9a06">&amp;#34;Yourname@mail.com&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>更推荐使用ed25519方式，除非你的操作系统不支持。&lt;/p>
@@ -905,7 +905,7 @@ margin-right: auto;
 &lt;p>如下图所示，名称填下框文本，Secret框内填私钥。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>ACTIONS_DEPLOY_KEY
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo/img/010.png">&lt;/p>
-&lt;h2 id="效果预览">效果预览&lt;/h2>
+&lt;h2 id="效果预览">效果预览&lt;a class="td-heading-self-link" href="#%e6%95%88%e6%9e%9c%e9%a2%84%e8%a7%88" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo/img/011.png">&lt;/p>
 &lt;p>workflow 成功运行。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo/img/012.png">&lt;/p>
@@ -914,6 +914,6 @@ margin-right: auto;
 &lt;p>通过域名访问网站，能正常访问。&lt;/p>
 &lt;p>上图使用的主题是CaiJimmy的stack。&lt;/p>
 &lt;p>主题地址：https://themes.gohugo.io/themes/hugo-theme-stack/&lt;/p>
-&lt;h2 id="参考链接">参考链接&lt;/h2>
+&lt;h2 id="参考链接">参考链接&lt;a class="td-heading-self-link" href="#%e5%8f%82%e8%80%83%e9%93%be%e6%8e%a5" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>感谢Zenlian提供的Actions部署代码。&lt;/p>
 &lt;p>原文链接 ： &lt;a href="https://zenlian.github.io/github-actions-hugo/">https://zenlian.github.io/github-actions-hugo/&lt;/a>&lt;/p></description></item></channel></rss>

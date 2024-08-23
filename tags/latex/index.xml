@@ -1,17 +1,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog – Latex</title><link>https://080812.xyz/tags/latex/</link><description>Recent content in Latex on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 29 Feb 2024 19:19:33 +0800</lastBuildDate><atom:link href="https://080812.xyz/tags/latex/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 基于VS Code搭建LaTeX写作环境</title><link>https://080812.xyz/docs/computer-basic/vscode/vscode_latex/</link><pubDate>Thu, 29 Feb 2024 19:19:33 +0800</pubDate><guid>https://080812.xyz/docs/computer-basic/vscode/vscode_latex/</guid><description>
-&lt;h2 id="前言">前言&lt;/h2>
+&lt;h2 id="前言">前言&lt;a class="td-heading-self-link" href="#%e5%89%8d%e8%a8%80" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>    LaTeX 是一套强大的排版系统，在学术论文排版方面应用广泛，很多高校和期刊都会提供自己 LaTeX 模板方便论文提交。&lt;/p>
 &lt;p>    引擎是 TeX 语法的解释器。最原始的 TeX 引擎在 1978 年由 Donald Erwin Knuth（高德纳）开发，其生成 dvi 文件，然后经由其他程序转换为 PDF 文件。改进引擎包括：&lt;/p>
 &lt;p>    pdfTeX：将 TeX 代码直接编译成 PDF 文件。&lt;/p>
 &lt;p>    XeTeX：TeX 语言的新的实现，支持 Unicode 编码和直接访问操作系统字体。&lt;/p>
 &lt;p>    LuaTeX：TeX 语言的一个完整的有扩展的实现，支持 Unicode、系统字体和内嵌语言扩展，能直接输出 PDF 格式文件，也可以仍然输出 DVI 格式。&lt;/p>
-&lt;h2 id="安装tex">安装TeX&lt;/h2>
-&lt;h3 id="访问tuna镜像站并下载镜像文件">访问TUNA镜像站并下载镜像文件&lt;/h3>
+&lt;h2 id="安装tex">安装TeX&lt;a class="td-heading-self-link" href="#%e5%ae%89%e8%a3%85tex" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="访问tuna镜像站并下载镜像文件">访问TUNA镜像站并下载镜像文件&lt;a class="td-heading-self-link" href="#%e8%ae%bf%e9%97%aetuna%e9%95%9c%e5%83%8f%e7%ab%99%e5%b9%b6%e4%b8%8b%e8%bd%bd%e9%95%9c%e5%83%8f%e6%96%87%e4%bb%b6" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_latex/img/001.png">&lt;/p>
 &lt;p>&lt;a href="https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/">https://mirrors.tuna.tsinghua.edu.cn/CTAN/systems/texlive/Images/&lt;/a>&lt;/p>
-&lt;h3 id="解压latex镜像">解压latex镜像&lt;/h3>
+&lt;h3 id="解压latex镜像">解压latex镜像&lt;a class="td-heading-self-link" href="#%e8%a7%a3%e5%8e%8blatex%e9%95%9c%e5%83%8f" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_latex/img/002.png">&lt;/p>
-&lt;h3 id="运行安装程序">运行安装程序&lt;/h3>
+&lt;h3 id="运行安装程序">运行安装程序&lt;a class="td-heading-self-link" href="#%e8%bf%90%e8%a1%8c%e5%ae%89%e8%a3%85%e7%a8%8b%e5%ba%8f" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_latex/img/003.png">&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_latex/img/004.png">&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_latex/img/005.png">&lt;/p>
@@ -22,15 +22,15 @@
 &lt;p>注：安装时间较长，请耐心等待。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_latex/img/008.png">&lt;/p>
 &lt;p>安装完成。&lt;/p>
-&lt;h3 id="检查latex安装是否正常">检查Latex安装是否正常。&lt;/h3>
+&lt;h3 id="检查latex安装是否正常">检查Latex安装是否正常。&lt;a class="td-heading-self-link" href="#%e6%a3%80%e6%9f%a5latex%e5%ae%89%e8%a3%85%e6%98%af%e5%90%a6%e6%ad%a3%e5%b8%b8" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>cmd输入命令xelatex -v。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_latex/img/009.png">&lt;/p>
-&lt;h3 id="配置vscode">配置VSCode&lt;/h3>
+&lt;h3 id="配置vscode">配置VSCode&lt;a class="td-heading-self-link" href="#%e9%85%8d%e7%bd%aevscode" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>    在安装完VS Code之后还不能编写LaTeX代码，此时就需要安装必要的插件。&lt;/p>
 &lt;p>&lt;strong>LaTeX Workshop&lt;/strong>，具体执行步骤如下所示：&lt;/p>
-&lt;h3 id="安装latex-workshop">安装latex workshop；&lt;/h3>
+&lt;h3 id="安装latex-workshop">安装latex workshop；&lt;a class="td-heading-self-link" href="#%e5%ae%89%e8%a3%85latex-workshop" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_latex/img/010.png">&lt;/p>
-&lt;h3 id="打开latex-workshop设置环境">打开Latex Workshop设置环境&lt;/h3>
+&lt;h3 id="打开latex-workshop设置环境">打开Latex Workshop设置环境&lt;a class="td-heading-self-link" href="#%e6%89%93%e5%bc%80latex-workshop%e8%ae%be%e7%bd%ae%e7%8e%af%e5%a2%83" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>打开设置窗口&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_latex/img/011.png">&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_latex/img/012.png">&lt;/p>
@@ -134,9 +134,9 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">},&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">]&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="测试效果">测试效果&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="测试效果">测试效果&lt;a class="td-heading-self-link" href="#%e6%b5%8b%e8%af%95%e6%95%88%e6%9e%9c" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>&lt;img src="https://080812.xyz/docs/computer-basic/vscode/vscode_latex/img/013.png">&lt;/p>
-&lt;h2 id="pdf">PDF&lt;/h2>
+&lt;h2 id="pdf">PDF&lt;a class="td-heading-self-link" href="#pdf" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>(未完成)&lt;/p>
-&lt;h2 id="模板">模板&lt;/h2>
+&lt;h2 id="模板">模板&lt;a class="td-heading-self-link" href="#%e6%a8%a1%e6%9d%bf" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>清华大学学位论文 &lt;a href="https://mirrors.tuna.tsinghua.edu.cn/github-release/tuna/thuthesis/">https://mirrors.tuna.tsinghua.edu.cn/github-release/tuna/thuthesis/&lt;/a>&lt;/p></description></item></channel></rss>

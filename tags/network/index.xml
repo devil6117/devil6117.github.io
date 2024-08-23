@@ -1,10 +1,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog – Network</title><link>https://080812.xyz/tags/network/</link><description>Recent content in Network on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 04 May 2024 07:35:19 +0800</lastBuildDate><atom:link href="https://080812.xyz/tags/network/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: XiaomiAX3000T刷ImmortalWRT笔记</title><link>https://080812.xyz/docs/network/rs/xiaomiax3000t/</link><pubDate>Sat, 04 May 2024 07:35:19 +0800</pubDate><guid>https://080812.xyz/docs/network/rs/xiaomiax3000t/</guid><description>
-&lt;h2 id="前情提要">前情提要&lt;/h2>
+&lt;h2 id="前情提要">前情提要&lt;a class="td-heading-self-link" href="#%e5%89%8d%e6%83%85%e6%8f%90%e8%a6%81" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>    在学校实验室一直用小米AC2100，但实验室只提供100M宽带，别说AC2100了，就是用斐讯K2P都绰绰有余，就没打算换路由器的。搬入基地后，偶然发现基地的网速特别快，直接连WIFI可以跑到300M甚至500M。如果用AC2100是网线直连还好，碍于基地没有提供有线网口，只能通过无线中继，尽管AC2100的5GWIFI能达到1733Mbps带宽，但中继需要收发各占一半，因此网速达不到200M。再一个基地是WIFI6，AC2100这款WIFI5路由器确实有点力不从心。&lt;/p>
 &lt;p>    在本科同学推荐下，选择了AX3000T，当时百元价位最具性价比的WIFI6路由器。有个小插曲儿：拼多多拉他拼团，刚说不买，过一会儿又问我拼不拼。于是拼多多三人团+免拼一人，实付148入手。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/rs/xiaomiax3000t/image/000-0.jpg">&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/rs/xiaomiax3000t/image/000-1.jpg">&lt;/p>
-&lt;h2 id="硬件配置">硬件配置&lt;/h2>
+&lt;h2 id="硬件配置">硬件配置&lt;a class="td-heading-self-link" href="#%e7%a1%ac%e4%bb%b6%e9%85%8d%e7%bd%ae" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>CPU：联发科 FiLogic 820系列 MT7981(双核A53架构，12nm工艺制程，1.3GHz主频)&lt;/p>
 &lt;p>Storage：256MB&lt;/p>
 &lt;p>RAM：128MB；&lt;/p>
@@ -13,15 +13,15 @@
 &lt;p>优点：拼多多149入手，性价比高，轻松跑满千兆，支持Mesh。&lt;/p>
 &lt;p>缺点：RAM只开基础功能还行，如果开科网的话就不太够用。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/rs/xiaomiax3000t/image/000-2.png">&lt;/p>
-&lt;h2 id="刷机过程">刷机过程&lt;/h2>
+&lt;h2 id="刷机过程">刷机过程&lt;a class="td-heading-self-link" href="#%e5%88%b7%e6%9c%ba%e8%bf%87%e7%a8%8b" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>刷机所需资源包&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>链接：https://pan.baidu.com/s/12oEnYIhNTwtub4QQir-dhQ?pwd=28yf
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>提取码：28yf
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>--来自百度网盘超级会员V6的分享
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="固件降级到1047">固件降级到1.0.47&lt;/h3>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="固件降级到1047">固件降级到1.0.47&lt;a class="td-heading-self-link" href="#%e5%9b%ba%e4%bb%b6%e9%99%8d%e7%ba%a7%e5%88%b01047" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/rs/xiaomiax3000t/image/001.png">&lt;/p>
 &lt;p>（收货到手就是1.0.47，故省略此步骤）&lt;/p>
-&lt;h3 id="开启ssh">开启SSH&lt;/h3>
+&lt;h3 id="开启ssh">开启SSH&lt;a class="td-heading-self-link" href="#%e5%bc%80%e5%90%afssh" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/rs/xiaomiax3000t/image/002.png">&lt;/p>
 &lt;p>登录路由器后台，复制红框中的stok值，替换下面代码的中“你的值”。
 &lt;code>小米路由器默认ip是192.168.31.1，我习惯到手就改了。&lt;/code>&lt;/p>
@@ -31,20 +31,20 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>curl -X POST http://192.168.31.1/cgi-bin/luci/&lt;span style="color:#000;font-weight:bold">;&lt;/span>&lt;span style="color:#000">stok&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>你的值/api/misystem/arn_switch -d &lt;span style="color:#4e9a06">&amp;#34;open=1&amp;amp;model=1&amp;amp;level=%0A%2Fetc%2Finit.d%2Fdropbear%20start%0A&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://080812.xyz/docs/network/rs/xiaomiax3000t/image/003.png">&lt;/p>
 &lt;p>每条命令输入回车后会返回{code：0}，至此SSH已解锁成功。&lt;/p>
-&lt;h3 id="ssh连接路由器">SSH连接路由器&lt;/h3>
-&lt;h4 id="计算ssh密码">计算SSH密码&lt;/h4>
+&lt;h3 id="ssh连接路由器">SSH连接路由器&lt;a class="td-heading-self-link" href="#ssh%e8%bf%9e%e6%8e%a5%e8%b7%af%e7%94%b1%e5%99%a8" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;h4 id="计算ssh密码">计算SSH密码&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97ssh%e5%af%86%e7%a0%81" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/rs/xiaomiax3000t/image/004.png">&lt;/p>
 &lt;p>复制路由器后台的SN。&lt;/p>
 &lt;p>粘贴到小米SSH ROOT密码计算器计算ROOT密码。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/rs/xiaomiax3000t/image/005.png">&lt;/p>
-&lt;h4 id="登录ssh">登录SSH&lt;/h4>
+&lt;h4 id="登录ssh">登录SSH&lt;a class="td-heading-self-link" href="#%e7%99%bb%e5%bd%95ssh" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/rs/xiaomiax3000t/image/006.PNG">&lt;/p>
 &lt;p>输入路由器IP。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/rs/xiaomiax3000t/image/007.PNG">&lt;/p>
 &lt;p>粘贴计算出来的Root密码。&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/rs/xiaomiax3000t/image/008.PNG">&lt;/p>
 &lt;p>are u ok，官方玩梗。&lt;/p>
-&lt;h4 id="备份扇区">备份扇区&lt;/h4>
+&lt;h4 id="备份扇区">备份扇区&lt;a class="td-heading-self-link" href="#%e5%a4%87%e4%bb%bd%e6%89%87%e5%8c%ba" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;p>在ssh以此输入以下命令备份路由器扇区，路由器存储空间不是特别大，需要使用Winscp把备份文件copy出来。扇区备份文件用于意外后的救砖恢复，备份过程省略。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>dd &lt;span style="color:#204a87;font-weight:bold">if&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/dev/mtd1 &lt;span style="color:#000">of&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/tmp/BL2.bin
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>dd &lt;span style="color:#204a87;font-weight:bold">if&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/dev/mtd2 &lt;span style="color:#000">of&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/tmp/Nvram.bin
@@ -58,7 +58,7 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>dd &lt;span style="color:#204a87;font-weight:bold">if&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/dev/mtd10 &lt;span style="color:#000">of&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/tmp/overlay.bin
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>dd &lt;span style="color:#204a87;font-weight:bold">if&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/dev/mtd11 &lt;span style="color:#000">of&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/tmp/date.bin
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>dd &lt;span style="color:#204a87;font-weight:bold">if&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/dev/mtd12 &lt;span style="color:#000">of&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>/tmp/KF.bin
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="刷入immortalwrt">刷入ImmortalWRT&lt;/h3>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="刷入immortalwrt">刷入ImmortalWRT&lt;a class="td-heading-self-link" href="#%e5%88%b7%e5%85%a5immortalwrt" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>&lt;code>笔记是后来补的，截图没留存这么多，固件类型选ImmortalWRT或者OpenWRT就行，反正刷错了重选就是。&lt;/code>&lt;/p>
 &lt;p>手动电脑的IP地址设置为192.168.1.2，按住路由器的reset键再通电。一直按住状态等待15秒左右，浏览器里输入192.168.1.1，进入uboot了。&lt;/p>
 &lt;p>选择解压出来的ImmortalWRT固件刷入等待重启就差不多了。&lt;/p>
