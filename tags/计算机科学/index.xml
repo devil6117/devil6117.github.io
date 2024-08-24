@@ -1,37 +1,26 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog – 计算机科学</title><link>https://080812.xyz/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/</link><description>Recent content in 计算机科学 on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 30 Mar 2024 11:09:45 +0800</lastBuildDate><atom:link href="https://080812.xyz/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 计算机网络学习笔记</title><link>https://080812.xyz/docs/cst/cn/</link><pubDate>Sat, 30 Mar 2024 11:09:45 +0800</pubDate><guid>https://080812.xyz/docs/cst/cn/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog – 计算机科学</title><link>https://080812.xyz/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/</link><description>Recent content in 计算机科学 on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 30 Mar 2024 11:09:45 +0800</lastBuildDate><atom:link href="https://080812.xyz/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 计算机网络</title><link>https://080812.xyz/docs/cst/cn/</link><pubDate>Sat, 30 Mar 2024 11:09:45 +0800</pubDate><guid>https://080812.xyz/docs/cst/cn/</guid><description>
 &lt;p>本笔记配套教材为湖南科技大学高军《深入浅出计算机网络》，ISBN 978-7-302-60626-0，封面如图所示。&lt;/p>
 &lt;p>&lt;img alt="封面" src="https://080812.xyz/docs/cst/cn/image/0_0_%E5%B0%81%E9%9D%A2.jpg">&lt;/p>
 &lt;p>配套教学课程：&lt;a href="https://www.bilibili.com/video/BV1NT411g7n6/">深入浅出计算机网络 微课视频_哔哩哔哩_bilibili&lt;/a>&lt;/p>
-&lt;p>配套教学资源：&lt;a href="https://www.tup.tsinghua.edu.cn/booksCenter/book_09342101.html">清华大学出版社-图书详情-《深入浅出计算机网络（微课视频版）》&lt;/a>&lt;/p>
-&lt;h2 id="概论">概论&lt;a class="td-heading-self-link" href="#%e6%a6%82%e8%ae%ba" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;h2 id="物理层">物理层&lt;a class="td-heading-self-link" href="#%e7%89%a9%e7%90%86%e5%b1%82" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;h2 id="数据链路层">数据链路层&lt;a class="td-heading-self-link" href="#%e6%95%b0%e6%8d%ae%e9%93%be%e8%b7%af%e5%b1%82" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;h2 id="网络层">网络层&lt;a class="td-heading-self-link" href="#%e7%bd%91%e7%bb%9c%e5%b1%82" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;h2 id="运输层">运输层&lt;a class="td-heading-self-link" href="#%e8%bf%90%e8%be%93%e5%b1%82" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;h2 id="应用层">应用层&lt;a class="td-heading-self-link" href="#%e5%ba%94%e7%94%a8%e5%b1%82" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;h2 id="网络安全">网络安全&lt;a class="td-heading-self-link" href="#%e7%bd%91%e7%bb%9c%e5%ae%89%e5%85%a8" aria-label="Heading self-link">&lt;/a>&lt;/h2></description></item><item><title>Docs: 数据结构(C语言版)学习笔记</title><link>https://080812.xyz/docs/cst/ds/</link><pubDate>Fri, 29 Mar 2024 19:36:35 +0800</pubDate><guid>https://080812.xyz/docs/cst/ds/</guid><description>
+&lt;p>配套教学资源：&lt;a href="https://www.tup.tsinghua.edu.cn/booksCenter/book_09342101.html">清华大学出版社-图书详情-《深入浅出计算机网络（微课视频版）》&lt;/a>&lt;/p></description></item><item><title>Docs: 数据结构(C语言版)</title><link>https://080812.xyz/docs/cst/ds/</link><pubDate>Fri, 29 Mar 2024 19:36:35 +0800</pubDate><guid>https://080812.xyz/docs/cst/ds/</guid><description>
 &lt;p>本笔记配套学习教材为严蔚敏《数据结构(C语言版)(第2版)》，ISBN 978-7-115-37950-4，封面如图所示。&lt;/p>
 &lt;p>&lt;img alt="封面" src="https://080812.xyz/docs/cst/ds/image/0_0_%E5%B0%81%E9%9D%A2.jpg">&lt;/p>
 &lt;p>&lt;img alt="数据结构目录" src="https://080812.xyz/docs/cst/ds/image/0_1_%E7%9B%AE%E5%BD%95%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.png">&lt;/p>
 &lt;p>推荐参考图书：程杰《大话数据结构(溢彩加强版)》 &lt;a href="https://www.tup.tsinghua.edu.cn/booksCenter/book_08952301.html">配套资源&lt;/a>&lt;/p>
 &lt;p>推荐配套课程：&lt;a href="https://www.bilibili.com/read/cv2306631/">青岛大学-王卓-数据结构 - 哔哩哔哩&lt;/a>&lt;/p>
-&lt;p>配套教学资源：&lt;a href="https://www.ryjiaoyu.com/book/details/3489">数据结构（C语言版）（第2版）-图书-人邮教育社区&lt;/a>&lt;/p>
-&lt;h2 id="绪论">绪论&lt;a class="td-heading-self-link" href="#%e7%bb%aa%e8%ae%ba" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>&lt;img alt="用计算机解决问题的步骤" src="https://080812.xyz/docs/cst/ds/image/1.1_0_%E7%94%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98.png">&lt;/p>
-&lt;h3 id="数据结构的研究内容">数据结构的研究内容&lt;a class="td-heading-self-link" href="#%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84%e7%9a%84%e7%a0%94%e7%a9%b6%e5%86%85%e5%ae%b9" aria-label="Heading self-link">&lt;/a>&lt;/h3>
-&lt;hr>
+&lt;p>配套教学资源：&lt;a href="https://www.ryjiaoyu.com/book/details/3489">数据结构（C语言版）（第2版）-图书-人邮教育社区&lt;/a>&lt;/p></description></item><item><title>Docs: 绪论</title><link>https://080812.xyz/docs/cst/ds/chapter1/</link><pubDate>Fri, 29 Mar 2024 19:36:35 +0800</pubDate><guid>https://080812.xyz/docs/cst/ds/chapter1/</guid><description>
+&lt;p>&lt;img alt="用计算机解决问题的步骤" src="https://080812.xyz/docs/cst/ds/chapter1/image/1.1_0_%E7%94%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98.png">&lt;/p>
+&lt;h1 id="数据结构的研究内容">数据结构的研究内容&lt;a class="td-heading-self-link" href="#%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84%e7%9a%84%e7%a0%94%e7%a9%b6%e5%86%85%e5%ae%b9" aria-label="Heading self-link">&lt;/a>&lt;/h1>
 &lt;p>计算机主要用于&lt;strong>数值计算&lt;/strong>时，一般经过如下几个步骤：&lt;/p>
 &lt;p>&lt;strong>首先&lt;/strong> 从&lt;u>具体问题&lt;/u>抽象出&lt;u>数学模型&lt;/u>，&lt;/p>
 &lt;p>&lt;strong>然后&lt;/strong> 设计一个解此数学模型的&lt;u>算法&lt;/u>，&lt;/p>
 &lt;p>&lt;strong>最后&lt;/strong> 编写&lt;u>程序&lt;/u>，进行&lt;u>测试、调试&lt;/u>，直到解决问题。&lt;/p>
-&lt;hr>
 &lt;p>寻求数学模型的实质是&lt;u>分析问题&lt;/u>，从中&lt;u>提取操作的对象&lt;/u>，并&lt;u>找出&lt;/u>这些操作对象之间的联系，然后&lt;u>用数学语言加以描述&lt;/u>，即建立相应的数学方程。&lt;/p>
 &lt;p>数据结构主要研究&lt;u>非数值计算&lt;/u>问题，非数值计算无法用数学方程建立数学模型。&lt;strong>(共性)&lt;/strong>&lt;/p>
 &lt;p>非数值计算问题的数学模型不再是数学方程，而是诸如线性表、树和图的数据结构。&lt;/p>
 &lt;p>数据结构是一门研究&lt;u>非数值计算程序设计中的操作对象&lt;/u>，以及&lt;u>这些操作对象之间的关系和操作&lt;/u>的学科。&lt;/p>
-&lt;hr>
-&lt;h3 id="基本概念和术语">基本概念和术语&lt;a class="td-heading-self-link" href="#%e5%9f%ba%e6%9c%ac%e6%a6%82%e5%bf%b5%e5%92%8c%e6%9c%af%e8%af%ad" aria-label="Heading self-link">&lt;/a>&lt;/h3>
-&lt;h4 id="数据数据元素数据项和数据对象">数据、数据元素、数据项和数据对象&lt;a class="td-heading-self-link" href="#%e6%95%b0%e6%8d%ae%e6%95%b0%e6%8d%ae%e5%85%83%e7%b4%a0%e6%95%b0%e6%8d%ae%e9%a1%b9%e5%92%8c%e6%95%b0%e6%8d%ae%e5%af%b9%e8%b1%a1" aria-label="Heading self-link">&lt;/a>&lt;/h4>
+&lt;h1 id="基本概念和术语">基本概念和术语&lt;a class="td-heading-self-link" href="#%e5%9f%ba%e6%9c%ac%e6%a6%82%e5%bf%b5%e5%92%8c%e6%9c%af%e8%af%ad" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;h2 id="数据数据元素数据项和数据对象">数据、数据元素、数据项和数据对象&lt;a class="td-heading-self-link" href="#%e6%95%b0%e6%8d%ae%e6%95%b0%e6%8d%ae%e5%85%83%e7%b4%a0%e6%95%b0%e6%8d%ae%e9%a1%b9%e5%92%8c%e6%95%b0%e6%8d%ae%e5%af%b9%e8%b1%a1" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;ul>
 &lt;li>
 &lt;p>数据 (Data) &lt;code>信息的载体&lt;/code> &lt;code>(集合)&lt;/code>&lt;/p>
@@ -50,20 +39,17 @@
 &lt;p>性质&lt;u>相同的数据元素&lt;/u>的集合&lt;/p>
 &lt;/li>
 &lt;/ul>
-&lt;h4 id="数据结构">数据结构&lt;a class="td-heading-self-link" href="#%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84" aria-label="Heading self-link">&lt;/a>&lt;/h4>
+&lt;h2 id="数据结构">数据结构&lt;a class="td-heading-self-link" href="#%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>数据的&lt;u>运算&lt;/u>和&lt;u>实现&lt;/u>，即对数据元素可以施加的操作需在&lt;u>相应的存储结构&lt;/u>上实现。&lt;/p>
-&lt;hr>
 &lt;p>数据结构包括 &lt;strong>逻辑结构&lt;/strong> 和 &lt;strong>存储结构&lt;/strong> 两个层次。&lt;/p>
 &lt;ul>
 &lt;li>逻辑结构于存储结构的关系&lt;/li>
 &lt;/ul>
 &lt;pre tabindex="0">&lt;code>存储结构是逻辑关系的映像与元素本身的映像。
 逻辑结构是数据结构的抽象，存储结构是数据结构的实现。
-&lt;/code>&lt;/pre>&lt;hr>
-&lt;h5 id="逻辑结构">逻辑结构&lt;a class="td-heading-self-link" href="#%e9%80%bb%e8%be%91%e7%bb%93%e6%9e%84" aria-label="Heading self-link">&lt;/a>&lt;/h5>
+&lt;/code>&lt;/pre>&lt;h3 id="逻辑结构">逻辑结构&lt;a class="td-heading-self-link" href="#%e9%80%bb%e8%be%91%e7%bb%93%e6%9e%84" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>数据的&lt;strong>逻辑结构&lt;/strong>是从&lt;u>逻辑关系&lt;/u>上描述数据，它&lt;u>与数据的存储无关，是独立于计算机的&lt;/u>，数据结构可以看作&lt;u>从具体问题抽象出来的数学模型&lt;/u>。&lt;/p>
-&lt;p>&lt;img alt="数据的逻辑结构层次" src="https://080812.xyz/docs/cst/ds/image/1.1_1_%E6%95%B0%E6%8D%AE%E7%9A%84%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84.png">&lt;/p>
-&lt;hr>
+&lt;p>&lt;img alt="数据的逻辑结构层次" src="https://080812.xyz/docs/cst/ds/chapter1/image/1.1_1_%E6%95%B0%E6%8D%AE%E7%9A%84%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84.png">&lt;/p>
 &lt;p>(1) 集合结构&lt;/p>
 &lt;p>除了“属于同一集合”的关系外，没有其他关系。&lt;/p>
 &lt;p>(2) 线性结构&lt;/p>
@@ -72,8 +58,7 @@
 &lt;p>数据元素之间存在&lt;u>一对多&lt;/u>的关系。 &lt;code>一个结点可能有多个直接前驱和后继&lt;/code>&lt;/p>
 &lt;p>(4) 图结构或网状结构&lt;/p>
 &lt;p>数据元素之间存在&lt;u>多对多&lt;/u>的关系。&lt;/p>
-&lt;hr>
-&lt;h5 id="存储结构-物理结构">存储结构 (物理结构)&lt;a class="td-heading-self-link" href="#%e5%ad%98%e5%82%a8%e7%bb%93%e6%9e%84-%e7%89%a9%e7%90%86%e7%bb%93%e6%9e%84" aria-label="Heading self-link">&lt;/a>&lt;/h5>
+&lt;h3 id="存储结构-物理结构">存储结构 (物理结构)&lt;a class="td-heading-self-link" href="#%e5%ad%98%e5%82%a8%e7%bb%93%e6%9e%84-%e7%89%a9%e7%90%86%e7%bb%93%e6%9e%84" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>数据对象&lt;u>在计算机的存储表示&lt;/u>称为&lt;strong>数据结构&lt;/strong>，也称为&lt;strong>物理结构&lt;/strong>。&lt;/p>
 &lt;pre tabindex="0">&lt;code>数据元素及其关系 在 计算机存储结构中的结构 (存储方式)。
 数据结构在计算机中的表示。
@@ -81,14 +66,7 @@
 &lt;p>顺序存储结构是&lt;u>借助元素在存储器中的相对位置来表示数据元素之间的逻辑关系&lt;/u>。&lt;/p>
 &lt;pre tabindex="0">&lt;code>用一组连续的存储单元依次存储数据元素。
 数据之间的逻辑关系由元素的位置表示。
-&lt;/code>&lt;/pre>&lt;p>(2) 链式存储结构&lt;/p>
-&lt;h2 id="线性表">线性表&lt;a class="td-heading-self-link" href="#%e7%ba%bf%e6%80%a7%e8%a1%a8" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;h2 id="栈和队列">栈和队列&lt;a class="td-heading-self-link" href="#%e6%a0%88%e5%92%8c%e9%98%9f%e5%88%97" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;h2 id="串数组和广义表">串、数组和广义表&lt;a class="td-heading-self-link" href="#%e4%b8%b2%e6%95%b0%e7%bb%84%e5%92%8c%e5%b9%bf%e4%b9%89%e8%a1%a8" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;h2 id="树和二叉树">树和二叉树&lt;a class="td-heading-self-link" href="#%e6%a0%91%e5%92%8c%e4%ba%8c%e5%8f%89%e6%a0%91" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;h2 id="图">图&lt;a class="td-heading-self-link" href="#%e5%9b%be" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;h2 id="查找">查找&lt;a class="td-heading-self-link" href="#%e6%9f%a5%e6%89%be" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;h2 id="排序">排序&lt;a class="td-heading-self-link" href="#%e6%8e%92%e5%ba%8f" aria-label="Heading self-link">&lt;/a>&lt;/h2></description></item><item><title>Docs: 数据结构(C++版)习题</title><link>https://080812.xyz/docs/thu-cst/ds_ex/</link><pubDate>Fri, 08 Mar 2024 21:27:11 +0800</pubDate><guid>https://080812.xyz/docs/thu-cst/ds_ex/</guid><description>
+&lt;/code>&lt;/pre>&lt;p>(2) 链式存储结构&lt;/p></description></item><item><title>Docs: 数据结构(C++版)习题</title><link>https://080812.xyz/docs/thu-cst/ds_ex/</link><pubDate>Fri, 08 Mar 2024 21:27:11 +0800</pubDate><guid>https://080812.xyz/docs/thu-cst/ds_ex/</guid><description>
 &lt;h2 id="绪论">绪论&lt;a class="td-heading-self-link" href="#%e7%bb%aa%e8%ae%ba" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;h3 id="算法导论思考题-3-4">《算法导论》思考题 3-4&lt;a class="td-heading-self-link" href="#%e7%ae%97%e6%b3%95%e5%af%bc%e8%ae%ba%e6%80%9d%e8%80%83%e9%a2%98-3-4" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;table>
@@ -310,15 +288,15 @@ $$&lt;/p>
 &lt;p>    同一问题通常由多种算法，而各个算法对不同问题集，其表现各不同，因此算法的优劣并不适合采用运行统计的方法来对比，它受硬件性能、编程语言甚至是问题集合等非算法自身因素限制。&lt;/p>
 &lt;p>    &lt;strong>思考：复杂度低的算法一定是最好算法吗？&lt;/strong>&lt;/p>
 &lt;p>    不一定，假设某大学开发一个学生信息管理系统，存在A、B两种算法，以10万在校学生(n)为临界条件，在学生少于10万时，A优于B，在学生多于十万时，B优于A。一般情况下，我们会认为在问题规模\(n\rightarrow \infty \)时，B为最优算法，即全局最优，而A通常认为是问题规模在n小于10万条件下的局部最优算法。现实是：目前并不存在在校学生10万的学校，也一定不存在人数趋于无穷的学校。故A在该问题场景下是最好算法，而非B。因此我们在选用解决问题的算法时，需要根据具体问题选用更适合的算法。&lt;/p>
-&lt;div class="video-wrapper">
-&lt;iframe src="https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV16u4m1c7cU&amp;autoplay=0"
+&lt;div style="position:relative; padding-bottom:75%; width:100%; height:0">
+&lt;iframe
+src="//player.bilibili.com/player.html?bvid=BV16u4m1c7cU&amp;page=1"
 scrolling="no"
+border="0"
 frameborder="no"
 framespacing="0"
 allowfullscreen="true"
-high_quality=1
-danmaku=0
-sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
+style="position:absolute; height: 100%; width: 100%;"
 >
 &lt;/iframe>
 &lt;/div>

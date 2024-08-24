@@ -1,39 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog – Hugo</title><link>https://080812.xyz/tags/hugo/</link><description>Recent content in Hugo on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 11 Jan 2024 19:19:33 +0800</lastBuildDate><atom:link href="https://080812.xyz/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Hugo 接入 Giscus 评论系统</title><link>https://080812.xyz/docs/network/hugo/hugo-giscus/</link><pubDate>Thu, 11 Jan 2024 19:19:33 +0800</pubDate><guid>https://080812.xyz/docs/network/hugo/hugo-giscus/</guid><description>
-&lt;h2 id="前言">前言&lt;a class="td-heading-self-link" href="#%e5%89%8d%e8%a8%80" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>    折腾了这么些天的Hugo，看很多人的博客都有评论功能，也想整一个。考虑到我的博客是搭建在Github上，那么评论放在Github上也是情理之中的。&lt;/p>
-&lt;p>    Giscus 是一个由 Github Discussions 驱动的评论系统，无需自己单独配置。&lt;/p>
-&lt;h2 id="创建public仓库">创建Public仓库&lt;a class="td-heading-self-link" href="#%e5%88%9b%e5%bb%bapublic%e4%bb%93%e5%ba%93" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>    这并不是一个必需的步骤，事实上你也可以直接使用博客本来的仓库。但我建议还是分离不同仓库，这样既方便后续调整不影响博客，如果迁移的话，你只能带走博客内容，却无法带走评论，如果单独一个仓库，只需要在迁移后的新博客重新指向该仓库即可。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/001.png">&lt;/p>
-&lt;p>注：仓库必须是Public，否则无法评论。&lt;/p>
-&lt;h2 id="启用-discussions">启用 Discussions&lt;a class="td-heading-self-link" href="#%e5%90%af%e7%94%a8-discussions" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/002.png">&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/003.png">&lt;/p>
-&lt;p>勾选后会立即生效。&lt;/p>
-&lt;h2 id="安装-giscus-到仓库">安装 Giscus 到仓库&lt;a class="td-heading-self-link" href="#%e5%ae%89%e8%a3%85-giscus-%e5%88%b0%e4%bb%93%e5%ba%93" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>访问 &lt;a href="https://github.com/apps/giscus">https://github.com/apps/giscus&lt;/a> 进入 Giscus 安装界面。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/004.png">&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/005.png">&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/006.png">&lt;/p>
-&lt;h2 id="生成-giscus-配置">生成 Giscus 配置&lt;a class="td-heading-self-link" href="#%e7%94%9f%e6%88%90-giscus-%e9%85%8d%e7%bd%ae" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>访问 &lt;a href="https://giscus.app/zh-CN">https://giscus.app/zh-CN&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/007.png">&lt;/p>
-&lt;p>填入评论的仓库地址。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/008.png">&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/009.png">&lt;/p>
-&lt;p>    根据自己需求调整。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/010.png">&lt;/p>
-&lt;p>    复制上面的配置文本。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/011.png">&lt;/p>
-&lt;p>    配置文件所在路径。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/012.png">&lt;/p>
-&lt;p>    修改 comments 功能为 enbale 状态，并修改 provider 为 giscus 。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/013.png">&lt;/p>
-&lt;p>    对照配置文本填入信息，没有的自己加。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/014.png">&lt;/p>
-&lt;p>    打开任意博文，下拉查看，已成功启用。&lt;/p>
-&lt;p>    如果浏览器已登录 Github，点击 “ 使用Github登录 ” 就直接登录成功并跳转回页面，效果如下图所示。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/015.png">&lt;/p></description></item><item><title>Docs: Hugo 博客基于Codespace搭建记录</title><link>https://080812.xyz/docs/network/hugo/hugo/</link><pubDate>Tue, 09 Jan 2024 19:18:52 +0800</pubDate><guid>https://080812.xyz/docs/network/hugo/hugo/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog – Hugo</title><link>https://080812.xyz/tags/hugo/</link><description>Recent content in Hugo on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 11 Jan 2024 19:19:33 +0800</lastBuildDate><atom:link href="https://080812.xyz/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Hugo 博客基于Codespace搭建记录</title><link>https://080812.xyz/docs/network/hugo/hugo/</link><pubDate>Tue, 09 Jan 2024 19:18:52 +0800</pubDate><guid>https://080812.xyz/docs/network/hugo/hugo/</guid><description>
 &lt;h2 id="前言">前言&lt;a class="td-heading-self-link" href="#%e5%89%8d%e8%a8%80" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>编译平台：Github Codespaces&lt;/p>
 &lt;p>发布平台：Github Pages&lt;/p>
@@ -144,4 +109,39 @@ margin-right: auto;
 &lt;p>主题地址：https://themes.gohugo.io/themes/hugo-theme-stack/&lt;/p>
 &lt;h2 id="参考链接">参考链接&lt;a class="td-heading-self-link" href="#%e5%8f%82%e8%80%83%e9%93%be%e6%8e%a5" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>感谢Zenlian提供的Actions部署代码。&lt;/p>
-&lt;p>原文链接 ： &lt;a href="https://zenlian.github.io/github-actions-hugo/">https://zenlian.github.io/github-actions-hugo/&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;p>原文链接 ： &lt;a href="https://zenlian.github.io/github-actions-hugo/">https://zenlian.github.io/github-actions-hugo/&lt;/a>&lt;/p></description></item><item><title>Docs: Hugo 接入 Giscus 评论系统</title><link>https://080812.xyz/docs/network/hugo/hugo-giscus/</link><pubDate>Thu, 11 Jan 2024 19:19:33 +0800</pubDate><guid>https://080812.xyz/docs/network/hugo/hugo-giscus/</guid><description>
+&lt;h2 id="前言">前言&lt;a class="td-heading-self-link" href="#%e5%89%8d%e8%a8%80" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>    折腾了这么些天的Hugo，看很多人的博客都有评论功能，也想整一个。考虑到我的博客是搭建在Github上，那么评论放在Github上也是情理之中的。&lt;/p>
+&lt;p>    Giscus 是一个由 Github Discussions 驱动的评论系统，无需自己单独配置。&lt;/p>
+&lt;h2 id="创建public仓库">创建Public仓库&lt;a class="td-heading-self-link" href="#%e5%88%9b%e5%bb%bapublic%e4%bb%93%e5%ba%93" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>    这并不是一个必需的步骤，事实上你也可以直接使用博客本来的仓库。但我建议还是分离不同仓库，这样既方便后续调整不影响博客，如果迁移的话，你只能带走博客内容，却无法带走评论，如果单独一个仓库，只需要在迁移后的新博客重新指向该仓库即可。&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/001.png">&lt;/p>
+&lt;p>注：仓库必须是Public，否则无法评论。&lt;/p>
+&lt;h2 id="启用-discussions">启用 Discussions&lt;a class="td-heading-self-link" href="#%e5%90%af%e7%94%a8-discussions" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/002.png">&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/003.png">&lt;/p>
+&lt;p>勾选后会立即生效。&lt;/p>
+&lt;h2 id="安装-giscus-到仓库">安装 Giscus 到仓库&lt;a class="td-heading-self-link" href="#%e5%ae%89%e8%a3%85-giscus-%e5%88%b0%e4%bb%93%e5%ba%93" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>访问 &lt;a href="https://github.com/apps/giscus">https://github.com/apps/giscus&lt;/a> 进入 Giscus 安装界面。&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/004.png">&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/005.png">&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/006.png">&lt;/p>
+&lt;h2 id="生成-giscus-配置">生成 Giscus 配置&lt;a class="td-heading-self-link" href="#%e7%94%9f%e6%88%90-giscus-%e9%85%8d%e7%bd%ae" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>访问 &lt;a href="https://giscus.app/zh-CN">https://giscus.app/zh-CN&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/007.png">&lt;/p>
+&lt;p>填入评论的仓库地址。&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/008.png">&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/009.png">&lt;/p>
+&lt;p>    根据自己需求调整。&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/010.png">&lt;/p>
+&lt;p>    复制上面的配置文本。&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/011.png">&lt;/p>
+&lt;p>    配置文件所在路径。&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/012.png">&lt;/p>
+&lt;p>    修改 comments 功能为 enbale 状态，并修改 provider 为 giscus 。&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/013.png">&lt;/p>
+&lt;p>    对照配置文本填入信息，没有的自己加。&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/014.png">&lt;/p>
+&lt;p>    打开任意博文，下拉查看，已成功启用。&lt;/p>
+&lt;p>    如果浏览器已登录 Github，点击 “ 使用Github登录 ” 就直接登录成功并跳转回页面，效果如下图所示。&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/015.png">&lt;/p></description></item></channel></rss>
