@@ -257,21 +257,21 @@ $$&lt;/p>
 &lt;h1 id="计算">计算&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97" aria-label="Heading self-link">&lt;/a>&lt;/h1>
 &lt;h2 id="工具">工具&lt;a class="td-heading-self-link" href="#%e5%b7%a5%e5%85%b7" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>    计算首先是我们这门课程的直接研究对象和内容，也是我们这门课程的研究目的和目标。&lt;/p>
-&lt;p>&lt;img alt="尺规计算器" src="./image/01.Introduction_page-0002.jpg">&lt;/p>
+&lt;p>&lt;img alt="尺规计算器" src="https://080812.xyz/docs/thu-cst/ds/chapter1/01.Introduction_page-0002.jpg">&lt;/p>
 &lt;p>    我们可以将上图的尺规理解成一种计算机，它能解决线段的等分问题，上述步骤可以认为是这个计算机所运行的“程序”或“算法”。其中“过直线外一点，做平行线”是一个被多次重复的操作，可以将这个重复操作封装成子程序，使其能被复用。&lt;/p>
 &lt;p>    因此对数据结构与算法的研究，可以从以下两个角度去理解：&lt;/p>
 &lt;p>    对象：规律、技巧&lt;/p>
 &lt;p>    目标：高效、低耗&lt;/p>
 &lt;h2 id="算法-">算法 *&lt;a class="td-heading-self-link" href="#%e7%ae%97%e6%b3%95-" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>&lt;img alt="算法的定义" src="./image/02.Introduction_page-0004.jpg">&lt;/p>
+&lt;p>&lt;img alt="算法的定义" src="https://080812.xyz/docs/thu-cst/ds/chapter1/02.Introduction_page-0004.jpg">&lt;/p>
 &lt;p>    计算机科学与计算科学的关系：&lt;/p>
 &lt;p>    computer science - 对象&lt;/p>
 &lt;p>    computing science - 目标&lt;/p>
-&lt;p>&lt;img alt="好的算法" src="./image/03.Introduction_page-0008.jpg">&lt;/p>
+&lt;p>&lt;img alt="好的算法" src="https://080812.xyz/docs/thu-cst/ds/chapter1/03.Introduction_page-0008.jpg">&lt;/p>
 &lt;p>    &lt;code>退化是指在一个限制的情况下，一个集合中的对象改变其性质并且属于另一个集合，通常是变成比较简单的集合。&lt;/code>&lt;/p>
 &lt;h1 id="计算模型">计算模型&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%a8%a1%e5%9e%8b" aria-label="Heading self-link">&lt;/a>&lt;/h1>
 &lt;h2 id="统一尺度">统一尺度&lt;a class="td-heading-self-link" href="#%e7%bb%9f%e4%b8%80%e5%b0%ba%e5%ba%a6" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>&lt;img alt="算法分析" src="./image/04.Introduction_page-0010.jpg">&lt;/p>
+&lt;p>&lt;img alt="算法分析" src="https://080812.xyz/docs/thu-cst/ds/chapter1/04.Introduction_page-0010.jpg">&lt;/p>
 &lt;p>    &lt;code>成本：时间成本和空间成本&lt;/code>&lt;/p>
 &lt;p>    同一问题通常由多种算法，而各个算法对不同问题集，其表现各不同，因此算法的优劣并不适合采用运行统计的方法来对比，它受硬件性能、编程语言甚至是问题集合等非算法自身因素限制。&lt;/p>
 &lt;p>    &lt;strong>思考：复杂度低的算法一定是最好算法吗？&lt;/strong>&lt;/p>
@@ -290,18 +290,18 @@ style="position:absolute; height: 100%; width: 100%;"
 &lt;/div>
 &lt;p>视频链接：&lt;a href="https://www.bilibili.com/video/BV16u4m1c7cU">BV16u4m1c7cU&lt;/a>&lt;/p>
 &lt;h2 id="渐近复杂度-">渐近复杂度 *&lt;a class="td-heading-self-link" href="#%e6%b8%90%e8%bf%91%e5%a4%8d%e6%9d%82%e5%ba%a6-" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>&lt;img alt="渐近分析" src="./image/05.Introduction_page-0023.jpg">&lt;/p>
+&lt;p>&lt;img alt="渐近分析" src="https://080812.xyz/docs/thu-cst/ds/chapter1/05.Introduction_page-0023.jpg">&lt;/p>
 &lt;p>    我们看重的是长远增长趋势，即问题规模\(n\rightarrow \infty \)时，\(O(n)\)的增长趋势。&lt;/p>
 &lt;h2 id="大o记号-">大\(O\)记号 *&lt;a class="td-heading-self-link" href="#%e5%a4%a7o%e8%ae%b0%e5%8f%b7-" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>&lt;img alt="Big-O" src="./image/06.Introduction_page-0024.jpg">&lt;/p>
+&lt;p>&lt;img alt="Big-O" src="https://080812.xyz/docs/thu-cst/ds/chapter1/06.Introduction_page-0024.jpg">&lt;/p>
 &lt;p>    常系数可忽略，低次项可忽略，参考“抓大头”思想。&lt;/p>
-&lt;p>&lt;img alt="Other-Notation" src="./image/07.Introduction_page-0025.jpg">&lt;/p>
+&lt;p>&lt;img alt="Other-Notation" src="https://080812.xyz/docs/thu-cst/ds/chapter1/07.Introduction_page-0025.jpg">&lt;/p>
 &lt;p>    \(O\) 表示上界，即最坏情况。&lt;/p>
 &lt;p>    \(\Theta\) 表示确界，即最接近大多数情况。&lt;/p>
 &lt;p>    \(\Omega\) 表示下界，即最好情况。&lt;/p>
 &lt;h4 id="多项式-">多项式 *&lt;a class="td-heading-self-link" href="#%e5%a4%9a%e9%a1%b9%e5%bc%8f-" aria-label="Heading self-link">&lt;/a>&lt;/h4>
 &lt;p>    从渐近的角度来看，再大的常数，也小于递增的变数。&lt;/p>
-&lt;p>&lt;img alt="多项式" src="./image/08.Introduction_page-0029.jpg">&lt;/p>
+&lt;p>&lt;img alt="多项式" src="https://080812.xyz/docs/thu-cst/ds/chapter1/08.Introduction_page-0029.jpg">&lt;/p>
 &lt;ul>
 &lt;li>常系数可忽略。&lt;/li>
 &lt;li>常底数可忽略的基础：用对数换底公式换底后，其系数为常系数。&lt;/li>
@@ -309,14 +309,14 @@ style="position:absolute; height: 100%; width: 100%;"
 &lt;li>所有的低次项都是可忽略的，常系数项也是可以去掉的。&lt;/li>
 &lt;/ul>
 &lt;h2 id="指数">指数&lt;a class="td-heading-self-link" href="#%e6%8c%87%e6%95%b0" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>&lt;img src="./image/09.Introduction_page-0032.jpg">&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/docs/thu-cst/ds/chapter1/09.Introduction_page-0032.jpg">&lt;/p>
 &lt;p>指数型复杂度通常表示该问题已经不可解（难以在有穷条件内可解）。&lt;/p>
 &lt;h2 id="复杂度层次-">复杂度层次 *&lt;a class="td-heading-self-link" href="#%e5%a4%8d%e6%9d%82%e5%ba%a6%e5%b1%82%e6%ac%a1-" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>&lt;img alt="先胖不算胖" src="./image/10.Introduction_page-0037.jpg">&lt;/p>
+&lt;p>&lt;img alt="先胖不算胖" src="https://080812.xyz/docs/thu-cst/ds/chapter1/10.Introduction_page-0037.jpg">&lt;/p>
 &lt;p>    先胖不算胖：初始条件较低时的复杂度高，并不是全局复杂度高。&lt;/p>
-&lt;p>&lt;img alt="路遥知马力" src="./image/11.Introduction_page-0038.jpg">&lt;/p>
+&lt;p>&lt;img alt="路遥知马力" src="https://080812.xyz/docs/thu-cst/ds/chapter1/11.Introduction_page-0038.jpg">&lt;/p>
 &lt;p>    路遥知马力：算法复杂度通常需要问题规模增长到一定规模才能表现出现来。&lt;/p>
-&lt;p>&lt;img alt="复杂度层次" src="./image/12.Introduction_page-0039.jpg">&lt;/p>
+&lt;p>&lt;img alt="复杂度层次" src="https://080812.xyz/docs/thu-cst/ds/chapter1/12.Introduction_page-0039.jpg">&lt;/p>
 &lt;p>    记忆口诀：常对幂指阶。&lt;/p>
 &lt;h2 id="复杂度分析">复杂度分析&lt;a class="td-heading-self-link" href="#%e5%a4%8d%e6%9d%82%e5%ba%a6%e5%88%86%e6%9e%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>主要方法：迭代（级数求和）、递归（递归跟踪+递归方程）、实用（猜测+验证）。&lt;/p>
@@ -328,11 +328,11 @@ style="position:absolute; height: 100%; width: 100%;"
 &lt;/ul>
 &lt;p>    参考：Concrete Mathematics&lt;/p>
 &lt;h2 id="迭代">迭代&lt;a class="td-heading-self-link" href="#%e8%bf%ad%e4%bb%a3" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>&lt;img alt="迭代" src="./image/13.Introduction_page-0046.jpg">&lt;/p>
+&lt;p>&lt;img alt="迭代" src="https://080812.xyz/docs/thu-cst/ds/chapter1/13.Introduction_page-0046.jpg">&lt;/p>
 &lt;p>    上图中的图形面积为时间复杂度。&lt;/p>
 &lt;p>    迭代：每次运算的输出结果，都会作为下一次运算的输入参数，直到边界条件停止后算法退出，这种方法称为迭代。&lt;/p>
 &lt;p>    步骤：单个外层循环中的内部循环全部执行完以后，外层循环开始下一次。&lt;/p>
-&lt;p>&lt;img alt="迭代+级数" src="./image/14.Introduction_page-0048.jpg">&lt;/p>
+&lt;p>&lt;img alt="迭代+级数" src="https://080812.xyz/docs/thu-cst/ds/chapter1/14.Introduction_page-0048.jpg">&lt;/p>
 &lt;ul>
 &lt;li>为什么 \(T(n)=\sum_{k=1}^{log n}\sum_{i=1}^{k} 2^{k-1}\) 的上限是 \(log n\)？&lt;/li>
 &lt;/ul>
