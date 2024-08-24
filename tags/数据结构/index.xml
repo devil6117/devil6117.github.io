@@ -1,5 +1,5 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog – 数据结构</title><link>https://080812.xyz/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</link><description>Recent content in 数据结构 on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 29 Mar 2024 19:36:35 +0800</lastBuildDate><atom:link href="https://080812.xyz/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 绪论</title><link>https://080812.xyz/docs/cst/ds/chapter1/</link><pubDate>Fri, 29 Mar 2024 19:36:35 +0800</pubDate><guid>https://080812.xyz/docs/cst/ds/chapter1/</guid><description>
-&lt;p>&lt;img alt="用计算机解决问题的步骤" src="image/1.1_0_%E7%94%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98.png#pic_center">&lt;/p>
+&lt;p>&lt;img alt="用计算机解决问题的步骤" src="image/1.1_0_%E7%94%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98.png">&lt;/p>
 &lt;h1 id="数据结构的研究内容">数据结构的研究内容&lt;a class="td-heading-self-link" href="#%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84%e7%9a%84%e7%a0%94%e7%a9%b6%e5%86%85%e5%ae%b9" aria-label="Heading self-link">&lt;/a>&lt;/h1>
 &lt;p>计算机主要用于&lt;strong>数值计算&lt;/strong>时，一般经过如下几个步骤：&lt;/p>
 &lt;p>&lt;strong>首先&lt;/strong> 从&lt;u>具体问题&lt;/u>抽象出&lt;u>数学模型&lt;/u>，&lt;/p>
