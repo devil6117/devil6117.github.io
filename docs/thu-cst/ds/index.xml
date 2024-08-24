@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog – THUCST</title><link>https://080812.xyz/tags/thucst/</link><description>Recent content in THUCST on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 08 Mar 2024 21:27:11 +0800</lastBuildDate><atom:link href="https://080812.xyz/tags/thucst/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 绪论</title><link>https://080812.xyz/docs/thu-cst/ds/chapter1/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/docs/thu-cst/ds/chapter1/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog – 数据结构(C++)</title><link>https://080812.xyz/docs/thu-cst/ds/</link><description>Recent content in 数据结构(C++) on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 08 Mar 2024 21:18:52 +0800</lastBuildDate><atom:link href="https://080812.xyz/docs/thu-cst/ds/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 绪论</title><link>https://080812.xyz/docs/thu-cst/ds/chapter1/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/docs/thu-cst/ds/chapter1/</guid><description>
 &lt;h1 id="计算">计算&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97" aria-label="Heading self-link">&lt;/a>&lt;/h1>
 &lt;h2 id="工具">工具&lt;a class="td-heading-self-link" href="#%e5%b7%a5%e5%85%b7" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>    计算首先是我们这门课程的直接研究对象和内容，也是我们这门课程的研究目的和目标。&lt;/p>
@@ -112,27 +112,7 @@ $$
 &lt;h2 id="总和最大区段">总和最大区段&lt;a class="td-heading-self-link" href="#%e6%80%bb%e5%92%8c%e6%9c%80%e5%a4%a7%e5%8c%ba%e6%ae%b5" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;h1 id="动态规划">动态规划&lt;a class="td-heading-self-link" href="#%e5%8a%a8%e6%80%81%e8%a7%84%e5%88%92" aria-label="Heading self-link">&lt;/a>&lt;/h1>
 &lt;h2 id="记忆化">记忆化&lt;a class="td-heading-self-link" href="#%e8%ae%b0%e5%bf%86%e5%8c%96" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;h2 id="最长公共子序列">最长公共子序列&lt;a class="td-heading-self-link" href="#%e6%9c%80%e9%95%bf%e5%85%ac%e5%85%b1%e5%ad%90%e5%ba%8f%e5%88%97" aria-label="Heading self-link">&lt;/a>&lt;/h2></description></item><item><title>Docs: 数据结构(C++)</title><link>https://080812.xyz/docs/thu-cst/ds/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/docs/thu-cst/ds/</guid><description>
-&lt;p>&lt;strong>注：标题有*的为课程考试重点。&lt;/strong>&lt;/p>
-&lt;h1 id="参考文献">参考文献&lt;a class="td-heading-self-link" href="#%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae" aria-label="Heading self-link">&lt;/a>&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">Titile&lt;/th>
-&lt;th style="text-align:center">Link&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">DSACPP&lt;/td>
-&lt;td style="text-align:center">&lt;a href="https://cloud.tsinghua.edu.cn/d/3097126da2ab4e84b2c2/">https://cloud.tsinghua.edu.cn/d/3097126da2ab4e84b2c2/&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">TextBook&lt;/td>
-&lt;td style="text-align:center">&lt;a href="https://cloud.tsinghua.edu.cn/d/76cbab99574046698804/">https://cloud.tsinghua.edu.cn/d/76cbab99574046698804/&lt;/a>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table></description></item><item><title>Docs: 数据结构(C++版)习题</title><link>https://080812.xyz/docs/thu-cst/ds/ex1/</link><pubDate>Fri, 08 Mar 2024 21:27:11 +0800</pubDate><guid>https://080812.xyz/docs/thu-cst/ds/ex1/</guid><description>
+&lt;h2 id="最长公共子序列">最长公共子序列&lt;a class="td-heading-self-link" href="#%e6%9c%80%e9%95%bf%e5%85%ac%e5%85%b1%e5%ad%90%e5%ba%8f%e5%88%97" aria-label="Heading self-link">&lt;/a>&lt;/h2></description></item><item><title>Docs: 数据结构(C++版)习题</title><link>https://080812.xyz/docs/thu-cst/ds/ex1/</link><pubDate>Fri, 08 Mar 2024 21:27:11 +0800</pubDate><guid>https://080812.xyz/docs/thu-cst/ds/ex1/</guid><description>
 &lt;h2 id="绪论">绪论&lt;a class="td-heading-self-link" href="#%e7%bb%aa%e8%ae%ba" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;h3 id="算法导论思考题-3-4">《算法导论》思考题 3-4&lt;a class="td-heading-self-link" href="#%e7%ae%97%e6%b3%95%e5%af%bc%e8%ae%ba%e6%80%9d%e8%80%83%e9%a2%98-3-4" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;table>
