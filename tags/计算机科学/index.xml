@@ -1,5 +1,5 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog – 计算机科学</title><link>https://080812.xyz/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/</link><description>Recent content in 计算机科学 on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 30 Mar 2024 11:09:45 +0800</lastBuildDate><atom:link href="https://080812.xyz/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 绪论</title><link>https://080812.xyz/docs/cst/ds/chapter1/</link><pubDate>Fri, 29 Mar 2024 19:36:35 +0800</pubDate><guid>https://080812.xyz/docs/cst/ds/chapter1/</guid><description>
-&lt;p>&lt;img alt="用计算机解决问题的步骤" src="image/1.1_0_%E7%94%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98.png">&lt;/p>
+&lt;p>&lt;img alt="用计算机解决问题的步骤" src="https://080812.xyz/docs/cst/ds/chapter1/1.1_0_%E7%94%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98.png">&lt;/p>
 &lt;h1 id="数据结构的研究内容">数据结构的研究内容&lt;a class="td-heading-self-link" href="#%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84%e7%9a%84%e7%a0%94%e7%a9%b6%e5%86%85%e5%ae%b9" aria-label="Heading self-link">&lt;/a>&lt;/h1>
 &lt;p>计算机主要用于&lt;strong>数值计算&lt;/strong>时，一般经过如下几个步骤：&lt;/p>
 &lt;p>&lt;strong>首先&lt;/strong> 从&lt;u>具体问题&lt;/u>抽象出&lt;u>数学模型&lt;/u>，&lt;/p>
@@ -39,7 +39,7 @@
 逻辑结构是数据结构的抽象，存储结构是数据结构的实现。
 &lt;/code>&lt;/pre>&lt;h3 id="逻辑结构">逻辑结构&lt;a class="td-heading-self-link" href="#%e9%80%bb%e8%be%91%e7%bb%93%e6%9e%84" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;p>数据的&lt;strong>逻辑结构&lt;/strong>是从&lt;u>逻辑关系&lt;/u>上描述数据，它&lt;u>与数据的存储无关，是独立于计算机的&lt;/u>，数据结构可以看作&lt;u>从具体问题抽象出来的数学模型&lt;/u>。&lt;/p>
-&lt;p>&lt;img alt="数据的逻辑结构层次" src="image/1.1_1_%E6%95%B0%E6%8D%AE%E7%9A%84%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84.png#pic_center">&lt;/p>
+&lt;p>&lt;img alt="数据的逻辑结构层次" src="https://080812.xyz/docs/cst/ds/chapter1/1.1_1_%E6%95%B0%E6%8D%AE%E7%9A%84%E9%80%BB%E8%BE%91%E7%BB%93%E6%9E%84.png#pic_center">&lt;/p>
 &lt;p>(1) 集合结构&lt;/p>
 &lt;p>除了“属于同一集合”的关系外，没有其他关系。&lt;/p>
 &lt;p>(2) 线性结构&lt;/p>
@@ -366,11 +366,11 @@ $$
 &lt;h3 id="2分而治之">2.分而治之&lt;a class="td-heading-self-link" href="#2%e5%88%86%e8%80%8c%e6%b2%bb%e4%b9%8b" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;h3 id="3总和最大区段">3.总和最大区段&lt;a class="td-heading-self-link" href="#3%e6%80%bb%e5%92%8c%e6%9c%80%e5%a4%a7%e5%8c%ba%e6%ae%b5" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;h2 id="f动态规划">F.动态规划&lt;a class="td-heading-self-link" href="#f%e5%8a%a8%e6%80%81%e8%a7%84%e5%88%92" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;h2 id="1记忆化">1.记忆化&lt;a class="td-heading-self-link" href="#1%e8%ae%b0%e5%bf%86%e5%8c%96" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;h2 id="2最长公共子序列">2.最长公共子序列&lt;a class="td-heading-self-link" href="#2%e6%9c%80%e9%95%bf%e5%85%ac%e5%85%b1%e5%ad%90%e5%ba%8f%e5%88%97" aria-label="Heading self-link">&lt;/a>&lt;/h2></description></item><item><title>Docs: 数据结构(C语言版)</title><link>https://080812.xyz/docs/cst/ds/</link><pubDate>Fri, 29 Mar 2024 19:36:35 +0800</pubDate><guid>https://080812.xyz/docs/cst/ds/</guid><description>
+&lt;h3 id="1记忆化">1.记忆化&lt;a class="td-heading-self-link" href="#1%e8%ae%b0%e5%bf%86%e5%8c%96" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;h3 id="2最长公共子序列">2.最长公共子序列&lt;a class="td-heading-self-link" href="#2%e6%9c%80%e9%95%bf%e5%85%ac%e5%85%b1%e5%ad%90%e5%ba%8f%e5%88%97" aria-label="Heading self-link">&lt;/a>&lt;/h3></description></item><item><title>Docs: 数据结构(C语言版)</title><link>https://080812.xyz/docs/cst/ds/</link><pubDate>Fri, 29 Mar 2024 19:36:35 +0800</pubDate><guid>https://080812.xyz/docs/cst/ds/</guid><description>
 &lt;p>本笔记配套学习教材为严蔚敏《数据结构(C语言版)(第2版)》，ISBN 978-7-115-37950-4，封面如图所示。&lt;/p>
-&lt;p>&lt;img alt="封面" src="https://080812.xyz/docs/cst/ds/image/0_0_%E5%B0%81%E9%9D%A2.jpg">&lt;/p>
-&lt;p>&lt;img alt="数据结构目录" src="https://080812.xyz/docs/cst/ds/image/0_1_%E7%9B%AE%E5%BD%95%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.png">&lt;/p>
+&lt;p>&lt;img alt="封面" src="https://080812.xyz/docs/cst/ds/0_0_%E5%B0%81%E9%9D%A2.jpg">&lt;/p>
+&lt;p>&lt;img alt="数据结构目录" src="https://080812.xyz/docs/cst/ds/0_1_%E7%9B%AE%E5%BD%95%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.png">&lt;/p>
 &lt;p>推荐参考图书：程杰《大话数据结构(溢彩加强版)》 &lt;a href="https://www.tup.tsinghua.edu.cn/booksCenter/book_08952301.html">配套资源&lt;/a>&lt;/p>
 &lt;p>推荐配套课程：&lt;a href="https://www.bilibili.com/read/cv2306631/">青岛大学-王卓-数据结构 - 哔哩哔哩&lt;/a>&lt;/p>
 &lt;p>配套教学资源：&lt;a href="https://www.ryjiaoyu.com/book/details/3489">数据结构（C语言版）（第2版）-图书-人邮教育社区&lt;/a>&lt;/p></description></item><item><title>Docs: 数据结构(C++)</title><link>https://080812.xyz/docs/thu-cst/ds/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/docs/thu-cst/ds/</guid><description>

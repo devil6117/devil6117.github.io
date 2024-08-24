@@ -308,8 +308,8 @@ $$
 &lt;h3 id="2分而治之">2.分而治之&lt;a class="td-heading-self-link" href="#2%e5%88%86%e8%80%8c%e6%b2%bb%e4%b9%8b" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;h3 id="3总和最大区段">3.总和最大区段&lt;a class="td-heading-self-link" href="#3%e6%80%bb%e5%92%8c%e6%9c%80%e5%a4%a7%e5%8c%ba%e6%ae%b5" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;h2 id="f动态规划">F.动态规划&lt;a class="td-heading-self-link" href="#f%e5%8a%a8%e6%80%81%e8%a7%84%e5%88%92" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;h2 id="1记忆化">1.记忆化&lt;a class="td-heading-self-link" href="#1%e8%ae%b0%e5%bf%86%e5%8c%96" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;h2 id="2最长公共子序列">2.最长公共子序列&lt;a class="td-heading-self-link" href="#2%e6%9c%80%e9%95%bf%e5%85%ac%e5%85%b1%e5%ad%90%e5%ba%8f%e5%88%97" aria-label="Heading self-link">&lt;/a>&lt;/h2></description></item><item><title>Docs: 数据结构(C++)</title><link>https://080812.xyz/docs/thu-cst/ds/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/docs/thu-cst/ds/</guid><description>
+&lt;h3 id="1记忆化">1.记忆化&lt;a class="td-heading-self-link" href="#1%e8%ae%b0%e5%bf%86%e5%8c%96" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;h3 id="2最长公共子序列">2.最长公共子序列&lt;a class="td-heading-self-link" href="#2%e6%9c%80%e9%95%bf%e5%85%ac%e5%85%b1%e5%ad%90%e5%ba%8f%e5%88%97" aria-label="Heading self-link">&lt;/a>&lt;/h3></description></item><item><title>Docs: 数据结构(C++)</title><link>https://080812.xyz/docs/thu-cst/ds/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/docs/thu-cst/ds/</guid><description>
 &lt;p>&lt;strong>注：标题有*的为课程考试重点。&lt;/strong>&lt;/p>
 &lt;h1 id="参考文献">参考文献&lt;a class="td-heading-self-link" href="#%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae" aria-label="Heading self-link">&lt;/a>&lt;/h1>
 &lt;table>
