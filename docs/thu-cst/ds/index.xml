@@ -21,19 +21,17 @@
 &lt;p>    同一问题通常由多种算法，而各个算法对不同问题集，其表现各不同，因此算法的优劣并不适合采用运行统计的方法来对比，它受硬件性能、编程语言甚至是问题集合等非算法自身因素限制。&lt;/p>
 &lt;p>    &lt;strong>思考：复杂度低的算法一定是最好算法吗？&lt;/strong>&lt;/p>
 &lt;p>    不一定，假设某大学开发一个学生信息管理系统，存在A、B两种算法，以10万在校学生(n)为临界条件，在学生少于10万时，A优于B，在学生多于十万时，B优于A。一般情况下，我们会认为在问题规模\(n\rightarrow \infty \)时，B为最优算法，即全局最优，而A通常认为是问题规模在n小于10万条件下的局部最优算法。现实是：目前并不存在在校学生10万的学校，也一定不存在人数趋于无穷的学校。故A在该问题场景下是最好算法，而非B。因此我们在选用解决问题的算法时，需要根据具体问题选用更适合的算法。&lt;/p>
-&lt;div align=center class="aspect-ratio">
-&lt;div style="position:relative; padding-bottom:75%; width:75%; height:75%">
-&lt;iframe
-src="//player.bilibili.com/player.html?bvid=BV16u4m1c7cU&amp;page=1"
+&lt;div class="video-wrapper">
+&lt;iframe src="https://player.bilibili.com/player.html?as_wide=1&amp;amp;high_quality=1&amp;amp;page=1&amp;bvid=BV16u4m1c7cU&amp;autoplay=0"
 scrolling="no"
-border="0"
 frameborder="no"
 framespacing="0"
 allowfullscreen="true"
-style="position:absolute; height: 100%; width: 100%;"
+high_quality=1
+danmaku=0
+sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
 >
 &lt;/iframe>
-&lt;/div>
 &lt;/div>
 &lt;p>视频链接：&lt;a href="https://www.bilibili.com/video/BV16u4m1c7cU">BV16u4m1c7cU&lt;/a>&lt;/p>
 &lt;h2 id="c渐近复杂度-">C.渐近复杂度 *&lt;a class="td-heading-self-link" href="#c%e6%b8%90%e8%bf%91%e5%a4%8d%e6%9d%82%e5%ba%a6-" aria-label="Heading self-link">&lt;/a>&lt;/h2>
