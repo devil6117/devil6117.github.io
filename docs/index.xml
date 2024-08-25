@@ -355,7 +355,7 @@ margin-right: auto;
 - RISC-V、x86-64、MIPS、ARM支持
 - RaspBerry PI、U740、D1等
 - GUI、驱动、文件系统、网络
-&lt;/code>&lt;/pre>&lt;h2 id="操作系统定义">操作系统定义&lt;a class="td-heading-self-link" href="#%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f%e5%ae%9a%e4%b9%89" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;/code>&lt;/pre>&lt;h2 id="第二节-什么是操作系统">第二节 什么是操作系统&lt;a class="td-heading-self-link" href="#%e7%ac%ac%e4%ba%8c%e8%8a%82-%e4%bb%80%e4%b9%88%e6%98%af%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># 操作系统抽象
 ## CPU
 - 进程
@@ -372,6 +372,79 @@ margin-right: auto;
 - 每个程序” 独占” 一台完整的计算机
 ## 异步
 - 服务的完成时间不确定，也可能失败
+&lt;/code>&lt;/pre>&lt;h2 id="第三节-操作系统历史演化">第三节 操作系统历史演化&lt;a class="td-heading-self-link" href="#%e7%ac%ac%e4%b8%89%e8%8a%82-%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f%e5%8e%86%e5%8f%b2%e6%bc%94%e5%8c%96" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># 操作系统历史演化
+## 单用户系统 (1945-1955)
+- **手动**连线/纸带传输进行程序输入
+- 机器成本远**大于**人力成本
+- 操作系统 = 装载器 + 程序库
+- 问题：昂贵组件的低利用率
+## 批处理系统 (1955-1965)
+- 磁带/磁盘传输进行程序输入
+- 机器成本大于人力成本
+- 操作系统 = 装载器 + 程序控制器 + 输出处理器
+- 问题：相比以前利用率提高
+## 多道程序系统 (1955-1980)
+- 多个程序**驻留**内存中
+- 多个程序**轮流使用**CPU
+- 操作系统 = 装载器 + 程序调度 + 内存管理 + 输出管理
+- 演变：相比以前利用率提高
+## 分时系统 (1970- 至今)
+- 多个程序驻留内存中
+- 多个程序分时使用 CPU
+- 操作系统 = 装载器 + 程序调度 + 内存管理 + **中断处理** +...
+- 演变：相比以前利用率提高、与外界**交互延时**缩短
+## Multics OS (失败)
+- Unix (成功)
+## 个人电脑(PC) (1981- )
+- 单用户
+- **计算机成本下降**使CPU利用率不再是最重要的关注点
+- 重点是用户界面和多媒体功能
+- 操作系统 = 装载器 + 程序调度 + 内存管理 + 中断处理 +...
+- 演变：**走向大众**，老的服务和功能不存在，越来越多的安全问题
+## 分布式系统 (1990- )
+- 分布式多用户
+- 分布式系统利用率是关注点
+- 重点是网络/存储/计算的效率
+- 操作系统 = 分布式（装载器 + 程序/OS 调度 + 内存管理）
+- 演变：走向大众，走向**网络**，新的挑战 (不可靠/不确定)
+## Android操作系统
+- 跨平台：支持Java应用程序
+- 运行时(runtime)：Android虚拟机
+- 应用框架：简化应用程序开发
+## AIoT 操作系统 (2000- )
+- 分布式多设备
+- 分布式系统利用率/可用性是关注点
+- 重点是网络/存储/计算的效率
+- 操作系统 = 分布式（程序/OS 调度 + 内存管理 + 安全/更新）
+- 演变：走向设备，走向网络，新的挑战 (不可靠/大数据)
+&lt;/code>&lt;/pre>&lt;h2 id="第四节-操作系统结构">第四节 操作系统结构&lt;a class="td-heading-self-link" href="#%e7%ac%ac%e5%9b%9b%e8%8a%82-%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f%e7%bb%93%e6%9e%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># 操作系统结构
+## 简单结构
+### MS-DOS：应用和OS混在一起 (1981–1994)
+- **没有拆分为模块**
+- 主要用汇编编写
+- 没有安全保护
+## 单体分层结构
+### 将单体操作系统 (Monolithic OS) 划分为多层 (levels)
+- **每层建立在低层之上**
+- 最底层 (layer 0), 是硬件驱动
+- 最高层 (layer N) 是用户界面
+- 每一层**仅使用**更低一层的功能和服务
+## 微内核结构(Micro Kernel)
+- 尽可能把内核功能移到用户空间
+- 用户模块间的通信使用消息传递
+- 好处: 灵活/安全...
+- 缺点: 性能
+- LPC: 本地过程调用(Local Procedure Call)
+- HAL: 硬件抽象层（Hardware Abstraction Layer）
+## 外核结构(Exokernel)
+- 让内核分配物理资源给多个应用程序, 并让每个程序决定如何处理这些资源
+- 程序能链接到操作系统库 (libOS) 实现了操作系统抽象
+- 保护与控制分离
+- Distributed Shared Memory(DSM)(分布式共享内存)
+## 虚拟机结构
+- 虚拟机管理器将单独的机器接口转换成很多的虚拟机, 每个虚拟机都是一个原始计算机系统的有效副本, 并能完成所有的处理器指令
 &lt;/code>&lt;/pre></description></item><item><title>Docs: 绪论</title><link>https://080812.xyz/docs/thu-cst/ds/ex/chapter1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/thu-cst/ds/ex/chapter1/</guid><description>
 &lt;h2 id="算法导论">《算法导论》&lt;a class="td-heading-self-link" href="#%e7%ae%97%e6%b3%95%e5%af%bc%e8%ae%ba" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;h3 id="思考题-3-4">思考题 3-4&lt;a class="td-heading-self-link" href="#%e6%80%9d%e8%80%83%e9%a2%98-3-4" aria-label="Heading self-link">&lt;/a>&lt;/h3>
