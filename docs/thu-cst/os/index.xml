@@ -77,6 +77,8 @@
 - 演变：相比以前利用率提高、与外界**交互延时**缩短
 ## Multics OS (失败)
 - Unix (成功)
+&lt;/code>&lt;/pre>&lt;p>&lt;code>下面部分了解即可，不太重要，我甚至怀疑老师压根没整明白这些。&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># 系统历史演化
 ## 个人电脑(PC) (1981- )
 - 单用户
 - **计算机成本下降**使CPU利用率不再是最重要的关注点
@@ -89,7 +91,7 @@
 - 重点是网络/存储/计算的效率
 - 操作系统 = 分布式（装载器 + 程序/OS 调度 + 内存管理）
 - 演变：走向大众，走向**网络**，新的挑战 (不可靠/不确定)
-## Android操作系统
+## Android 操作系统
 - 跨平台：支持Java应用程序
 - 运行时(runtime)：Android虚拟机
 - 应用框架：简化应用程序开发
@@ -126,4 +128,181 @@
 - Distributed Shared Memory(DSM)(分布式共享内存)
 ## 虚拟机结构
 - 虚拟机管理器将单独的机器接口转换成很多的虚拟机, 每个虚拟机都是一个原始计算机系统的有效副本, 并能完成所有的处理器指令
-&lt;/code>&lt;/pre></description></item></channel></rss>
+&lt;/code>&lt;/pre>&lt;h2 id="补充中断异常和系统调用基于特权级的隔离与批处理">补充：中断、异常和系统调用（基于特权级的隔离与批处理）&lt;a class="td-heading-self-link" href="#%e8%a1%a5%e5%85%85%e4%b8%ad%e6%96%ad%e5%bc%82%e5%b8%b8%e5%92%8c%e7%b3%bb%e7%bb%9f%e8%b0%83%e7%94%a8%e5%9f%ba%e4%ba%8e%e7%89%b9%e6%9d%83%e7%ba%a7%e7%9a%84%e9%9a%94%e7%a6%bb%e4%b8%8e%e6%89%b9%e5%a4%84%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>&lt;strong>QEMU模拟器&lt;/strong> &lt;code>使用软件qemu-system-riscv64模拟一台64位Risc-V架构计算机&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># QEMU模拟器
+- 一个CPU (可调整为多核)
+- 一块物理内存
+- 若干 I/O 外设
+&lt;/code>&lt;/pre>&lt;h3 id="os与硬件关系">OS与硬件关系&lt;a class="td-heading-self-link" href="#os%e4%b8%8e%e7%a1%ac%e4%bb%b6%e5%85%b3%e7%b3%bb" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>计算机系统&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>    计算机系统(computerarchitecture)是一种&lt;strong>抽象层次&lt;/strong>的&lt;strong>设计&lt;/strong>，用于实现可有效使用&lt;strong>现有制造技术&lt;/strong>的&lt;strong>信息处理&lt;/strong>应用。———— CS- 152 berkeley&lt;/p>
+&lt;ul>
+&lt;li>计算机系统抽象层次
+&lt;strong>硬件&lt;/strong>支持&lt;strong>OS&lt;/strong>支持&lt;strong>应用&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">-&lt;/span> 操作系统位于硬件(HW)和应用(APP) 之间
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">-&lt;/span> 只有理解OS与HW/APP的关系，才能更好掌握OS
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>指令集:软硬件接口&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-text" data-lang="text">&lt;span style="display:flex;">&lt;span>硬件与OS的边界:指令集+寄存器
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>OS是对硬件的虚拟与抽象&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># Kernel
+- Process
+- Memory
+- Device
+- File System
+- ...
+&lt;/code>&lt;/pre>&lt;h3 id="os与应用程序关系">OS与应用程序关系&lt;a class="td-heading-self-link" href="#os%e4%b8%8e%e5%ba%94%e7%94%a8%e7%a8%8b%e5%ba%8f%e5%85%b3%e7%b3%bb" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># OS对应用程序执行的支持
+- 提供服务
+- 系统调用
+- 地址空间布局
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>OS对应用程序执行的支持&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>通过&lt;strong>系统调用&lt;/strong>来提供服务&lt;/li>
+&lt;li>系统调用：OS/APP的接口（边界之一）&lt;code>用户态/内核态&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>引入系统调用的目的是增强安全性和可靠性&lt;/strong>&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># 函数调用的特征
+- 好处：执行很快
+- 好处:灵活-易于传递和返回复杂数据类型;
+- 好处:程序员熟悉的机制，....
+- 坏处:应用程序不可靠，可能有恶意，有崩溃的风险
+&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># 系统调用类型
+- 进程控制
+- 文件管理
+- 设备管理
+- 信息维护
+- 通信
+&lt;/code>&lt;/pre>&lt;hr>
+&lt;h3 id="隔离机制">隔离机制&lt;a class="td-heading-self-link" href="#%e9%9a%94%e7%a6%bb%e6%9c%ba%e5%88%b6" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># 隔离要解决的问题
+## 防止程序X破坏或监视程序Y
+- 读/写内存，使用100%的CPU，更改文件描述符
+## 防止程序干扰操作系统
+## 防止恶意程序、病毒、木马和Bug
+- 错误的过程可能会试图欺骗硬件或内核
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>什么是隔离？&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>隔离的&lt;strong>定义&lt;/strong>&lt;/p>
+&lt;p>操作系统中的应用程序不会&lt;strong>影响&lt;/strong>(或破坏)其他应用或操作系统的正常&lt;strong>执行&lt;/strong>或信息&lt;strong>泄露&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>隔离的本质&lt;/p>
+&lt;p>在需要交换信息或共享资源的情况下才出现&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>隔离并不意味着不要共享&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>隔离边界&lt;/strong>&lt;/p>
+&lt;p>隔离需要建立边界(boundary)&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>边界决定了各自的势力范围&lt;/p>
+&lt;p>跨界即有&lt;strong>风险&lt;/strong>的共享资源&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>强制隔离&lt;/p>
+&lt;p>避免有问题的单元对整个系统的安全影响&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>隔离的单位
+通常是运行的程序&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>隔离方法&lt;/strong>&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># 隔离方法分类
+- 基于**软件**的隔离
+- 基于**硬件**的隔离
+- 基于**网络**的隔离
+&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># OS隔离APP的分类
+## 对**控制**的隔离:特权级机制
+- 用户态vs内核态
+## 对**数据**的隔离:地址空间
+- 用户地址空间vs内核地址空间
+## 对**时间**的隔离:中断处理
+- 随时打断正在执行的用户态App .
+## 对破坏隔离的处理:**异常处理**
+- OS在内核态及时处理用户态App的异常行为
+&lt;/code>&lt;/pre>&lt;p>&lt;code>虚拟内存后续会详细展开&lt;/code>&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># 数据隔离：虚拟内存
+## 虚拟内存
+- 读写内存的安全性问题
+- 进程间的安全问题
+- 内存空间利用率的问题
+- 内存读写的效率问题
+## 地址空间 Address Spaces
+- 一个程序仅寻址其自己的内存
+- 若无许可，则每个程序无法访问不属于自己的内存
+&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># 控制隔离：特权模式
+## 防止应用程序访问设备和敏感的CPU寄存器
+- 地址空间配置寄存器
+- 关机相关的指令或寄存器
+- ...
+## CPU硬件支持不同的特权模式
+### Kernel Mode (内核态) Vs User Mode (用户态)
+### 内核态可以执行用户态无法执行的特权操作
+- 访问外设
+- 配置地址空间(虚拟内存)
+- 读/写特殊系统级寄存器
+### OS内核运行在内核态
+### 应用程序运行在用户态
+### 每个微处理器都有类似的用户/内核模式标志
+&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># 时间隔离：中断/异常机制*
+## CPU硬件支持中断/异常的处理
+- 异常:及时响应和处理应用的异常行为
+- 中断:打断一直占用CPU的应用程序.
+## 中断是异步发生，是来自处理器外部的I/O设备的信号的结果。
+- 异步是指，硬件中断不是由任何一 条专门J的CPU指令造成。
+&lt;/code>&lt;/pre>&lt;p>&lt;code>中断又称为“内部中断”，异常又称为“外部中断”。&lt;/code>&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>中断处理例程&lt;/strong>&lt;/p>
+&lt;p>&lt;code>中断处理例程(interrupt handle) :硬件中断/异常的处理程序&lt;/code>&lt;/p>
+&lt;ol>
+&lt;li>I/O设备通过向处理器芯片的一-个弓|脚发信号,并将异常号放到系
+统总线上，以触发中断;&lt;/li>
+&lt;li>在当前指令执行完后，处理器从系统总线读取异常号，保存现场,
+切换到内核态;&lt;/li>
+&lt;li>调用中断处理例程，当中断处理程序完成后，它将控制返回给下一
+条本来要执行的指令。&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;p>&lt;strong>时钟中断&lt;/strong>&lt;/p>
+&lt;p>&lt;code>Timer可以稳定定时地产生中断&lt;/code>&lt;/p>
+&lt;ul>
+&lt;li>防止应用程序死占着CPU不放&lt;/li>
+&lt;li>让OS内核能周期性地进行资源管理&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;img alt="时间中断例程" src="https://080812.xyz/docs/thu-cst/os/chapter1/image/1_4_1_%E6%97%B6%E9%97%B4%E4%B8%AD%E6%96%AD%E4%BE%8B%E7%A8%8B.png">&lt;/p>
+&lt;ol>
+&lt;li>触发中断&lt;/li>
+&lt;li>保存现场,切换到内核态运行&lt;/li>
+&lt;li>返回，恢复中断前下一条指令&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;p>&lt;img alt="异常处理例程" src="https://080812.xyz/docs/thu-cst/os/chapter1/image/1_4_2_%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E4%BE%8B%E7%A8%8B.png">&lt;/p>
+&lt;ol>
+&lt;li>根据异常编号去查询处理程序&lt;/li>
+&lt;li>保存现场&lt;/li>
+&lt;li>异常处理:杀死产生异常的程序;或者重新执行异常指令&lt;/li>
+&lt;li>恢复现场.&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;p>&lt;img alt="系统调用处理例程" src="https://080812.xyz/docs/thu-cst/os/chapter1/image/1_4_3_%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8%E5%A4%84%E7%90%86%E4%BE%8B%E7%A8%8B.png">&lt;/p>
+&lt;ol>
+&lt;li>查找系统调用程序.&lt;/li>
+&lt;li>用户态切换到内核态&lt;/li>
+&lt;li>栈切换，上下文保存&lt;/li>
+&lt;li>执行内核态&lt;/li>
+&lt;li>返回用户态&lt;/li>
+&lt;/ol>
+&lt;hr></description></item></channel></rss>

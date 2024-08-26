@@ -1,5 +1,5 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog – 习题</title><link>https://080812.xyz/docs/thu-cst/ds/ex/</link><description>Recent content in 习题 on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="https://080812.xyz/docs/thu-cst/ds/ex/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 绪论</title><link>https://080812.xyz/docs/thu-cst/ds/ex/chapter1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/thu-cst/ds/ex/chapter1/</guid><description>
-&lt;h2 id="算法导论">《算法导论》&lt;a class="td-heading-self-link" href="#%e7%ae%97%e6%b3%95%e5%af%bc%e8%ae%ba" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="算法导论">算法导论&lt;a class="td-heading-self-link" href="#%e7%ae%97%e6%b3%95%e5%af%bc%e8%ae%ba" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;h3 id="思考题-3-4">思考题 3-4&lt;a class="td-heading-self-link" href="#%e6%80%9d%e8%80%83%e9%a2%98-3-4" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;table>
 &lt;thead>
@@ -47,7 +47,7 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="习题解析1-32">《习题解析》[1-32]&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%98%e8%a7%a3%e6%9e%901-32" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="习题解析-p1-p32">习题解析 (p1-p32)&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%98%e8%a7%a3%e6%9e%90-p1-p32" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>    若假定机器字长无限，移位位操作只需单位时间，递归不会溢出，且rand()为理想的随机数发生器。试分析以下函数(F(n))，并以大(O)记号的形式确定其渐近复杂度的紧上界。&lt;/p>
 &lt;h3 id="ex8">ex.8&lt;a class="td-heading-self-link" href="#ex8" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c++" data-lang="c++">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">void&lt;/span> &lt;span style="color:#000">F&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">int&lt;/span> &lt;span style="color:#000">n&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>

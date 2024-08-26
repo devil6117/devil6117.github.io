@@ -317,136 +317,8 @@ margin-right: auto;
 &lt;h2 id="pdf">PDF&lt;a class="td-heading-self-link" href="#pdf" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>(未完成)&lt;/p>
 &lt;h2 id="模板">模板&lt;a class="td-heading-self-link" href="#%e6%a8%a1%e6%9d%bf" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>清华大学学位论文 &lt;a href="https://mirrors.tuna.tsinghua.edu.cn/github-release/tuna/thuthesis/">https://mirrors.tuna.tsinghua.edu.cn/github-release/tuna/thuthesis/&lt;/a>&lt;/p></description></item><item><title>Docs: 第一讲 操作系统概述</title><link>https://080812.xyz/docs/thu-cst/os/chapter1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/thu-cst/os/chapter1/</guid><description>
-&lt;h2 id="第一节-课程概述--教学安排">第一节 课程概述 &amp;amp; 教学安排&lt;a class="td-heading-self-link" href="#%e7%ac%ac%e4%b8%80%e8%8a%82-%e8%af%be%e7%a8%8b%e6%a6%82%e8%bf%b0--%e6%95%99%e5%ad%a6%e5%ae%89%e6%8e%92" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;h3 id="预备知识">预备知识&lt;a class="td-heading-self-link" href="#%e9%a2%84%e5%a4%87%e7%9f%a5%e8%af%86" aria-label="Heading self-link">&lt;/a>&lt;/h3>
-&lt;ul>
-&lt;li>程序设计语言（汇编、C 和 Rust）&lt;/li>
-&lt;li>数据结构&lt;/li>
-&lt;li>计算机组成原理&lt;/li>
-&lt;li>编译原理（了解高级语言&amp;lt;–&amp;gt;RISC-V 汇编语言）&lt;/li>
-&lt;/ul>
-&lt;h3 id="实验文档">实验文档&lt;a class="td-heading-self-link" href="#%e5%ae%9e%e9%aa%8c%e6%96%87%e6%a1%a3" aria-label="Heading self-link">&lt;/a>&lt;/h3>
-&lt;p>&lt;a href="https://learningos.cn/rCore-Tutorial-Guide-2024S/">https://learningos.cn/rCore-Tutorial-Guide-2024S/&lt;/a>&lt;/p>
-&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># OS 原理与设计思想
-- 操作系统结构
-- 中断及系统调用
-- 内存管理
-- 进程管理
-- 处理机调度
-- 同步互斥
-- 文件系统
-- I/O 子系统
-&lt;/code>&lt;/pre>&lt;h3 id="作业与实验">作业与实验&lt;a class="td-heading-self-link" href="#%e4%bd%9c%e4%b8%9a%e4%b8%8e%e5%ae%9e%e9%aa%8c" aria-label="Heading self-link">&lt;/a>&lt;/h3>
-&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># 作业与实验
-## 课堂作业(以实验为主)
-## 基础实验
-- 实验一：操作系统的基本支持
-- 实验二：地址空间
-- 实验三：进程管理与调度
-- 实验四：文件系统与进程间通信
-- 实验五：同步互斥
-## 课程设计（大实验）
-### 用组件来组合操作系统内核
-- 组件化操作系统ArceOS
-### 操作系统功能和扩展
-- 内核模块的完善和改进
-- 内核可加载模块、微内核、在内核中引入异步编程
-- RISC-V、x86-64、MIPS、ARM支持
-- RaspBerry PI、U740、D1等
-- GUI、驱动、文件系统、网络
-&lt;/code>&lt;/pre>&lt;h2 id="第二节-什么是操作系统">第二节 什么是操作系统&lt;a class="td-heading-self-link" href="#%e7%ac%ac%e4%ba%8c%e8%8a%82-%e4%bb%80%e4%b9%88%e6%98%af%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># 操作系统抽象
-## CPU
-- 进程
-## 磁盘
-- 文件
-## 内存
-- 地址空间
-&lt;/code>&lt;/pre>&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># 操作系统内核的特征
-## 并发
-- 计算机系统中同时**存在**多个运行程序
-## 共享
-- 程序间“同时”访问**互斥**共享各种资源
-## 虚拟
-- 每个程序” 独占” 一台完整的计算机
-## 异步
-- 服务的完成时间不确定，也可能失败
-&lt;/code>&lt;/pre>&lt;h2 id="第三节-操作系统历史演化">第三节 操作系统历史演化&lt;a class="td-heading-self-link" href="#%e7%ac%ac%e4%b8%89%e8%8a%82-%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f%e5%8e%86%e5%8f%b2%e6%bc%94%e5%8c%96" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># 操作系统历史演化
-## 单用户系统 (1945-1955)
-- **手动**连线/纸带传输进行程序输入
-- 机器成本远**大于**人力成本
-- 操作系统 = 装载器 + 程序库
-- 问题：昂贵组件的低利用率
-## 批处理系统 (1955-1965)
-- 磁带/磁盘传输进行程序输入
-- 机器成本大于人力成本
-- 操作系统 = 装载器 + 程序控制器 + 输出处理器
-- 问题：相比以前利用率提高
-## 多道程序系统 (1955-1980)
-- 多个程序**驻留**内存中
-- 多个程序**轮流使用**CPU
-- 操作系统 = 装载器 + 程序调度 + 内存管理 + 输出管理
-- 演变：相比以前利用率提高
-## 分时系统 (1970- 至今)
-- 多个程序驻留内存中
-- 多个程序分时使用 CPU
-- 操作系统 = 装载器 + 程序调度 + 内存管理 + **中断处理** +...
-- 演变：相比以前利用率提高、与外界**交互延时**缩短
-## Multics OS (失败)
-- Unix (成功)
-## 个人电脑(PC) (1981- )
-- 单用户
-- **计算机成本下降**使CPU利用率不再是最重要的关注点
-- 重点是用户界面和多媒体功能
-- 操作系统 = 装载器 + 程序调度 + 内存管理 + 中断处理 +...
-- 演变：**走向大众**，老的服务和功能不存在，越来越多的安全问题
-## 分布式系统 (1990- )
-- 分布式多用户
-- 分布式系统利用率是关注点
-- 重点是网络/存储/计算的效率
-- 操作系统 = 分布式（装载器 + 程序/OS 调度 + 内存管理）
-- 演变：走向大众，走向**网络**，新的挑战 (不可靠/不确定)
-## Android操作系统
-- 跨平台：支持Java应用程序
-- 运行时(runtime)：Android虚拟机
-- 应用框架：简化应用程序开发
-## AIoT 操作系统 (2000- )
-- 分布式多设备
-- 分布式系统利用率/可用性是关注点
-- 重点是网络/存储/计算的效率
-- 操作系统 = 分布式（程序/OS 调度 + 内存管理 + 安全/更新）
-- 演变：走向设备，走向网络，新的挑战 (不可靠/大数据)
-&lt;/code>&lt;/pre>&lt;h2 id="第四节-操作系统结构">第四节 操作系统结构&lt;a class="td-heading-self-link" href="#%e7%ac%ac%e5%9b%9b%e8%8a%82-%e6%93%8d%e4%bd%9c%e7%b3%bb%e7%bb%9f%e7%bb%93%e6%9e%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># 操作系统结构
-## 简单结构
-### MS-DOS：应用和OS混在一起 (1981–1994)
-- **没有拆分为模块**
-- 主要用汇编编写
-- 没有安全保护
-## 单体分层结构
-### 将单体操作系统 (Monolithic OS) 划分为多层 (levels)
-- **每层建立在低层之上**
-- 最底层 (layer 0), 是硬件驱动
-- 最高层 (layer N) 是用户界面
-- 每一层**仅使用**更低一层的功能和服务
-## 微内核结构(Micro Kernel)
-- 尽可能把内核功能移到用户空间
-- 用户模块间的通信使用消息传递
-- 好处: 灵活/安全...
-- 缺点: 性能
-- LPC: 本地过程调用(Local Procedure Call)
-- HAL: 硬件抽象层（Hardware Abstraction Layer）
-## 外核结构(Exokernel)
-- 让内核分配物理资源给多个应用程序, 并让每个程序决定如何处理这些资源
-- 程序能链接到操作系统库 (libOS) 实现了操作系统抽象
-- 保护与控制分离
-- Distributed Shared Memory(DSM)(分布式共享内存)
-## 虚拟机结构
-- 虚拟机管理器将单独的机器接口转换成很多的虚拟机, 每个虚拟机都是一个原始计算机系统的有效副本, 并能完成所有的处理器指令
-&lt;/code>&lt;/pre></description></item><item><title>Docs: 绪论</title><link>https://080812.xyz/docs/thu-cst/ds/ex/chapter1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/thu-cst/ds/ex/chapter1/</guid><description>
-&lt;h2 id="算法导论">《算法导论》&lt;a class="td-heading-self-link" href="#%e7%ae%97%e6%b3%95%e5%af%bc%e8%ae%ba" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>清华大学学位论文 &lt;a href="https://mirrors.tuna.tsinghua.edu.cn/github-release/tuna/thuthesis/">https://mirrors.tuna.tsinghua.edu.cn/github-release/tuna/thuthesis/&lt;/a>&lt;/p></description></item><item><title>Docs: 绪论</title><link>https://080812.xyz/docs/thu-cst/ds/ex/chapter1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/thu-cst/ds/ex/chapter1/</guid><description>
+&lt;h2 id="算法导论">算法导论&lt;a class="td-heading-self-link" href="#%e7%ae%97%e6%b3%95%e5%af%bc%e8%ae%ba" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;h3 id="思考题-3-4">思考题 3-4&lt;a class="td-heading-self-link" href="#%e6%80%9d%e8%80%83%e9%a2%98-3-4" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;table>
 &lt;thead>
@@ -494,7 +366,7 @@ margin-right: auto;
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h2 id="习题解析1-32">《习题解析》[1-32]&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%98%e8%a7%a3%e6%9e%901-32" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="习题解析-p1-p32">习题解析 (p1-p32)&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%98%e8%a7%a3%e6%9e%90-p1-p32" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>    若假定机器字长无限，移位位操作只需单位时间，递归不会溢出，且rand()为理想的随机数发生器。试分析以下函数(F(n))，并以大(O)记号的形式确定其渐近复杂度的紧上界。&lt;/p>
 &lt;h3 id="ex8">ex.8&lt;a class="td-heading-self-link" href="#ex8" aria-label="Heading self-link">&lt;/a>&lt;/h3>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-c++" data-lang="c++">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">void&lt;/span> &lt;span style="color:#000">F&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">int&lt;/span> &lt;span style="color:#000">n&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
