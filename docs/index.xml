@@ -374,6 +374,16 @@ margin-right: auto;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">for&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">int&lt;/span> &lt;span style="color:#000">j&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#0000cf;font-weight:bold">0&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span> &lt;span style="color:#000">j&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;lt;&lt;/span> &lt;span style="color:#000">n&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span> &lt;span style="color:#000">j&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">+=&lt;/span> &lt;span style="color:#000">i&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>    分析：&lt;/p>
+&lt;style>
+.center
+{
+width: auto;
+display: table;
+margin-left: auto;
+margin-right: auto;
+}
+&lt;/style>
+&lt;div class="center">
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -404,6 +414,7 @@ margin-right: auto;
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
+&lt;/div>
 &lt;p>    解答：&lt;/p>
 &lt;p>    此处内循环的控制变量\(i\)尽管是在\([0，n)\)内按算术级数递增，但步长并不固定。具体地，第i轮内循环采用的步长即为\(i\)，故需做\(n/i\)次迭代。于是，所有循环的累计迭代次数为：&lt;/p>
 &lt;p>$$

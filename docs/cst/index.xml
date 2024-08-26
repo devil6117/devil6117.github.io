@@ -1,7 +1,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog – 计算机科学</title><link>https://080812.xyz/docs/cst/</link><description>Recent content in 计算机科学 on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><atom:link href="https://080812.xyz/docs/cst/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 数据结构(C语言版)</title><link>https://080812.xyz/docs/cst/ds/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/cst/ds/</guid><description>
 &lt;p>本笔记配套学习教材为严蔚敏《数据结构(C语言版)(第2版)》，ISBN 978-7-115-37950-4，封面如图所示。&lt;/p>
+&lt;style>
+.center
+{
+width: auto;
+display: table;
+margin-left: auto;
+margin-right: auto;
+}
+&lt;/style>
+&lt;div class="center">
 &lt;p>&lt;img alt="封面" src="https://080812.xyz/docs/cst/ds/0_0_%E5%B0%81%E9%9D%A2.jpg">&lt;/p>
 &lt;p>&lt;img alt="数据结构目录" src="https://080812.xyz/docs/cst/ds/0_1_%E7%9B%AE%E5%BD%95%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.png">&lt;/p>
+&lt;/div>
 &lt;p>推荐参考图书：程杰《大话数据结构(溢彩加强版)》 &lt;a href="https://www.tup.tsinghua.edu.cn/booksCenter/book_08952301.html">配套资源&lt;/a>&lt;/p>
 &lt;p>推荐配套课程：&lt;a href="https://www.bilibili.com/read/cv2306631/">青岛大学-王卓-数据结构 - 哔哩哔哩&lt;/a>&lt;/p>
 &lt;p>配套教学资源：&lt;a href="https://www.ryjiaoyu.com/book/details/3489">数据结构（C语言版）（第2版）-图书-人邮教育社区&lt;/a>&lt;/p></description></item><item><title>Docs: 计算机网络</title><link>https://080812.xyz/docs/cst/cn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/cst/cn/</guid><description>

@@ -305,4 +305,52 @@
 &lt;li>执行内核态&lt;/li>
 &lt;li>返回用户态&lt;/li>
 &lt;/ol>
+&lt;hr>
+&lt;style>
+.center
+{
+width: auto;
+display: table;
+margin-left: auto;
+margin-right: auto;
+}
+&lt;/style>
+&lt;div class="center">
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">类别&lt;/th>
+&lt;th style="text-align:center">中断&lt;/th>
+&lt;th style="text-align:center">异常&lt;/th>
+&lt;th style="text-align:center">系统调用&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">发起者&lt;/td>
+&lt;td style="text-align:center">外设、定时器&lt;/td>
+&lt;td style="text-align:center">应用程序&lt;/td>
+&lt;td style="text-align:center">应用程序&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">相应方式&lt;/td>
+&lt;td style="text-align:center">同步&lt;/td>
+&lt;td style="text-align:center">异步&lt;/td>
+&lt;td style="text-align:center">同步、异步&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">触发机制&lt;/td>
+&lt;td style="text-align:center">被动触发&lt;/td>
+&lt;td style="text-align:center">内部异常、故障&lt;/td>
+&lt;td style="text-align:center">自愿请求&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">处理机制&lt;/td>
+&lt;td style="text-align:center">持续，用户透明&lt;/td>
+&lt;td style="text-align:center">杀死或重新执行&lt;/td>
+&lt;td style="text-align:center">等待和持续&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
 &lt;hr></description></item></channel></rss>
