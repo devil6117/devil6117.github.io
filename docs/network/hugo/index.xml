@@ -33,21 +33,21 @@ margin-right: auto;
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th style="text-align:center">名称&lt;/th>
-&lt;th style="text-align:center">属性&lt;/th>
-&lt;th style="text-align:center">说明&lt;/th>
+&lt;th style="text-align: center">名称&lt;/th>
+&lt;th style="text-align: center">属性&lt;/th>
+&lt;th style="text-align: center">说明&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:center">Yourname.blog&lt;/td>
-&lt;td style="text-align:center">Private&lt;/td>
-&lt;td style="text-align:center">用于存放博客源码&lt;/td>
+&lt;td style="text-align: center">Yourname.blog&lt;/td>
+&lt;td style="text-align: center">Private&lt;/td>
+&lt;td style="text-align: center">用于存放博客源码&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">Yourname.github.io&lt;/td>
-&lt;td style="text-align:center">Public&lt;/td>
-&lt;td style="text-align:center">Github Pages 发布站点&lt;/td>
+&lt;td style="text-align: center">Yourname.github.io&lt;/td>
+&lt;td style="text-align: center">Public&lt;/td>
+&lt;td style="text-align: center">Github Pages 发布站点&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>

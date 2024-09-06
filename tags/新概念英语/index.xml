@@ -33,31 +33,31 @@ margin-right: auto;
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th style="text-align:center">当前基础&lt;/th>
-&lt;th style="text-align:center">推荐分册&lt;/th>
-&lt;th style="text-align:center">目标水平&lt;/th>
+&lt;th style="text-align: center">当前基础&lt;/th>
+&lt;th style="text-align: center">推荐分册&lt;/th>
+&lt;th style="text-align: center">目标水平&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:center">零基础&lt;/td>
-&lt;td style="text-align:center">第一册&lt;/td>
-&lt;td style="text-align:center">初中毕业&lt;/td>
+&lt;td style="text-align: center">零基础&lt;/td>
+&lt;td style="text-align: center">第一册&lt;/td>
+&lt;td style="text-align: center">初中毕业&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">高二&lt;/td>
-&lt;td style="text-align:center">第二册&lt;/td>
-&lt;td style="text-align:center">高中毕业/大专合格(AB级)&lt;/td>
+&lt;td style="text-align: center">高二&lt;/td>
+&lt;td style="text-align: center">第二册&lt;/td>
+&lt;td style="text-align: center">高中毕业/大专合格(AB级)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">AB级&lt;/td>
-&lt;td style="text-align:center">第三册&lt;/td>
-&lt;td style="text-align:center">本科毕业/大学四级&lt;/td>
+&lt;td style="text-align: center">AB级&lt;/td>
+&lt;td style="text-align: center">第三册&lt;/td>
+&lt;td style="text-align: center">本科毕业/大学四级&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">大学四级&lt;/td>
-&lt;td style="text-align:center">第四册&lt;/td>
-&lt;td style="text-align:center">硕士研究生/大学六级&lt;/td>
+&lt;td style="text-align: center">大学四级&lt;/td>
+&lt;td style="text-align: center">第四册&lt;/td>
+&lt;td style="text-align: center">硕士研究生/大学六级&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>

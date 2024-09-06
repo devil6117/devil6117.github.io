@@ -22,21 +22,21 @@ margin-right: auto;
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th style="text-align:center">Book&lt;/th>
-&lt;th style="text-align:center">Author&lt;/th>
-&lt;th>&lt;/th>
+&lt;th style="text-align: center">Book&lt;/th>
+&lt;th style="text-align: center">Author&lt;/th>
+&lt;th style="text-align: left">&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:center">Operating Systems: Three Easy Pieces&lt;/td>
-&lt;td style="text-align:center">Remzi H. Arpaci-Dusseau &lt;br> Andrea C. Arpaci-Dusseau&lt;/br>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td style="text-align: center">Operating Systems: Three Easy Pieces&lt;/td>
+&lt;td style="text-align: center">Remzi H. Arpaci-Dusseau &lt;br> Andrea C. Arpaci-Dusseau&lt;/br>&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">Computer Systems A Programmer&amp;rsquo;s Perspective&lt;/td>
-&lt;td style="text-align:center">Randal E. Bryant &lt;br> David R. O&amp;rsquo;Hallaron&lt;/br>&lt;/td>
-&lt;td>&lt;/td>
+&lt;td style="text-align: center">Computer Systems A Programmer&amp;rsquo;s Perspective&lt;/td>
+&lt;td style="text-align: center">Randal E. Bryant &lt;br> David R. O&amp;rsquo;Hallaron&lt;/br>&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -55,19 +55,19 @@ margin-right: auto;
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th style="text-align:center">Titile&lt;/th>
-&lt;th style="text-align:center">Link&lt;/th>
+&lt;th style="text-align: center">Titile&lt;/th>
+&lt;th style="text-align: center">Link&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:center">os-lectures Slides&lt;/td>
-&lt;td style="text-align:center">&lt;a href="https://learningos.cn/os-lectures/">https://learningos.cn/os-lectures/&lt;/a>&lt;/td>
+&lt;td style="text-align: center">os-lectures Slides&lt;/td>
+&lt;td style="text-align: center">&lt;a href="https://learningos.cn/os-lectures/">https://learningos.cn/os-lectures/&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">LearningOS&lt;/td>
-&lt;td style="text-align:center">&lt;a href="https://github.com/LearningOS/os-lectures">https://github.com/LearningOS/os-lectures&lt;/a>&lt;/td>
+&lt;td style="text-align: center">LearningOS&lt;/td>
+&lt;td style="text-align: center">&lt;a href="https://github.com/LearningOS/os-lectures">https://github.com/LearningOS/os-lectures&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;/div></description></item></channel></rss>
+&lt;/div></description></item><item><title>Docs: 实验 Lab</title><link>https://080812.xyz/docs/thu-cst/os/lab/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/thu-cst/os/lab/</guid><description/></item></channel></rss>

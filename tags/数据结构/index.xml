@@ -4,18 +4,18 @@
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th style="text-align:center">Titile&lt;/th>
-&lt;th style="text-align:center">Link&lt;/th>
+&lt;th style="text-align: center">Titile&lt;/th>
+&lt;th style="text-align: center">Link&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:center">DSACPP&lt;/td>
-&lt;td style="text-align:center">&lt;a href="https://cloud.tsinghua.edu.cn/d/3097126da2ab4e84b2c2/">https://cloud.tsinghua.edu.cn/d/3097126da2ab4e84b2c2/&lt;/a>&lt;/td>
+&lt;td style="text-align: center">DSACPP&lt;/td>
+&lt;td style="text-align: center">&lt;a href="https://cloud.tsinghua.edu.cn/d/3097126da2ab4e84b2c2/">https://cloud.tsinghua.edu.cn/d/3097126da2ab4e84b2c2/&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">TextBook&lt;/td>
-&lt;td style="text-align:center">&lt;a href="https://cloud.tsinghua.edu.cn/d/76cbab99574046698804/">https://cloud.tsinghua.edu.cn/d/76cbab99574046698804/&lt;/a>&lt;/td>
+&lt;td style="text-align: center">TextBook&lt;/td>
+&lt;td style="text-align: center">&lt;a href="https://cloud.tsinghua.edu.cn/d/76cbab99574046698804/">https://cloud.tsinghua.edu.cn/d/76cbab99574046698804/&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>Docs: 数据结构(C语言版)</title><link>https://080812.xyz/docs/cst/ds/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/cst/ds/</guid><description>
