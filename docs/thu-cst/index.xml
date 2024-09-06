@@ -101,18 +101,19 @@ margin-right: auto;
 &lt;li>应用层&lt;/li>
 &lt;/ul>
 &lt;h2 id="参考文献">参考文献&lt;a class="td-heading-self-link" href="#%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;style>
-.center
-{
-width: auto;
-display: table;
-margin-left: auto;
-margin-right: auto;
-}
-&lt;/style>
-&lt;div class="center">
-&lt;p>|Book|Author|ISBN|
-|:&amp;mdash;:|&amp;mdash;:|
-|Computer Network,SixthE dition|Andrew S. Tanenbaum, Nick Feamster, David Wether 著&lt;br>潘爱民 译&lt;/br>苏金树 徐明伟 审|9787302604716|&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/docs/thu-cst/cn/image/ComputerNetwork,SixthEdition.jpg">&lt;/p>
-&lt;/div></description></item></channel></rss>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">Book&lt;/th>
+&lt;th style="text-align: right">Author&lt;/th>
+&lt;th style="text-align: center">ISBN&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">Computer Network,SixthE dition&lt;/td>
+&lt;td style="text-align: right">Andrew S. Tanenbaum, Nick Feamster, David Wether 著&lt;br>潘爱民 译&lt;/br>苏金树 徐明伟 审&lt;/td>
+&lt;td style="text-align: center">9787302604716&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item></channel></rss>
