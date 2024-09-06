@@ -1,6 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog – Computer-Science</title><link>https://080812.xyz/categories/computer-science/</link><description>Recent content in Computer-Science on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 06 Sep 2024 11:31:21 +0800</lastBuildDate><atom:link href="https://080812.xyz/categories/computer-science/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 数据结构(C++)</title><link>https://080812.xyz/docs/thu-cst/ds/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/docs/thu-cst/ds/</guid><description>
 &lt;p>&lt;strong>注：标题有*的为课程考试重点。&lt;/strong>&lt;/p>
-&lt;h1 id="参考文献">参考文献&lt;a class="td-heading-self-link" href="#%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;h2 id="参考文献">参考文献&lt;a class="td-heading-self-link" href="#%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -120,15 +120,15 @@ margin-right: auto;
 &lt;/tbody>
 &lt;/table>
 &lt;/div></description></item><item><title>Docs: 计算机网络</title><link>https://080812.xyz/docs/thu-cst/cn/</link><pubDate>Fri, 06 Sep 2024 11:31:21 +0800</pubDate><guid>https://080812.xyz/docs/thu-cst/cn/</guid><description>
-&lt;p>&lt;strong>注：标题有*的为课程考试重点。&lt;/strong>&lt;/p>
+&lt;h2 id="重要知识点">重要知识点&lt;a class="td-heading-self-link" href="#%e9%87%8d%e8%a6%81%e7%9f%a5%e8%af%86%e7%82%b9" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;ul>
 &lt;li>绪论，通信基本原理和物理层&lt;/li>
 &lt;li>数据链路层和MAC子层&lt;/li>
 &lt;li>网络层 &lt;code>网络的核心，大题考察居多&lt;/code>&lt;/li>
-&lt;li>传输层&lt;/li>
+&lt;li>传输层 &lt;code>cubic、bbr&lt;/code>&lt;/li>
 &lt;li>应用层&lt;/li>
 &lt;/ul>
-&lt;h1 id="参考文献">参考文献&lt;a class="td-heading-self-link" href="#%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;h2 id="参考文献">参考文献&lt;a class="td-heading-self-link" href="#%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;style>
 .center
 {
@@ -139,24 +139,10 @@ margin-right: auto;
 }
 &lt;/style>
 &lt;div class="center">
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: center">Book&lt;/th>
-&lt;th style="text-align: right">Author&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: center">Computer Network,SixthE dition&lt;/td>
-&lt;td style="text-align: right">Andrew S. Tanenbaum, Nick Feamster, David Wether 著&lt;br>潘爱民 译&lt;/br>苏金树 徐明伟 审&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
+&lt;p>|Book|Author|ISBN|
+|:&amp;mdash;:|&amp;mdash;:|
+|Computer Network,SixthE dition|Andrew S. Tanenbaum, Nick Feamster, David Wether 著&lt;br>潘爱民 译&lt;/br>苏金树 徐明伟 审|9787302604716|&lt;/p>
+&lt;p>&lt;img src="https://080812.xyz/docs/thu-cst/cn/image/ComputerNetwork,SixthEdition.jpg">&lt;/p>
 &lt;/div></description></item><item><title>Docs: 计算机网络</title><link>https://080812.xyz/docs/cst/cn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/cst/cn/</guid><description>
 &lt;p>本笔记配套教材为湖南科技大学高军《深入浅出计算机网络》，ISBN 978-7-302-60626-0，封面如图所示。&lt;/p>
 &lt;p>&lt;img alt="封面" src="https://080812.xyz/docs/cst/cn/image/0_0_%E5%B0%81%E9%9D%A2.jpg#pic_center">&lt;/p>
