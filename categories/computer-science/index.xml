@@ -1,23 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog – Computer-Science</title><link>https://080812.xyz/categories/computer-science/</link><description>Recent content in Computer-Science on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 06 Sep 2024 11:31:21 +0800</lastBuildDate><atom:link href="https://080812.xyz/categories/computer-science/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 计算机网络</title><link>https://080812.xyz/docs/thu-cst/cn/</link><pubDate>Fri, 06 Sep 2024 11:31:21 +0800</pubDate><guid>https://080812.xyz/docs/thu-cst/cn/</guid><description>
-&lt;h1 id="参考文献">参考文献&lt;a class="td-heading-self-link" href="#%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae" aria-label="Heading self-link">&lt;/a>&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: center">Titile&lt;/th>
-&lt;th style="text-align: right">Link&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: center">Computer Network,SixthE dition&lt;/td>
-&lt;td style="text-align: right">Andrew S. Tanenbaum, Nick Feamster, David Wether 著&lt;br>潘爱民 译&lt;/br>苏金树 徐明伟 审&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align: center">&lt;/td>
-&lt;td style="text-align: left">&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table></description></item><item><title>Docs: 数据结构(C++)</title><link>https://080812.xyz/docs/thu-cst/ds/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/docs/thu-cst/ds/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kevin Lee's Blog – Computer-Science</title><link>https://080812.xyz/categories/computer-science/</link><description>Recent content in Computer-Science on Kevin Lee's Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 06 Sep 2024 11:31:21 +0800</lastBuildDate><atom:link href="https://080812.xyz/categories/computer-science/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 数据结构(C++)</title><link>https://080812.xyz/docs/thu-cst/ds/</link><pubDate>Fri, 08 Mar 2024 21:18:52 +0800</pubDate><guid>https://080812.xyz/docs/thu-cst/ds/</guid><description>
 &lt;p>&lt;strong>注：标题有*的为课程考试重点。&lt;/strong>&lt;/p>
 &lt;h1 id="参考文献">参考文献&lt;a class="td-heading-self-link" href="#%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae" aria-label="Heading self-link">&lt;/a>&lt;/h1>
 &lt;table>
@@ -65,7 +46,8 @@ margin-right: auto;
 &lt;/div>
 &lt;p>推荐参考图书：程杰《大话数据结构(溢彩加强版)》 &lt;a href="https://www.tup.tsinghua.edu.cn/booksCenter/book_08952301.html">配套资源&lt;/a>&lt;/p>
 &lt;p>推荐配套课程：&lt;a href="https://www.bilibili.com/read/cv2306631/">青岛大学-王卓-数据结构 - 哔哩哔哩&lt;/a>&lt;/p>
-&lt;p>配套教学资源：&lt;a href="https://www.ryjiaoyu.com/book/details/3489">数据结构（C语言版）（第2版）-图书-人邮教育社区&lt;/a>&lt;/p></description></item><item><title>Docs: 操作系统(Rust)</title><link>https://080812.xyz/docs/thu-cst/os/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/thu-cst/os/</guid><description>
+&lt;p>配套教学资源：&lt;a href="https://www.ryjiaoyu.com/book/details/3489">数据结构（C语言版）（第2版）-图书-人邮教育社区&lt;/a>&lt;/p></description></item><item><title>Docs: 计算机组成原理</title><link>https://080812.xyz/docs/thu-cst/co/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/thu-cst/co/</guid><description>
+&lt;h2 id="参考资料">参考资料&lt;a class="td-heading-self-link" href="#%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99" aria-label="Heading self-link">&lt;/a>&lt;/h2></description></item><item><title>Docs: 操作系统(Rust)</title><link>https://080812.xyz/docs/thu-cst/os/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/thu-cst/os/</guid><description>
 &lt;h2 id="重要知识点">重要知识点&lt;a class="td-heading-self-link" href="#%e9%87%8d%e8%a6%81%e7%9f%a5%e8%af%86%e7%82%b9" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;ul>
 &lt;li>绪论&lt;/li>
@@ -137,8 +119,45 @@ margin-right: auto;
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;/div></description></item><item><title>Docs: 计算机组成原理</title><link>https://080812.xyz/docs/thu-cst/co/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/thu-cst/co/</guid><description>
-&lt;h2 id="参考资料">参考资料&lt;a class="td-heading-self-link" href="#%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99" aria-label="Heading self-link">&lt;/a>&lt;/h2></description></item><item><title>Docs: 计算机网络</title><link>https://080812.xyz/docs/cst/cn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/cst/cn/</guid><description>
+&lt;/div></description></item><item><title>Docs: 计算机网络</title><link>https://080812.xyz/docs/thu-cst/cn/</link><pubDate>Fri, 06 Sep 2024 11:31:21 +0800</pubDate><guid>https://080812.xyz/docs/thu-cst/cn/</guid><description>
+&lt;p>&lt;strong>注：标题有*的为课程考试重点。&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>绪论，通信基本原理和物理层&lt;/li>
+&lt;li>数据链路层和MAC子层&lt;/li>
+&lt;li>网络层 &lt;code>网络的核心，大题考察居多&lt;/code>&lt;/li>
+&lt;li>传输层&lt;/li>
+&lt;li>应用层&lt;/li>
+&lt;/ul>
+&lt;h1 id="参考文献">参考文献&lt;a class="td-heading-self-link" href="#%e5%8f%82%e8%80%83%e6%96%87%e7%8c%ae" aria-label="Heading self-link">&lt;/a>&lt;/h1>
+&lt;style>
+.center
+{
+width: auto;
+display: table;
+margin-left: auto;
+margin-right: auto;
+}
+&lt;/style>
+&lt;div class="center">
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">Book&lt;/th>
+&lt;th style="text-align: right">Author&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">Computer Network,SixthE dition&lt;/td>
+&lt;td style="text-align: right">Andrew S. Tanenbaum, Nick Feamster, David Wether 著&lt;br>潘爱民 译&lt;/br>苏金树 徐明伟 审&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div></description></item><item><title>Docs: 计算机网络</title><link>https://080812.xyz/docs/cst/cn/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/cst/cn/</guid><description>
 &lt;p>本笔记配套教材为湖南科技大学高军《深入浅出计算机网络》，ISBN 978-7-302-60626-0，封面如图所示。&lt;/p>
 &lt;p>&lt;img alt="封面" src="https://080812.xyz/docs/cst/cn/image/0_0_%E5%B0%81%E9%9D%A2.jpg#pic_center">&lt;/p>
 &lt;p>配套教学课程：&lt;a href="https://www.bilibili.com/video/BV1NT411g7n6/">深入浅出计算机网络 微课视频_哔哩哔哩_bilibili&lt;/a>&lt;/p>
