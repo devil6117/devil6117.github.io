@@ -70,4 +70,4 @@
 &lt;p>顺序存储结构是&lt;u>借助元素在存储器中的相对位置来表示数据元素之间的逻辑关系&lt;/u>。&lt;/p>
 &lt;pre tabindex="0">&lt;code>用一组连续的存储单元依次存储数据元素。
 数据之间的逻辑关系由元素的位置表示。
-&lt;/code>&lt;/pre>&lt;p>(2) 链式存储结构&lt;/p></description></item></channel></rss>
+&lt;/code>&lt;/pre>&lt;p>(2) 链式存储结构&lt;/p></description></item><item><title>Docs: 线性表</title><link>https://080812.xyz/docs/cst/ds/chapter2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/cst/ds/chapter2/</guid><description/></item></channel></rss>

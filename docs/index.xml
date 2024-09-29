@@ -319,7 +319,74 @@ margin-right: auto;
 &lt;h2 id="模板">模板&lt;a class="td-heading-self-link" href="#%e6%a8%a1%e6%9d%bf" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>清华大学学位论文 &lt;a href="https://mirrors.tuna.tsinghua.edu.cn/github-release/tuna/thuthesis/">https://mirrors.tuna.tsinghua.edu.cn/github-release/tuna/thuthesis/&lt;/a>&lt;/p></description></item><item><title>Docs: 第一章 绪论</title><link>https://080812.xyz/docs/thu-cst/cn/chapter1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/thu-cst/cn/chapter1/</guid><description>
 &lt;h2 id="第一章-引言">第一章 引言&lt;a class="td-heading-self-link" href="#%e7%ac%ac%e4%b8%80%e7%ab%a0-%e5%bc%95%e8%a8%80" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;h3 id="15-网络协议">1.5 网络协议&lt;a class="td-heading-self-link" href="#15-%e7%bd%91%e7%bb%9c%e5%8d%8f%e8%ae%ae" aria-label="Heading self-link">&lt;/a>&lt;/h3></description></item><item><title>Docs: 绪论</title><link>https://080812.xyz/docs/cst/ds/chapter1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/cst/ds/chapter1/</guid><description>
+&lt;h3 id="15-网络协议">1.5 网络协议&lt;a class="td-heading-self-link" href="#15-%e7%bd%91%e7%bb%9c%e5%8d%8f%e8%ae%ae" aria-label="Heading self-link">&lt;/a>&lt;/h3></description></item><item><title>Docs: 计算机系统概述</title><link>https://080812.xyz/docs/cst/co/chapter1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/cst/co/chapter1/</guid><description>
+&lt;h2 id="计算机系统的组成">计算机系统的组成&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%b3%bb%e7%bb%9f%e7%9a%84%e7%bb%84%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># 计算机系统
+## 软件
+- 操作系统
+- 应用软件
+## 硬件
+- 主机
+- 外设
+&lt;/code>&lt;/pre>&lt;p>取决于 &lt;strong>硬件&lt;/strong> 和 &lt;strong>软件&lt;/strong> 功能的总和。&lt;/p>
+&lt;h2 id="计算机的发展">计算机的发展&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%9a%84%e5%8f%91%e5%b1%95" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>电子数字计算机的发展历程&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">发展阶段&lt;/th>
+&lt;th style="text-align: center">使用器件&lt;/th>
+&lt;th style="text-align: center">运算速度 (次/秒)&lt;/th>
+&lt;th style="text-align: center">主存 (内存)&lt;/th>
+&lt;th style="text-align: center">辅存 (外存)&lt;/th>
+&lt;th style="text-align: left">特点&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">第1代(1946-1957年)&lt;/td>
+&lt;td style="text-align: center">电子管(真空管)&lt;/td>
+&lt;td style="text-align: center">几千~几万&lt;/td>
+&lt;td style="text-align: center">水银延迟线&lt;br>磁鼓、磁芯&lt;/td>
+&lt;td style="text-align: center">穿孔卡片&lt;br>穿孔纸带&lt;/td>
+&lt;td style="text-align: left">使用机器语言编程&lt;br>无操作系统&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">第2代(1958-1964年)&lt;/td>
+&lt;td style="text-align: center">晶体管&lt;/td>
+&lt;td style="text-align: center">几十万~几百万&lt;/td>
+&lt;td style="text-align: center">磁芯&lt;/td>
+&lt;td style="text-align: center">磁鼓、磁带、磁盘&lt;/td>
+&lt;td style="text-align: left">主要使用汇编语言编程，开始使用FORTRAN、COBOL等高级语言&lt;br>单道批处理系统&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">第3代(1965-1971年)&lt;/td>
+&lt;td style="text-align: center">集成电路&lt;/td>
+&lt;td style="text-align: center">几百万~几千万&lt;/td>
+&lt;td style="text-align: center">半导体存储器&lt;/td>
+&lt;td style="text-align: center">磁带、磁盘&lt;/td>
+&lt;td style="text-align: left">高级语言进一步发展， 出现了B语言(C语言的前身)&lt;br>多道批处理系统，分时系统&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">第4代(1972至今)&lt;/td>
+&lt;td style="text-align: center">超大规模集成电路&lt;/td>
+&lt;td style="text-align: center">几十亿~几千亿&lt;/td>
+&lt;td style="text-align: center">半导体存储器&lt;/td>
+&lt;td style="text-align: center">磁盘、磁带、光盘、半导体存储器&lt;/td>
+&lt;td style="text-align: left">各种高级语言(例如C/C++、 Java、 Python)&lt;br>现代操作系统&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="计算机系统层次结构">计算机系统层次结构&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%b3%bb%e7%bb%9f%e5%b1%82%e6%ac%a1%e7%bb%93%e6%9e%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="计算机系统的工作原理">计算机系统的工作原理&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%b3%bb%e7%bb%9f%e7%9a%84%e5%b7%a5%e4%bd%9c%e5%8e%9f%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h2 id="计算机的性能指标">计算机的性能指标&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%9a%84%e6%80%a7%e8%83%bd%e6%8c%87%e6%a0%87" aria-label="Heading self-link">&lt;/a>&lt;/h2></description></item><item><title>Docs: 计算机系统概述</title><link>https://080812.xyz/docs/cst/co/ex/chapter1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/cst/co/ex/chapter1/</guid><description>
+&lt;h2 id="课堂习题">课堂习题&lt;a class="td-heading-self-link" href="#%e8%af%be%e5%a0%82%e4%b9%a0%e9%a2%98" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="heading">&lt;a class="td-heading-self-link" href="#heading" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;p>完整的计算机系统应包括 (B)&lt;/p>
+&lt;p>A. CPU和内存&lt;/p>
+&lt;p>B.计算机硬件与软件&lt;/p>
+&lt;p>C.主机、键盘、鼠标和显示器&lt;/p>
+&lt;p>D.运算器和控制器&lt;/p></description></item><item><title>Docs: 绪论</title><link>https://080812.xyz/docs/cst/ds/chapter1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/cst/ds/chapter1/</guid><description>
 &lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># 用计算机解决问题
 ## 1.具体问题抽象为数学模型
 ### 实质
@@ -634,7 +701,7 @@ $$&lt;/p>
 &lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/014.png">&lt;/p>
 &lt;p>    打开任意博文，下拉查看，已成功启用。&lt;/p>
 &lt;p>    如果浏览器已登录 Github，点击 “ 使用Github登录 ” 就直接登录成功并跳转回页面，效果如下图所示。&lt;/p>
-&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/015.png">&lt;/p></description></item><item><title>Docs: VS Code 安装</title><link>https://080812.xyz/docs/computer-basic/vscode/vscode_setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/computer-basic/vscode/vscode_setup/</guid><description>
+&lt;p>&lt;img src="https://080812.xyz/docs/network/hugo/hugo-giscus/img/015.png">&lt;/p></description></item><item><title>Docs: 线性表</title><link>https://080812.xyz/docs/cst/ds/chapter2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/cst/ds/chapter2/</guid><description/></item><item><title>Docs: VS Code 安装</title><link>https://080812.xyz/docs/computer-basic/vscode/vscode_setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/computer-basic/vscode/vscode_setup/</guid><description>
 &lt;h2 id="系统环境">系统环境&lt;a class="td-heading-self-link" href="#%e7%b3%bb%e7%bb%9f%e7%8e%af%e5%a2%83" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;p>Windows 10x64&lt;/p>
 &lt;h2 id="获取安装包">获取安装包&lt;a class="td-heading-self-link" href="#%e8%8e%b7%e5%8f%96%e5%ae%89%e8%a3%85%e5%8c%85" aria-label="Heading self-link">&lt;/a>&lt;/h2>
