@@ -336,43 +336,43 @@ margin-right: auto;
 &lt;tr>
 &lt;th style="text-align: center">发展阶段&lt;/th>
 &lt;th style="text-align: center">使用器件&lt;/th>
-&lt;th style="text-align: center">运算速度 (次/秒)&lt;/th>
-&lt;th style="text-align: center">主存 (内存)&lt;/th>
-&lt;th style="text-align: center">辅存 (外存)&lt;/th>
+&lt;th style="text-align: center">运算速度&lt;br>(次/秒)&lt;/th>
+&lt;th style="text-align: center">主存&lt;br>(内存)&lt;/th>
+&lt;th style="text-align: center">辅存&lt;br>(外存)&lt;/th>
 &lt;th style="text-align: left">特点&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align: center">第1代(1946-1957年)&lt;/td>
-&lt;td style="text-align: center">电子管(真空管)&lt;/td>
+&lt;td style="text-align: center">第1代&lt;br>(1946-1957年)&lt;/td>
+&lt;td style="text-align: center">电子管&lt;br>(真空管)&lt;/td>
 &lt;td style="text-align: center">几千~几万&lt;/td>
 &lt;td style="text-align: center">水银延迟线&lt;br>磁鼓、磁芯&lt;/td>
 &lt;td style="text-align: center">穿孔卡片&lt;br>穿孔纸带&lt;/td>
 &lt;td style="text-align: left">使用机器语言编程&lt;br>无操作系统&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: center">第2代(1958-1964年)&lt;/td>
+&lt;td style="text-align: center">第2代&lt;br>(1958-1964年)&lt;/td>
 &lt;td style="text-align: center">晶体管&lt;/td>
 &lt;td style="text-align: center">几十万~几百万&lt;/td>
 &lt;td style="text-align: center">磁芯&lt;/td>
-&lt;td style="text-align: center">磁鼓、磁带、磁盘&lt;/td>
+&lt;td style="text-align: center">磁鼓&lt;br>磁带&lt;br>磁盘&lt;/td>
 &lt;td style="text-align: left">主要使用汇编语言编程，开始使用FORTRAN、COBOL等高级语言&lt;br>单道批处理系统&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: center">第3代(1965-1971年)&lt;/td>
+&lt;td style="text-align: center">第3代&lt;br>(1965-1971年)&lt;/td>
 &lt;td style="text-align: center">集成电路&lt;/td>
 &lt;td style="text-align: center">几百万~几千万&lt;/td>
 &lt;td style="text-align: center">半导体存储器&lt;/td>
-&lt;td style="text-align: center">磁带、磁盘&lt;/td>
+&lt;td style="text-align: center">磁带&lt;br>磁盘&lt;/td>
 &lt;td style="text-align: left">高级语言进一步发展， 出现了B语言(C语言的前身)&lt;br>多道批处理系统，分时系统&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align: center">第4代(1972至今)&lt;/td>
+&lt;td style="text-align: center">第4代&lt;br>(1972至今)&lt;/td>
 &lt;td style="text-align: center">超大规模集成电路&lt;/td>
 &lt;td style="text-align: center">几十亿~几千亿&lt;/td>
 &lt;td style="text-align: center">半导体存储器&lt;/td>
-&lt;td style="text-align: center">磁盘、磁带、光盘、半导体存储器&lt;/td>
+&lt;td style="text-align: center">磁盘&lt;br>磁带&lt;br>光盘&lt;br>半导体存储器&lt;/td>
 &lt;td style="text-align: left">各种高级语言(例如C/C++、 Java、 Python)&lt;br>现代操作系统&lt;/td>
 &lt;/tr>
 &lt;/tbody>
