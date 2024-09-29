@@ -124,6 +124,133 @@
 ##### 输出设备
 - 将 **计算机运算结果** 转换为 **人们熟悉的信息形式** 。
 &lt;/code>&lt;/pre>&lt;h2 id="计算机软件">计算机软件&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e8%bd%af%e4%bb%b6" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">语言&lt;/th>
+&lt;th style="text-align: center">语言形式&lt;/th>
+&lt;th style="text-align: center">程序执行&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">机器语言&lt;/td>
+&lt;td style="text-align: center">二进制&lt;/td>
+&lt;td style="text-align: center">可直接执行&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">汇编语言&lt;/td>
+&lt;td style="text-align: center">汇编指令&lt;/td>
+&lt;td style="text-align: center">需通过汇编程序汇编&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">高级语言&lt;/td>
+&lt;td style="text-align: center">接近自然语言&lt;/td>
+&lt;td style="text-align: center">需经过编译器编译&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">解释型语言&lt;/td>
+&lt;td style="text-align: center">语句&lt;/td>
+&lt;td style="text-align: center">逐步解释并执行&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;code>注：机器级语言 ≠ 机器语言&lt;/code>&lt;/p>
+&lt;p>将高级语言程序转换为可执行目标程序的主要过程:&lt;/p>
+&lt;ul>
+&lt;li>预处理&lt;/li>
+&lt;li>编译&lt;/li>
+&lt;li>汇编&lt;/li>
+&lt;li>链接&lt;/li>
+&lt;/ul>
 &lt;h2 id="计算机系统层次结构">计算机系统层次结构&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%b3%bb%e7%bb%9f%e5%b1%82%e6%ac%a1%e7%bb%93%e6%9e%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>&lt;strong>计算机系统的分层思想&lt;/strong>&lt;/p>
+&lt;p>计算机是一个非常复杂的系统，为了 &lt;strong>简化&lt;/strong> 对计算机系统的研究和实现，可 &lt;strong>采用分层思想&lt;/strong> 将计算机系统 &lt;strong>划分&lt;/strong> 成一个层次结构的系统。&lt;/p>
+&lt;ul>
+&lt;li>系统中的每一层都向其上层提供一个简洁和抽象的接口。&lt;/li>
+&lt;li>每一层的实现细节对其上层而言都是“看不见”的，也就是透明的。&lt;/li>
+&lt;li>计算机解决问题的过程就是层次结构中的各层逐层转换的过程。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;code>计算机系统的分层方式目前并没有统一的标准，下面是一种将计算机系统划分成六个抽象层的层次结构。&lt;/code>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">层&lt;/th>
+&lt;th style="text-align: center">名称&lt;/th>
+&lt;th style="text-align: left">说明&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">各类应用程序&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">第6层&lt;/td>
+&lt;td style="text-align: center">高级语言层&lt;/td>
+&lt;td style="text-align: left">无需掌握机器的底层技术细节，&lt;br>只要掌握某种高级语言的语法规则&lt;/br>以及算法和数据结构等方面的知识进行编程。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">第5层&lt;/td>
+&lt;td style="text-align: center">汇编语言层&lt;/td>
+&lt;td style="text-align: left">使用汇编语言进行编程。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">第4层&lt;/td>
+&lt;td style="text-align: center">操作系统层&lt;/td>
+&lt;td style="text-align: left">设计人员要对操作系统的设计理论有比较深入的理解&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">第3层&lt;/td>
+&lt;td style="text-align: center">指令集体系结构层ISA&lt;/td>
+&lt;td style="text-align: left">定义了某计算机可执行的所有机器指令的集合，&lt;br>包含所处理的操作数应存放的位置以及操作数的类型等。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">第2层&lt;/td>
+&lt;td style="text-align: center">微程序层&lt;/td>
+&lt;td style="text-align: left">将一条机器指令编写成一个微程序。&lt;br>每个微程序包含若干条微指令，&lt;/br>每条微指令对应一条或多条微操作。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">第1层&lt;/td>
+&lt;td style="text-align: center">逻辑电路层&lt;/td>
+&lt;td style="text-align: left">计算机硬件系统的底层，由逻辑门、寄存器等逻辑电路组成。&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;code>注：个人认为高军老师对第5层和第4层划分存在瑕疵，从实际出发，就计算机组成原理而言，只有第2到第4层这三条存在学习价值。&lt;/code>&lt;/p>
+&lt;p>&lt;strong>软件和硬件的逻辑功能等价性&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">项目&lt;/th>
+&lt;th style="text-align: center">软件实现&lt;/th>
+&lt;th style="text-align: center">硬件实现&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">性能与速度&lt;/td>
+&lt;td style="text-align: center">性能与速度弱于硬件实现&lt;/td>
+&lt;td style="text-align: center">更高的性能和更快的响应时间&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">灵活性&lt;/td>
+&lt;td style="text-align: center">相对容易地进行修改和更新&lt;/td>
+&lt;td style="text-align: center">需要重新设计和制造&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">成本&lt;/td>
+&lt;td style="text-align: center">开发软件相对便宜&lt;/td>
+&lt;td style="text-align: center">开发和制造硬件比较昂贵&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">应用需求&lt;/td>
+&lt;td style="text-align: center">有些任务更适合在软件层面完成，&lt;br>例如非计算功能&lt;/br>&lt;/td>
+&lt;td style="text-align: center">有些任务更适合在硬件层面完成，&lt;br>例如路由器的数据包转发&lt;/br>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;code>个人更换了应用需求的举例，因为高军老师原举例不够直观。&lt;/code>&lt;/p>
 &lt;h2 id="计算机系统的工作原理">计算机系统的工作原理&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%b3%bb%e7%bb%9f%e7%9a%84%e5%b7%a5%e4%bd%9c%e5%8e%9f%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;h2 id="计算机的性能指标">计算机的性能指标&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%9a%84%e6%80%a7%e8%83%bd%e6%8c%87%e6%a0%87" aria-label="Heading self-link">&lt;/a>&lt;/h2></description></item><item><title>Docs: 习题</title><link>https://080812.xyz/docs/cst/co/ex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/cst/co/ex/</guid><description/></item></channel></rss>

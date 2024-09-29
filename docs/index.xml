@@ -445,60 +445,247 @@ margin-right: auto;
 ##### 输出设备
 - 将 **计算机运算结果** 转换为 **人们熟悉的信息形式** 。
 &lt;/code>&lt;/pre>&lt;h2 id="计算机软件">计算机软件&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e8%bd%af%e4%bb%b6" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">语言&lt;/th>
+&lt;th style="text-align: center">语言形式&lt;/th>
+&lt;th style="text-align: center">程序执行&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">机器语言&lt;/td>
+&lt;td style="text-align: center">二进制&lt;/td>
+&lt;td style="text-align: center">可直接执行&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">汇编语言&lt;/td>
+&lt;td style="text-align: center">汇编指令&lt;/td>
+&lt;td style="text-align: center">需通过汇编程序汇编&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">高级语言&lt;/td>
+&lt;td style="text-align: center">接近自然语言&lt;/td>
+&lt;td style="text-align: center">需经过编译器编译&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">解释型语言&lt;/td>
+&lt;td style="text-align: center">语句&lt;/td>
+&lt;td style="text-align: center">逐步解释并执行&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;code>注：机器级语言 ≠ 机器语言&lt;/code>&lt;/p>
+&lt;p>将高级语言程序转换为可执行目标程序的主要过程:&lt;/p>
+&lt;ul>
+&lt;li>预处理&lt;/li>
+&lt;li>编译&lt;/li>
+&lt;li>汇编&lt;/li>
+&lt;li>链接&lt;/li>
+&lt;/ul>
 &lt;h2 id="计算机系统层次结构">计算机系统层次结构&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%b3%bb%e7%bb%9f%e5%b1%82%e6%ac%a1%e7%bb%93%e6%9e%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;p>&lt;strong>计算机系统的分层思想&lt;/strong>&lt;/p>
+&lt;p>计算机是一个非常复杂的系统，为了 &lt;strong>简化&lt;/strong> 对计算机系统的研究和实现，可 &lt;strong>采用分层思想&lt;/strong> 将计算机系统 &lt;strong>划分&lt;/strong> 成一个层次结构的系统。&lt;/p>
+&lt;ul>
+&lt;li>系统中的每一层都向其上层提供一个简洁和抽象的接口。&lt;/li>
+&lt;li>每一层的实现细节对其上层而言都是“看不见”的，也就是透明的。&lt;/li>
+&lt;li>计算机解决问题的过程就是层次结构中的各层逐层转换的过程。&lt;/li>
+&lt;/ul>
+&lt;p>&lt;code>计算机系统的分层方式目前并没有统一的标准，下面是一种将计算机系统划分成六个抽象层的层次结构。&lt;/code>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">层&lt;/th>
+&lt;th style="text-align: center">名称&lt;/th>
+&lt;th style="text-align: left">说明&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">各类应用程序&lt;/td>
+&lt;td style="text-align: left">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">第6层&lt;/td>
+&lt;td style="text-align: center">高级语言层&lt;/td>
+&lt;td style="text-align: left">无需掌握机器的底层技术细节，&lt;br>只要掌握某种高级语言的语法规则&lt;/br>以及算法和数据结构等方面的知识进行编程。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">第5层&lt;/td>
+&lt;td style="text-align: center">汇编语言层&lt;/td>
+&lt;td style="text-align: left">使用汇编语言进行编程。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">第4层&lt;/td>
+&lt;td style="text-align: center">操作系统层&lt;/td>
+&lt;td style="text-align: left">设计人员要对操作系统的设计理论有比较深入的理解&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">第3层&lt;/td>
+&lt;td style="text-align: center">指令集体系结构层ISA&lt;/td>
+&lt;td style="text-align: left">定义了某计算机可执行的所有机器指令的集合，&lt;br>包含所处理的操作数应存放的位置以及操作数的类型等。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">第2层&lt;/td>
+&lt;td style="text-align: center">微程序层&lt;/td>
+&lt;td style="text-align: left">将一条机器指令编写成一个微程序。&lt;br>每个微程序包含若干条微指令，&lt;/br>每条微指令对应一条或多条微操作。&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">第1层&lt;/td>
+&lt;td style="text-align: center">逻辑电路层&lt;/td>
+&lt;td style="text-align: left">计算机硬件系统的底层，由逻辑门、寄存器等逻辑电路组成。&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;code>注：个人认为高军老师对第5层和第4层划分存在瑕疵，从实际出发，就计算机组成原理而言，只有第2到第4层这三条存在学习价值。&lt;/code>&lt;/p>
+&lt;p>&lt;strong>软件和硬件的逻辑功能等价性&lt;/strong>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: center">项目&lt;/th>
+&lt;th style="text-align: center">软件实现&lt;/th>
+&lt;th style="text-align: center">硬件实现&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: center">性能与速度&lt;/td>
+&lt;td style="text-align: center">性能与速度弱于硬件实现&lt;/td>
+&lt;td style="text-align: center">更高的性能和更快的响应时间&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">灵活性&lt;/td>
+&lt;td style="text-align: center">相对容易地进行修改和更新&lt;/td>
+&lt;td style="text-align: center">需要重新设计和制造&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">成本&lt;/td>
+&lt;td style="text-align: center">开发软件相对便宜&lt;/td>
+&lt;td style="text-align: center">开发和制造硬件比较昂贵&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align: center">应用需求&lt;/td>
+&lt;td style="text-align: center">有些任务更适合在软件层面完成，&lt;br>例如非计算功能&lt;/br>&lt;/td>
+&lt;td style="text-align: center">有些任务更适合在硬件层面完成，&lt;br>例如路由器的数据包转发&lt;/br>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;code>个人更换了应用需求的举例，因为高军老师原举例不够直观。&lt;/code>&lt;/p>
 &lt;h2 id="计算机系统的工作原理">计算机系统的工作原理&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%b3%bb%e7%bb%9f%e7%9a%84%e5%b7%a5%e4%bd%9c%e5%8e%9f%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;h2 id="计算机的性能指标">计算机的性能指标&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%9a%84%e6%80%a7%e8%83%bd%e6%8c%87%e6%a0%87" aria-label="Heading self-link">&lt;/a>&lt;/h2></description></item><item><title>Docs: 计算机系统概述</title><link>https://080812.xyz/docs/cst/co/ex/chapter1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/cst/co/ex/chapter1/</guid><description>
 &lt;h2 id="计算机的组成">计算机的组成&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%9a%84%e7%bb%84%e6%88%90" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;h3 id="习题">习题&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%98" aria-label="Heading self-link">&lt;/a>&lt;/h3>
-&lt;pre tabindex="0">&lt;code>完整的计算机系统应包括 (B)
-A. CPU和内存
-B.计算机硬件与软件
-C.主机、键盘、鼠标和显示器
-D.运算器和控制器
-&lt;/code>&lt;/pre>&lt;h2 id="计算机硬件">计算机硬件&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%a1%ac%e4%bb%b6" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>完整的计算机系统应包括 (B)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>A. CPU和内存
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>B.计算机硬件与软件
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>C.主机、键盘、鼠标和显示器
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>D.运算器和控制器
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="计算机硬件">计算机硬件&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%a1%ac%e4%bb%b6" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;h3 id="习题1">习题1&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%981" aria-label="Heading self-link">&lt;/a>&lt;/h3>
-&lt;pre tabindex="0">&lt;code>冯.诺依曼机的基本思想是 (C) 。
-A.用进制表示信息
-B.以控制器为核心
-C.存储程序控制
-D.用十六进制表示指令
-&lt;/code>&lt;/pre>&lt;h3 id="习题2">习题2&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%982" aria-label="Heading self-link">&lt;/a>&lt;/h3>
-&lt;pre tabindex="0">&lt;code>以下有关冯.诺依曼机的叙述中，错误的是 (D)。
-A.计算机硬件由运算器、控制器、存储器、输入设备/输出设备5大部件组成
-B.指令由操作码和地址码两部分组成
-C.机器以运算器为中心，输入/输出设备与存储器间的数据传送通过运算器完成
-D.操作数直接包含在指令中
-解析：指令由操作码和地址码组成:
-● 操作码用来表示执行何种操作
-● 地址码用来表示操作数在存储器中的位置
-&lt;/code>&lt;/pre>&lt;h3 id="习题3">习题3&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%983" aria-label="Heading self-link">&lt;/a>&lt;/h3>
-&lt;pre tabindex="0">&lt;code>以下有关计算机各功能部件的叙述中，错误的是 (D)。
-A.存储器的主要功能是存储程序和数据
-B.控制器的主要功能是解释存储器中的指令，并发出各种操作命令来执行指令，I/O设备也受控于控制器
-C.输入设备/输出设备的主要功能是完成用户与计算机之间的信息交互
-D.运算器的主要功能是进行算术运算
-解析：运算器的核心是算术逻辑单元ALU,主要功能如下:
-● 算术运算:加、减、乘、除
-● 逻辑运算:与、或、非、异或、移位等
-&lt;/code>&lt;/pre>&lt;h3 id="习题4">习题4&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%984" aria-label="Heading self-link">&lt;/a>&lt;/h3>
-&lt;pre tabindex="0">&lt;code>运算器和控制器合起来统称为 (A)
-A. CPU
-B. I/O
-C. ALU
-D. CU
-&lt;/code>&lt;/pre>&lt;h3 id="习题5">习题5&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%985" aria-label="Heading self-link">&lt;/a>&lt;/h3>
-&lt;pre tabindex="0">&lt;code>以下有关现代计算机的叙述中，错误的是(B) 。
-A.由CPU、I/O设备以及主存储器组成
-B.CPU与辅助存储器合起来又可称为主机
-C.I/O设备又可称为外部设备
-D.各功能部件通过总线连接
-&lt;/code>&lt;/pre>&lt;h3 id="4082019年题12">[408]2019年题12&lt;a class="td-heading-self-link" href="#4082019%e5%b9%b4%e9%a2%9812" aria-label="Heading self-link">&lt;/a>&lt;/h3>
-&lt;pre tabindex="0">&lt;code>下列关于冯.诺依曼结构计算机基本思想的叙述中，错误的是 (C)。
-A.程序的功能都通过中央处理器执行指令实现一个。程序的功能都通过中央处理器执行指令实现
-B.指令和数据都用二进制数表示，形式.上无差别
-C.指令按地址访问，数据都在指令中直接给出
-D.程序执行前，指令和数据需预先存放在存储器中
-&lt;/code>&lt;/pre></description></item><item><title>Docs: 绪论</title><link>https://080812.xyz/docs/cst/ds/chapter1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/cst/ds/chapter1/</guid><description>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>冯.诺依曼机的基本思想是 (C) 。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>A.用二进制表示信息
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>B.以控制器为核心
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>C.存储程序控制
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>D.用十六进制表示指令
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="习题2">习题2&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%982" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>以下有关冯.诺依曼机的叙述中，错误的是 (D)。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>A.计算机硬件由运算器、控制器、存储器、输入设备/输出设备5大部件组成
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>B.指令由操作码和地址码两部分组成
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>C.机器以运算器为中心，输入/输出设备与存储器间的数据传送通过运算器完成
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>D.操作数直接包含在指令中
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>解析：指令由操作码和地址码组成:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>● 操作码用来表示执行何种操作
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>● 地址码用来表示操作数在存储器中的位置
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="习题3">习题3&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%983" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>以下有关计算机各功能部件的叙述中，错误的是 (D)。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>A.存储器的主要功能是存储程序和数据
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>B.控制器的主要功能是解释存储器中的指令，并发出各种操作命令来执行指令，I/O设备也受控于控制器
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>C.输入设备/输出设备的主要功能是完成用户与计算机之间的信息交互
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>D.运算器的主要功能是进行算术运算
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>解析：运算器的核心是算术逻辑单元ALU,主要功能如下:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>● 算术运算:加、减、乘、除
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>● 逻辑运算:与、或、非、异或、移位等
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="习题4">习题4&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%984" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>运算器和控制器合起来统称为 (A)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>A. CPU
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>B. I/O
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>C. ALU
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>D. CU
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="习题5">习题5&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%985" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>以下有关现代计算机的叙述中，错误的是(B) 。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>A.由CPU、I/O设备以及主存储器组成
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>B.CPU与辅助存储器合起来又可称为主机
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>C.I/O设备又可称为外部设备
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>D.各功能部件通过总线连接
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="4082019年题12">[408]2019年题12&lt;a class="td-heading-self-link" href="#4082019%e5%b9%b4%e9%a2%9812" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>下列关于冯.诺依曼结构计算机基本思想的叙述中，错误的是 (C)。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>A.程序的功能都通过中央处理器执行指令实现一个。程序的功能都通过中央处理器执行指令实现
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>B.指令和数据都用二进制数表示，形式.上无差别
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>C.指令按地址访问，数据都在指令中直接给出
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>D.程序执行前，指令和数据需预先存放在存储器中
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="计算机软件">计算机软件&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e8%bd%af%e4%bb%b6" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="习题1-1">习题1&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%981-1" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>抠字眼的无价值题，不做。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="习题2-1">习题2&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%982-1" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>以下属于应用软件的是 (D)。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>A.链接程序 B.编译程序 C.解释程序 D.科学计算程序
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>注：有点价值，但不多
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="习题3-1">习题3&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%983-1" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>以下程序中，可以在计算机中直接执行是 (A) 。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>I.机器语言程序 II.汇编语言程序 I.高级语言程序
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>A.I B.I、II C.II、II D.I、II、III
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>注：只有真题价值。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="习题4-1">习题4&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%984-1" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>只有当源程序要执行时，才将其翻译成机器语言程序，并且翻译-句就执行一句的程序是 (B) 。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>A.翻译程序
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>B.编译程序
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>C.汇编程序
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>D.解释程序
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="2015年题12">2015年题12&lt;a class="td-heading-self-link" href="#2015%e5%b9%b4%e9%a2%9812" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>计算机硬件能够直接执行的是 (A)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>I.机器语言程序 II.汇编语言程序 II.硬件描述语言程序
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>A.仅| B.仅|、II C.仅|、II D.I、II、 II
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="2016年题12">2016年题12&lt;a class="td-heading-self-link" href="#2016%e5%b9%b4%e9%a2%9812" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>将高级语言程序转换为机器级目标代码文件的程序是 (C)。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>A.汇编程序 B.链接程序 C.编译程序 D.解释程序
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="2022年题20">2022年题20&lt;a class="td-heading-self-link" href="#2022%e5%b9%b4%e9%a2%9820" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>将高级语言源程序转换为可执行目标文件的主要过程是 (A) 。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>A.预处理-&amp;gt;编译-&amp;gt;汇编-&amp;gt;链接
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>B.预处理-&amp;gt;汇编-&amp;gt;编译-&amp;gt;链接
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>C.预处理-&amp;gt;编译-&amp;gt;链接-&amp;gt;汇编
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>D.预处理-&amp;gt;汇编-&amp;gt;链接-&amp;gt;编译
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="计算机层次结构">计算机层次结构&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e5%b1%82%e6%ac%a1%e7%bb%93%e6%9e%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;h3 id="习题1-2">习题1&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%981-2" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>计算机系统自下而.上的各层级可以是 (C)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>A.一般机器级-&amp;gt;微程序级-&amp;gt;操作系统级-&amp;gt;高级语言级-&amp;gt;汇编语言级
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>B.高级语言级-&amp;gt;汇编语言级-&amp;gt;微程序级-&amp;gt;操作系统级-&amp;gt;一般机器级
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>C.微程序级-&amp;gt;一般机器级-&amp;gt;操作系统级-&amp;gt;汇编语言级-&amp;gt;高级语言级
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>D.汇编语言级-&amp;gt;高级语言级-&amp;gt;微程序级-&amp;gt;操作系统级-&amp;gt;一般机器级
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="习题2-2">习题2&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%982-2" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>以下有关计算机系统各层级之间关系的叙述中，正确的是 (B)。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>A.上下层之间没有关系
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>B.下层是实现.上层的基础，而上层实现对下层的功能扩展
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>C.上层是实现下层的基础，而下层实现对.上层的功能扩展
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>D.上层与下层相互依存、不可分割
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="习题3-2">习题3&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%983-2" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>下列叙述中，正确的是 (D)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>A.同一功能，用软件实现比用硬件实现具有更好的性能
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>B.硬件实现的功能无法用软件取代
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>C.硬件可以脱离软件单独运行
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>D.软件和硬件在逻辑功能上是等价的
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="习题4-2">习题4&lt;a class="td-heading-self-link" href="#%e4%b9%a0%e9%a2%984-2" aria-label="Heading self-link">&lt;/a>&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>下列叙述中，错误的是 (C)。
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>A.汇编语言程序的执行效率一般情况下高于高级语言程序
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>B.可用高级语言和低级语言编写出功能等价的程序
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>C.汇编语言与计算机硬件无关
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>D.机器语言程序可以在计算机.上直接执行，但高级语言程序和汇编语言程序不可以
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: 绪论</title><link>https://080812.xyz/docs/cst/ds/chapter1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/cst/ds/chapter1/</guid><description>
 &lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># 用计算机解决问题
 ## 1.具体问题抽象为数学模型
 ### 实质
