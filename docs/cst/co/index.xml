@@ -9,7 +9,27 @@
 - 外设
 &lt;/code>&lt;/pre>&lt;p>取决于 &lt;strong>硬件&lt;/strong> 和 &lt;strong>软件&lt;/strong> 功能的总和。&lt;/p>
 &lt;h2 id="计算机的发展">计算机的发展&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%9a%84%e5%8f%91%e5%b1%95" aria-label="Heading self-link">&lt;/a>&lt;/h2>
-&lt;p>电子数字计算机的发展历程&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># 计算机的发展
+## 第一台真正意义上的电子数字计算机
+- ABC
+## 第一台实用的电子数字计算机
+- ENIAC
+## 计算机硬件的发展 `体积越小 功耗越低 可靠性越高 速度越快`
+- 第一代:电子管(真空管)
+- 第二代:晶体管
+- 第三代:集成电路
+- 第四代:超大规模集成电路
+## 计算机软件的发展
+### 编程语言
+- C机器语言
+- 汇编语言
+- 高级语言
+- 面向对象
+### 操作系统
+## 当前计算机的发展趋势
+- 更微型化
+- 更巨型化
+&lt;/code>&lt;/pre>&lt;p>&lt;strong>电子数字计算机的发展历程&lt;/strong>&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -56,6 +76,54 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
+&lt;p>&lt;strong>计算机发展方向&lt;/strong>&lt;/p>
+&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># 计算机发展方向
+## 更微型化
+- 低功耗
+- 较高性能
+- 多用途
+## 更巨型化
+- 超高速
+- 并行处理
+- 智能化
+&lt;/code>&lt;/pre>&lt;h2 id="计算机硬件">计算机硬件&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%a1%ac%e4%bb%b6" aria-label="Heading self-link">&lt;/a>&lt;/h2>
+&lt;pre tabindex="0">&lt;code class="language-markmap" data-lang="markmap"># 计算机硬件
+## 冯诺依曼计算机的结构&amp;lt;br&amp;gt;(以运算器为中心)
+### 核心思想一存储程序
+### 主要特点
+#### 指令和数据均采用进制表示
+#### 指令和数据存放在存储器中，按地址访问。
+#### 指令在存储器中按顺序存放。一般情况下，指令是顺序执行的。
+#### 指令由操作码和地址码组成
+- 操作码用来表示执行何种操作。
+- 地址码用来表示操作数在存储器中的位置。
+#### 机器以运算器为中心，输入/输出设备与存储器间的数据传送通过运算器完成，浪费很多可以用于运算的时间。
+#### 计算机硬件由运算器、控制器、存储器、输入设备/输出设备5大部件组成。
+## 现代计算机的结构&amp;lt;br&amp;gt;(以存储器为中心)
+### 主机
+#### 中央处理器CPU
+##### 运算器
+###### 算术逻辑单元ALU
+- 算术运算 —— 加、减、乘、除
+- 逻辑运算 —— 与、或、非、异或等
+###### 相关寄存器
+##### 控制器
+###### 控制单元CU
+- 解释存储器中的指令，并发出各种操作命令来执行指令。
+- 控制输入/输出设备完成相应的输入/输出操作。
+###### 相关寄存器
+#### 主存储器
+- 存放程序和数据，又称为内存储器，简称内存或主存。
+- 将人们熟悉的信息形式转换为计算机能够识别的信息形式。
+### 外部设备
+#### 辅助存储器
+- 帮助主存存储更多的信息。又称为外部存储器，简称外存或辅存。&amp;lt;br&amp;gt;可以直接与CPU交换信息。
+#### I/O设备
+##### 输入设备
+- 将人们熟悉的 **信息形式** 转换为 **计算机能够识别** 的信息形式。
+##### 输出设备
+- 将 **计算机运算结果** 转换为 **人们熟悉的信息形式** 。
+&lt;/code>&lt;/pre>&lt;h2 id="计算机软件">计算机软件&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e8%bd%af%e4%bb%b6" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;h2 id="计算机系统层次结构">计算机系统层次结构&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%b3%bb%e7%bb%9f%e5%b1%82%e6%ac%a1%e7%bb%93%e6%9e%84" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;h2 id="计算机系统的工作原理">计算机系统的工作原理&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%b3%bb%e7%bb%9f%e7%9a%84%e5%b7%a5%e4%bd%9c%e5%8e%9f%e7%90%86" aria-label="Heading self-link">&lt;/a>&lt;/h2>
 &lt;h2 id="计算机的性能指标">计算机的性能指标&lt;a class="td-heading-self-link" href="#%e8%ae%a1%e7%ae%97%e6%9c%ba%e7%9a%84%e6%80%a7%e8%83%bd%e6%8c%87%e6%a0%87" aria-label="Heading self-link">&lt;/a>&lt;/h2></description></item><item><title>Docs: 习题</title><link>https://080812.xyz/docs/cst/co/ex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://080812.xyz/docs/cst/co/ex/</guid><description/></item></channel></rss>
