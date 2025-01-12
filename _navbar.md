@@ -1,4 +1,4 @@
 - [首页](/README.md)
 - [博客](https://blog.080812.xyz)
-- [关于](/About.md)
+- [关于](/about.md)
  
