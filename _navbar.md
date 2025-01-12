@@ -1,4 +1,3 @@
-- [首页](/README.md)
-- [博客](https://blog.080812.xyz)
-- [关于](/about.md)
- 
+- [🚀 LearnData](https://newzone.top/)
+- [📝 博客文章](https://newzone.top/blog.html)
+- [🔨 工具收藏](https://nav.newzone.top/)
