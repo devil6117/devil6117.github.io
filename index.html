@@ -8,6 +8,8 @@
     <meta name="description" content="Kevin Lee's docs" />
     <meta name="keywords" content="Kevin Lee's docs" />
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" />
+    <!--侧边栏可折叠-->
+    <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
     <!-- 箭头样式 -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
     <!-- 文件夹样式 -->
@@ -25,7 +27,7 @@
         nameLink: "https://080812.xyz/", // 点击文档标题后跳转的链接地址。
         repo: 'devil6117/devil6117.github.io',
         // logo: '/_media/icon.svg', // 在侧边栏中出现的网站图标，你可以使用 CSS 来更改大小
-        //homepage: 'README.md', // 设置首页文件加载路径。适合不想将 README.md 作为入口文件渲染，或者是文档存放在其他位置的情况使用。
+        homepage: '_index.md', // 设置首页文件加载路径。适合不想将 README.md 作为入口文件渲染，或者是文档存放在其他位置的情况使用。
         // coverpage: true, // 启用封面页。开启后是加载 _coverpage.md 文件，也可以自定义文件名。
         // onlyCover: true, // 只在访问主页时加载封面。
         //notFoundPage: "README.md", // 404 时返回主页，也可以自定义加载的文件名。
@@ -37,11 +39,12 @@
         topMargin: 40, // 让你的内容页在滚动到指定的锚点时，距离页面顶部有一定空间。当你使用固定页头布局时这个选项很有用，可以让你的锚点对齐标题栏。
 
         loadSidebar: true, // 加载自定义侧边栏。设置为 true 后会加载 _sidebar.md 文件，也可以自定义加载的文件名。
-        // autoHeader: true, // 同时设置 loadSidebar 和 autoHeader 后，可以根据 _sidebar.md 的内容自动为每个页面增加标题
-
-        maxLevel: 4, //默认情况下会抓取文档中所有标题渲染成目录，可配置最大支持渲染的标题层级。
-        subMaxLevel: 2, //自定义侧边栏后默认不会再生成目录，你也可以通过设置生成目录的最大层级开启这个功能。
-
+        //sidebarDisplayLevel: 2,
+        loadFooter: true, //加载自定义页脚，设置为 true 后会加载 _footer.md 文件，也可以自定义加载的文件名。
+        //autoHeader: true, // 同时设置 loadSidebar 和 autoHeader 后，可以根据 _sidebar.md 的内容自动为每个页面增加标题
+        //maxLevel: 6, //默认情况下会抓取文档中所有标题渲染成目录，可配置最大支持渲染的标题层级。
+        subMaxLevel: 0, //自定义侧边栏后默认不会再生成目录，你也可以通过设置生成目录的最大层级开启这个功能。
+        
         // 我们可以通过 {docsify-updated} 变量显示文档更新日期。并且通过 formatUpdated 配置日期格式。参考 https://github.com/lukeed/tinydate#patterns
         // formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}:{ss}',
 
@@ -68,7 +71,7 @@
         },
         // 页面右侧toc
         toc: {
-          tocMaxLevel: 2,
+          tocMaxLevel: 6,
           target: "h2, h3, h4, h5, h6",
         },
         pagination: {
@@ -91,7 +94,7 @@
     <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-plugin-toc@1.1.0/dist/docsify-plugin-toc.min.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/docsify-footer-enh@0/dist/docsify-footer-enh.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer@1.0.0-0/dist/docsify-footer.min.js"></script>
       <!-- katex数学公式插件 -->
     <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/marked@4"></script>
