@@ -1,4 +1,3 @@
-- [首页](/)
 - [英语 English](/docs/English/)
   - [新概念英语](/docs/English/NCE/)
     - [第一册：英语初阶](/docs/English/NCE/NCE1/)

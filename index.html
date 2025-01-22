@@ -9,12 +9,7 @@
     <meta name="description" content="Kevin Lee's docs" />
     <meta name="keywords" content="Kevin Lee's docs" />
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" />
-    <!--侧边栏可折叠-->
-    <script src="://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
-    <!-- 箭头样式 -->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
-    <!-- 文件夹样式 -->
-    <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" /> -->
+
     <!-- giscus评论  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-giscus@1.0.0/dist/giscus.css">
     <script src="https://cdn.jsdelivr.net/npm/docsify-giscus@1.0.0/dist/docsify-giscus.min.js"></script>
@@ -42,8 +37,8 @@
         //sidebarDisplayLevel: 0,
         loadFooter: true, //加载自定义页脚，设置为 true 后会加载 _footer.md 文件，也可以自定义加载的文件名。
         //autoHeader: true, // 同时设置 loadSidebar 和 autoHeader 后，可以根据 _sidebar.md 的内容自动为每个页面增加标题
-        //maxLevel: 6, //默认情况下会抓取文档中所有标题渲染成目录，可配置最大支持渲染的标题层级。
-        //subMaxLevel: 0, //自定义侧边栏后默认不会再生成目录，你也可以通过设置生成目录的最大层级开启这个功能。
+        maxLevel: 6, //默认情况下会抓取文档中所有标题渲染成目录，可配置最大支持渲染的标题层级。
+        subMaxLevel: 0, //自定义侧边栏后默认不会再生成目录，你也可以通过设置生成目录的最大层级开启这个功能。
         
         // 我们可以通过 {docsify-updated} 变量显示文档更新日期。并且通过 formatUpdated 配置日期格式。参考 https://github.com/lukeed/tinydate#patterns
         formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}:{ss}',
@@ -93,6 +88,12 @@
     <script src="//cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify-plugin-toc@1.1.0/dist/docsify-plugin-toc.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/@alertbox/docsify-footer@1.0.0-0/dist/docsify-footer.min.js"></script>
+    <!--侧边栏可折叠-->
+    <script src="://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+    <!-- 箭头样式 -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+    <!-- 文件夹样式 -->
+    <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" /> -->
     <!-- katex数学公式插件 -->
     <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/marked@4"></script>
@@ -143,11 +144,12 @@
       siteTime();
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify-count@1/dist/countable.min.js"></script>
-    <!-- 实现离线化 -->
+    <!-- 实现离线化
     <script>
      if (typeof navigator.serviceWorker !== 'undefined') {
          navigator.serviceWorker.register('pwa.js')
        }
-</script>
+    </script>
+     -->
   </body>
 </html>
