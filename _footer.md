@@ -1,6 +1,7 @@
 Maintained by [Kevin Lee](https://blog.080812.xyz).&copy; Proudly published with [docsify](https://docsify.js.io)
 
 <!--百度统计-->
+<section class="Baidu.js">
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -10,4 +11,5 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
+</section>
 <!--/百度统计-->
